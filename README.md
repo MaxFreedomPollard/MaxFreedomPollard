@@ -1,6 +1,6 @@
 # Max Freedom Pollard
 
-Raleigh, North Carolina. Interested in agentic AI and the evolution of LLMs; I build memory for agents, benchmark challenges that test them, and fixes for the frameworks that run them.
+I come from a varied background and now work on advancing AI and on the benchmarks that measure it.
 
 **This repository is my portfolio.** Everything below links to work you can open: the projects, the merged code, the benchmark challenges in this repo's own folders, and the credentials behind them. The full commit-level record is in [contributions.md](contributions.md).
 
