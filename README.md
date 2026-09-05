@@ -12,7 +12,7 @@ Challenges authored for Datacurve's ShipD platform, each rated at the platform's
 
 Code merged into other projects, every commit listed in [contributions.md](contributions.md#merged-commits-by-repository):
 
-- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** — 12 merged commits across 7 pull requests
+- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** — 12 merged commits; credited as a contributor in the [v2026.6.19](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19), [v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1) and [v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) release notes
 - **[NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs)** — [Add Run::finish() to flush pending logs before exit](https://github.com/NousResearch/wandb-rs/commit/c5f552464f13d56a5abd73c2dfb88b193e991d4e)
 - **[NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution)** — [fix(config): honor explicit --hermes-repo and make config construction non-fatal (#122)](https://github.com/NousResearch/hermes-agent-self-evolution/commit/0a929e3aa20e15cf04dc7c28492a7d41a5139125)
 - **[laude-institute/headlong](https://github.com/laude-institute/headlong)** — [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/commit/e4ca135a5ab11a19d3dc363d4241885c83b4c3f8)
