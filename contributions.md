@@ -1,6 +1,6 @@
 # Merged pull requests
 
-Generated from the GitHub search API on 2026-09-05: pull requests authored by @MaxFreedomPollard with state `merged`, excluding directory and registry listings. Regenerate with:
+Generated from the GitHub search API on 2026-09-05: pull requests authored by @MaxFreedomPollard with state `merged`. Regenerate with:
 
 ```bash
 gh api "search/issues?q=author:MaxFreedomPollard+is:pr+is:merged&per_page=100"
@@ -29,6 +29,21 @@ gh api "search/issues?q=author:MaxFreedomPollard+is:pr+is:merged&per_page=100"
 ### [laude-institute/headlong](https://github.com/laude-institute/headlong) — 1 merged
 
 - 2026-09-05 — [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
+
+## Directory and registry listings
+
+Entries adding Compartment to curated lists. Listed separately because they are catalogue changes, not code.
+
+- 2026-08-17 — [IAAR-Shanghai/Awesome-AI-Memory](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/pull/127): Add Compartment to Systems and Open Sources
+- 2026-07-25 — [Jenqyang/Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents/pull/396): Add engRAM to Tools
+- 2026-08-17 — [Jenqyang/Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents/pull/402): Rename engRAM to Compartment
+- 2026-07-23 — [TeleAI-UAGI/Awesome-Agent-Memory](https://github.com/TeleAI-UAGI/Awesome-Agent-Memory/pull/69): Add engRAM to Emerging projects (Open-Source)
+- 2026-08-01 — [TeleAI-UAGI/Awesome-Agent-Memory](https://github.com/TeleAI-UAGI/Awesome-Agent-Memory/pull/70): Rename engRAM to Compartment
+- 2026-07-25 — [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers/pull/1352): Add engRAM MCP server
+- 2026-07-29 — [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers/pull/1405): Add install command to MaxFreedomPollard/Compartment entry
+- 2026-08-03 — [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers/pull/1510): Correct Compartment license to Apache-2.0
+- 2026-08-16 — [abordage/awesome-mcp](https://github.com/abordage/awesome-mcp/pull/91): Add Compartment to AI Memory & RAG > Memory
+- 2026-07-27 — [toolsdk-ai/toolsdk-mcp-registry](https://github.com/toolsdk-ai/toolsdk-mcp-registry/pull/418): Add Compartment MCP server to knowledge-memory
 
 ## Own repositories
 
