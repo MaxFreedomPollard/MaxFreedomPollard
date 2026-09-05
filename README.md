@@ -6,7 +6,7 @@ I come from a varied background and now work on advancing AI and on the benchmar
 
 ## Benchmark challenges for coding agents
 
-Accepted challenges authored for Datacurve's ShipD platform, each rated at the platform's hardest difficulty band after automated checks, solver runs and human review, against [LibCST](shipd/libcst-scope-metadata/), [peewee](shipd/peewee-rollup-fetchfirst-tablesample/) and [sqlglot](shipd/sqlglot-postgres-session-statements/). The [`shipd/`](shipd/) folder holds each task statement as the agent received it, the grading environment, the platform's acceptance record, the solver run log and every review outcome. The hidden tests and reference solutions are withheld: they are Datacurve's benchmark data, and each folder's `REDACTED.md` says exactly what was removed and why.
+Challenges authored for Datacurve's ShipD platform, each rated at the platform's hardest difficulty band after automated checks, solver runs and human review. The [`shipd/`](shipd/) folder holds three accepted challenges, with the hidden tests and reference solutions withheld to protect Datacurve's proprietary benchmark material; each folder's `REDACTED.md` states exactly what was removed.
 
 ## Merged contributions
 
