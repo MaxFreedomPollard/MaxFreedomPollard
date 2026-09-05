@@ -2,7 +2,7 @@
 
 I come from a varied background and now work on advancing AI and on the benchmarks that measure it.
 
-**This repository is my portfolio.** Everything below links to work you can open: the projects, the merged code, the benchmark challenges in this repo's own folders, and the credentials behind them. The full commit-level record is in [contributions.md](contributions.md).
+**This repository is my portfolio.** Everything below links to work you can open: the projects, the merged code, the benchmark challenges in this repo's own folders, and the credentials behind them.
 
 ## Benchmark challenges for coding agents
 
