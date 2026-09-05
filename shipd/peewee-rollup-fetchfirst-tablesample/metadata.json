@@ -1,0 +1,17 @@
+{
+  "problemId": "kh7060f909zd7a8ycy8cf391ds8c3q50",
+  "title": "Add ROLLUP, FETCH FIRST and TABLESAMPLE support to the query builder",
+  "status": "accepted",
+  "version": 5,
+  "versionId": "kd77n5s5y7h16765fp9362sjks8cr7wv",
+  "isLocked": true,
+  "language": "python",
+  "difficulty": null,
+  "category": "feature_request",
+  "repoUrl": "https://github.com/coleifer/peewee",
+  "commitHash": "349997736ba294bba7624589c7b17deab141d9e0",
+  "githubIssueUrl": null,
+  "estimatedLOC": null,
+  "testOutputMode": null,
+  "downloadedAt": "2026-09-03T23:39:56.327Z"
+}

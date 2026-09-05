@@ -1,0 +1,17 @@
+{
+  "problemId": "kh7fvtf78e0vfpatn6np7knfg98cjd1b",
+  "title": "Bind match capture patterns and comprehension walrus targets in scope metadata",
+  "status": "accepted",
+  "version": 1,
+  "versionId": "kd7cz93wp7hd2c9e7x3kg31pph8cptjm",
+  "isLocked": true,
+  "language": "python",
+  "difficulty": null,
+  "category": "bugfix",
+  "repoUrl": "https://github.com/instagram/libcst",
+  "commitHash": "d9a255843b5cdbecc6834684d233bce1f2987f9d",
+  "githubIssueUrl": null,
+  "estimatedLOC": null,
+  "testOutputMode": null,
+  "downloadedAt": "2026-09-03T23:39:55.197Z"
+}

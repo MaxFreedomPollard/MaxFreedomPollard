@@ -1,0 +1,66 @@
+{
+ "allPassing": true,
+ "computedDifficulty": "hard",
+ "criteria": [
+  {
+   "description": "No agent run flagged the task as unfair or broken",
+   "detail": "No fairness issues",
+   "id": "fair",
+   "label": "Fair task",
+   "status": "pass"
+  },
+  {
+   "description": "At least 1 agent run must solve the problem",
+   "detail": "3/10 solved",
+   "id": "solvable",
+   "label": "Solvable",
+   "status": "pass"
+  },
+  {
+   "description": "Pass rate must be \u226450%",
+   "detail": "30% \u2014 Hard",
+   "id": "difficulty",
+   "label": "Difficulty",
+   "status": "pass"
+  },
+  {
+   "description": "Median of successful agent runs: \u22652 files, \u226520 messages, \u2265200 LOC",
+   "detail": "Median files: 4, messages: 60, LOC: 268",
+   "id": "longHorizon",
+   "label": "Long-horizon",
+   "status": "pass"
+  },
+  {
+   "description": "Cheat rate must be below 20% (across all agents)",
+   "detail": "No cheating detected",
+   "id": "noCheating",
+   "label": "No cheating",
+   "status": "pass"
+  },
+  {
+   "description": "No run should be blocked by environment or verifier issues",
+   "detail": "No environment blockers detected",
+   "id": "noEnvBlocker",
+   "label": "No environment blockers",
+   "status": "pass"
+  },
+  {
+   "description": "Passing runs must hold up under the false-positive review panel",
+   "detail": "Passed with caveats",
+   "guidance": "The panel upheld the pass but flagged caveats \u2014 a dissenting judge, a run it couldn't review, or an inconclusive verdict. Not blocking; a reviewer may want to read the panel notes.",
+   "id": "noFalsePositives",
+   "label": "No false positives",
+   "status": "warn"
+  }
+ ],
+ "currentSubmissionType": "olympus",
+ "marsAllPassing": null,
+ "marsCriteria": null,
+ "observedPassRate": 0.3,
+ "viewer": {
+  "isBeginner": false,
+  "marsLocked": true,
+  "olympusLocked": false,
+  "unlockTierName": null
+ }
+}

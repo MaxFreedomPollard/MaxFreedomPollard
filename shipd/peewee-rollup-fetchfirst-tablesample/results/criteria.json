@@ -1,0 +1,65 @@
+{
+ "allPassing": true,
+ "computedDifficulty": "hard",
+ "criteria": [
+  {
+   "description": "No agent run flagged the task as unfair or broken",
+   "detail": "No fairness issues",
+   "id": "fair",
+   "label": "Fair task",
+   "status": "pass"
+  },
+  {
+   "description": "At least 1 agent run must solve the problem",
+   "detail": "1/12 solved",
+   "id": "solvable",
+   "label": "Solvable",
+   "status": "pass"
+  },
+  {
+   "description": "Pass rate must be \u226450%",
+   "detail": "8% \u2014 Hard",
+   "id": "difficulty",
+   "label": "Difficulty",
+   "status": "pass"
+  },
+  {
+   "description": "Median of successful agent runs: \u22652 files, \u226520 messages, \u2265200 LOC",
+   "detail": "Median files: 2, messages: 90, LOC: 323",
+   "id": "longHorizon",
+   "label": "Long-horizon",
+   "status": "pass"
+  },
+  {
+   "description": "Cheat rate must be below 20% (across all agents)",
+   "detail": "No cheating detected",
+   "id": "noCheating",
+   "label": "No cheating",
+   "status": "pass"
+  },
+  {
+   "description": "No run should be blocked by environment or verifier issues",
+   "detail": "No environment blockers detected",
+   "id": "noEnvBlocker",
+   "label": "No environment blockers",
+   "status": "pass"
+  },
+  {
+   "description": "Passing runs must hold up under the false-positive review panel",
+   "detail": "No false positives detected",
+   "id": "noFalsePositives",
+   "label": "No false positives",
+   "status": "pass"
+  }
+ ],
+ "currentSubmissionType": "olympus",
+ "marsAllPassing": null,
+ "marsCriteria": null,
+ "observedPassRate": 0.08333333333333333,
+ "viewer": {
+  "isBeginner": false,
+  "marsLocked": true,
+  "olympusLocked": false,
+  "unlockTierName": null
+ }
+}

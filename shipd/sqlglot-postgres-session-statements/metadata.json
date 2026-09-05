@@ -1,0 +1,17 @@
+{
+  "problemId": "kh7b4j1sn8bc7xs1hrks4yyb6d8c127f",
+  "title": "Support postgres session statements and the @ and ^@ operators",
+  "status": "accepted",
+  "version": 2,
+  "versionId": "kd7f3h2m6k8j7gjn5ew6pqxmgs8c2a9t",
+  "isLocked": true,
+  "language": "python",
+  "difficulty": null,
+  "category": "feature_request",
+  "repoUrl": "https://github.com/tobymao/sqlglot",
+  "commitHash": "896032a7aeec42dd4249b6c978cf291d71067660",
+  "githubIssueUrl": "",
+  "estimatedLOC": null,
+  "testOutputMode": null,
+  "downloadedAt": "2026-09-03T23:39:57.388Z"
+}

@@ -1,0 +1,11 @@
+label,agent,verdict,hidden_tests_passed,fault,files_modified,solution_loc,agent_messages,execution_seconds,environment_blocker
+Nova #1,Nova,PASS_LEGITIMATE,True,pass,7,428,101,807,False
+Nova #10,Nova,FAIL_MISSED_REQUIREMENT,False,agent,6,336,116,938,False
+Nova #2,Nova,FAIL_MISSED_REQUIREMENT,False,agent,8,350,86,693,False
+Nova #3,Nova,FAIL_MISSED_REQUIREMENT,False,agent,8,333,86,709,False
+Nova #4,Nova,FAIL_MISSED_REQUIREMENT,False,agent,9,369,86,838,False
+Nova #5,Nova,FAIL_MISSED_REQUIREMENT,False,agent,8,408,120,1036,False
+Nova #6,Nova,FAIL_MISSED_REQUIREMENT,False,agent,6,358,94,911,False
+Nova #7,Nova,FAIL_MISSED_REQUIREMENT,False,agent,6,345,107,974,False
+Nova #8,Nova,FAIL_MISSED_REQUIREMENT,False,agent,7,420,86,901,False
+Nova #9,Nova,FAIL_MISSED_REQUIREMENT,False,agent,6,401,107,894,False

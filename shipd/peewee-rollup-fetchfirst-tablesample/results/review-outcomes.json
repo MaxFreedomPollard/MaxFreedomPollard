@@ -1,0 +1,78 @@
+[
+ {
+  "versionNumber": 1,
+  "date": "2026-08-17",
+  "outcome": "revision_requested",
+  "fieldBands": {
+   "description": {
+    "band": 3
+   },
+   "solution": {
+    "band": 2
+   },
+   "tests": {
+    "band": 2
+   }
+  },
+  "qualityScore": 6,
+  "overallQuality": 2.333333333333333,
+  "note": "free-text reviewer feedback redacted; see REDACTED.md"
+ },
+ {
+  "versionNumber": 2,
+  "date": "2026-08-18",
+  "outcome": "revision_requested",
+  "fieldBands": {
+   "description": {
+    "band": 3
+   },
+   "solution": {
+    "band": 2
+   },
+   "tests": {
+    "band": 3
+   }
+  },
+  "qualityScore": 6,
+  "overallQuality": 2.6666666666666665,
+  "note": "free-text reviewer feedback redacted; see REDACTED.md"
+ },
+ {
+  "versionNumber": 4,
+  "date": "2026-08-19",
+  "outcome": "revision_requested",
+  "fieldBands": {
+   "description": {
+    "band": 3
+   },
+   "solution": {
+    "band": 3
+   },
+   "tests": {
+    "band": 3
+   }
+  },
+  "qualityScore": 7,
+  "overallQuality": 3,
+  "note": "free-text reviewer feedback redacted; see REDACTED.md"
+ },
+ {
+  "versionNumber": 5,
+  "date": "2026-08-20",
+  "outcome": "approved",
+  "fieldBands": {
+   "description": {
+    "band": 3
+   },
+   "solution": {
+    "band": 2
+   },
+   "tests": {
+    "band": 2
+   }
+  },
+  "qualityScore": 6,
+  "overallQuality": 2.333333333333333,
+  "note": "free-text reviewer feedback redacted; see REDACTED.md"
+ }
+]
