@@ -12,12 +12,14 @@ Accepted challenges authored for Datacurve's ShipD platform, each rated at the p
 
 ## Merged contributions
 
-- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** — 7 merged PRs (auth, cli, curator, gateway, sessions, yuanbao); see [contributions.md](contributions.md#nousresearchhermes-agent--7-merged)
-- **[NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution)** — [fix(config): honor explicit --hermes-repo and make config construction non-fatal](https://github.com/NousResearch/hermes-agent-self-evolution/pull/122)
-- **[NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs)** — [Add Run::finish() to flush pending logs before exit](https://github.com/NousResearch/wandb-rs/pull/2)
-- **[laude-institute/headlong](https://github.com/laude-institute/headlong)** — [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
+Repositories where I have merged pull requests:
 
-Directory listings for Compartment, and the full generated list with links: [contributions.md](contributions.md).
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — The agent that grows with you
+- [NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) — ⚒ Evolutionary self-improvement for Hermes Agent — optimize skills, prompts, and code using DSPy + GEPA
+- [NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs)
+- [laude-institute/headlong](https://github.com/laude-institute/headlong) — An open source agent microharness featuring persistent agency and recursive LLMs. Of bash, by bash, for bash; it's shells all the way down
+
+Pull-request list: [contributions.md](contributions.md).
 
 ## Other projects
 
