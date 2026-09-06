@@ -1,4 +1,4 @@
-# ShipD portfolio — accepted coding-agent benchmark challenges
+# ShipD portfolio: accepted coding-agent benchmark challenges
 
 Three benchmark challenges authored for shipd.ai (Datacurve's Quest Olympus platform), each accepted after automated checks, ten-plus solver runs, and human review. A challenge is five artifacts: a public repo pinned to one commit, a problem description written as a maintainer's issue, a hidden test patch with a runner, a reference solution that passes it, and a Dockerfile that builds the grading image. The platform's solver, Nova, attempts each task from the description alone; a challenge is accepted only when it is fair (no false positives, no environment blockers), solvable, long-horizon, and hard enough that the solver passes at most half the time.
 

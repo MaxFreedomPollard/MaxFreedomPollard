@@ -3,8 +3,8 @@
 Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and **accepted on 2026-08-15** after human review. Category: feature. Language: Python.
 
 - Target repository: https://github.com/tobymao/sqlglot pinned to commit `896032a7aeec42dd4249b6c978cf291d71067660`
-- Hidden test suite: 23 test functions, 354 added lines, plus a `test.sh` runner — **redacted from this copy, see `REDACTED.md`**
-- Reference solution: 6 files, 276 added lines — **redacted from this copy, see `REDACTED.md`**
+- Hidden test suite: 23 test functions, 354 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
+- Reference solution: 6 files, 276 added lines; **redacted from this copy, see `REDACTED.md`**
 - Grading image: `FROM public.ecr.aws/d3j8x8q7/olympus-base-python:latest`
 
 ## Results at acceptance
@@ -20,7 +20,7 @@ Submission criteria checked by the platform:
 
 - Fair task: **pass** (No fairness issues)
 - Solvable: **pass** (1/10 solved)
-- Difficulty: **pass** (10% — Hard)
+- Difficulty: **pass** (10%, Hard)
 - Long-horizon: **pass** (Median files: 7, messages: 101, LOC: 428)
 - No cheating: **pass** (No cheating detected)
 - No environment blockers: **pass** (No environment blockers detected)
@@ -42,15 +42,15 @@ The problem statement, written as a maintainer's issue and given to the agent ve
 
 ## What is in this folder
 
-- `task.md` — the problem description the agent sees
-- `REDACTED.md` — what was removed from this copy and why
-- `Dockerfile` — builds the grading image from the pinned repo checkout
-- `Makefile` — clone, checkout, build image (its patch targets need the redacted files)
-- `metadata.json` — platform record (id, version, repo, commit)
-- `results/criteria.json` — the platform's submission criteria at acceptance
-- `results/aggregate-stats.json` — solver pass/total and medians
-- `results/nova-rollouts.csv` — one row per solver run counted at acceptance (verdict, files, LOC, messages, time, blocker flag)
-- `results/review-outcomes.json` — every human review round: outcome, per-field bands, scores
+- `task.md`: the problem description the agent sees
+- `REDACTED.md`: what was removed from this copy and why
+- `Dockerfile`: builds the grading image from the pinned repo checkout
+- `Makefile`: clone, checkout, build image (its patch targets need the redacted files)
+- `metadata.json`: platform record (id, version, repo, commit)
+- `results/criteria.json`: the platform's submission criteria at acceptance
+- `results/aggregate-stats.json`: solver pass/total and medians
+- `results/nova-rollouts.csv`: one row per solver run counted at acceptance (verdict, files, LOC, messages, time, blocker flag)
+- `results/review-outcomes.json`: every human review round: outcome, per-field bands, scores
 
 ## Reproduce the environment
 

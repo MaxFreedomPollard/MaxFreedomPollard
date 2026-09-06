@@ -2,8 +2,8 @@
 
 Two files that belong to this challenge are deliberately absent from this shareable copy:
 
-- `test.patch` — the hidden test suite and its `test.sh` runner (73 test functions, 1133 added lines; sha256 `91ca44b679af4e73d3b2c3d72cd7b72305e5a1d9014c2b4f63e8575e20d8e558`)
-- `solution.patch` — the reference solution that passes those tests (4 files, 454 added lines; sha256 `0826dcc047b2b18ae474d0e12b9eeebbfc6140c0f7d795cd9d956c1ab8dab5fa`)
+- `test.patch`: the hidden test suite and its `test.sh` runner (73 test functions, 1133 added lines; sha256 `91ca44b679af4e73d3b2c3d72cd7b72305e5a1d9014c2b4f63e8575e20d8e558`)
+- `solution.patch`: the reference solution that passes those tests (4 files, 454 added lines; sha256 `0826dcc047b2b18ae474d0e12b9eeebbfc6140c0f7d795cd9d956c1ab8dab5fa`)
 
 **Why.** This challenge was delivered to, and paid for by, Datacurve (shipd.ai) as private benchmark data. The hidden tests and the reference solution are the grader. Publishing them would expose the benchmark, let it leak into model training data, and breach the platform's contributor terms. They remain with the platform and in the author's private archive; the hashes above let anyone with the originals confirm they match.
 
