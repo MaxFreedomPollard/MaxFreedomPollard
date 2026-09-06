@@ -65,6 +65,18 @@ Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxF
 
 - 2026-09-06 [fix(utils): don't evict a key when overwriting an existing LRUCache entry (#2621)](https://github.com/celery/kombu/commit/a6cdf538f86192fa1cb58fb827cad344d06de510) `a6cdf538f861`
 
+#### [PyLabRobot/pylabrobot](https://github.com/PyLabRobot/pylabrobot): 1 commits
+
+- 2026-09-06 [fix(resources): center a plate on the adapter hole's y size, not its x size (#1244)](https://github.com/PyLabRobot/pylabrobot/commit/2c05867f0c779469505f539a9f89017849d52a7b) `2c05867f0c77`
+
+#### [openhab/openhab-addons](https://github.com/openhab/openhab-addons): 1 commits
+
+- 2026-09-06 [[nobohub] Fix ignored keepaliveInterval setting (#21613)](https://github.com/openhab/openhab-addons/commit/ca013260596cafd90afab18878a9e9a906379a5c) `ca013260596c`
+
+#### [magefree/mage](https://github.com/magefree/mage): 1 commits
+
+- 2026-09-06 [Fix Wickersmith's Tools creating untapped Scarecrow tokens (#16115)](https://github.com/magefree/mage/commit/c6221e0c95a575c4f4a1707468df12fab234cae7) `c6221e0c95a5`
+
 ### Directory and registry listings for Compartment
 
 #### [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers): 3 commits
@@ -218,6 +230,18 @@ Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxF
 ### [celery/kombu](https://github.com/celery/kombu): 1 merged
 
 - 2026-09-06 [fix(utils): don't evict a key when overwriting an existing LRUCache entry](https://github.com/celery/kombu/pull/2621)
+
+### [PyLabRobot/pylabrobot](https://github.com/PyLabRobot/pylabrobot): 1 merged
+
+- 2026-09-06 [fix(resources): center a plate on the adapter hole's y size, not its x size](https://github.com/PyLabRobot/pylabrobot/pull/1244)
+
+### [openhab/openhab-addons](https://github.com/openhab/openhab-addons): 1 merged
+
+- 2026-09-06 [[nobohub] Fix ignored keepaliveInterval setting](https://github.com/openhab/openhab-addons/pull/21613)
+
+### [magefree/mage](https://github.com/magefree/mage): 1 merged
+
+- 2026-09-06 [Fix Wickersmith's Tools creating untapped Scarecrow tokens](https://github.com/magefree/mage/pull/16115)
 
 ### Directory and registry listings
 
