@@ -18,6 +18,7 @@ Code merged into other projects:
 - **[laude-institute/headlong](https://github.com/laude-institute/headlong)**: [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/commit/e4ca135a5ab11a19d3dc363d4241885c83b4c3f8)
 - **[vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni)**: [Fix markdownlint findings in the serving API reference](https://github.com/vllm-project/vllm-omni/commit/946b843e6142033d61df473dcfd2e2e213ef6c34)
 - **[probe-rs/probe-rs](https://github.com/probe-rs/probe-rs)**: [Fix the semihosting file open modes for update and append](https://github.com/probe-rs/probe-rs/commit/615bf5e042224b36235a6f01aebd45e94ab82dda)
+- **[gotenberg/gotenberg](https://github.com/gotenberg/gotenberg)**: [fix(libreoffice): report an encrypted .xlsb as password-protected](https://github.com/gotenberg/gotenberg/commit/c21ceacd4b1027a68d06931625916ddcb15c79bd)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 

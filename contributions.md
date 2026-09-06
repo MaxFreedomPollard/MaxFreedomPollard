@@ -41,6 +41,10 @@ Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxF
 
 - 2026-09-06 [Fix the semihosting file open modes for update and append (#4312)](https://github.com/probe-rs/probe-rs/commit/615bf5e042224b36235a6f01aebd45e94ab82dda) `615bf5e04222`
 
+#### [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg): 1 commits
+
+- 2026-09-06 [fix(libreoffice): report an encrypted .xlsb as password-protected (#1655)](https://github.com/gotenberg/gotenberg/commit/c21ceacd4b1027a68d06931625916ddcb15c79bd) `c21ceacd4b10`
+
 ### Directory and registry listings for Compartment
 
 #### [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers): 3 commits
@@ -170,6 +174,10 @@ Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxF
 ### [probe-rs/probe-rs](https://github.com/probe-rs/probe-rs): 1 merged
 
 - 2026-09-06 [Fix the semihosting file open modes for update and append](https://github.com/probe-rs/probe-rs/pull/4312)
+
+### [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg): 1 merged
+
+- 2026-09-06 [fix(libreoffice): report an encrypted .xlsb as password-protected](https://github.com/gotenberg/gotenberg/pull/1655)
 
 ### Directory and registry listings
 
