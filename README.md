@@ -1,7 +1,5 @@
 # Max Freedom Pollard
 
-I come from a varied background and now work on advancing AI and on the benchmarks that measure it.
-
 This repository is my portfolio. Everything below links to work you can open: the projects, the merged code, the benchmark challenges in this repo's own folders, and the credentials behind them.
 
 ## Accepted benchmark challenges
