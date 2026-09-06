@@ -37,6 +37,10 @@ Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxF
 
 - 2026-09-06 — [[Doc] Fix markdownlint findings in the serving API reference (#7111)](https://github.com/vllm-project/vllm-omni/commit/946b843e6142033d61df473dcfd2e2e213ef6c34) `946b843e6142`
 
+#### [probe-rs/probe-rs](https://github.com/probe-rs/probe-rs) — 1 commits
+
+- 2026-09-06 — [Fix the semihosting file open modes for update and append (#4312)](https://github.com/probe-rs/probe-rs/commit/615bf5e042224b36235a6f01aebd45e94ab82dda) `615bf5e04222`
+
 ### Directory and registry listings for Compartment
 
 #### [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers) — 3 commits
@@ -162,6 +166,10 @@ Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxF
 ### [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni) — 1 merged
 
 - 2026-09-06 — [[Doc] Fix markdownlint findings in the serving API reference](https://github.com/vllm-project/vllm-omni/pull/7111)
+
+### [probe-rs/probe-rs](https://github.com/probe-rs/probe-rs) — 1 merged
+
+- 2026-09-06 — [Fix the semihosting file open modes for update and append](https://github.com/probe-rs/probe-rs/pull/4312)
 
 ### Directory and registry listings
 
