@@ -45,6 +45,26 @@ Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxF
 
 - 2026-09-06 [fix(libreoffice): report an encrypted .xlsb as password-protected (#1655)](https://github.com/gotenberg/gotenberg/commit/c21ceacd4b1027a68d06931625916ddcb15c79bd) `c21ceacd4b10`
 
+#### [maplibre/maplibre-tile-spec](https://github.com/maplibre/maplibre-tile-spec): 1 commits
+
+- 2026-09-06 [fix(ts): keep byte RLE within the lengths its headers can express (#1653)](https://github.com/maplibre/maplibre-tile-spec/commit/049b170f9037e6948da193139e554edadaf50a15) `049b170f9037`
+
+#### [zenstackhq/zenstack](https://github.com/zenstackhq/zenstack): 1 commits
+
+- 2026-09-06 [fix(zod): treat `@uuid` without a version as any UUID version (#2832)](https://github.com/zenstackhq/zenstack/commit/3f1ed72510af67ed758dd9ed6f17bc744dc7dd2a) `3f1ed72510af`
+
+#### [oras-project/oras](https://github.com/oras-project/oras): 1 commits
+
+- 2026-09-06 [fix: attribute recursive copy tag failures to the destination (#2157)](https://github.com/oras-project/oras/commit/f54f368af1fb3d45c2ac33287c23c9b100a13385) `f54f368af1fb`
+
+#### [ekzhang/jax-js](https://github.com/ekzhang/jax-js): 1 commits
+
+- 2026-09-06 [Fix copysign() dropping the magnitude when y is zero (#214)](https://github.com/ekzhang/jax-js/commit/970fa22d934ce2e617cd3a993c6ecc8b736496f2) `970fa22d934c`
+
+#### [celery/kombu](https://github.com/celery/kombu): 1 commits
+
+- 2026-09-06 [fix(utils): don't evict a key when overwriting an existing LRUCache entry (#2621)](https://github.com/celery/kombu/commit/a6cdf538f86192fa1cb58fb827cad344d06de510) `a6cdf538f861`
+
 ### Directory and registry listings for Compartment
 
 #### [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers): 3 commits
@@ -178,6 +198,26 @@ Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxF
 ### [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg): 1 merged
 
 - 2026-09-06 [fix(libreoffice): report an encrypted .xlsb as password-protected](https://github.com/gotenberg/gotenberg/pull/1655)
+
+### [maplibre/maplibre-tile-spec](https://github.com/maplibre/maplibre-tile-spec): 1 merged
+
+- 2026-09-06 [fix(ts): keep byte RLE within the lengths its headers can express](https://github.com/maplibre/maplibre-tile-spec/pull/1653)
+
+### [zenstackhq/zenstack](https://github.com/zenstackhq/zenstack): 1 merged
+
+- 2026-09-06 [fix(zod): treat `@uuid` without a version as any UUID version](https://github.com/zenstackhq/zenstack/pull/2832)
+
+### [oras-project/oras](https://github.com/oras-project/oras): 1 merged
+
+- 2026-09-06 [fix: attribute recursive copy tag failures to the destination](https://github.com/oras-project/oras/pull/2157)
+
+### [ekzhang/jax-js](https://github.com/ekzhang/jax-js): 1 merged
+
+- 2026-09-06 [Fix copysign() dropping the magnitude when y is zero](https://github.com/ekzhang/jax-js/pull/214)
+
+### [celery/kombu](https://github.com/celery/kombu): 1 merged
+
+- 2026-09-06 [fix(utils): don't evict a key when overwriting an existing LRUCache entry](https://github.com/celery/kombu/pull/2621)
 
 ### Directory and registry listings
 
