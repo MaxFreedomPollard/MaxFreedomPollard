@@ -4,9 +4,13 @@ I come from a varied background and now work on advancing AI and on the benchmar
 
 **This repository is my portfolio.** Everything below links to work you can open: the projects, the merged code, the benchmark challenges in this repo's own folders, and the credentials behind them.
 
-## Benchmark challenges for coding agents
+## Accepted benchmark challenges
 
-Challenges authored for Datacurve's ShipD platform, each rated at the platform's hardest difficulty band after automated checks, solver runs and human review. This repository includes [three of them that were accepted](shipd/), with the hidden tests and reference solutions withheld to protect Datacurve's proprietary benchmark material; each one records exactly what was removed.
+Challenges authored for Datacurve's ShipD platform, each rated at the platform's hardest difficulty band after automated checks, solver runs and human review; [three are included here](shipd/) as examples, with the hidden tests and reference solutions withheld to protect Datacurve's proprietary benchmark material, and each folder records exactly what was removed:
+
+- **[instagram/libcst](https://github.com/instagram/libcst)**: [Bind match capture patterns and comprehension walrus targets in scope metadata](shipd/libcst-scope-metadata/)
+- **[coleifer/peewee](https://github.com/coleifer/peewee)**: [Add ROLLUP, FETCH FIRST and TABLESAMPLE support to the query builder](shipd/peewee-rollup-fetchfirst-tablesample/)
+- **[tobymao/sqlglot](https://github.com/tobymao/sqlglot)**: [Support postgres session statements and the @ and ^@ operators](shipd/sqlglot-postgres-session-statements/)
 
 ## Merged contributions
 
