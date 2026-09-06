@@ -33,6 +33,10 @@ Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxF
 
 - 2026-09-04 — [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/commit/e4ca135a5ab11a19d3dc363d4241885c83b4c3f8) `e4ca135a5ab1`
 
+#### [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni) — 1 commits
+
+- 2026-09-06 — [[Doc] Fix markdownlint findings in the serving API reference (#7111)](https://github.com/vllm-project/vllm-omni/commit/946b843e6142033d61df473dcfd2e2e213ef6c34) `946b843e6142`
+
 ### Directory and registry listings for Compartment
 
 #### [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers) — 3 commits
@@ -154,6 +158,10 @@ Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxF
 ### [laude-institute/headlong](https://github.com/laude-institute/headlong) — 1 merged
 
 - 2026-09-05 — [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
+
+### [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni) — 1 merged
+
+- 2026-09-06 — [[Doc] Fix markdownlint findings in the serving API reference](https://github.com/vllm-project/vllm-omni/pull/7111)
 
 ### Directory and registry listings
 

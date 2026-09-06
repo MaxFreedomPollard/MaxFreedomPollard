@@ -16,6 +16,7 @@ Code merged into other projects:
 - **[NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs)** — [Add Run::finish() to flush pending logs before exit](https://github.com/NousResearch/wandb-rs/commit/c5f552464f13d56a5abd73c2dfb88b193e991d4e)
 - **[NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution)** — [fix(config): honor explicit --hermes-repo and make config construction non-fatal (#122)](https://github.com/NousResearch/hermes-agent-self-evolution/commit/0a929e3aa20e15cf04dc7c28492a7d41a5139125)
 - **[laude-institute/headlong](https://github.com/laude-institute/headlong)** — [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/commit/e4ca135a5ab11a19d3dc363d4241885c83b4c3f8)
+- **[vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni)** — [Fix markdownlint findings in the serving API reference](https://github.com/vllm-project/vllm-omni/commit/946b843e6142033d61df473dcfd2e2e213ef6c34)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 
