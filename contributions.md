@@ -1,6 +1,6 @@
 # Contributions
 
-Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxFreedomPollard on each repository's default branch (`GET /repos/{owner}/{repo}/commits?author=MaxFreedomPollard`); pull requests from the search API with state `merged`.
+Commits are those authored by @MaxFreedomPollard on each repository's default branch (`GET /repos/{owner}/{repo}/commits?author=MaxFreedomPollard`); pull requests from the search API with state `merged`.
 
 ## Merged commits by repository
 
@@ -181,7 +181,7 @@ Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxF
 
 </details>
 
-<details><summary><a href="https://github.com/MaxFreedomPollard/nuclear-computing">MaxFreedomPollard/nuclear-computing</a>: 6 commits on main</summary>
+<details><summary><a href="https://github.com/MaxFreedomPollard/nuclear-computing">MaxFreedomPollard/nuclear-computing</a>: 20 commits on main</summary>
 
 - 2026-07-13 [Update README.md](https://github.com/MaxFreedomPollard/nuclear-computing/commit/13f745863c158bce79bda91e65ec1a2420048c46) `13f745863c15`
 - 2026-07-13 [Update README.md](https://github.com/MaxFreedomPollard/nuclear-computing/commit/da201c3264e67206e19a12c88aeabed19922dd63) `da201c3264e6`
@@ -189,6 +189,20 @@ Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxF
 - 2026-09-03 [Merge pull request #11 from MaxFreedomPollard/neutron-gate](https://github.com/MaxFreedomPollard/nuclear-computing/commit/b74954aabeeb11df898f5c8f7dc2da438c5c1a7b) `b74954aabeeb`
 - 2026-09-04 [Merge pull request #16 from MaxFreedomPollard/ci-openmc-reports](https://github.com/MaxFreedomPollard/nuclear-computing/commit/a1c2798d8b110c3ac3f97f96a5170f4f5c1cca5b) `a1c2798d8b11`
 - 2026-09-04 [Merge pull request #15 from MaxFreedomPollard/ampoule-transport](https://github.com/MaxFreedomPollard/nuclear-computing/commit/e59eb1b0cb70292062123e1286b729d3ae8ed764) `e59eb1b0cb70`
+- 2026-09-05 [Dockerfile: say how to run the image under emulation on an Apple silicon Mac](https://github.com/MaxFreedomPollard/nuclear-computing/commit/99c5e709f0ad283dbd9bd444beead5a3843bde8e) `99c5e709f0ad`
+- 2026-09-05 [Report the adjoint check as the bound it satisfies, so it reads the same on every platform](https://github.com/MaxFreedomPollard/nuclear-computing/commit/2b69c17fdb75f3f12977bcce16f94ad2c8627538) `2b69c17fdb75`
+- 2026-09-05 [The repository as an instrument: reproduce.py, the tests, the byte identity gate in CI, the Dockerfile, the manifest, the glossary, the changelog](https://github.com/MaxFreedomPollard/nuclear-computing/commit/436bec8bbf2e7ae53d0debf04ee38e877e807de6) `436bec8bbf2e`
+- 2026-09-05 [Compile the instance onto the measured vessel: Way B, the collar pass, the exact law at 64 sites, and the timing closure](https://github.com/MaxFreedomPollard/nuclear-computing/commit/5814bc81a1892e5863d78089599e8bf7ef80bfa4) `5814bc81a189`
+- 2026-09-05 [Pin the environment and make every number and vector figure reproduce byte for byte, on macOS and Linux](https://github.com/MaxFreedomPollard/nuclear-computing/commit/9e0bdd5a7c17ec5dc370ada349fee68cdba63dcd) `9e0bdd5a7c17`
+- 2026-09-06 [Merge pull request #17 from MaxFreedomPollard/provenance-library-name](https://github.com/MaxFreedomPollard/nuclear-computing/commit/a9d984fbd7b714f4a67b6beed1748652c8319d05) `a9d984fbd7b7`
+- 2026-09-06 [Refresh the manifest for the provenance lines, and note the change](https://github.com/MaxFreedomPollard/nuclear-computing/commit/7e73ba0045217cd4a0a0da3984d83980c962e51e) `7e73ba004521`
+- 2026-09-06 [Merge branch 'main' into provenance-library-name](https://github.com/MaxFreedomPollard/nuclear-computing/commit/26b9b44f1e20052b3bec1f7e8ecaf1762c97785a) `26b9b44f1e20`
+- 2026-09-06 [Merge pull request #18 from MaxFreedomPollard/second-edition](https://github.com/MaxFreedomPollard/nuclear-computing/commit/7c1c183521b9d6ca933fa6899a00c8f780ea5053) `7c1c183521b9`
+- 2026-09-06 [The crossbar's error is zero to rounding, and says so as a bound](https://github.com/MaxFreedomPollard/nuclear-computing/commit/88f3f8bb9570398c8c64117a2d0fbeed7014a14c) `88f3f8bb9570`
+- 2026-09-06 [The byte identity gate shows what moved, not only which file](https://github.com/MaxFreedomPollard/nuclear-computing/commit/afb5450a61324c2d7e7ae3bbad0025a1e0c5b51a) `afb5450a6132`
+- 2026-09-06 [Record the cross-section library by name in the run provenance](https://github.com/MaxFreedomPollard/nuclear-computing/commit/646fcc06109e24602aaa2b54e17779d62b58c61a) `646fcc06109e`
+- 2026-09-06 [Provenance: name the nuclear data library, not the directory that held it](https://github.com/MaxFreedomPollard/nuclear-computing/commit/444203b0bf93388b165f9a81fdb1d4e33422e426) `444203b0bf93`
+- 2026-09-06 [Say that the synapse currents are ceilings wherever a rate is drawn from them](https://github.com/MaxFreedomPollard/nuclear-computing/commit/3bdcf5d292a215107a4f23b445057a3664bf0c00) `3bdcf5d292a2`
 
 </details>
 
@@ -377,6 +391,8 @@ Entries adding Compartment to curated lists. Listed separately because they are 
 - 2026-09-03 [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/13): Search ENSDF for the photon keystone: level restoring pairs and the veto gateway
 - 2026-09-04 [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/16): CI: report the three transport directories, and reproduce the two OpenMC ones
 - 2026-09-04 [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/15): Run the ampoule in real photon transport: budget, gate, synapse, boundary and dose
+- 2026-09-06 [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/18): The second edition: the vessel compiled, and the repository as a checked instrument
+- 2026-09-06 [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/17): Record the cross-section library by name in the run provenance
 
 ## Downstream copies carrying these commits
 
