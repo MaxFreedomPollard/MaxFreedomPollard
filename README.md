@@ -66,6 +66,14 @@ Code merged into other projects:
 - **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)**: [fix(video-subtitles): keep the space between merged subtitle clauses](https://github.com/hugohe3/ppt-master/commit/2bb95544bd7c39ca16bdb1d04e1f0176cbfef68b)
 - **[crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)**: [channel: Implement Display and Error for TryReadyError and ReadyTimeoutError](https://github.com/crossbeam-rs/crossbeam/commit/38dacb462261fcd64edcb308aed9cbf95c8c82c3)
 - **[elastio/bon](https://github.com/elastio/bon)**: [Strip the `r#` prefix from raw identifiers in `derive(Debug)`](https://github.com/elastio/bon/commit/300abd62ff2bf08e9f6c699e665db4e0258acb64)
+- **[testem/testem](https://github.com/testem/testem)**: [fix(report-file): surface write stream errors instead of a TypeError](https://github.com/testem/testem/commit/5382bbc6e0b4b43122c61370818180fe4cba5e9d)
+- **[gbdev/rgbds](https://github.com/gbdev/rgbds)**: [Avoid signed overflow in RGBLINK's `+`, `-`, and `*`](https://github.com/gbdev/rgbds/commit/631ef003e72d3580cb4431deff324a9afbbe3b85)
+- **[nominal-io/instro](https://github.com/nominal-io/instro)**: [fix(eload): cache mode only after the driver confirms set_mode](https://github.com/nominal-io/instro/commit/9ccbf0ab4c84fc229a305a21e30f3bd1c1db56eb)
+- **[kenn-io/agentsview](https://github.com/kenn-io/agentsview)**: [fix(search): derive snippet spans from the matched bytes](https://github.com/kenn-io/agentsview/commit/add0ee15db941bd5e38ac77474facfac2280e609)
+- **[srl-labs/containerlab](https://github.com/srl-labs/containerlab)**: [fix: canonical image name for registries addressed by host and port](https://github.com/srl-labs/containerlab/commit/bf10c396c0137e2743dc2741691112aa370abc52)
+- **[evcxr/evcxr](https://github.com/evcxr/evcxr)**: [Fix comment handling when looking for commands](https://github.com/evcxr/evcxr/commit/2d2de8fdb5ad4d350306ef65a84dd4184a1f3dd6)
+- **[noahbald/oxvg](https://github.com/noahbald/oxvg)**: [fix(oxvg_optimiser): keep ellipses selected by a stylesheet in convertShapeToPath](https://github.com/noahbald/oxvg/commit/80158d5dd0ec6d8aab4f61e75a17f3d73dbb7a76)
+- **[odygrd/quill](https://github.com/odygrd/quill)**: [Flush sinks and run periodic tasks when manual backend polling drains the queues](https://github.com/odygrd/quill/commit/e3d1b97b00e817ff23b13533e089410c41d519bf)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 

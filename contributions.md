@@ -185,6 +185,38 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-07 [Strip the `r#` prefix from raw identifiers in `derive(Debug)` (#402)](https://github.com/elastio/bon/commit/300abd62ff2bf08e9f6c699e665db4e0258acb64) `300abd62ff2b`
 
+#### [testem/testem](https://github.com/testem/testem): 1 commits
+
+- 2026-09-07 [fix(report-file): surface write stream errors instead of a TypeError (#2058)](https://github.com/testem/testem/commit/5382bbc6e0b4b43122c61370818180fe4cba5e9d) `5382bbc6e0b4`
+
+#### [gbdev/rgbds](https://github.com/gbdev/rgbds): 1 commits
+
+- 2026-09-07 [Avoid signed overflow in RGBLINK's `+`, `-`, and `*` (#2060)](https://github.com/gbdev/rgbds/commit/631ef003e72d3580cb4431deff324a9afbbe3b85) `631ef003e72d`
+
+#### [nominal-io/instro](https://github.com/nominal-io/instro): 1 commits
+
+- 2026-09-07 [fix(eload): cache mode only after the driver confirms set_mode (#485)](https://github.com/nominal-io/instro/commit/9ccbf0ab4c84fc229a305a21e30f3bd1c1db56eb) `9ccbf0ab4c84`
+
+#### [kenn-io/agentsview](https://github.com/kenn-io/agentsview): 1 commits
+
+- 2026-09-07 [fix(search): derive snippet spans from the matched bytes (#1643)](https://github.com/kenn-io/agentsview/commit/add0ee15db941bd5e38ac77474facfac2280e609) `add0ee15db94`
+
+#### [srl-labs/containerlab](https://github.com/srl-labs/containerlab): 1 commits
+
+- 2026-09-07 [fix: canonical image name for registries addressed by host and port (#3391)](https://github.com/srl-labs/containerlab/commit/bf10c396c0137e2743dc2741691112aa370abc52) `bf10c396c013`
+
+#### [evcxr/evcxr](https://github.com/evcxr/evcxr): 1 commits
+
+- 2026-09-07 [Fix comment handling when looking for commands (#507)](https://github.com/evcxr/evcxr/commit/2d2de8fdb5ad4d350306ef65a84dd4184a1f3dd6) `2d2de8fdb5ad`
+
+#### [noahbald/oxvg](https://github.com/noahbald/oxvg): 1 commits
+
+- 2026-09-07 [fix(oxvg_optimiser): keep ellipses selected by a stylesheet in convertShapeToPath](https://github.com/noahbald/oxvg/commit/80158d5dd0ec6d8aab4f61e75a17f3d73dbb7a76) `80158d5dd0ec`
+
+#### [odygrd/quill](https://github.com/odygrd/quill): 1 commits
+
+- 2026-09-07 [Flush sinks and run periodic tasks when manual backend polling drains the queues (#989)](https://github.com/odygrd/quill/commit/e3d1b97b00e817ff23b13533e089410c41d519bf) `e3d1b97b00e8`
+
 ### Directory and registry listings for Compartment
 
 #### [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers): 3 commits
@@ -472,6 +504,38 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 ### [elastio/bon](https://github.com/elastio/bon): 1 merged
 
 - 2026-09-07 [Strip the `r#` prefix from raw identifiers in `derive(Debug)`](https://github.com/elastio/bon/pull/402)
+
+### [testem/testem](https://github.com/testem/testem): 1 merged
+
+- 2026-09-07 [fix(report-file): surface write stream errors instead of a TypeError](https://github.com/testem/testem/pull/2058)
+
+### [gbdev/rgbds](https://github.com/gbdev/rgbds): 1 merged
+
+- 2026-09-07 [Avoid signed overflow in RGBLINK's `+`, `-`, and `*`](https://github.com/gbdev/rgbds/pull/2060)
+
+### [nominal-io/instro](https://github.com/nominal-io/instro): 1 merged
+
+- 2026-09-07 [fix(eload): cache mode only after the driver confirms set_mode](https://github.com/nominal-io/instro/pull/485)
+
+### [kenn-io/agentsview](https://github.com/kenn-io/agentsview): 1 merged
+
+- 2026-09-07 [fix(search): derive snippet spans from the matched bytes](https://github.com/kenn-io/agentsview/pull/1643)
+
+### [srl-labs/containerlab](https://github.com/srl-labs/containerlab): 1 merged
+
+- 2026-09-07 [fix: canonical image name for registries addressed by host and port](https://github.com/srl-labs/containerlab/pull/3391)
+
+### [evcxr/evcxr](https://github.com/evcxr/evcxr): 1 merged
+
+- 2026-09-07 [Fix comment handling when looking for commands](https://github.com/evcxr/evcxr/pull/507)
+
+### [noahbald/oxvg](https://github.com/noahbald/oxvg): 1 merged
+
+- 2026-09-07 [fix(oxvg_optimiser): keep ellipses selected by a stylesheet in convertShapeToPath](https://github.com/noahbald/oxvg/pull/277)
+
+### [odygrd/quill](https://github.com/odygrd/quill): 1 merged
+
+- 2026-09-07 [Flush sinks and run periodic tasks when manual backend polling drains the queues](https://github.com/odygrd/quill/pull/989)
 
 ### Directory and registry listings
 
