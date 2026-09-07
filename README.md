@@ -29,6 +29,20 @@ Code merged into other projects:
 - **[PyLabRobot/pylabrobot](https://github.com/PyLabRobot/pylabrobot)**: [fix(resources): center a plate on the adapter hole's y size, not its x size](https://github.com/PyLabRobot/pylabrobot/commit/2c05867f0c779469505f539a9f89017849d52a7b)
 - **[openhab/openhab-addons](https://github.com/openhab/openhab-addons)**: [[nobohub] Fix ignored keepaliveInterval setting](https://github.com/openhab/openhab-addons/commit/ca013260596cafd90afab18878a9e9a906379a5c)
 - **[magefree/mage](https://github.com/magefree/mage)**: [Fix Wickersmith's Tools creating untapped Scarecrow tokens](https://github.com/magefree/mage/commit/c6221e0c95a575c4f4a1707468df12fab234cae7)
+- **[raysan5/raylib](https://github.com/raysan5/raylib)**: [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator](https://github.com/raysan5/raylib/commit/2b991b0243c3dccf48ed926bcb754c60846f96c1)
+- **[junhoyeo/tokscale](https://github.com/junhoyeo/tokscale)**: [fix(core): parse MiMo Code and fx on the local report path](https://github.com/junhoyeo/tokscale/commit/dff9949244eb5463b96671706595752a3f4ff2cb)
+- **[floci-io/floci](https://github.com/floci-io/floci)**: [fix(eventbridge,scheduler): read cron day-of-week as AWS 1-7 SUN-SAT](https://github.com/floci-io/floci/commit/60a8a9d25262ab9a35033ed5c9778600a89a1e94)
+- **[boyter/scc](https://github.com/boyter/scc)**: [fix(asp.net): correct the server side comment terminator](https://github.com/boyter/scc/commit/eb6ac4cb889beabbfb2cb40841c1c07ff6adc25c)
+- **[86Box/86Box](https://github.com/86Box/86Box)**: [softpower: Fix the power-off delay spinner range overflowing int16_t](https://github.com/86Box/86Box/commit/14d6e1defd368d78a2655b1cd294f6d45e9d9795)
+- **[agavra/tuicr](https://github.com/agavra/tuicr)**: [fix(input): type AltGr characters in the command, search and filter prompts](https://github.com/agavra/tuicr/commit/58eb8e163342ef49313cc9f508db9751980bd773)
+- **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**: [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/commit/801005f736b5e76c514588f3ac9abe5212ebb219)
+- **[opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)**: [fix(server): relay client websocket closes with a legal code](https://github.com/opensandbox-group/OpenSandbox/commit/242b20926ab64a8366e5d4fa6b79d92a294027c3)
+- **[agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)**: [fix(rag): escape Excel Markdown table cells](https://github.com/agentscope-ai/agentscope/commit/d8629a987133adba33a4bdd2b6c8c721cfef12eb)
+- **[Effect-TS/effect](https://github.com/Effect-TS/effect)**: [fix(cli): split key=value pairs at the first separator](https://github.com/Effect-TS/effect/commit/291d616282b666bbba3664143fa1d19e839a6a5d)
+- **[pacifio/atlas](https://github.com/pacifio/atlas)**: [fix(redact): route JSONL payloads through the structure-aware pass](https://github.com/pacifio/atlas/commit/d9ee007aa1427999d9495a925c8eacc127a6d86d)
+- **[kubescape/kubescape](https://github.com/kubescape/kubescape)**: [fix(rbacgraph): order escalation results instead of reading map order](https://github.com/kubescape/kubescape/commit/023d1285ef37c7ffbf9eba16ad3a861bc86680fd)
+- **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)**: [fix(diff): compare bad file extensions case-insensitively](https://github.com/The-PR-Agent/pr-agent/commit/d6c8b9a502216b32eab9c5f89675b66a59002150)
+- **[bitshifter/glam-rs](https://github.com/bitshifter/glam-rs)**: [fix(vec): round half-way cases away from zero in the SIMD backends](https://github.com/bitshifter/glam-rs/commit/40535a3a2d6b652c7558a984ddabbdbb7ba34084)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 

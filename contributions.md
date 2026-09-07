@@ -77,6 +77,62 @@ Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxF
 
 - 2026-09-06 [Fix Wickersmith's Tools creating untapped Scarecrow tokens (#16115)](https://github.com/magefree/mage/commit/c6221e0c95a575c4f4a1707468df12fab234cae7) `c6221e0c95a5`
 
+#### [raysan5/raylib](https://github.com/raysan5/raylib): 1 commits
+
+- 2026-09-06 [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator (#6132)](https://github.com/raysan5/raylib/commit/2b991b0243c3dccf48ed926bcb754c60846f96c1) `2b991b0243c3`
+
+#### [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale): 1 commits
+
+- 2026-09-06 [fix(core): parse MiMo Code and fx on the local report path (#1300)](https://github.com/junhoyeo/tokscale/commit/dff9949244eb5463b96671706595752a3f4ff2cb) `dff9949244eb`
+
+#### [floci-io/floci](https://github.com/floci-io/floci): 1 commits
+
+- 2026-09-06 [fix(eventbridge,scheduler): read cron day-of-week as AWS 1-7 SUN-SAT (#3147)](https://github.com/floci-io/floci/commit/60a8a9d25262ab9a35033ed5c9778600a89a1e94) `60a8a9d25262`
+
+#### [boyter/scc](https://github.com/boyter/scc): 1 commits
+
+- 2026-09-07 [fix(asp.net): correct the server side comment terminator (#772)](https://github.com/boyter/scc/commit/eb6ac4cb889beabbfb2cb40841c1c07ff6adc25c) `eb6ac4cb889b`
+
+#### [86Box/86Box](https://github.com/86Box/86Box): 1 commits
+
+- 2026-09-06 [softpower: Fix the power-off delay spinner range overflowing int16_t](https://github.com/86Box/86Box/commit/14d6e1defd368d78a2655b1cd294f6d45e9d9795) `14d6e1defd36`
+
+#### [agavra/tuicr](https://github.com/agavra/tuicr): 1 commits
+
+- 2026-09-07 [fix(input): type AltGr characters in the command, search and filter prompts (#694)](https://github.com/agavra/tuicr/commit/58eb8e163342ef49313cc9f508db9751980bd773) `58eb8e163342`
+
+#### [Tencent/WeKnora](https://github.com/Tencent/WeKnora): 1 commits
+
+- 2026-09-06 [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/commit/801005f736b5e76c514588f3ac9abe5212ebb219) `801005f736b5`
+
+#### [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox): 1 commits
+
+- 2026-09-06 [fix(server): relay client websocket closes with a legal code](https://github.com/opensandbox-group/OpenSandbox/commit/242b20926ab64a8366e5d4fa6b79d92a294027c3) `242b20926ab6`
+
+#### [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope): 1 commits
+
+- 2026-09-07 [fix(rag): escape Excel Markdown table cells (#2528)](https://github.com/agentscope-ai/agentscope/commit/d8629a987133adba33a4bdd2b6c8c721cfef12eb) `d8629a987133`
+
+#### [Effect-TS/effect](https://github.com/Effect-TS/effect): 1 commits
+
+- 2026-09-07 [fix(cli): split key=value pairs at the first separator (#8086)](https://github.com/Effect-TS/effect/commit/291d616282b666bbba3664143fa1d19e839a6a5d) `291d616282b6`
+
+#### [pacifio/atlas](https://github.com/pacifio/atlas): 1 commits on branch `0.3.1`
+
+- 2026-09-06 [fix(redact): route JSONL payloads through the structure-aware pass](https://github.com/pacifio/atlas/commit/d9ee007aa1427999d9495a925c8eacc127a6d86d) `d9ee007aa142`
+
+#### [kubescape/kubescape](https://github.com/kubescape/kubescape): 1 commits
+
+- 2026-09-07 [fix(rbacgraph): order escalation results instead of reading map order (#3739)](https://github.com/kubescape/kubescape/commit/023d1285ef37c7ffbf9eba16ad3a861bc86680fd) `023d1285ef37`
+
+#### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent): 1 commits
+
+- 2026-09-07 [fix(diff): compare bad file extensions case-insensitively (#3103)](https://github.com/The-PR-Agent/pr-agent/commit/d6c8b9a502216b32eab9c5f89675b66a59002150) `d6c8b9a50221`
+
+#### [bitshifter/glam-rs](https://github.com/bitshifter/glam-rs): 1 commits
+
+- 2026-09-07 [fix(vec): round half-way cases away from zero in the SIMD backends (#831)](https://github.com/bitshifter/glam-rs/commit/40535a3a2d6b652c7558a984ddabbdbb7ba34084) `40535a3a2d6b`
+
 ### Directory and registry listings for Compartment
 
 #### [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers): 3 commits
@@ -242,6 +298,62 @@ Generated from the GitHub API on 2026-09-05. Commits are those authored by @MaxF
 ### [magefree/mage](https://github.com/magefree/mage): 1 merged
 
 - 2026-09-06 [Fix Wickersmith's Tools creating untapped Scarecrow tokens](https://github.com/magefree/mage/pull/16115)
+
+### [raysan5/raylib](https://github.com/raysan5/raylib): 1 merged
+
+- 2026-09-06 [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator](https://github.com/raysan5/raylib/pull/6132)
+
+### [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale): 1 merged
+
+- 2026-09-06 [fix(core): parse MiMo Code and fx on the local report path](https://github.com/junhoyeo/tokscale/pull/1300)
+
+### [floci-io/floci](https://github.com/floci-io/floci): 1 merged
+
+- 2026-09-06 [fix(eventbridge,scheduler): read cron day-of-week as AWS 1-7 SUN-SAT](https://github.com/floci-io/floci/pull/3147)
+
+### [boyter/scc](https://github.com/boyter/scc): 1 merged
+
+- 2026-09-07 [fix(asp.net): correct the server side comment terminator](https://github.com/boyter/scc/pull/772)
+
+### [86Box/86Box](https://github.com/86Box/86Box): 1 merged
+
+- 2026-09-07 [softpower: Fix the power-off delay spinner range overflowing int16_t](https://github.com/86Box/86Box/pull/7888)
+
+### [agavra/tuicr](https://github.com/agavra/tuicr): 1 merged
+
+- 2026-09-07 [fix(input): type AltGr characters in the command, search and filter prompts](https://github.com/agavra/tuicr/pull/694)
+
+### [Tencent/WeKnora](https://github.com/Tencent/WeKnora): 1 merged
+
+- 2026-09-07 [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
+
+### [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox): 1 merged
+
+- 2026-09-07 [fix(server): relay client websocket closes with a legal code](https://github.com/opensandbox-group/OpenSandbox/pull/1731)
+
+### [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope): 1 merged
+
+- 2026-09-07 [fix(rag): escape Excel Markdown table cells](https://github.com/agentscope-ai/agentscope/pull/2528)
+
+### [Effect-TS/effect](https://github.com/Effect-TS/effect): 1 merged
+
+- 2026-09-07 [fix(cli): split key=value pairs at the first separator](https://github.com/Effect-TS/effect/pull/8086)
+
+### [pacifio/atlas](https://github.com/pacifio/atlas): 1 merged
+
+- 2026-09-07 [fix(redact): route JSONL payloads through the structure-aware pass](https://github.com/pacifio/atlas/pull/244)
+
+### [kubescape/kubescape](https://github.com/kubescape/kubescape): 1 merged
+
+- 2026-09-07 [fix(rbacgraph): order escalation results instead of reading map order](https://github.com/kubescape/kubescape/pull/3739)
+
+### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent): 1 merged
+
+- 2026-09-07 [fix(diff): compare bad file extensions case-insensitively](https://github.com/The-PR-Agent/pr-agent/pull/3103)
+
+### [bitshifter/glam-rs](https://github.com/bitshifter/glam-rs): 1 merged
+
+- 2026-09-07 [fix(vec): round half-way cases away from zero in the SIMD backends](https://github.com/bitshifter/glam-rs/pull/831)
 
 ### Directory and registry listings
 
