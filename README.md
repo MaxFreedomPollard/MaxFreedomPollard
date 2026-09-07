@@ -60,6 +60,14 @@ Code merged into other projects:
 - **[dalathegreat/Battery-Emulator](https://github.com/dalathegreat/Battery-Emulator)**: [Fix SOL-ARK-LV-CAN 0x359 over-current sign bug](https://github.com/dalathegreat/Battery-Emulator/commit/47e9aecec3471c448a3f826e2b6476d72908cdb7)
 - **[deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation)**: [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/commit/3a67e47eb0ac20f6464f062986f19a2ccc5c309e)
 - **[python-attrs/cattrs](https://github.com/python-attrs/cattrs)**: [Sort extra keys when formatting ForbiddenExtraKeysError](https://github.com/python-attrs/cattrs/commit/bc34a466a878d3259d01d0169b3fb95420d7d50d)
+- **[xintaofei/codeg](https://github.com/xintaofei/codeg)**: [fix(cline): close a stripped block at its own closing tag](https://github.com/xintaofei/codeg/commit/145ef0782fb79a54c0db562b199074ad8221c4d5)
+- **[mozilla/pontoon](https://github.com/mozilla/pontoon)**: [Update data-theme when the user picks a theme](https://github.com/mozilla/pontoon/commit/e852341fb6a7ed0b7c369a1daa029e14e3b94376)
+- **[uutils/coreutils](https://github.com/uutils/coreutils)**: [fmt: honor -x and -X instead of always matching prefixes exactly](https://github.com/uutils/coreutils/commit/8da0fa6bb5147ae76ca3936f354d8ccbe25a7db4)
+- **[chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui)**: [fix(react): read the important marker only at the end of a value](https://github.com/chakra-ui/chakra-ui/commit/d88c3e9424e5c9d7afacc09899d81cebfd223d09)
+- **[castorini/rank_llm](https://github.com/castorini/rank_llm)**: [Fix trec_eval dropping the first evaluation option](https://github.com/castorini/rank_llm/commit/22d55d090a03643417cdb710391b073d1578410c)
+- **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)**: [fix(video-subtitles): keep the space between merged subtitle clauses](https://github.com/hugohe3/ppt-master/commit/2bb95544bd7c39ca16bdb1d04e1f0176cbfef68b)
+- **[crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)**: [channel: Implement Display and Error for TryReadyError and ReadyTimeoutError](https://github.com/crossbeam-rs/crossbeam/commit/38dacb462261fcd64edcb308aed9cbf95c8c82c3)
+- **[elastio/bon](https://github.com/elastio/bon)**: [Strip the `r#` prefix from raw identifiers in `derive(Debug)`](https://github.com/elastio/bon/commit/300abd62ff2bf08e9f6c699e665db4e0258acb64)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 

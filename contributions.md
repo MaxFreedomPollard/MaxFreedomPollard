@@ -153,6 +153,38 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-07 [Sort extra keys when formatting ForbiddenExtraKeysError (#776)](https://github.com/python-attrs/cattrs/commit/bc34a466a878d3259d01d0169b3fb95420d7d50d) `bc34a466a878`
 
+#### [xintaofei/codeg](https://github.com/xintaofei/codeg): 1 commits
+
+- 2026-09-06 [fix(cline): close a stripped block at its own closing tag](https://github.com/xintaofei/codeg/commit/145ef0782fb79a54c0db562b199074ad8221c4d5) `145ef0782fb7`
+
+#### [mozilla/pontoon](https://github.com/mozilla/pontoon): 1 commits
+
+- 2026-09-07 [Update data-theme when the user picks a theme (#4501)](https://github.com/mozilla/pontoon/commit/e852341fb6a7ed0b7c369a1daa029e14e3b94376) `e852341fb6a7`
+
+#### [uutils/coreutils](https://github.com/uutils/coreutils): 1 commits
+
+- 2026-09-07 [fmt: honor -x and -X instead of always matching prefixes exactly (#14417)](https://github.com/uutils/coreutils/commit/8da0fa6bb5147ae76ca3936f354d8ccbe25a7db4) `8da0fa6bb514`
+
+#### [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui): 1 commits
+
+- 2026-09-07 [fix(react): read the important marker only at the end of a value (#10970)](https://github.com/chakra-ui/chakra-ui/commit/d88c3e9424e5c9d7afacc09899d81cebfd223d09) `d88c3e9424e5`
+
+#### [castorini/rank_llm](https://github.com/castorini/rank_llm): 1 commits
+
+- 2026-09-07 [Fix trec_eval dropping the first evaluation option (#437)](https://github.com/castorini/rank_llm/commit/22d55d090a03643417cdb710391b073d1578410c) `22d55d090a03`
+
+#### [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master): 1 commits
+
+- 2026-09-07 [fix(video-subtitles): keep the space between merged subtitle clauses](https://github.com/hugohe3/ppt-master/commit/2bb95544bd7c39ca16bdb1d04e1f0176cbfef68b) `2bb95544bd7c`
+
+#### [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam): 1 commits
+
+- 2026-09-07 [channel: Implement Display and Error for TryReadyError and ReadyTimeoutError (#1327)](https://github.com/crossbeam-rs/crossbeam/commit/38dacb462261fcd64edcb308aed9cbf95c8c82c3) `38dacb462261`
+
+#### [elastio/bon](https://github.com/elastio/bon): 1 commits
+
+- 2026-09-07 [Strip the `r#` prefix from raw identifiers in `derive(Debug)` (#402)](https://github.com/elastio/bon/commit/300abd62ff2bf08e9f6c699e665db4e0258acb64) `300abd62ff2b`
+
 ### Directory and registry listings for Compartment
 
 #### [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers): 3 commits
@@ -408,6 +440,38 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 ### [python-attrs/cattrs](https://github.com/python-attrs/cattrs): 1 merged
 
 - 2026-09-07 [Sort extra keys when formatting ForbiddenExtraKeysError](https://github.com/python-attrs/cattrs/pull/776)
+
+### [xintaofei/codeg](https://github.com/xintaofei/codeg): 1 merged
+
+- 2026-09-07 [fix(cline): close a stripped block at its own closing tag](https://github.com/xintaofei/codeg/pull/670)
+
+### [mozilla/pontoon](https://github.com/mozilla/pontoon): 1 merged
+
+- 2026-09-07 [Update data-theme when the user picks a theme](https://github.com/mozilla/pontoon/pull/4501)
+
+### [uutils/coreutils](https://github.com/uutils/coreutils): 1 merged
+
+- 2026-09-07 [fmt: honor -x and -X instead of always matching prefixes exactly](https://github.com/uutils/coreutils/pull/14417)
+
+### [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui): 1 merged
+
+- 2026-09-07 [fix(react): read the important marker only at the end of a value](https://github.com/chakra-ui/chakra-ui/pull/10970)
+
+### [castorini/rank_llm](https://github.com/castorini/rank_llm): 1 merged
+
+- 2026-09-07 [Fix trec_eval dropping the first evaluation option](https://github.com/castorini/rank_llm/pull/437)
+
+### [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master): 1 merged
+
+- 2026-09-07 [fix(video-subtitles): keep the space between merged subtitle clauses](https://github.com/hugohe3/ppt-master/pull/283)
+
+### [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam): 1 merged
+
+- 2026-09-07 [channel: Implement Display and Error for TryReadyError and ReadyTimeoutError](https://github.com/crossbeam-rs/crossbeam/pull/1327)
+
+### [elastio/bon](https://github.com/elastio/bon): 1 merged
+
+- 2026-09-07 [Strip the `r#` prefix from raw identifiers in `derive(Debug)`](https://github.com/elastio/bon/pull/402)
 
 ### Directory and registry listings
 
