@@ -4,7 +4,7 @@ This repository is my portfolio. Everything below links to work you can open: th
 
 ## Accepted benchmark challenges
 
-Challenges authored for Datacurve's ShipD platform, each rated at the platform's hardest difficulty band after automated checks, solver runs and human review; [three are included here](shipd/) as examples, with the hidden tests and reference solutions withheld to protect Datacurve's proprietary benchmark material, and each folder records exactly what was removed:
+Challenges authored for Datacurve's ShipD platform, each accepted after automated checks, solver runs and human review; [three are included here](shipd/) as examples, with the hidden tests and reference solutions withheld to protect Datacurve's proprietary benchmark material, and each folder records exactly what was removed:
 
 - **[instagram/libcst](https://github.com/instagram/libcst)**: [Bind match capture patterns and comprehension walrus targets in scope metadata](shipd/libcst-scope-metadata/)
 - **[coleifer/peewee](https://github.com/coleifer/peewee)**: [Add ROLLUP, FETCH FIRST and TABLESAMPLE support to the query builder](shipd/peewee-rollup-fetchfirst-tablesample/)
