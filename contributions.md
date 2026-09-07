@@ -133,6 +133,30 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-07 [fix(vec): round half-way cases away from zero in the SIMD backends (#831)](https://github.com/bitshifter/glam-rs/commit/40535a3a2d6b652c7558a984ddabbdbb7ba34084) `40535a3a2d6b`
 
+#### [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers): 1 commits
+
+- 2026-09-07 [[fix] Write the sparsity CSV columns once in three sparse evaluators (#3985)](https://github.com/huggingface/sentence-transformers/commit/729f28e551e723a9bac6052e597f379d181bbad7) `729f28e551e7`
+
+#### [modelcontextprotocol/go-sdk](https://github.com/modelcontextprotocol/go-sdk): 1 commits
+
+- 2026-09-07 [auth: strip a terminating slash from the issuer before building metadata URLs (#1245)](https://github.com/modelcontextprotocol/go-sdk/commit/5bc078a7959a745d1311fefa280b36c5cde19929) `5bc078a7959a`
+
+#### [dalathegreat/Battery-Emulator](https://github.com/dalathegreat/Battery-Emulator): 1 commits
+
+- 2026-09-06 [Fix SOL-ARK-LV-CAN 0x359 over-current sign bug](https://github.com/dalathegreat/Battery-Emulator/commit/47e9aecec3471c448a3f826e2b6476d72908cdb7) `47e9aecec347`
+
+#### [changesets/changesets](https://github.com/changesets/changesets): 1 commits
+
+- 2026-09-07 [Report a package in multiple fixed or linked groups only once (#2282)](https://github.com/changesets/changesets/commit/e522996c676f911bf43203d8787e17b6e81e4fdf) `e522996c676f`
+
+#### [deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation): 1 commits
+
+- 2026-09-07 [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/commit/3a67e47eb0ac20f6464f062986f19a2ccc5c309e) `3a67e47eb0ac`
+
+#### [python-attrs/cattrs](https://github.com/python-attrs/cattrs): 1 commits
+
+- 2026-09-07 [Sort extra keys when formatting ForbiddenExtraKeysError (#776)](https://github.com/python-attrs/cattrs/commit/bc34a466a878d3259d01d0169b3fb95420d7d50d) `bc34a466a878`
+
 ### Directory and registry listings for Compartment
 
 #### [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers): 3 commits
@@ -368,6 +392,30 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 ### [bitshifter/glam-rs](https://github.com/bitshifter/glam-rs): 1 merged
 
 - 2026-09-07 [fix(vec): round half-way cases away from zero in the SIMD backends](https://github.com/bitshifter/glam-rs/pull/831)
+
+### [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers): 1 merged
+
+- 2026-09-07 [[fix] Write the sparsity CSV columns once in three sparse evaluators](https://github.com/huggingface/sentence-transformers/pull/3985)
+
+### [modelcontextprotocol/go-sdk](https://github.com/modelcontextprotocol/go-sdk): 1 merged
+
+- 2026-09-07 [auth: strip a terminating slash from the issuer before building metadata URLs](https://github.com/modelcontextprotocol/go-sdk/pull/1245)
+
+### [dalathegreat/Battery-Emulator](https://github.com/dalathegreat/Battery-Emulator): 1 merged
+
+- 2026-09-07 [Fix SOL-ARK-LV-CAN 0x359 over-current sign bug](https://github.com/dalathegreat/Battery-Emulator/pull/2929)
+
+### [changesets/changesets](https://github.com/changesets/changesets): 1 merged
+
+- 2026-09-07 [Report a package in multiple fixed or linked groups only once](https://github.com/changesets/changesets/pull/2282)
+
+### [deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation): 1 merged
+
+- 2026-09-07 [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/pull/822)
+
+### [python-attrs/cattrs](https://github.com/python-attrs/cattrs): 1 merged
+
+- 2026-09-07 [Sort extra keys when formatting ForbiddenExtraKeysError](https://github.com/python-attrs/cattrs/pull/776)
 
 ### Directory and registry listings
 
