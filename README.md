@@ -58,7 +58,6 @@ Code merged into other projects:
 - **[huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers)**: [[fix] Write the sparsity CSV columns once in three sparse evaluators](https://github.com/huggingface/sentence-transformers/commit/729f28e551e723a9bac6052e597f379d181bbad7)
 - **[modelcontextprotocol/go-sdk](https://github.com/modelcontextprotocol/go-sdk)**: [auth: strip a terminating slash from the issuer before building metadata URLs](https://github.com/modelcontextprotocol/go-sdk/commit/5bc078a7959a745d1311fefa280b36c5cde19929)
 - **[dalathegreat/Battery-Emulator](https://github.com/dalathegreat/Battery-Emulator)**: [Fix SOL-ARK-LV-CAN 0x359 over-current sign bug](https://github.com/dalathegreat/Battery-Emulator/commit/47e9aecec3471c448a3f826e2b6476d72908cdb7)
-- **[changesets/changesets](https://github.com/changesets/changesets)**: [Report a package in multiple fixed or linked groups only once](https://github.com/changesets/changesets/commit/e522996c676f911bf43203d8787e17b6e81e4fdf)
 - **[deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation)**: [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/commit/3a67e47eb0ac20f6464f062986f19a2ccc5c309e)
 - **[python-attrs/cattrs](https://github.com/python-attrs/cattrs)**: [Sort extra keys when formatting ForbiddenExtraKeysError](https://github.com/python-attrs/cattrs/commit/bc34a466a878d3259d01d0169b3fb95420d7d50d)
 

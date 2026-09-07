@@ -145,10 +145,6 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-06 [Fix SOL-ARK-LV-CAN 0x359 over-current sign bug](https://github.com/dalathegreat/Battery-Emulator/commit/47e9aecec3471c448a3f826e2b6476d72908cdb7) `47e9aecec347`
 
-#### [changesets/changesets](https://github.com/changesets/changesets): 1 commits
-
-- 2026-09-07 [Report a package in multiple fixed or linked groups only once (#2282)](https://github.com/changesets/changesets/commit/e522996c676f911bf43203d8787e17b6e81e4fdf) `e522996c676f`
-
 #### [deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation): 1 commits
 
 - 2026-09-07 [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/commit/3a67e47eb0ac20f6464f062986f19a2ccc5c309e) `3a67e47eb0ac`
@@ -404,10 +400,6 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 ### [dalathegreat/Battery-Emulator](https://github.com/dalathegreat/Battery-Emulator): 1 merged
 
 - 2026-09-07 [Fix SOL-ARK-LV-CAN 0x359 over-current sign bug](https://github.com/dalathegreat/Battery-Emulator/pull/2929)
-
-### [changesets/changesets](https://github.com/changesets/changesets): 1 merged
-
-- 2026-09-07 [Report a package in multiple fixed or linked groups only once](https://github.com/changesets/changesets/pull/2282)
 
 ### [deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation): 1 merged
 
