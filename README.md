@@ -1,6 +1,3 @@
-# Max Freedom Pollard
-
-This repository is my portfolio. Everything below links to work you can open: the projects, the merged code, the benchmark challenges in this repo's own folders, and the credentials behind them.
 
 ## Accepted benchmark challenges
 
