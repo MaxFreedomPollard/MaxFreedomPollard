@@ -261,10 +261,6 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-07 [Fix numTemporalLayers and temporalIdNested bit widths in hvcC](https://github.com/abema/go-mp4/commit/ddda98c2d7721d286da1815b25677ae9ac43f8df) `ddda98c2d772`
 
-#### [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt): 1 commits
-
-- 2026-09-08 [fix: keep model download lock PID when acquisition fails (#2362)](https://github.com/zylon-ai/private-gpt/commit/9e9ba08bbc9f86b807d5f488de78adfde93ddc0b) `9e9ba08bbc9f`
-
 #### [vadimdemedes/ink](https://github.com/vadimdemedes/ink): 1 commits
 
 - 2026-09-08 [Fix `wrapText` cache key collision between different texts and widths (#998)](https://github.com/vadimdemedes/ink/commit/3809acc1dffbc5179c78c5b0effb18b74e20adbc) `3809acc1dffb`
@@ -632,10 +628,6 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 ### [abema/go-mp4](https://github.com/abema/go-mp4): 1 merged
 
 - 2026-09-08 [Fix numTemporalLayers and temporalIdNested bit widths in hvcC](https://github.com/abema/go-mp4/pull/185)
-
-### [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt): 1 merged
-
-- 2026-09-08 [fix: keep model download lock PID when acquisition fails](https://github.com/zylon-ai/private-gpt/pull/2362)
 
 ### [vadimdemedes/ink](https://github.com/vadimdemedes/ink): 1 merged
 
