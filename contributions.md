@@ -245,6 +245,30 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-07 [drive_virtual: reject a file as a directory in TestDir](https://github.com/joncampbell123/dosbox-x/commit/d4fbfe4c5bcdeea0cb8c6698eb6ef1b289774ec8) `d4fbfe4c5bcd`
 
+#### [pmndrs/koota](https://github.com/pmndrs/koota): 1 commits on branch `canary`
+
+- 2026-09-08 [🐛 core: fix query hash collisions from the shared sort buffer (#281)](https://github.com/pmndrs/koota/commit/67cfb0d510ea792a5fb344cf36bc5f0a22345138) `67cfb0d510ea`
+
+#### [go-goyave/goyave](https://github.com/go-goyave/goyave): 1 commits
+
+- 2026-09-08 [httputil: fix quality value parsing in ParseMultiValuesHeader (#295)](https://github.com/go-goyave/goyave/commit/b86d48052257c67b90750890f332b80108245bad) `b86d48052257`
+
+#### [tombi-toml/tombi](https://github.com/tombi-toml/tombi): 1 commits
+
+- 2026-09-08 [fix(lexer): close multi-line string after escaped backslash (#2167)](https://github.com/tombi-toml/tombi/commit/b35bfbe84fdf9da2803c4f2e7525e946a50b3383) `b35bfbe84fdf`
+
+#### [abema/go-mp4](https://github.com/abema/go-mp4): 1 commits
+
+- 2026-09-07 [Fix numTemporalLayers and temporalIdNested bit widths in hvcC](https://github.com/abema/go-mp4/commit/ddda98c2d7721d286da1815b25677ae9ac43f8df) `ddda98c2d772`
+
+#### [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt): 1 commits
+
+- 2026-09-08 [fix: keep model download lock PID when acquisition fails (#2362)](https://github.com/zylon-ai/private-gpt/commit/9e9ba08bbc9f86b807d5f488de78adfde93ddc0b) `9e9ba08bbc9f`
+
+#### [vadimdemedes/ink](https://github.com/vadimdemedes/ink): 1 commits
+
+- 2026-09-08 [Fix `wrapText` cache key collision between different texts and widths (#998)](https://github.com/vadimdemedes/ink/commit/3809acc1dffbc5179c78c5b0effb18b74e20adbc) `3809acc1dffb`
+
 ### Directory and registry listings for Compartment
 
 #### [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers): 3 commits
@@ -592,6 +616,30 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 ### [joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x): 1 merged
 
 - 2026-09-08 [drive_virtual: fix CHDIR succeeding on a file on drive Z:](https://github.com/joncampbell123/dosbox-x/pull/6533)
+
+### [pmndrs/koota](https://github.com/pmndrs/koota): 1 merged
+
+- 2026-09-08 [🐛 core: fix query hash collisions from the shared sort buffer](https://github.com/pmndrs/koota/pull/281)
+
+### [go-goyave/goyave](https://github.com/go-goyave/goyave): 1 merged
+
+- 2026-09-08 [httputil: fix quality value parsing in ParseMultiValuesHeader](https://github.com/go-goyave/goyave/pull/295)
+
+### [tombi-toml/tombi](https://github.com/tombi-toml/tombi): 1 merged
+
+- 2026-09-08 [fix(lexer): close multi-line string after escaped backslash](https://github.com/tombi-toml/tombi/pull/2167)
+
+### [abema/go-mp4](https://github.com/abema/go-mp4): 1 merged
+
+- 2026-09-08 [Fix numTemporalLayers and temporalIdNested bit widths in hvcC](https://github.com/abema/go-mp4/pull/185)
+
+### [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt): 1 merged
+
+- 2026-09-08 [fix: keep model download lock PID when acquisition fails](https://github.com/zylon-ai/private-gpt/pull/2362)
+
+### [vadimdemedes/ink](https://github.com/vadimdemedes/ink): 1 merged
+
+- 2026-09-08 [Fix `wrapText` cache key collision between different texts and widths](https://github.com/vadimdemedes/ink/pull/998)
 
 ### Directory and registry listings
 

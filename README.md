@@ -81,6 +81,12 @@ Code merged into other projects:
 - **[jhd3197/ServerKit](https://github.com/jhd3197/ServerKit)**: [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/commit/bedf5640fd287b1d9d2be60d98581c49943bcc73)
 - **[apache/answer](https://github.com/apache/answer)**: [fix: comment url swaps title and answer id](https://github.com/apache/answer/commit/9c15df876e8d823d18b72782662e9c74c1018448)
 - **[joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x)**: [drive_virtual: reject a file as a directory in TestDir](https://github.com/joncampbell123/dosbox-x/commit/d4fbfe4c5bcdeea0cb8c6698eb6ef1b289774ec8)
+- **[pmndrs/koota](https://github.com/pmndrs/koota)**: [🐛 core: fix query hash collisions from the shared sort buffer](https://github.com/pmndrs/koota/commit/67cfb0d510ea792a5fb344cf36bc5f0a22345138)
+- **[go-goyave/goyave](https://github.com/go-goyave/goyave)**: [httputil: fix quality value parsing in ParseMultiValuesHeader](https://github.com/go-goyave/goyave/commit/b86d48052257c67b90750890f332b80108245bad)
+- **[tombi-toml/tombi](https://github.com/tombi-toml/tombi)**: [fix(lexer): close multi-line string after escaped backslash](https://github.com/tombi-toml/tombi/commit/b35bfbe84fdf9da2803c4f2e7525e946a50b3383)
+- **[abema/go-mp4](https://github.com/abema/go-mp4)**: [Fix numTemporalLayers and temporalIdNested bit widths in hvcC](https://github.com/abema/go-mp4/commit/ddda98c2d7721d286da1815b25677ae9ac43f8df)
+- **[zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt)**: [fix: keep model download lock PID when acquisition fails](https://github.com/zylon-ai/private-gpt/commit/9e9ba08bbc9f86b807d5f488de78adfde93ddc0b)
+- **[vadimdemedes/ink](https://github.com/vadimdemedes/ink)**: [Fix `wrapText` cache key collision between different texts and widths](https://github.com/vadimdemedes/ink/commit/3809acc1dffbc5179c78c5b0effb18b74e20adbc)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 
