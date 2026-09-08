@@ -74,6 +74,13 @@ Code merged into other projects:
 - **[evcxr/evcxr](https://github.com/evcxr/evcxr)**: [Fix comment handling when looking for commands](https://github.com/evcxr/evcxr/commit/2d2de8fdb5ad4d350306ef65a84dd4184a1f3dd6)
 - **[noahbald/oxvg](https://github.com/noahbald/oxvg)**: [fix(oxvg_optimiser): keep ellipses selected by a stylesheet in convertShapeToPath](https://github.com/noahbald/oxvg/commit/80158d5dd0ec6d8aab4f61e75a17f3d73dbb7a76)
 - **[odygrd/quill](https://github.com/odygrd/quill)**: [Flush sinks and run periodic tasks when manual backend polling drains the queues](https://github.com/odygrd/quill/commit/e3d1b97b00e817ff23b13533e089410c41d519bf)
+- **[akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)**: [fix(wiki): drop a leading BOM on a page with no frontmatter](https://github.com/akitaonrails/ai-memory/commit/54a933f0afeac3815ab878da654fc80211a00b6d)
+- **[libarchive/libarchive](https://github.com/libarchive/libarchive)**: [man: fix option names that archive_write_set_options rejects](https://github.com/libarchive/libarchive/commit/b20a8ff8eccf07bdd108a9a68e4c8ac06d744a01)
+- **[jundot/omlx](https://github.com/jundot/omlx)**: [fix(eval): stop a comma from swallowing the GSM8K answer](https://github.com/jundot/omlx/commit/0b1103b3b413521fc3364df16005b69fa8cf63cf)
+- **[greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext)**: [fix: default dataclass metadata to a dict, not a pydantic FieldInfo](https://github.com/greyhaven-ai/autocontext/commit/ba4ce3782aedca6e0eee4f0150cba81125f84e54)
+- **[jhd3197/ServerKit](https://github.com/jhd3197/ServerKit)**: [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/commit/bedf5640fd287b1d9d2be60d98581c49943bcc73)
+- **[apache/answer](https://github.com/apache/answer)**: [fix: comment url swaps title and answer id](https://github.com/apache/answer/commit/9c15df876e8d823d18b72782662e9c74c1018448)
+- **[joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x)**: [drive_virtual: reject a file as a directory in TestDir](https://github.com/joncampbell123/dosbox-x/commit/d4fbfe4c5bcdeea0cb8c6698eb6ef1b289774ec8)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 

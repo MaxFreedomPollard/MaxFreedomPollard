@@ -217,6 +217,34 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-07 [Flush sinks and run periodic tasks when manual backend polling drains the queues (#989)](https://github.com/odygrd/quill/commit/e3d1b97b00e817ff23b13533e089410c41d519bf) `e3d1b97b00e8`
 
+#### [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory): 1 commits
+
+- 2026-09-06 [fix(wiki): drop a leading BOM on a page with no frontmatter](https://github.com/akitaonrails/ai-memory/commit/54a933f0afeac3815ab878da654fc80211a00b6d) `54a933f0afea`
+
+#### [libarchive/libarchive](https://github.com/libarchive/libarchive): 1 commits
+
+- 2026-09-07 [man: fix option names that archive_write_set_options rejects](https://github.com/libarchive/libarchive/commit/b20a8ff8eccf07bdd108a9a68e4c8ac06d744a01) `b20a8ff8eccf`
+
+#### [jundot/omlx](https://github.com/jundot/omlx): 1 commits
+
+- 2026-09-08 [fix(eval): stop a comma from swallowing the GSM8K answer (#3484)](https://github.com/jundot/omlx/commit/0b1103b3b413521fc3364df16005b69fa8cf63cf) `0b1103b3b413`
+
+#### [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext): 1 commits
+
+- 2026-09-06 [fix: default dataclass metadata to a dict, not a pydantic FieldInfo](https://github.com/greyhaven-ai/autocontext/commit/ba4ce3782aedca6e0eee4f0150cba81125f84e54) `ba4ce3782aed`
+
+#### [jhd3197/ServerKit](https://github.com/jhd3197/ServerKit): 1 commits
+
+- 2026-09-07 [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/commit/bedf5640fd287b1d9d2be60d98581c49943bcc73) `bedf5640fd28`
+
+#### [apache/answer](https://github.com/apache/answer): 1 commits on branch `dev`
+
+- 2026-09-07 [fix: comment url swaps title and answer id](https://github.com/apache/answer/commit/9c15df876e8d823d18b72782662e9c74c1018448) `9c15df876e8d`
+
+#### [joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x): 1 commits
+
+- 2026-09-07 [drive_virtual: reject a file as a directory in TestDir](https://github.com/joncampbell123/dosbox-x/commit/d4fbfe4c5bcdeea0cb8c6698eb6ef1b289774ec8) `d4fbfe4c5bcd`
+
 ### Directory and registry listings for Compartment
 
 #### [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers): 3 commits
@@ -536,6 +564,34 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 ### [odygrd/quill](https://github.com/odygrd/quill): 1 merged
 
 - 2026-09-07 [Flush sinks and run periodic tasks when manual backend polling drains the queues](https://github.com/odygrd/quill/pull/989)
+
+### [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory): 1 merged
+
+- 2026-09-07 [fix(wiki): drop a leading BOM on a page with no frontmatter](https://github.com/akitaonrails/ai-memory/pull/663)
+
+### [libarchive/libarchive](https://github.com/libarchive/libarchive): 1 merged
+
+- 2026-09-08 [man: fix option names that archive_write_set_options rejects](https://github.com/libarchive/libarchive/pull/3495)
+
+### [jundot/omlx](https://github.com/jundot/omlx): 1 merged
+
+- 2026-09-08 [fix(eval): stop a comma from swallowing the GSM8K answer](https://github.com/jundot/omlx/pull/3484)
+
+### [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext): 1 merged
+
+- 2026-09-08 [fix: default dataclass metadata to a dict, not a pydantic FieldInfo](https://github.com/greyhaven-ai/autocontext/pull/1324)
+
+### [jhd3197/ServerKit](https://github.com/jhd3197/ServerKit): 1 merged
+
+- 2026-09-08 [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/pull/139)
+
+### [apache/answer](https://github.com/apache/answer): 1 merged
+
+- 2026-09-08 [fix: comment url swaps title and answer id](https://github.com/apache/answer/pull/1603)
+
+### [joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x): 1 merged
+
+- 2026-09-08 [drive_virtual: fix CHDIR succeeding on a file on drive Z:](https://github.com/joncampbell123/dosbox-x/pull/6533)
 
 ### Directory and registry listings
 
