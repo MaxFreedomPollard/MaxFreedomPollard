@@ -86,6 +86,9 @@ Code merged into other projects:
 - **[tombi-toml/tombi](https://github.com/tombi-toml/tombi)**: [fix(lexer): close multi-line string after escaped backslash](https://github.com/tombi-toml/tombi/commit/b35bfbe84fdf9da2803c4f2e7525e946a50b3383)
 - **[abema/go-mp4](https://github.com/abema/go-mp4)**: [Fix numTemporalLayers and temporalIdNested bit widths in hvcC](https://github.com/abema/go-mp4/commit/ddda98c2d7721d286da1815b25677ae9ac43f8df)
 - **[vadimdemedes/ink](https://github.com/vadimdemedes/ink)**: [Fix `wrapText` cache key collision between different texts and widths](https://github.com/vadimdemedes/ink/commit/3809acc1dffbc5179c78c5b0effb18b74e20adbc)
+- **[fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify)**: [fix: drop unmatched properties when additionalProperties is false](https://github.com/fastify/fast-json-stringify/commit/99bc4e858e5a1d77240e557182204adaa859a046)
+- **[open-circle/valibot](https://github.com/open-circle/valibot)**: [fix(cache): clone cached issues to stop issue paths from accumulating](https://github.com/open-circle/valibot/commit/d65438c9054ed8f9b303d1f58166c85ca908a2ea)
+- **[gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory)**: [fix: keep grid_with_text labels on their anchors](https://github.com/gdsfactory/gdsfactory/commit/d1d5e2510b1f362303a035facfb0431b4b20f0bc)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 

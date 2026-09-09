@@ -265,6 +265,18 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-08 [Fix `wrapText` cache key collision between different texts and widths (#998)](https://github.com/vadimdemedes/ink/commit/3809acc1dffbc5179c78c5b0effb18b74e20adbc) `3809acc1dffb`
 
+#### [fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify): 1 commits
+
+- 2026-09-08 [fix: drop unmatched properties when additionalProperties is false (#879)](https://github.com/fastify/fast-json-stringify/commit/99bc4e858e5a1d77240e557182204adaa859a046) `99bc4e858e5a`
+
+#### [open-circle/valibot](https://github.com/open-circle/valibot): 1 commits
+
+- 2026-09-08 [fix(cache): clone cached issues to stop issue paths from accumulating (#1620)](https://github.com/open-circle/valibot/commit/d65438c9054ed8f9b303d1f58166c85ca908a2ea) `d65438c9054e`
+
+#### [gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory): 1 commits
+
+- 2026-09-08 [fix: keep grid_with_text labels on their anchors (#4821)](https://github.com/gdsfactory/gdsfactory/commit/d1d5e2510b1f362303a035facfb0431b4b20f0bc) `d1d5e2510b1f`
+
 ### Directory and registry listings for Compartment
 
 #### [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers): 3 commits
@@ -632,6 +644,18 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 ### [vadimdemedes/ink](https://github.com/vadimdemedes/ink): 1 merged
 
 - 2026-09-08 [Fix `wrapText` cache key collision between different texts and widths](https://github.com/vadimdemedes/ink/pull/998)
+
+### [fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify): 1 merged
+
+- 2026-09-08 [fix: drop unmatched properties when additionalProperties is false](https://github.com/fastify/fast-json-stringify/pull/879)
+
+### [open-circle/valibot](https://github.com/open-circle/valibot): 1 merged
+
+- 2026-09-08 [fix(cache): clone cached issues to stop issue paths from accumulating](https://github.com/open-circle/valibot/pull/1620)
+
+### [gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory): 1 merged
+
+- 2026-09-08 [fix: keep grid_with_text labels on their anchors](https://github.com/gdsfactory/gdsfactory/pull/4821)
 
 ### Directory and registry listings
 
