@@ -37,12 +37,16 @@ Code merged into other projects:
 - **[maplibre/maplibre-tile-spec](https://github.com/maplibre/maplibre-tile-spec)**: [fix(ts): keep byte RLE within the lengths its headers can express](https://github.com/maplibre/maplibre-tile-spec/commit/049b170f9037e6948da193139e554edadaf50a15)
 - **[zenstackhq/zenstack](https://github.com/zenstackhq/zenstack)**: [fix(zod): treat `@uuid` without a version as any UUID version](https://github.com/zenstackhq/zenstack/commit/3f1ed72510af67ed758dd9ed6f17bc744dc7dd2a)
 - **[oras-project/oras](https://github.com/oras-project/oras)**: [fix: attribute recursive copy tag failures to the destination](https://github.com/oras-project/oras/commit/f54f368af1fb3d45c2ac33287c23c9b100a13385)
-- **[ekzhang/jax-js](https://github.com/ekzhang/jax-js)**: [Fix copysign() dropping the magnitude when y is zero](https://github.com/ekzhang/jax-js/commit/970fa22d934ce2e617cd3a993c6ecc8b736496f2)
+- **[ekzhang/jax-js](https://github.com/ekzhang/jax-js)**: 2 merged commits
+  - [Fix copysign() dropping the magnitude when y is zero](https://github.com/ekzhang/jax-js/commit/970fa22d934ce2e617cd3a993c6ecc8b736496f2)
+  - [Fix sign() returning 1 for NaN](https://github.com/ekzhang/jax-js/commit/ef32174b3b64e44422f148078ac0cacdf50384aa)
 - **[celery/kombu](https://github.com/celery/kombu)**: [fix(utils): don't evict a key when overwriting an existing LRUCache entry](https://github.com/celery/kombu/commit/a6cdf538f86192fa1cb58fb827cad344d06de510)
 - **[PyLabRobot/pylabrobot](https://github.com/PyLabRobot/pylabrobot)**: [fix(resources): center a plate on the adapter hole's y size, not its x size](https://github.com/PyLabRobot/pylabrobot/commit/2c05867f0c779469505f539a9f89017849d52a7b)
 - **[openhab/openhab-addons](https://github.com/openhab/openhab-addons)**: [[nobohub] Fix ignored keepaliveInterval setting](https://github.com/openhab/openhab-addons/commit/ca013260596cafd90afab18878a9e9a906379a5c)
 - **[magefree/mage](https://github.com/magefree/mage)**: [Fix Wickersmith's Tools creating untapped Scarecrow tokens](https://github.com/magefree/mage/commit/c6221e0c95a575c4f4a1707468df12fab234cae7)
-- **[raysan5/raylib](https://github.com/raysan5/raylib)**: [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator](https://github.com/raysan5/raylib/commit/2b991b0243c3dccf48ed926bcb754c60846f96c1)
+- **[raysan5/raylib](https://github.com/raysan5/raylib)**: 2 merged commits
+  - [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator](https://github.com/raysan5/raylib/commit/2b991b0243c3dccf48ed926bcb754c60846f96c1)
+  - [[rtext] Fix TextSplit() reading past its buffer on text of 1024 bytes or more](https://github.com/raysan5/raylib/commit/94a69ad9e27e74aa99315c7f16d6b769859e0d96)
 - **[junhoyeo/tokscale](https://github.com/junhoyeo/tokscale)**: [fix(core): parse MiMo Code and fx on the local report path](https://github.com/junhoyeo/tokscale/commit/dff9949244eb5463b96671706595752a3f4ff2cb)
 - **[floci-io/floci](https://github.com/floci-io/floci)**: [fix(eventbridge,scheduler): read cron day-of-week as AWS 1-7 SUN-SAT](https://github.com/floci-io/floci/commit/60a8a9d25262ab9a35033ed5c9778600a89a1e94)
 - **[boyter/scc](https://github.com/boyter/scc)**: [fix(asp.net): correct the server side comment terminator](https://github.com/boyter/scc/commit/eb6ac4cb889beabbfb2cb40841c1c07ff6adc25c)
@@ -107,6 +111,11 @@ Code merged into other projects:
 - **[velero-io/velero](https://github.com/velero-io/velero)**: [Scope schedule and repo CLI list calls to the Velero namespace](https://github.com/velero-io/velero/commit/4c007c0af49d6d7336eae7a74aa53aa8232ba939)
 - **[yoanbernabeu/grepai](https://github.com/yoanbernabeu/grepai)**: [fix(search): break score ties deterministically so ranking is reproducible](https://github.com/yoanbernabeu/grepai/commit/d5ee66f9c67af940d3d853431ffa083828782133)
 - **[devitocodes/devito](https://github.com/devitocodes/devito)**: [misc: Snapshot the environment when a switchenv is entered](https://github.com/devitocodes/devito/commit/6c439c38f778ae388b2a245b19b9a1242b46b299)
+- **[quinn-rs/quinn](https://github.com/quinn-rs/quinn)**: 2 merged commits
+  - [proto: reject transport parameters with a mismatched length](https://github.com/quinn-rs/quinn/commit/621e38abbccdfe8d664d50b517fccec3316fe658)
+  - [the same fix backported to the 0.11.x branch](https://github.com/quinn-rs/quinn/commit/811b548241253e337a3bb4c7bd08b2a7f69b443d)
+- **[wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest)**: [Fix `q` weights in `Accept` header parsing](https://github.com/wemake-services/django-modern-rest/commit/3927bad1f9c8a509699075ffe05213f43b960667)
+- **[foliojs/pdfkit](https://github.com/foliojs/pdfkit)**: [Fix annotation rectangle under a rotated transformation matrix](https://github.com/foliojs/pdfkit/commit/753322ef3b49b9085af7d2a3bbc8c3f3e37176f2)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 

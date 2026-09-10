@@ -59,9 +59,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-06 [fix: attribute recursive copy tag failures to the destination (#2157)](https://github.com/oras-project/oras/commit/f54f368af1fb3d45c2ac33287c23c9b100a13385) `f54f368af1fb`
 
-#### [ekzhang/jax-js](https://github.com/ekzhang/jax-js): 1 commits
+#### [ekzhang/jax-js](https://github.com/ekzhang/jax-js): 2 commits
 
 - 2026-09-06 [Fix copysign() dropping the magnitude when y is zero (#214)](https://github.com/ekzhang/jax-js/commit/970fa22d934ce2e617cd3a993c6ecc8b736496f2) `970fa22d934c`
+- 2026-09-10 [Fix sign() returning 1 for NaN (#215)](https://github.com/ekzhang/jax-js/commit/ef32174b3b64e44422f148078ac0cacdf50384aa) `ef32174b3b64`
 
 #### [celery/kombu](https://github.com/celery/kombu): 1 commits
 
@@ -79,9 +80,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-06 [Fix Wickersmith's Tools creating untapped Scarecrow tokens (#16115)](https://github.com/magefree/mage/commit/c6221e0c95a575c4f4a1707468df12fab234cae7) `c6221e0c95a5`
 
-#### [raysan5/raylib](https://github.com/raysan5/raylib): 1 commits
+#### [raysan5/raylib](https://github.com/raysan5/raylib): 2 commits
 
 - 2026-09-06 [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator (#6132)](https://github.com/raysan5/raylib/commit/2b991b0243c3dccf48ed926bcb754c60846f96c1) `2b991b0243c3`
+- 2026-09-10 [[rtext] Fix TextSplit() reading past its buffer on text of 1024 bytes or more (#6136)](https://github.com/raysan5/raylib/commit/94a69ad9e27e74aa99315c7f16d6b769859e0d96) `94a69ad9e27e`
 
 #### [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale): 1 commits
 
@@ -331,6 +333,19 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-07 [misc: Snapshot the environment when a switchenv is entered](https://github.com/devitocodes/devito/commit/6c439c38f778ae388b2a245b19b9a1242b46b299) `6c439c38f778`
 
+#### [quinn-rs/quinn](https://github.com/quinn-rs/quinn): 2 commits, one of them on branch `0.11.x`
+
+- 2026-09-10 [proto: reject transport parameters with a mismatched length](https://github.com/quinn-rs/quinn/commit/621e38abbccdfe8d664d50b517fccec3316fe658) `621e38abbccd`
+- 2026-09-10 [proto: reject transport parameters with a mismatched length, on branch 0.11.x](https://github.com/quinn-rs/quinn/commit/811b548241253e337a3bb4c7bd08b2a7f69b443d) `811b548244f2`
+
+#### [wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest): 1 commits
+
+- 2026-09-10 [Fix `q` weights in `Accept` header parsing (#1407)](https://github.com/wemake-services/django-modern-rest/commit/3927bad1f9c8a509699075ffe05213f43b960667) `3927bad1f9c8`
+
+#### [foliojs/pdfkit](https://github.com/foliojs/pdfkit): 1 commits
+
+- 2026-09-10 [Fix annotation rectangle under a rotated transformation matrix (#1794)](https://github.com/foliojs/pdfkit/commit/753322ef3b49b9085af7d2a3bbc8c3f3e37176f2) `753322ef3b49`
+
 ### Directory and registry listings for Compartment
 
 #### [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers): 3 commits
@@ -493,9 +508,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-06 [fix: attribute recursive copy tag failures to the destination](https://github.com/oras-project/oras/pull/2157)
 
-### [ekzhang/jax-js](https://github.com/ekzhang/jax-js): 1 merged
+### [ekzhang/jax-js](https://github.com/ekzhang/jax-js): 2 merged
 
 - 2026-09-06 [Fix copysign() dropping the magnitude when y is zero](https://github.com/ekzhang/jax-js/pull/214)
+- 2026-09-10 [Fix sign() returning 1 for NaN](https://github.com/ekzhang/jax-js/pull/215)
 
 ### [celery/kombu](https://github.com/celery/kombu): 1 merged
 
@@ -513,9 +529,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-06 [Fix Wickersmith's Tools creating untapped Scarecrow tokens](https://github.com/magefree/mage/pull/16115)
 
-### [raysan5/raylib](https://github.com/raysan5/raylib): 1 merged
+### [raysan5/raylib](https://github.com/raysan5/raylib): 2 merged
 
 - 2026-09-06 [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator](https://github.com/raysan5/raylib/pull/6132)
+- 2026-09-10 [[rtext] Fix TextSplit() reading past its buffer on text of 1024 bytes or more](https://github.com/raysan5/raylib/pull/6136)
 
 ### [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale): 1 merged
 
@@ -762,6 +779,19 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 ### [devitocodes/devito](https://github.com/devitocodes/devito): 1 merged
 
 - 2026-09-10 [misc: Snapshot the environment when a switchenv is entered](https://github.com/devitocodes/devito/pull/3019)
+
+### [quinn-rs/quinn](https://github.com/quinn-rs/quinn): 2 merged
+
+- 2026-09-10 [proto: reject transport parameters with a mismatched length](https://github.com/quinn-rs/quinn/pull/2832)
+- 2026-09-10 [[0.11.x] proto: reject transport parameters with a mismatched length](https://github.com/quinn-rs/quinn/pull/2866)
+
+### [wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest): 1 merged
+
+- 2026-09-10 [Fix `q` weights in `Accept` header parsing](https://github.com/wemake-services/django-modern-rest/pull/1407)
+
+### [foliojs/pdfkit](https://github.com/foliojs/pdfkit): 1 merged
+
+- 2026-09-10 [Fix annotation rectangle under a rotated transformation matrix](https://github.com/foliojs/pdfkit/pull/1794)
 
 ### Directory and registry listings
 
