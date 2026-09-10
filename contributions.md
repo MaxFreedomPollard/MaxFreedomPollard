@@ -29,9 +29,11 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-06-17 [fix(config): honor explicit --hermes-repo and make config construction non-fatal (#122)](https://github.com/NousResearch/hermes-agent-self-evolution/commit/0a929e3aa20e15cf04dc7c28492a7d41a5139125) `0a929e3aa20e`
 
-#### [laude-institute/headlong](https://github.com/laude-institute/headlong): 1 commits
+#### [laude-institute/headlong](https://github.com/laude-institute/headlong): 3 commits
 
 - 2026-09-04 [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/commit/e4ca135a5ab11a19d3dc363d4241885c83b4c3f8) `e4ca135a5ab1`
+- 2026-09-05 [traj: formatted tail and cat return the steps --filter matches](https://github.com/laude-institute/headlong/commit/b666593f0b3fb96f4a8940637e985673915a2f51) `b666593f0b3f`
+- 2026-09-07 [ci: point the smoke container's apt at the Azure mirror](https://github.com/laude-institute/headlong/commit/5ae5ba1feb11387dc6157f04dc7e0880123eba4c) `5ae5ba1feb11`
 
 #### [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni): 1 commits
 
@@ -277,6 +279,58 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-08 [fix: keep grid_with_text labels on their anchors (#4821)](https://github.com/gdsfactory/gdsfactory/commit/d1d5e2510b1f362303a035facfb0431b4b20f0bc) `d1d5e2510b1f`
 
+#### [psd-tools/psd-tools](https://github.com/psd-tools/psd-tools): 4 commits
+
+- 2026-09-06 [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/commit/30860898efa3bc277bd654ec17c313a7da56ca34) `30860898efa3`
+- 2026-09-09 [test: round-trip a hue2 payload that is not 4-byte aligned (review)](https://github.com/psd-tools/psd-tools/commit/693e526b7dff82f5f1fd6f2dea58c7c6c3ec932c) `693e526b7dff`
+- 2026-09-09 [fix: stop padding a Hue/Saturation block after its trailer (review)](https://github.com/psd-tools/psd-tools/commit/1c08d2127d1d194f92c1c4c196a8d124b32ebf30) `1c08d2127d1d`
+- 2026-09-09 [Merge upstream main into fix/hue-saturation-trailing-bytes](https://github.com/psd-tools/psd-tools/commit/1b048b4ab93e6935258e667afc31004190847a97) `1b048b4ab93e`
+
+#### [meriyah/meriyah](https://github.com/meriyah/meriyah): 1 commits
+
+- 2026-09-09 [fix(parser): restrict continue targets to iteration statement labels (#646)](https://github.com/meriyah/meriyah/commit/3df8adea6fb57e01d81478e4b2453a3b29248fe3) `3df8adea6fb5`
+
+#### [crmne/fastpotify](https://github.com/crmne/fastpotify): 0 commits
+
+
+#### [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins): 3 commits
+
+- 2026-09-05 [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/commit/23de2c9dea7a2cad07d820640a77bfaef4db37ea) `23de2c9dea7a`
+- 2026-09-05 [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/commit/4ebc50822a10253e15cc0a352f8a56f9817cf8c1) `4ebc50822a10`
+- 2026-09-05 [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/commit/7ed0951703c020dd09ccada10baddb02e5ff301e) `7ed0951703c0`
+
+#### [ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go): 1 commits
+
+- 2026-09-09 [fix(chcol): return true from HasType when the Variant carries a type (#2006)](https://github.com/ClickHouse/clickhouse-go/commit/e46887b4eed6ec78bc93e0bfc686f8d029220aef) `e46887b4eed6`
+
+#### [charmbracelet/catwalk](https://github.com/charmbracelet/catwalk): 1 commits
+
+- 2026-09-09 [fix: add missing providers to `KnownProviders` (#578)](https://github.com/charmbracelet/catwalk/commit/72037fe855c9d6317827a0c26d2bd7cd39394983) `72037fe855c9`
+
+#### [onnx/onnx](https://github.com/onnx/onnx): 1 commits
+
+- 2026-09-09 [fix(reference): reorder Unique outputs correctly when sorted=0 (#8424)](https://github.com/onnx/onnx/commit/27d7d6890cb8bfa7ed5cda2f2656f82b6af0736a) `27d7d6890cb8`
+
+#### [rust-diplomat/diplomat](https://github.com/rust-diplomat/diplomat): 1 commits
+
+- 2026-09-09 [hir: resolve callback optional-opaque returns in the enclosing module (#1271)](https://github.com/rust-diplomat/diplomat/commit/e895d6a1b5c522331e7bb669a186092b54dca5e4) `e895d6a1b5c5`
+
+#### [caronc/apprise](https://github.com/caronc/apprise): 1 commits
+
+- 2026-09-09 [language=, lang= (alias) and subtitle= bugfix in onesignal:// (#1720)](https://github.com/caronc/apprise/commit/6206f6c5dfa0de3fa3c483048c8b6b3211d21294) `6206f6c5dfa0`
+
+#### [velero-io/velero](https://github.com/velero-io/velero): 1 commits
+
+- 2026-09-09 [Scope schedule and repo CLI list calls to the Velero namespace (#10482)](https://github.com/velero-io/velero/commit/4c007c0af49d6d7336eae7a74aa53aa8232ba939) `4c007c0af49d`
+
+#### [yoanbernabeu/grepai](https://github.com/yoanbernabeu/grepai): 1 commits
+
+- 2026-09-10 [fix(search): break score ties deterministically so ranking is reproducible (#303)](https://github.com/yoanbernabeu/grepai/commit/d5ee66f9c67af940d3d853431ffa083828782133) `d5ee66f9c67a`
+
+#### [devitocodes/devito](https://github.com/devitocodes/devito): 1 commits
+
+- 2026-09-07 [misc: Snapshot the environment when a switchenv is entered](https://github.com/devitocodes/devito/commit/6c439c38f778ae388b2a245b19b9a1242b46b299) `6c439c38f778`
+
 ### Directory and registry listings for Compartment
 
 #### [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers): 3 commits
@@ -409,9 +463,11 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-06-25 [Add Run::finish() to flush pending logs before exit](https://github.com/NousResearch/wandb-rs/pull/2)
 
-### [laude-institute/headlong](https://github.com/laude-institute/headlong): 1 merged
+### [laude-institute/headlong](https://github.com/laude-institute/headlong): 3 merged
 
 - 2026-09-05 [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
+- 2026-09-09 [ci: point the smoke container's apt at the Azure mirror](https://github.com/laude-institute/headlong/pull/114)
+- 2026-09-09 [traj: formatted tail and cat return the steps --filter matches](https://github.com/laude-institute/headlong/pull/112)
 
 ### [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni): 1 merged
 
@@ -656,6 +712,56 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 ### [gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory): 1 merged
 
 - 2026-09-08 [fix: keep grid_with_text labels on their anchors](https://github.com/gdsfactory/gdsfactory/pull/4821)
+
+### [psd-tools/psd-tools](https://github.com/psd-tools/psd-tools): 1 merged
+
+- 2026-09-09 [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/pull/794)
+
+### [meriyah/meriyah](https://github.com/meriyah/meriyah): 1 merged
+
+- 2026-09-09 [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/pull/646)
+
+### [crmne/fastpotify](https://github.com/crmne/fastpotify): 1 merged
+
+- 2026-09-09 [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/fastpotify/pull/344)
+
+### [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins): 3 merged
+
+- 2026-09-09 [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
+- 2026-09-09 [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
+- 2026-09-09 [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/pull/52)
+
+### [ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go): 1 merged
+
+- 2026-09-09 [fix(chcol): return true from HasType when the Variant carries a type](https://github.com/ClickHouse/clickhouse-go/pull/2006)
+
+### [charmbracelet/catwalk](https://github.com/charmbracelet/catwalk): 1 merged
+
+- 2026-09-09 [fix: add missing providers to KnownProviders](https://github.com/charmbracelet/catwalk/pull/578)
+
+### [onnx/onnx](https://github.com/onnx/onnx): 1 merged
+
+- 2026-09-09 [fix(reference): reorder Unique outputs correctly when sorted=0](https://github.com/onnx/onnx/pull/8424)
+
+### [rust-diplomat/diplomat](https://github.com/rust-diplomat/diplomat): 1 merged
+
+- 2026-09-09 [hir: resolve callback optional-opaque returns in the enclosing module](https://github.com/rust-diplomat/diplomat/pull/1271)
+
+### [caronc/apprise](https://github.com/caronc/apprise): 1 merged
+
+- 2026-09-09 [Honor language= in onesignal:// and preserve it through url()](https://github.com/caronc/apprise/pull/1720)
+
+### [velero-io/velero](https://github.com/velero-io/velero): 1 merged
+
+- 2026-09-09 [Scope schedule and repo CLI list calls to the Velero namespace](https://github.com/velero-io/velero/pull/10482)
+
+### [yoanbernabeu/grepai](https://github.com/yoanbernabeu/grepai): 1 merged
+
+- 2026-09-10 [fix(search): break score ties deterministically so ranking is reproducible](https://github.com/yoanbernabeu/grepai/pull/303)
+
+### [devitocodes/devito](https://github.com/devitocodes/devito): 1 merged
+
+- 2026-09-10 [misc: Snapshot the environment when a switchenv is entered](https://github.com/devitocodes/devito/pull/3019)
 
 ### Directory and registry listings
 

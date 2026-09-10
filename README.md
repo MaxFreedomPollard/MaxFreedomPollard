@@ -27,7 +27,10 @@ Code merged into other projects:
   - [test: restore four silently shadowed definitions and guard against more](https://github.com/NousResearch/hermes-agent/commit/7729c183b4a2f70c3b583eee6f93e7149a4081f8)
 - **[NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs)**: [Add Run::finish() to flush pending logs before exit](https://github.com/NousResearch/wandb-rs/commit/c5f552464f13d56a5abd73c2dfb88b193e991d4e)
 - **[NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution)**: [fix(config): honor explicit --hermes-repo and make config construction non-fatal (#122)](https://github.com/NousResearch/hermes-agent-self-evolution/commit/0a929e3aa20e15cf04dc7c28492a7d41a5139125)
-- **[laude-institute/headlong](https://github.com/laude-institute/headlong)**: [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/commit/e4ca135a5ab11a19d3dc363d4241885c83b4c3f8)
+- **[laude-institute/headlong](https://github.com/laude-institute/headlong)**: 3 merged commits
+  - [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/commit/e4ca135a5ab11a19d3dc363d4241885c83b4c3f8)
+  - [traj: formatted tail and cat return the steps --filter matches](https://github.com/laude-institute/headlong/commit/b666593f0b3fb96f4a8940637e985673915a2f51)
+  - [ci: point the smoke container's apt at the Azure mirror](https://github.com/laude-institute/headlong/commit/5ae5ba1feb11387dc6157f04dc7e0880123eba4c)
 - **[vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni)**: [Fix markdownlint findings in the serving API reference](https://github.com/vllm-project/vllm-omni/commit/946b843e6142033d61df473dcfd2e2e213ef6c34)
 - **[probe-rs/probe-rs](https://github.com/probe-rs/probe-rs)**: [Fix the semihosting file open modes for update and append](https://github.com/probe-rs/probe-rs/commit/615bf5e042224b36235a6f01aebd45e94ab82dda)
 - **[gotenberg/gotenberg](https://github.com/gotenberg/gotenberg)**: [fix(libreoffice): report an encrypted .xlsb as password-protected](https://github.com/gotenberg/gotenberg/commit/c21ceacd4b1027a68d06931625916ddcb15c79bd)
@@ -89,6 +92,21 @@ Code merged into other projects:
 - **[fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify)**: [fix: drop unmatched properties when additionalProperties is false](https://github.com/fastify/fast-json-stringify/commit/99bc4e858e5a1d77240e557182204adaa859a046)
 - **[open-circle/valibot](https://github.com/open-circle/valibot)**: [fix(cache): clone cached issues to stop issue paths from accumulating](https://github.com/open-circle/valibot/commit/d65438c9054ed8f9b303d1f58166c85ca908a2ea)
 - **[gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory)**: [fix: keep grid_with_text labels on their anchors](https://github.com/gdsfactory/gdsfactory/commit/d1d5e2510b1f362303a035facfb0431b4b20f0bc)
+- **[psd-tools/psd-tools](https://github.com/psd-tools/psd-tools)**: [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/commit/30860898efa3bc277bd654ec17c313a7da56ca34)
+- **[meriyah/meriyah](https://github.com/meriyah/meriyah)**: [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/commit/3df8adea6fb57e01d81478e4b2453a3b29248fe3)
+- **[crmne/fastpotify](https://github.com/crmne/fastpotify)**: [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/fastpotify/pull/344)
+- **[QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins)**: 3 merged commits
+  - [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/commit/23de2c9dea7a2cad07d820640a77bfaef4db37ea)
+  - [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/commit/4ebc50822a10253e15cc0a352f8a56f9817cf8c1)
+  - [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/commit/7ed0951703c020dd09ccada10baddb02e5ff301e)
+- **[ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go)**: [fix(chcol): return true from HasType when the Variant carries a type](https://github.com/ClickHouse/clickhouse-go/commit/e46887b4eed6ec78bc93e0bfc686f8d029220aef)
+- **[charmbracelet/catwalk](https://github.com/charmbracelet/catwalk)**: [fix: add missing providers to `KnownProviders`](https://github.com/charmbracelet/catwalk/commit/72037fe855c9d6317827a0c26d2bd7cd39394983)
+- **[onnx/onnx](https://github.com/onnx/onnx)**: [fix(reference): reorder Unique outputs correctly when sorted=0](https://github.com/onnx/onnx/commit/27d7d6890cb8bfa7ed5cda2f2656f82b6af0736a)
+- **[rust-diplomat/diplomat](https://github.com/rust-diplomat/diplomat)**: [hir: resolve callback optional-opaque returns in the enclosing module](https://github.com/rust-diplomat/diplomat/commit/e895d6a1b5c522331e7bb669a186092b54dca5e4)
+- **[caronc/apprise](https://github.com/caronc/apprise)**: [language=, lang= (alias) and subtitle= bugfix in onesignal://](https://github.com/caronc/apprise/commit/6206f6c5dfa0de3fa3c483048c8b6b3211d21294)
+- **[velero-io/velero](https://github.com/velero-io/velero)**: [Scope schedule and repo CLI list calls to the Velero namespace](https://github.com/velero-io/velero/commit/4c007c0af49d6d7336eae7a74aa53aa8232ba939)
+- **[yoanbernabeu/grepai](https://github.com/yoanbernabeu/grepai)**: [fix(search): break score ties deterministically so ranking is reproducible](https://github.com/yoanbernabeu/grepai/commit/d5ee66f9c67af940d3d853431ffa083828782133)
+- **[devitocodes/devito](https://github.com/devitocodes/devito)**: [misc: Snapshot the environment when a switchenv is entered](https://github.com/devitocodes/devito/commit/6c439c38f778ae388b2a245b19b9a1242b46b299)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 
