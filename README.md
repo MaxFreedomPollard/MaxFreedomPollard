@@ -1,4 +1,4 @@
-This repository contains some of my recent commits and projects. 
+Here are some of my recent commits and projects. 
 
 ## Accepted benchmark challenges
 
