@@ -153,7 +153,6 @@ The hermes-agent commits are also carried by 216 downstream copies and derivativ
 - Library & Information Services, University of Adelaide and the Australian Library and Information Association (ALIA)
 - Foundations of Finance, University of Cambridge
 - Member, Association for the Advancement of Artificial Intelligence (AAAI)
-- Committee Member, Friends of the Library, University of Adelaide, elected by the alumni body, since 2025
 - Board Approved Member, Council on the Ageing (COTA) NSW, since 2026
 - National Member, National Seniors Australia, since 2025
 
