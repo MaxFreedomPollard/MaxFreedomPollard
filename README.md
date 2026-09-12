@@ -52,13 +52,15 @@ Code merged into other projects:
 - **[boyter/scc](https://github.com/boyter/scc)**: 2 merged commits
   - [fix(asp.net): correct the server side comment terminator](https://github.com/boyter/scc/commit/eb6ac4cb889beabbfb2cb40841c1c07ff6adc25c)
   - [fix(dart): count single quoted string literals](https://github.com/boyter/scc/commit/f2b586ecbaf98655e41b842595e2512da267fa2a)
-- **[86Box/86Box](https://github.com/86Box/86Box)**: 6 merged commits
+- **[86Box/86Box](https://github.com/86Box/86Box)**: 8 merged commits
   - [softpower: Fix the power-off delay spinner range overflowing int16_t](https://github.com/86Box/86Box/commit/14d6e1defd368d78a2655b1cd294f6d45e9d9795)
   - [net_plip: Fix misplaced parenthesis disabling the transmit bounds check](https://github.com/86Box/86Box/commit/4dfc84d5f0dad080e7fac6a1e697248bd2848db3)
   - [XTA: Restore the missing break in the WDXT-150 case](https://github.com/86Box/86Box/commit/03afce47a4b312b94fcc69c000e893716d71758a)
   - [Voodoo: Fix nccTable0 Q2 writes landing in the I2 coefficient](https://github.com/86Box/86Box/commit/9c9db153f921a1ee0c7d6a3eff0becf7eed45187)
   - [Config: Fix crash loading a config without a mouse_type key](https://github.com/86Box/86Box/commit/52375da8934ed5c687e47f644b7d3098fa49f44a)
   - [Fix machines and BIOS entries missing on case-sensitive filesystems](https://github.com/86Box/86Box/commit/38c13ac0c302e8d4628ac4e189738dc079af4ecd)
+  - [GUS: Fix the ADC sample rate divisor missing the +2 bias](https://github.com/86Box/86Box/commit/24168259f147b5b58f957d5d0ae7b9afa7980870)
+  - [MIDI: Fix input queue overflow hang and broken real-time bytes](https://github.com/86Box/86Box/commit/2e7001fd8915c59250e637e1c6899977b8cdf137)
 - **[agavra/tuicr](https://github.com/agavra/tuicr)**: [fix(input): type AltGr characters in the command, search and filter prompts](https://github.com/agavra/tuicr/commit/58eb8e163342ef49313cc9f508db9751980bd773)
 - **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**: [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/commit/801005f736b5e76c514588f3ac9abe5212ebb219)
 - **[opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)**: [fix(server): relay client websocket closes with a legal code](https://github.com/opensandbox-group/OpenSandbox/commit/242b20926ab64a8366e5d4fa6b79d92a294027c3)
@@ -131,6 +133,8 @@ Code merged into other projects:
 - **[ishepard/pydriller](https://github.com/ishepard/pydriller)**: [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/commit/061fd73a23ae8dda2dedd2d578243d2e46662866)
 - **[marin-community/marin](https://github.com/marin-community/marin)**: [[markdown] Omit the link and image title when the HTML has none](https://github.com/marin-community/marin/commit/b623b4364507a14f501290c8e7f6948f82cdfcfd)
 - **[inducer/loopy](https://github.com/inducer/loopy)**: [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/commit/8807bdd42344ef619106866f8f41908e1a461a6f)
+- **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)**: [fix(deployer): merge gmsaCredentialSpecName from its own field](https://github.com/kgateway-dev/kgateway/commit/e1bbcba771272416705f247eff8de6141ea5de6c)
+- **[TimothyYe/godns](https://github.com/TimothyYe/godns)**: [fix: match ip_type case-insensitively in IONOS and Hetzner providers](https://github.com/TimothyYe/godns/commit/543cd3a20a3a6aaf2095b08dafa79ef258503183)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 
