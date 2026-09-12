@@ -49,8 +49,16 @@ Code merged into other projects:
   - [[rtext] Fix TextSplit() reading past its buffer on text of 1024 bytes or more](https://github.com/raysan5/raylib/commit/94a69ad9e27e74aa99315c7f16d6b769859e0d96)
 - **[junhoyeo/tokscale](https://github.com/junhoyeo/tokscale)**: [fix(core): parse MiMo Code and fx on the local report path](https://github.com/junhoyeo/tokscale/commit/dff9949244eb5463b96671706595752a3f4ff2cb)
 - **[floci-io/floci](https://github.com/floci-io/floci)**: [fix(eventbridge,scheduler): read cron day-of-week as AWS 1-7 SUN-SAT](https://github.com/floci-io/floci/commit/60a8a9d25262ab9a35033ed5c9778600a89a1e94)
-- **[boyter/scc](https://github.com/boyter/scc)**: [fix(asp.net): correct the server side comment terminator](https://github.com/boyter/scc/commit/eb6ac4cb889beabbfb2cb40841c1c07ff6adc25c)
-- **[86Box/86Box](https://github.com/86Box/86Box)**: [softpower: Fix the power-off delay spinner range overflowing int16_t](https://github.com/86Box/86Box/commit/14d6e1defd368d78a2655b1cd294f6d45e9d9795)
+- **[boyter/scc](https://github.com/boyter/scc)**: 2 merged commits
+  - [fix(asp.net): correct the server side comment terminator](https://github.com/boyter/scc/commit/eb6ac4cb889beabbfb2cb40841c1c07ff6adc25c)
+  - [fix(dart): count single quoted string literals](https://github.com/boyter/scc/commit/f2b586ecbaf98655e41b842595e2512da267fa2a)
+- **[86Box/86Box](https://github.com/86Box/86Box)**: 6 merged commits
+  - [softpower: Fix the power-off delay spinner range overflowing int16_t](https://github.com/86Box/86Box/commit/14d6e1defd368d78a2655b1cd294f6d45e9d9795)
+  - [net_plip: Fix misplaced parenthesis disabling the transmit bounds check](https://github.com/86Box/86Box/commit/4dfc84d5f0dad080e7fac6a1e697248bd2848db3)
+  - [XTA: Restore the missing break in the WDXT-150 case](https://github.com/86Box/86Box/commit/03afce47a4b312b94fcc69c000e893716d71758a)
+  - [Voodoo: Fix nccTable0 Q2 writes landing in the I2 coefficient](https://github.com/86Box/86Box/commit/9c9db153f921a1ee0c7d6a3eff0becf7eed45187)
+  - [Config: Fix crash loading a config without a mouse_type key](https://github.com/86Box/86Box/commit/52375da8934ed5c687e47f644b7d3098fa49f44a)
+  - [Fix machines and BIOS entries missing on case-sensitive filesystems](https://github.com/86Box/86Box/commit/38c13ac0c302e8d4628ac4e189738dc079af4ecd)
 - **[agavra/tuicr](https://github.com/agavra/tuicr)**: [fix(input): type AltGr characters in the command, search and filter prompts](https://github.com/agavra/tuicr/commit/58eb8e163342ef49313cc9f508db9751980bd773)
 - **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**: [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/commit/801005f736b5e76c514588f3ac9abe5212ebb219)
 - **[opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)**: [fix(server): relay client websocket closes with a legal code](https://github.com/opensandbox-group/OpenSandbox/commit/242b20926ab64a8366e5d4fa6b79d92a294027c3)
@@ -103,7 +111,9 @@ Code merged into other projects:
   - [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/commit/23de2c9dea7a2cad07d820640a77bfaef4db37ea)
   - [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/commit/4ebc50822a10253e15cc0a352f8a56f9817cf8c1)
   - [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/commit/7ed0951703c020dd09ccada10baddb02e5ff301e)
-- **[ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go)**: [fix(chcol): return true from HasType when the Variant carries a type](https://github.com/ClickHouse/clickhouse-go/commit/e46887b4eed6ec78bc93e0bfc686f8d029220aef)
+- **[ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go)**: 2 merged commits
+  - [fix(chcol): return true from HasType when the Variant carries a type](https://github.com/ClickHouse/clickhouse-go/commit/e46887b4eed6ec78bc93e0bfc686f8d029220aef)
+  - [fix(churl): validate each host of a comma separated DSN authority](https://github.com/ClickHouse/clickhouse-go/commit/9c6aa57d87257c98f3776cfea6a2092b4de515bc)
 - **[charmbracelet/catwalk](https://github.com/charmbracelet/catwalk)**: [fix: add missing providers to `KnownProviders`](https://github.com/charmbracelet/catwalk/commit/72037fe855c9d6317827a0c26d2bd7cd39394983)
 - **[onnx/onnx](https://github.com/onnx/onnx)**: [fix(reference): reorder Unique outputs correctly when sorted=0](https://github.com/onnx/onnx/commit/27d7d6890cb8bfa7ed5cda2f2656f82b6af0736a)
 - **[rust-diplomat/diplomat](https://github.com/rust-diplomat/diplomat)**: [hir: resolve callback optional-opaque returns in the enclosing module](https://github.com/rust-diplomat/diplomat/commit/e895d6a1b5c522331e7bb669a186092b54dca5e4)
@@ -116,6 +126,11 @@ Code merged into other projects:
   - [the same fix backported to the 0.11.x branch](https://github.com/quinn-rs/quinn/commit/811b548241253e337a3bb4c7bd08b2a7f69b443d)
 - **[wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest)**: [Fix `q` weights in `Accept` header parsing](https://github.com/wemake-services/django-modern-rest/commit/3927bad1f9c8a509699075ffe05213f43b960667)
 - **[foliojs/pdfkit](https://github.com/foliojs/pdfkit)**: [Fix annotation rectangle under a rotated transformation matrix](https://github.com/foliojs/pdfkit/commit/753322ef3b49b9085af7d2a3bbc8c3f3e37176f2)
+- **[hyparam/hyparquet](https://github.com/hyparam/hyparquet)**: [Fix $not filters on dot-notation paths](https://github.com/hyparam/hyparquet/commit/ea075195bc2092e8176dbddaa09400f0f383d5dc)
+- **[georust/rstar](https://github.com/georust/rstar)**: [Fix overflow panic draining an empty tree with integer coordinates](https://github.com/georust/rstar/commit/a40d83bcdbd393090a23276622323ef42d7ed956)
+- **[ishepard/pydriller](https://github.com/ishepard/pydriller)**: [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/commit/061fd73a23ae8dda2dedd2d578243d2e46662866)
+- **[marin-community/marin](https://github.com/marin-community/marin)**: [[markdown] Omit the link and image title when the HTML has none](https://github.com/marin-community/marin/commit/b623b4364507a14f501290c8e7f6948f82cdfcfd)
+- **[inducer/loopy](https://github.com/inducer/loopy)**: [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/commit/8807bdd42344ef619106866f8f41908e1a461a6f)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 
