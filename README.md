@@ -12,12 +12,14 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 Code merged into other projects:
 
-- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: 12 merged commits; credited as a contributor in many release notes since June
+- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: 15 merged commits; credited as a contributor in many release notes since June
   - [fix(skills): make bundled-update backup handling crash-safe and idempotent](https://github.com/NousResearch/hermes-agent/commit/3581131e7de1560633c921b4782ea87dcbac3a9e)
   - [test(skills): add regression tests for bundled-update backup recovery](https://github.com/NousResearch/hermes-agent/commit/9a2b976326340f0fec7eb9a88cfeb953ffdd1e56)
   - [fix(curator): stop the rollback safety snapshot from pruning its target](https://github.com/NousResearch/hermes-agent/commit/fc1119ca66e321989a61564aa526b33cb6146d41)
   - [fix(curator): stop restore from matching unrelated skills by name prefix](https://github.com/NousResearch/hermes-agent/commit/992b9223893453b3b1527b2ba728996ec81e83f2)
+  - [fix(tools): stop read_file rendering a phantom empty line for newline-terminated files](https://github.com/NousResearch/hermes-agent/commit/10c34dd7e2441c14f19abea3656fba718999b589)
   - [Merge consecutive same-role contents for native Gemini](https://github.com/NousResearch/hermes-agent/commit/936af2f4f549f5ff22ef00b082748d115080780e)
+  - [fix(config): merge duplicate kanban block so auto_subscribe_on_create default survives](https://github.com/NousResearch/hermes-agent/commit/aa636c6fca0d7d9af7c574c524c43cb2035a6242)
   - [fix(curator): restore the real skills tree when a rollback extract dies part-way](https://github.com/NousResearch/hermes-agent/commit/65e9ece964988b03c777ea6a563f438cad42f2e1)
   - [fix(yuanbao): await the forwarded-records loading heartbeat](https://github.com/NousResearch/hermes-agent/commit/87f5c5351a2c56e27dc271d7a865a874c18b0bfd)
   - [fix(auth): a transient read failure is not corruption](https://github.com/NousResearch/hermes-agent/commit/31032b4f51a0b254b751a838f927f34baee1bd03)
@@ -25,6 +27,7 @@ Code merged into other projects:
   - [fix(sessions): briefly wait out a live compression lock instead of killing the turn](https://github.com/NousResearch/hermes-agent/commit/221be76e36de4f2c0c9395126a71552abe7b4a9f)
   - [fix(cli): dispatch /background inline instead of queuing it behind the turn](https://github.com/NousResearch/hermes-agent/commit/3dee0634c1436635fbcf51c87a7f32b4101a41b9)
   - [test: restore four silently shadowed definitions and guard against more](https://github.com/NousResearch/hermes-agent/commit/7729c183b4a2f70c3b583eee6f93e7149a4081f8)
+  - [fix(gemini): collapse array-typed tool schemas instead of crashing translation](https://github.com/NousResearch/hermes-agent/commit/6a04ea67c0e75ef1218bf4ceaac071c2f16a0701)
 - **[NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs)**: [Add Run::finish() to flush pending logs before exit](https://github.com/NousResearch/wandb-rs/commit/c5f552464f13d56a5abd73c2dfb88b193e991d4e)
 - **[NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution)**: [fix(config): honor explicit --hermes-repo and make config construction non-fatal (#122)](https://github.com/NousResearch/hermes-agent-self-evolution/commit/0a929e3aa20e15cf04dc7c28492a7d41a5139125)
 - **[laude-institute/headlong](https://github.com/laude-institute/headlong)**: 3 merged commits
@@ -131,6 +134,7 @@ Code merged into other projects:
 - **[hyparam/hyparquet](https://github.com/hyparam/hyparquet)**: [Fix $not filters on dot-notation paths](https://github.com/hyparam/hyparquet/commit/ea075195bc2092e8176dbddaa09400f0f383d5dc)
 - **[georust/rstar](https://github.com/georust/rstar)**: [Fix overflow panic draining an empty tree with integer coordinates](https://github.com/georust/rstar/commit/a40d83bcdbd393090a23276622323ef42d7ed956)
 - **[ishepard/pydriller](https://github.com/ishepard/pydriller)**: [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/commit/061fd73a23ae8dda2dedd2d578243d2e46662866)
+- **[tconbeer/harlequin](https://github.com/tconbeer/harlequin)**: [fix: don't break the JSON export on a single quote in the path](https://github.com/tconbeer/harlequin/pull/1142)
 - **[marin-community/marin](https://github.com/marin-community/marin)**: [[markdown] Omit the link and image title when the HTML has none](https://github.com/marin-community/marin/commit/b623b4364507a14f501290c8e7f6948f82cdfcfd)
 - **[inducer/loopy](https://github.com/inducer/loopy)**: [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/commit/8807bdd42344ef619106866f8f41908e1a461a6f)
 - **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)**: [fix(deployer): merge gmsaCredentialSpecName from its own field](https://github.com/kgateway-dev/kgateway/commit/e1bbcba771272416705f247eff8de6141ea5de6c)
