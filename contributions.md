@@ -302,9 +302,6 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-09 [fix(parser): restrict continue targets to iteration statement labels (#646)](https://github.com/meriyah/meriyah/commit/3df8adea6fb57e01d81478e4b2453a3b29248fe3) `3df8adea6fb5`
 
-#### [crmne/fastpotify](https://github.com/crmne/fastpotify): 0 commits
-
-
 #### [crmne/spotifast](https://github.com/crmne/spotifast): 0 commits
 
 
@@ -375,7 +372,6 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 #### [tconbeer/harlequin](https://github.com/tconbeer/harlequin): 1 commits, rebased and landed by the maintainer
 
 - 2026-09-11 [fix: don't break the JSON export on a single quote in the path (#1146)](https://github.com/tconbeer/harlequin/commit/556f894e29e42cbeed6c0854a5701bd25c1862bb) `556f894e29e4`
-
 
 #### [marin-community/marin](https://github.com/marin-community/marin): 1 commits
 
@@ -805,9 +801,6 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-09 [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/pull/646)
 
-### [crmne/fastpotify](https://github.com/crmne/fastpotify): 0 merged
-
-
 ### [crmne/spotifast](https://github.com/crmne/spotifast): 1 merged
 
 - 2026-09-09 [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/spotifast/pull/344)
@@ -879,7 +872,6 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 ### [tconbeer/harlequin](https://github.com/tconbeer/harlequin): 1 merged
 
 - 2026-09-11 [fix: don't break the JSON export on a single quote in the path](https://github.com/tconbeer/harlequin/pull/1142), closed and merged by the maintainer as [#1146](https://github.com/tconbeer/harlequin/pull/1146)
-
 
 ### [marin-community/marin](https://github.com/marin-community/marin): 1 merged
 
