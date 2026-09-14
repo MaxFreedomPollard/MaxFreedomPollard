@@ -139,6 +139,9 @@ Code merged into other projects:
 - **[inducer/loopy](https://github.com/inducer/loopy)**: [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/commit/8807bdd42344ef619106866f8f41908e1a461a6f)
 - **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)**: [fix(deployer): merge gmsaCredentialSpecName from its own field](https://github.com/kgateway-dev/kgateway/commit/e1bbcba771272416705f247eff8de6141ea5de6c)
 - **[TimothyYe/godns](https://github.com/TimothyYe/godns)**: [fix: match ip_type case-insensitively in IONOS and Hetzner providers](https://github.com/TimothyYe/godns/commit/543cd3a20a3a6aaf2095b08dafa79ef258503183)
+- **[wshobson/agents](https://github.com/wshobson/agents)**: [fix(adapters): quote YAML scalars in OpenCode and Copilot frontmatter](https://github.com/wshobson/agents/commit/9433535cf4b5bd74d94e250fbbe6f2cf5946a394)
+- **[expressjs/multer](https://github.com/expressjs/multer)**: [fix: report the decoded filename on LIMIT_FILE_SIZE](https://github.com/expressjs/multer/commit/02f6e8265b6bf6b6921a819db3b84276efa03ed2)
+- **[embassy-rs/embassy](https://github.com/embassy-rs/embassy)**: [embassy-sync: wake the next waiter when a FairSemaphore acquire is canceled](https://github.com/embassy-rs/embassy/commit/22564693624c08b59c846112c2116d579c8eda88)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 
