@@ -111,7 +111,7 @@ Code merged into other projects:
 - **[gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory)**: [fix: keep grid_with_text labels on their anchors](https://github.com/gdsfactory/gdsfactory/commit/d1d5e2510b1f362303a035facfb0431b4b20f0bc)
 - **[psd-tools/psd-tools](https://github.com/psd-tools/psd-tools)**: [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/commit/30860898efa3bc277bd654ec17c313a7da56ca34)
 - **[meriyah/meriyah](https://github.com/meriyah/meriyah)**: [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/commit/3df8adea6fb57e01d81478e4b2453a3b29248fe3)
-- **[crmne/fastpotify](https://github.com/crmne/fastpotify)**: [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/fastpotify/pull/344)
+- **[crmne/spotifast](https://github.com/crmne/spotifast)**: [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/spotifast/pull/344)
 - **[QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins)**: 3 merged commits
   - [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/commit/23de2c9dea7a2cad07d820640a77bfaef4db37ea)
   - [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/commit/4ebc50822a10253e15cc0a352f8a56f9817cf8c1)

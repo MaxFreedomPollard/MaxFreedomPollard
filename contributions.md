@@ -6,12 +6,13 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 ### Code
 
-#### [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 12 commits
+#### [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent): 14 commits
 
 - 2026-06-12 [test(skills): add regression tests for bundled-update backup recovery](https://github.com/NousResearch/hermes-agent/commit/9a2b976326340f0fec7eb9a88cfeb953ffdd1e56) `9a2b97632634`
 - 2026-06-12 [fix(skills): make bundled-update backup handling crash-safe and idempotent](https://github.com/NousResearch/hermes-agent/commit/3581131e7de1560633c921b4782ea87dcbac3a9e) `3581131e7de1`
 - 2026-06-17 [fix(curator): stop restore from matching unrelated skills by name prefix](https://github.com/NousResearch/hermes-agent/commit/992b9223893453b3b1527b2ba728996ec81e83f2) `992b92238934`
 - 2026-06-17 [fix(curator): stop the rollback safety snapshot from pruning its target](https://github.com/NousResearch/hermes-agent/commit/fc1119ca66e321989a61564aa526b33cb6146d41) `fc1119ca66e3`
+- 2026-06-20 [fix(tools): stop read_file rendering a phantom empty line for newline-terminated files](https://github.com/NousResearch/hermes-agent/commit/10c34dd7e2441c14f19abea3656fba718999b589) `10c34dd7e244`
 - 2026-06-29 [Merge consecutive same-role contents for native Gemini](https://github.com/NousResearch/hermes-agent/commit/936af2f4f549f5ff22ef00b082748d115080780e) `936af2f4f549`
 - 2026-07-31 [fix(yuanbao): await the forwarded-records loading heartbeat](https://github.com/NousResearch/hermes-agent/commit/87f5c5351a2c56e27dc271d7a865a874c18b0bfd) `87f5c5351a2c`
 - 2026-07-31 [test: restore four silently shadowed definitions and guard against more](https://github.com/NousResearch/hermes-agent/commit/7729c183b4a2f70c3b583eee6f93e7149a4081f8) `7729c183b4a2`
@@ -20,6 +21,7 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 - 2026-07-31 [fix(gateway): do not claim a destructive-slash opt-out that was not saved](https://github.com/NousResearch/hermes-agent/commit/eeaba3a88db906dc1bc7e86946644adbce4bbe75) `eeaba3a88db9`
 - 2026-07-31 [fix(curator): restore the real skills tree when a rollback extract dies part-way](https://github.com/NousResearch/hermes-agent/commit/65e9ece964988b03c777ea6a563f438cad42f2e1) `65e9ece96498`
 - 2026-07-31 [fix(auth): a transient read failure is not corruption](https://github.com/NousResearch/hermes-agent/commit/31032b4f51a0b254b751a838f927f34baee1bd03) `31032b4f51a0`
+- 2026-09-04 [fix(gemini): collapse array-typed tool schemas instead of crashing translation](https://github.com/NousResearch/hermes-agent/commit/6a04ea67c0e75ef1218bf4ceaac071c2f16a0701) `6a04ea67c0e7`
 
 #### [NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs): 1 commits
 
@@ -93,13 +95,21 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-06 [fix(eventbridge,scheduler): read cron day-of-week as AWS 1-7 SUN-SAT (#3147)](https://github.com/floci-io/floci/commit/60a8a9d25262ab9a35033ed5c9778600a89a1e94) `60a8a9d25262`
 
-#### [boyter/scc](https://github.com/boyter/scc): 1 commits
+#### [boyter/scc](https://github.com/boyter/scc): 2 commits
 
 - 2026-09-07 [fix(asp.net): correct the server side comment terminator (#772)](https://github.com/boyter/scc/commit/eb6ac4cb889beabbfb2cb40841c1c07ff6adc25c) `eb6ac4cb889b`
+- 2026-09-10 [fix(dart): count single quoted string literals (#773)](https://github.com/boyter/scc/commit/f2b586ecbaf98655e41b842595e2512da267fa2a) `f2b586ecbaf9`
 
-#### [86Box/86Box](https://github.com/86Box/86Box): 1 commits
+#### [86Box/86Box](https://github.com/86Box/86Box): 8 commits
 
 - 2026-09-06 [softpower: Fix the power-off delay spinner range overflowing int16_t](https://github.com/86Box/86Box/commit/14d6e1defd368d78a2655b1cd294f6d45e9d9795) `14d6e1defd36`
+- 2026-09-11 [XTA: Restore the missing break in the WDXT-150 case](https://github.com/86Box/86Box/commit/03afce47a4b312b94fcc69c000e893716d71758a) `03afce47a4b3`
+- 2026-09-11 [MIDI: Fix input queue overflow hang and broken real-time bytes](https://github.com/86Box/86Box/commit/2e7001fd8915c59250e637e1c6899977b8cdf137) `2e7001fd8915`
+- 2026-09-11 [GUS: Fix the ADC sample rate divisor missing the +2 bias](https://github.com/86Box/86Box/commit/24168259f147b5b58f957d5d0ae7b9afa7980870) `24168259f147`
+- 2026-09-11 [Fix machines and BIOS entries missing on case-sensitive filesystems](https://github.com/86Box/86Box/commit/38c13ac0c302e8d4628ac4e189738dc079af4ecd) `38c13ac0c302`
+- 2026-09-11 [Voodoo: Fix nccTable0 Q2 writes landing in the I2 coefficient](https://github.com/86Box/86Box/commit/9c9db153f921a1ee0c7d6a3eff0becf7eed45187) `9c9db153f921`
+- 2026-09-11 [Config: Fix crash loading a config without a mouse_type key](https://github.com/86Box/86Box/commit/52375da8934ed5c687e47f644b7d3098fa49f44a) `52375da8934e`
+- 2026-09-11 [net_plip: Fix misplaced parenthesis disabling the transmit bounds check](https://github.com/86Box/86Box/commit/4dfc84d5f0dad080e7fac6a1e697248bd2848db3) `4dfc84d5f0da`
 
 #### [agavra/tuicr](https://github.com/agavra/tuicr): 1 commits
 
@@ -295,15 +305,19 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 #### [crmne/fastpotify](https://github.com/crmne/fastpotify): 0 commits
 
 
+#### [crmne/spotifast](https://github.com/crmne/spotifast): 0 commits
+
+
 #### [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins): 3 commits
 
 - 2026-09-05 [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/commit/23de2c9dea7a2cad07d820640a77bfaef4db37ea) `23de2c9dea7a`
 - 2026-09-05 [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/commit/4ebc50822a10253e15cc0a352f8a56f9817cf8c1) `4ebc50822a10`
 - 2026-09-05 [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/commit/7ed0951703c020dd09ccada10baddb02e5ff301e) `7ed0951703c0`
 
-#### [ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go): 1 commits
+#### [ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go): 2 commits
 
 - 2026-09-09 [fix(chcol): return true from HasType when the Variant carries a type (#2006)](https://github.com/ClickHouse/clickhouse-go/commit/e46887b4eed6ec78bc93e0bfc686f8d029220aef) `e46887b4eed6`
+- 2026-09-11 [fix(churl): validate each host of a comma separated DSN authority (#2005)](https://github.com/ClickHouse/clickhouse-go/commit/9c6aa57d87257c98f3776cfea6a2092b4de515bc) `9c6aa57d8725`
 
 #### [charmbracelet/catwalk](https://github.com/charmbracelet/catwalk): 1 commits
 
@@ -345,6 +359,51 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 #### [foliojs/pdfkit](https://github.com/foliojs/pdfkit): 1 commits
 
 - 2026-09-10 [Fix annotation rectangle under a rotated transformation matrix (#1794)](https://github.com/foliojs/pdfkit/commit/753322ef3b49b9085af7d2a3bbc8c3f3e37176f2) `753322ef3b49`
+
+#### [hyparam/hyparquet](https://github.com/hyparam/hyparquet): 1 commits
+
+- 2026-09-11 [Fix $not filters on dot-notation paths (#177)](https://github.com/hyparam/hyparquet/commit/ea075195bc2092e8176dbddaa09400f0f383d5dc) `ea075195bc20`
+
+#### [georust/rstar](https://github.com/georust/rstar): 1 commits
+
+- 2026-09-11 [Fix overflow panic draining an empty tree with integer coordinates (#246)](https://github.com/georust/rstar/commit/a40d83bcdbd393090a23276622323ef42d7ed956) `a40d83bcdbd3`
+
+#### [ishepard/pydriller](https://github.com/ishepard/pydriller): 1 commits
+
+- 2026-09-07 [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/commit/061fd73a23ae8dda2dedd2d578243d2e46662866) `061fd73a23ae`
+
+#### [tconbeer/harlequin](https://github.com/tconbeer/harlequin): 1 commits, rebased and landed by the maintainer
+
+- 2026-09-11 [fix: don't break the JSON export on a single quote in the path (#1146)](https://github.com/tconbeer/harlequin/commit/556f894e29e42cbeed6c0854a5701bd25c1862bb) `556f894e29e4`
+
+
+#### [marin-community/marin](https://github.com/marin-community/marin): 1 commits
+
+- 2026-09-11 [[markdown] Omit the link and image title when the HTML has none (#8938)](https://github.com/marin-community/marin/commit/b623b4364507a14f501290c8e7f6948f82cdfcfd) `b623b4364507`
+
+#### [inducer/loopy](https://github.com/inducer/loopy): 1 commits
+
+- 2026-09-07 [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/commit/8807bdd42344ef619106866f8f41908e1a461a6f) `8807bdd42344`
+
+#### [kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway): 1 commits
+
+- 2026-09-12 [fix(deployer): merge gmsaCredentialSpecName from its own field (#14660)](https://github.com/kgateway-dev/kgateway/commit/e1bbcba771272416705f247eff8de6141ea5de6c) `e1bbcba77127`
+
+#### [TimothyYe/godns](https://github.com/TimothyYe/godns): 1 commits
+
+- 2026-09-12 [fix: match ip_type case-insensitively in IONOS and Hetzner providers (#316)](https://github.com/TimothyYe/godns/commit/543cd3a20a3a6aaf2095b08dafa79ef258503183) `543cd3a20a3a`
+
+#### [wshobson/agents](https://github.com/wshobson/agents): 1 commits
+
+- 2026-09-13 [fix(adapters): quote YAML scalars in OpenCode and Copilot frontmatter (#700)](https://github.com/wshobson/agents/commit/9433535cf4b5bd74d94e250fbbe6f2cf5946a394) `9433535cf4b5`
+
+#### [expressjs/multer](https://github.com/expressjs/multer): 1 commits
+
+- 2026-09-14 [fix: report the decoded filename on LIMIT_FILE_SIZE (#1478)](https://github.com/expressjs/multer/commit/02f6e8265b6bf6b6921a819db3b84276efa03ed2) `02f6e8265b6b`
+
+#### [embassy-rs/embassy](https://github.com/embassy-rs/embassy): 1 commits
+
+- 2026-09-06 [embassy-sync: wake the next waiter when a FairSemaphore acquire is canceled](https://github.com/embassy-rs/embassy/commit/22564693624c08b59c846112c2116d579c8eda88) `22564693624c`
 
 ### Directory and registry listings for Compartment
 
@@ -542,13 +601,21 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-06 [fix(eventbridge,scheduler): read cron day-of-week as AWS 1-7 SUN-SAT](https://github.com/floci-io/floci/pull/3147)
 
-### [boyter/scc](https://github.com/boyter/scc): 1 merged
+### [boyter/scc](https://github.com/boyter/scc): 2 merged
 
 - 2026-09-07 [fix(asp.net): correct the server side comment terminator](https://github.com/boyter/scc/pull/772)
+- 2026-09-10 [fix(dart): count single quoted string literals](https://github.com/boyter/scc/pull/773)
 
-### [86Box/86Box](https://github.com/86Box/86Box): 1 merged
+### [86Box/86Box](https://github.com/86Box/86Box): 8 merged
 
 - 2026-09-07 [softpower: Fix the power-off delay spinner range overflowing int16_t](https://github.com/86Box/86Box/pull/7888)
+- 2026-09-11 [Voodoo: Fix nccTable0 Q2 writes landing in the I2 coefficient](https://github.com/86Box/86Box/pull/7926)
+- 2026-09-11 [XTA: Restore the missing break in the WDXT-150 case](https://github.com/86Box/86Box/pull/7925)
+- 2026-09-11 [Config: Fix crash loading a config without a mouse_type key](https://github.com/86Box/86Box/pull/7924)
+- 2026-09-11 [net_plip: Fix misplaced parenthesis disabling the transmit bounds check](https://github.com/86Box/86Box/pull/7923)
+- 2026-09-11 [Fix machines and BIOS entries missing on case-sensitive filesystems](https://github.com/86Box/86Box/pull/7922)
+- 2026-09-12 [MIDI: Fix input queue overflow hang and broken real-time bytes](https://github.com/86Box/86Box/pull/7940)
+- 2026-09-12 [GUS: Fix the ADC sample rate divisor missing the +2 bias](https://github.com/86Box/86Box/pull/7941)
 
 ### [agavra/tuicr](https://github.com/agavra/tuicr): 1 merged
 
@@ -738,9 +805,12 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-09 [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/pull/646)
 
-### [crmne/fastpotify](https://github.com/crmne/fastpotify): 1 merged
+### [crmne/fastpotify](https://github.com/crmne/fastpotify): 0 merged
 
-- 2026-09-09 [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/fastpotify/pull/344)
+
+### [crmne/spotifast](https://github.com/crmne/spotifast): 1 merged
+
+- 2026-09-09 [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/spotifast/pull/344)
 
 ### [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins): 3 merged
 
@@ -748,9 +818,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 - 2026-09-09 [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
 - 2026-09-09 [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/pull/52)
 
-### [ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go): 1 merged
+### [ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go): 2 merged
 
 - 2026-09-09 [fix(chcol): return true from HasType when the Variant carries a type](https://github.com/ClickHouse/clickhouse-go/pull/2006)
+- 2026-09-11 [fix(churl): validate each host of a comma separated DSN authority](https://github.com/ClickHouse/clickhouse-go/pull/2005)
 
 ### [charmbracelet/catwalk](https://github.com/charmbracelet/catwalk): 1 merged
 
@@ -792,6 +863,51 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 ### [foliojs/pdfkit](https://github.com/foliojs/pdfkit): 1 merged
 
 - 2026-09-10 [Fix annotation rectangle under a rotated transformation matrix](https://github.com/foliojs/pdfkit/pull/1794)
+
+### [hyparam/hyparquet](https://github.com/hyparam/hyparquet): 1 merged
+
+- 2026-09-11 [Fix $not filters on dot-notation paths](https://github.com/hyparam/hyparquet/pull/177)
+
+### [georust/rstar](https://github.com/georust/rstar): 1 merged
+
+- 2026-09-11 [Fix overflow panic draining an empty tree with integer coordinates](https://github.com/georust/rstar/pull/246)
+
+### [ishepard/pydriller](https://github.com/ishepard/pydriller): 1 merged
+
+- 2026-09-11 [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/pull/324)
+
+### [tconbeer/harlequin](https://github.com/tconbeer/harlequin): 1 merged
+
+- 2026-09-11 [fix: don't break the JSON export on a single quote in the path](https://github.com/tconbeer/harlequin/pull/1142), closed and merged by the maintainer as [#1146](https://github.com/tconbeer/harlequin/pull/1146)
+
+
+### [marin-community/marin](https://github.com/marin-community/marin): 1 merged
+
+- 2026-09-11 [[markdown] Omit the link and image title when the HTML has none](https://github.com/marin-community/marin/pull/8938)
+
+### [inducer/loopy](https://github.com/inducer/loopy): 1 merged
+
+- 2026-09-11 [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/pull/1048)
+
+### [kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway): 1 merged
+
+- 2026-09-12 [fix(deployer): merge gmsaCredentialSpecName from its own field](https://github.com/kgateway-dev/kgateway/pull/14660)
+
+### [TimothyYe/godns](https://github.com/TimothyYe/godns): 1 merged
+
+- 2026-09-12 [fix: match ip_type case-insensitively in IONOS and Hetzner providers](https://github.com/TimothyYe/godns/pull/316)
+
+### [wshobson/agents](https://github.com/wshobson/agents): 1 merged
+
+- 2026-09-13 [fix(adapters): quote YAML scalars in OpenCode and Copilot frontmatter](https://github.com/wshobson/agents/pull/700)
+
+### [expressjs/multer](https://github.com/expressjs/multer): 1 merged
+
+- 2026-09-14 [fix: report the decoded filename on LIMIT_FILE_SIZE](https://github.com/expressjs/multer/pull/1478)
+
+### [embassy-rs/embassy](https://github.com/embassy-rs/embassy): 1 merged
+
+- 2026-09-14 [embassy-sync: wake the next waiter when a FairSemaphore acquire is canceled](https://github.com/embassy-rs/embassy/pull/6964)
 
 ### Directory and registry listings
 
