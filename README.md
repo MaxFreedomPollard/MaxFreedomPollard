@@ -71,13 +71,19 @@ Code merged into other projects:
 - **[Effect-TS/effect](https://github.com/Effect-TS/effect)**: [fix(cli): split key=value pairs at the first separator](https://github.com/Effect-TS/effect/commit/291d616282b666bbba3664143fa1d19e839a6a5d)
 - **[pacifio/atlas](https://github.com/pacifio/atlas)**: [fix(redact): route JSONL payloads through the structure-aware pass](https://github.com/pacifio/atlas/commit/d9ee007aa1427999d9495a925c8eacc127a6d86d)
 - **[kubescape/kubescape](https://github.com/kubescape/kubescape)**: [fix(rbacgraph): order escalation results instead of reading map order](https://github.com/kubescape/kubescape/commit/023d1285ef37c7ffbf9eba16ad3a861bc86680fd)
-- **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)**: [fix(diff): compare bad file extensions case-insensitively](https://github.com/The-PR-Agent/pr-agent/commit/d6c8b9a502216b32eab9c5f89675b66a59002150)
+- **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)**: 2 merged commits
+  - [fix(diff): compare bad file extensions case-insensitively](https://github.com/The-PR-Agent/pr-agent/commit/d6c8b9a502216b32eab9c5f89675b66a59002150)
+  - [fix(bitbucket): send inline comment ranges with start_to](https://github.com/The-PR-Agent/pr-agent/commit/e2935b6b8196c911d8ef44aa029aec37113faba5)
 - **[bitshifter/glam-rs](https://github.com/bitshifter/glam-rs)**: [fix(vec): round half-way cases away from zero in the SIMD backends](https://github.com/bitshifter/glam-rs/commit/40535a3a2d6b652c7558a984ddabbdbb7ba34084)
-- **[huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers)**: [[fix] Write the sparsity CSV columns once in three sparse evaluators](https://github.com/huggingface/sentence-transformers/commit/729f28e551e723a9bac6052e597f379d181bbad7)
+- **[huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers)**: 2 merged commits
+  - [[fix] Write the sparsity CSV columns once in three sparse evaluators](https://github.com/huggingface/sentence-transformers/commit/729f28e551e723a9bac6052e597f379d181bbad7)
+  - [[docs] Describe the MarginMSE target as the signed margin](https://github.com/huggingface/sentence-transformers/commit/327fb51284c87534db1fe50e9b9d8b5f91f75aa7)
 - **[modelcontextprotocol/go-sdk](https://github.com/modelcontextprotocol/go-sdk)**: [auth: strip a terminating slash from the issuer before building metadata URLs](https://github.com/modelcontextprotocol/go-sdk/commit/5bc078a7959a745d1311fefa280b36c5cde19929)
 - **[dalathegreat/Battery-Emulator](https://github.com/dalathegreat/Battery-Emulator)**: [Fix SOL-ARK-LV-CAN 0x359 over-current sign bug](https://github.com/dalathegreat/Battery-Emulator/commit/47e9aecec3471c448a3f826e2b6476d72908cdb7)
 - **[deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation)**: [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/commit/3a67e47eb0ac20f6464f062986f19a2ccc5c309e)
-- **[python-attrs/cattrs](https://github.com/python-attrs/cattrs)**: [Sort extra keys when formatting ForbiddenExtraKeysError](https://github.com/python-attrs/cattrs/commit/bc34a466a878d3259d01d0169b3fb95420d7d50d)
+- **[python-attrs/cattrs](https://github.com/python-attrs/cattrs)**: 2 merged commits
+  - [Sort extra keys when formatting ForbiddenExtraKeysError](https://github.com/python-attrs/cattrs/commit/bc34a466a878d3259d01d0169b3fb95420d7d50d)
+  - [Escape the index note when structuring heterogeneous tuples](https://github.com/python-attrs/cattrs/commit/5bf7c972939248b8e48c9f750fbfd982e5c5b1f9)
 - **[xintaofei/codeg](https://github.com/xintaofei/codeg)**: [fix(cline): close a stripped block at its own closing tag](https://github.com/xintaofei/codeg/commit/145ef0782fb79a54c0db562b199074ad8221c4d5)
 - **[mozilla/pontoon](https://github.com/mozilla/pontoon)**: [Update data-theme when the user picks a theme](https://github.com/mozilla/pontoon/commit/e852341fb6a7ed0b7c369a1daa029e14e3b94376)
 - **[uutils/coreutils](https://github.com/uutils/coreutils)**: [fmt: honor -x and -X instead of always matching prefixes exactly](https://github.com/uutils/coreutils/commit/8da0fa6bb5147ae76ca3936f354d8ccbe25a7db4)
@@ -97,7 +103,9 @@ Code merged into other projects:
 - **[akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)**: [fix(wiki): drop a leading BOM on a page with no frontmatter](https://github.com/akitaonrails/ai-memory/commit/54a933f0afeac3815ab878da654fc80211a00b6d)
 - **[libarchive/libarchive](https://github.com/libarchive/libarchive)**: [man: fix option names that archive_write_set_options rejects](https://github.com/libarchive/libarchive/commit/b20a8ff8eccf07bdd108a9a68e4c8ac06d744a01)
 - **[jundot/omlx](https://github.com/jundot/omlx)**: [fix(eval): stop a comma from swallowing the GSM8K answer](https://github.com/jundot/omlx/commit/0b1103b3b413521fc3364df16005b69fa8cf63cf)
-- **[greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext)**: [fix: default dataclass metadata to a dict, not a pydantic FieldInfo](https://github.com/greyhaven-ai/autocontext/commit/ba4ce3782aedca6e0eee4f0150cba81125f84e54)
+- **[greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext)**: 2 merged commits
+  - [fix: default dataclass metadata to a dict, not a pydantic FieldInfo](https://github.com/greyhaven-ai/autocontext/commit/ba4ce3782aedca6e0eee4f0150cba81125f84e54)
+  - [fix: mirror every compaction ledger append, not only large chunks](https://github.com/greyhaven-ai/autocontext/commit/5b850cb2890726027e5ec38331d9780360c03a83)
 - **[jhd3197/ServerKit](https://github.com/jhd3197/ServerKit)**: [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/commit/bedf5640fd287b1d9d2be60d98581c49943bcc73)
 - **[apache/answer](https://github.com/apache/answer)**: [fix: comment url swaps title and answer id](https://github.com/apache/answer/commit/9c15df876e8d823d18b72782662e9c74c1018448)
 - **[joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x)**: [drive_virtual: reject a file as a directory in TestDir](https://github.com/joncampbell123/dosbox-x/commit/d4fbfe4c5bcdeea0cb8c6698eb6ef1b289774ec8)
@@ -106,11 +114,17 @@ Code merged into other projects:
 - **[tombi-toml/tombi](https://github.com/tombi-toml/tombi)**: [fix(lexer): close multi-line string after escaped backslash](https://github.com/tombi-toml/tombi/commit/b35bfbe84fdf9da2803c4f2e7525e946a50b3383)
 - **[abema/go-mp4](https://github.com/abema/go-mp4)**: [Fix numTemporalLayers and temporalIdNested bit widths in hvcC](https://github.com/abema/go-mp4/commit/ddda98c2d7721d286da1815b25677ae9ac43f8df)
 - **[vadimdemedes/ink](https://github.com/vadimdemedes/ink)**: [Fix `wrapText` cache key collision between different texts and widths](https://github.com/vadimdemedes/ink/commit/3809acc1dffbc5179c78c5b0effb18b74e20adbc)
-- **[fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify)**: [fix: drop unmatched properties when additionalProperties is false](https://github.com/fastify/fast-json-stringify/commit/99bc4e858e5a1d77240e557182204adaa859a046)
+- **[fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify)**: 2 merged commits
+  - [fix: drop unmatched properties when additionalProperties is false](https://github.com/fastify/fast-json-stringify/commit/99bc4e858e5a1d77240e557182204adaa859a046)
+  - [fix: apply the else branch when a schema has if and else but no then](https://github.com/fastify/fast-json-stringify/commit/82423e7e3cf28f1d058a068ad953cd5cdb108804)
 - **[open-circle/valibot](https://github.com/open-circle/valibot)**: [fix(cache): clone cached issues to stop issue paths from accumulating](https://github.com/open-circle/valibot/commit/d65438c9054ed8f9b303d1f58166c85ca908a2ea)
 - **[gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory)**: [fix: keep grid_with_text labels on their anchors](https://github.com/gdsfactory/gdsfactory/commit/d1d5e2510b1f362303a035facfb0431b4b20f0bc)
-- **[psd-tools/psd-tools](https://github.com/psd-tools/psd-tools)**: [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/commit/30860898efa3bc277bd654ec17c313a7da56ca34)
-- **[meriyah/meriyah](https://github.com/meriyah/meriyah)**: [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/commit/3df8adea6fb57e01d81478e4b2453a3b29248fe3)
+- **[psd-tools/psd-tools](https://github.com/psd-tools/psd-tools)**: 2 merged commits
+  - [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/commit/30860898efa3bc277bd654ec17c313a7da56ca34)
+  - [fix: replace the layer at an index instead of inserting before it](https://github.com/psd-tools/psd-tools/commit/bfd0bcd8623a21466b8f4585ef22909318ee7f57)
+- **[meriyah/meriyah](https://github.com/meriyah/meriyah)**: 2 merged commits
+  - [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/commit/3df8adea6fb57e01d81478e4b2453a3b29248fe3)
+  - [fix(parser): parse `/` after an `await` identifier as division](https://github.com/meriyah/meriyah/commit/7424452d09317a01d6766944873bd36bd7eb8125)
 - **[crmne/spotifast](https://github.com/crmne/spotifast)**: [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/spotifast/pull/344)
 - **[QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins)**: 3 merged commits
   - [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/commit/23de2c9dea7a2cad07d820640a77bfaef4db37ea)
@@ -129,12 +143,16 @@ Code merged into other projects:
 - **[quinn-rs/quinn](https://github.com/quinn-rs/quinn)**: 2 merged commits
   - [proto: reject transport parameters with a mismatched length](https://github.com/quinn-rs/quinn/commit/621e38abbccdfe8d664d50b517fccec3316fe658)
   - [the same fix backported to the 0.11.x branch](https://github.com/quinn-rs/quinn/commit/811b548241253e337a3bb4c7bd08b2a7f69b443d)
-- **[wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest)**: [Fix `q` weights in `Accept` header parsing](https://github.com/wemake-services/django-modern-rest/commit/3927bad1f9c8a509699075ffe05213f43b960667)
+- **[wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest)**: 2 merged commits
+  - [Fix `q` weights in `Accept` header parsing](https://github.com/wemake-services/django-modern-rest/commit/3927bad1f9c8a509699075ffe05213f43b960667)
+  - [Strip optional whitespace when splitting headers on `,`](https://github.com/wemake-services/django-modern-rest/commit/a104bce99c39ea5207588387b9d80de238d8c968)
 - **[foliojs/pdfkit](https://github.com/foliojs/pdfkit)**: [Fix annotation rectangle under a rotated transformation matrix](https://github.com/foliojs/pdfkit/commit/753322ef3b49b9085af7d2a3bbc8c3f3e37176f2)
 - **[hyparam/hyparquet](https://github.com/hyparam/hyparquet)**: [Fix $not filters on dot-notation paths](https://github.com/hyparam/hyparquet/commit/ea075195bc2092e8176dbddaa09400f0f383d5dc)
 - **[georust/rstar](https://github.com/georust/rstar)**: [Fix overflow panic draining an empty tree with integer coordinates](https://github.com/georust/rstar/commit/a40d83bcdbd393090a23276622323ef42d7ed956)
 - **[ishepard/pydriller](https://github.com/ishepard/pydriller)**: [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/commit/061fd73a23ae8dda2dedd2d578243d2e46662866)
-- **[tconbeer/harlequin](https://github.com/tconbeer/harlequin)**: [fix: don't break the JSON export on a single quote in the path](https://github.com/tconbeer/harlequin/pull/1142)
+- **[tconbeer/harlequin](https://github.com/tconbeer/harlequin)**: 2 merged commits
+  - [fix: don't break the JSON export on a single quote in the path](https://github.com/tconbeer/harlequin/pull/1142)
+  - [fix: write the Feather file version the Data Exporter asked for](https://github.com/tconbeer/harlequin/commit/33b8c0ec276ad8bfc326f4243f81ec54882db42f)
 - **[marin-community/marin](https://github.com/marin-community/marin)**: [[markdown] Omit the link and image title when the HTML has none](https://github.com/marin-community/marin/commit/b623b4364507a14f501290c8e7f6948f82cdfcfd)
 - **[inducer/loopy](https://github.com/inducer/loopy)**: [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/commit/8807bdd42344ef619106866f8f41908e1a461a6f)
 - **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)**: [fix(deployer): merge gmsaCredentialSpecName from its own field](https://github.com/kgateway-dev/kgateway/commit/e1bbcba771272416705f247eff8de6141ea5de6c)
@@ -142,6 +160,9 @@ Code merged into other projects:
 - **[wshobson/agents](https://github.com/wshobson/agents)**: [fix(adapters): quote YAML scalars in OpenCode and Copilot frontmatter](https://github.com/wshobson/agents/commit/9433535cf4b5bd74d94e250fbbe6f2cf5946a394)
 - **[expressjs/multer](https://github.com/expressjs/multer)**: [fix: report the decoded filename on LIMIT_FILE_SIZE](https://github.com/expressjs/multer/commit/02f6e8265b6bf6b6921a819db3b84276efa03ed2)
 - **[embassy-rs/embassy](https://github.com/embassy-rs/embassy)**: [embassy-sync: wake the next waiter when a FairSemaphore acquire is canceled](https://github.com/embassy-rs/embassy/commit/22564693624c08b59c846112c2116d579c8eda88)
+- **[quarkusio/quarkus](https://github.com/quarkusio/quarkus)**: [Qute: require the index parameter for list get/take/takeLast](https://github.com/quarkusio/quarkus/commit/843f21e1888331aac37c5ad99e59ad6f0b615440)
+- **[modelscope/ms-swift](https://github.com/modelscope/ms-swift)**: [fix(metrics): mask ignored labels in padding-free seq_acc](https://github.com/modelscope/ms-swift/commit/36ee838fd6cb09f4492869e29378f60869752c1b)
+- **[leookun/cursor-byok](https://github.com/leookun/cursor-byok)**: [fix(search): stop a repeated URL from faking cross-engine agreement](https://github.com/leookun/cursor-byok/commit/ff9978f74ca195e8205daffc73c0faed91adf975)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 
