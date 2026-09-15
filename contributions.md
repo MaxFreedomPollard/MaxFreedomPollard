@@ -139,17 +139,19 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-07 [fix(rbacgraph): order escalation results instead of reading map order (#3739)](https://github.com/kubescape/kubescape/commit/023d1285ef37c7ffbf9eba16ad3a861bc86680fd) `023d1285ef37`
 
-#### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent): 1 commits
+#### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent): 2 commits
 
 - 2026-09-07 [fix(diff): compare bad file extensions case-insensitively (#3103)](https://github.com/The-PR-Agent/pr-agent/commit/d6c8b9a502216b32eab9c5f89675b66a59002150) `d6c8b9a50221`
+- 2026-09-15 [fix(bitbucket): send inline comment ranges with start_to (#3384)](https://github.com/The-PR-Agent/pr-agent/commit/e2935b6b8196c911d8ef44aa029aec37113faba5) `e2935b6b8196`
 
 #### [bitshifter/glam-rs](https://github.com/bitshifter/glam-rs): 1 commits
 
 - 2026-09-07 [fix(vec): round half-way cases away from zero in the SIMD backends (#831)](https://github.com/bitshifter/glam-rs/commit/40535a3a2d6b652c7558a984ddabbdbb7ba34084) `40535a3a2d6b`
 
-#### [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers): 1 commits
+#### [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers): 2 commits
 
 - 2026-09-07 [[fix] Write the sparsity CSV columns once in three sparse evaluators (#3985)](https://github.com/huggingface/sentence-transformers/commit/729f28e551e723a9bac6052e597f379d181bbad7) `729f28e551e7`
+- 2026-09-15 [[docs] Describe the MarginMSE target as the signed margin (#4009)](https://github.com/huggingface/sentence-transformers/commit/327fb51284c87534db1fe50e9b9d8b5f91f75aa7) `327fb51284c8`
 
 #### [modelcontextprotocol/go-sdk](https://github.com/modelcontextprotocol/go-sdk): 1 commits
 
@@ -163,9 +165,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-07 [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/commit/3a67e47eb0ac20f6464f062986f19a2ccc5c309e) `3a67e47eb0ac`
 
-#### [python-attrs/cattrs](https://github.com/python-attrs/cattrs): 1 commits
+#### [python-attrs/cattrs](https://github.com/python-attrs/cattrs): 2 commits
 
 - 2026-09-07 [Sort extra keys when formatting ForbiddenExtraKeysError (#776)](https://github.com/python-attrs/cattrs/commit/bc34a466a878d3259d01d0169b3fb95420d7d50d) `bc34a466a878`
+- 2026-09-14 [Escape the index note when structuring heterogeneous tuples](https://github.com/python-attrs/cattrs/commit/5bf7c972939248b8e48c9f750fbfd982e5c5b1f9) `5bf7c9729392`
 
 #### [xintaofei/codeg](https://github.com/xintaofei/codeg): 1 commits
 
@@ -243,9 +246,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-08 [fix(eval): stop a comma from swallowing the GSM8K answer (#3484)](https://github.com/jundot/omlx/commit/0b1103b3b413521fc3364df16005b69fa8cf63cf) `0b1103b3b413`
 
-#### [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext): 1 commits
+#### [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext): 2 commits
 
 - 2026-09-06 [fix: default dataclass metadata to a dict, not a pydantic FieldInfo](https://github.com/greyhaven-ai/autocontext/commit/ba4ce3782aedca6e0eee4f0150cba81125f84e54) `ba4ce3782aed`
+- 2026-09-15 [fix: mirror every compaction ledger append, not only large chunks (#1345)](https://github.com/greyhaven-ai/autocontext/commit/5b850cb2890726027e5ec38331d9780360c03a83) `5b850cb28907`
 
 #### [jhd3197/ServerKit](https://github.com/jhd3197/ServerKit): 1 commits
 
@@ -279,9 +283,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-08 [Fix `wrapText` cache key collision between different texts and widths (#998)](https://github.com/vadimdemedes/ink/commit/3809acc1dffbc5179c78c5b0effb18b74e20adbc) `3809acc1dffb`
 
-#### [fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify): 1 commits
+#### [fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify): 2 commits
 
 - 2026-09-08 [fix: drop unmatched properties when additionalProperties is false (#879)](https://github.com/fastify/fast-json-stringify/commit/99bc4e858e5a1d77240e557182204adaa859a046) `99bc4e858e5a`
+- 2026-09-15 [fix: apply the else branch when a schema has if and else but no then](https://github.com/fastify/fast-json-stringify/commit/82423e7e3cf28f1d058a068ad953cd5cdb108804) `82423e7e3cf2`
 
 #### [open-circle/valibot](https://github.com/open-circle/valibot): 1 commits
 
@@ -291,16 +296,19 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-08 [fix: keep grid_with_text labels on their anchors (#4821)](https://github.com/gdsfactory/gdsfactory/commit/d1d5e2510b1f362303a035facfb0431b4b20f0bc) `d1d5e2510b1f`
 
-#### [psd-tools/psd-tools](https://github.com/psd-tools/psd-tools): 4 commits
+#### [psd-tools/psd-tools](https://github.com/psd-tools/psd-tools): 6 commits
 
 - 2026-09-06 [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/commit/30860898efa3bc277bd654ec17c313a7da56ca34) `30860898efa3`
 - 2026-09-09 [test: round-trip a hue2 payload that is not 4-byte aligned (review)](https://github.com/psd-tools/psd-tools/commit/693e526b7dff82f5f1fd6f2dea58c7c6c3ec932c) `693e526b7dff`
 - 2026-09-09 [fix: stop padding a Hue/Saturation block after its trailer (review)](https://github.com/psd-tools/psd-tools/commit/1c08d2127d1d194f92c1c4c196a8d124b32ebf30) `1c08d2127d1d`
 - 2026-09-09 [Merge upstream main into fix/hue-saturation-trailing-bytes](https://github.com/psd-tools/psd-tools/commit/1b048b4ab93e6935258e667afc31004190847a97) `1b048b4ab93e`
+- 2026-09-14 [fix: replace the layer at an index instead of inserting before it](https://github.com/psd-tools/psd-tools/commit/bfd0bcd8623a21466b8f4585ef22909318ee7f57) `bfd0bcd8623a`
+- 2026-09-15 [fix: reject slice deletion on a group with a TypeError (review)](https://github.com/psd-tools/psd-tools/commit/186d8626e59a4e96ce42400bfe80f5cf3b8c7f95) `186d8626e59a`
 
-#### [meriyah/meriyah](https://github.com/meriyah/meriyah): 1 commits
+#### [meriyah/meriyah](https://github.com/meriyah/meriyah): 2 commits
 
 - 2026-09-09 [fix(parser): restrict continue targets to iteration statement labels (#646)](https://github.com/meriyah/meriyah/commit/3df8adea6fb57e01d81478e4b2453a3b29248fe3) `3df8adea6fb5`
+- 2026-09-15 [fix(parser): parse `/` after an `await` identifier as division (#659)](https://github.com/meriyah/meriyah/commit/7424452d09317a01d6766944873bd36bd7eb8125) `7424452d0931`
 
 #### [crmne/spotifast](https://github.com/crmne/spotifast): 0 commits
 
@@ -349,9 +357,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 - 2026-09-10 [proto: reject transport parameters with a mismatched length](https://github.com/quinn-rs/quinn/commit/621e38abbccdfe8d664d50b517fccec3316fe658) `621e38abbccd`
 - 2026-09-10 [proto: reject transport parameters with a mismatched length, on branch 0.11.x](https://github.com/quinn-rs/quinn/commit/811b548241253e337a3bb4c7bd08b2a7f69b443d) `811b548244f2`
 
-#### [wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest): 1 commits
+#### [wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest): 2 commits
 
 - 2026-09-10 [Fix `q` weights in `Accept` header parsing (#1407)](https://github.com/wemake-services/django-modern-rest/commit/3927bad1f9c8a509699075ffe05213f43b960667) `3927bad1f9c8`
+- 2026-09-15 [Strip optional whitespace when splitting headers on `,` (#1526)](https://github.com/wemake-services/django-modern-rest/commit/a104bce99c39ea5207588387b9d80de238d8c968) `a104bce99c39`
 
 #### [foliojs/pdfkit](https://github.com/foliojs/pdfkit): 1 commits
 
@@ -369,9 +378,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-07 [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/commit/061fd73a23ae8dda2dedd2d578243d2e46662866) `061fd73a23ae`
 
-#### [tconbeer/harlequin](https://github.com/tconbeer/harlequin): 1 commits, rebased and landed by the maintainer
+#### [tconbeer/harlequin](https://github.com/tconbeer/harlequin): 2 commits, one of them rebased and landed by the maintainer
 
 - 2026-09-11 [fix: don't break the JSON export on a single quote in the path (#1146)](https://github.com/tconbeer/harlequin/commit/556f894e29e42cbeed6c0854a5701bd25c1862bb) `556f894e29e4`
+- 2026-09-15 [fix: write the Feather file version the Data Exporter asked for (#1158)](https://github.com/tconbeer/harlequin/commit/33b8c0ec276ad8bfc326f4243f81ec54882db42f) `33b8c0ec276a`
 
 #### [marin-community/marin](https://github.com/marin-community/marin): 1 commits
 
@@ -400,6 +410,18 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 #### [embassy-rs/embassy](https://github.com/embassy-rs/embassy): 1 commits
 
 - 2026-09-06 [embassy-sync: wake the next waiter when a FairSemaphore acquire is canceled](https://github.com/embassy-rs/embassy/commit/22564693624c08b59c846112c2116d579c8eda88) `22564693624c`
+
+#### [quarkusio/quarkus](https://github.com/quarkusio/quarkus): 1 commits
+
+- 2026-09-06 [Qute: require the index parameter for list get/take/takeLast](https://github.com/quarkusio/quarkus/commit/843f21e1888331aac37c5ad99e59ad6f0b615440) `843f21e18883`
+
+#### [modelscope/ms-swift](https://github.com/modelscope/ms-swift): 1 commits
+
+- 2026-09-15 [fix(metrics): mask ignored labels in padding-free seq_acc (#10049)](https://github.com/modelscope/ms-swift/commit/36ee838fd6cb09f4492869e29378f60869752c1b) `36ee838fd6cb`
+
+#### [leookun/cursor-byok](https://github.com/leookun/cursor-byok): 1 commits
+
+- 2026-09-07 [fix(search): stop a repeated URL from faking cross-engine agreement](https://github.com/leookun/cursor-byok/commit/ff9978f74ca195e8205daffc73c0faed91adf975) `ff9978f74ca1`
 
 ### Directory and registry listings for Compartment
 
@@ -641,17 +663,19 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-07 [fix(rbacgraph): order escalation results instead of reading map order](https://github.com/kubescape/kubescape/pull/3739)
 
-### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent): 1 merged
+### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent): 2 merged
 
 - 2026-09-07 [fix(diff): compare bad file extensions case-insensitively](https://github.com/The-PR-Agent/pr-agent/pull/3103)
+- 2026-09-15 [fix(bitbucket): send inline comment ranges with start_to](https://github.com/The-PR-Agent/pr-agent/pull/3384)
 
 ### [bitshifter/glam-rs](https://github.com/bitshifter/glam-rs): 1 merged
 
 - 2026-09-07 [fix(vec): round half-way cases away from zero in the SIMD backends](https://github.com/bitshifter/glam-rs/pull/831)
 
-### [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers): 1 merged
+### [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers): 2 merged
 
 - 2026-09-07 [[fix] Write the sparsity CSV columns once in three sparse evaluators](https://github.com/huggingface/sentence-transformers/pull/3985)
+- 2026-09-15 [[docs] Describe the MarginMSE target as the signed margin](https://github.com/huggingface/sentence-transformers/pull/4009)
 
 ### [modelcontextprotocol/go-sdk](https://github.com/modelcontextprotocol/go-sdk): 1 merged
 
@@ -665,9 +689,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-07 [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/pull/822)
 
-### [python-attrs/cattrs](https://github.com/python-attrs/cattrs): 1 merged
+### [python-attrs/cattrs](https://github.com/python-attrs/cattrs): 2 merged
 
 - 2026-09-07 [Sort extra keys when formatting ForbiddenExtraKeysError](https://github.com/python-attrs/cattrs/pull/776)
+- 2026-09-14 [Escape the index note when structuring heterogeneous tuples](https://github.com/python-attrs/cattrs/pull/777)
 
 ### [xintaofei/codeg](https://github.com/xintaofei/codeg): 1 merged
 
@@ -745,9 +770,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-08 [fix(eval): stop a comma from swallowing the GSM8K answer](https://github.com/jundot/omlx/pull/3484)
 
-### [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext): 1 merged
+### [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext): 2 merged
 
 - 2026-09-08 [fix: default dataclass metadata to a dict, not a pydantic FieldInfo](https://github.com/greyhaven-ai/autocontext/pull/1324)
+- 2026-09-15 [fix: mirror every compaction ledger append, not only large chunks](https://github.com/greyhaven-ai/autocontext/pull/1345)
 
 ### [jhd3197/ServerKit](https://github.com/jhd3197/ServerKit): 1 merged
 
@@ -781,9 +807,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-08 [Fix `wrapText` cache key collision between different texts and widths](https://github.com/vadimdemedes/ink/pull/998)
 
-### [fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify): 1 merged
+### [fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify): 2 merged
 
 - 2026-09-08 [fix: drop unmatched properties when additionalProperties is false](https://github.com/fastify/fast-json-stringify/pull/879)
+- 2026-09-15 [fix: apply the else branch when a schema has if and else but no then](https://github.com/fastify/fast-json-stringify/pull/884)
 
 ### [open-circle/valibot](https://github.com/open-circle/valibot): 1 merged
 
@@ -793,13 +820,15 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-08 [fix: keep grid_with_text labels on their anchors](https://github.com/gdsfactory/gdsfactory/pull/4821)
 
-### [psd-tools/psd-tools](https://github.com/psd-tools/psd-tools): 1 merged
+### [psd-tools/psd-tools](https://github.com/psd-tools/psd-tools): 2 merged
 
 - 2026-09-09 [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/pull/794)
+- 2026-09-15 [fix: replace the layer at an index instead of inserting before it](https://github.com/psd-tools/psd-tools/pull/811)
 
-### [meriyah/meriyah](https://github.com/meriyah/meriyah): 1 merged
+### [meriyah/meriyah](https://github.com/meriyah/meriyah): 2 merged
 
 - 2026-09-09 [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/pull/646)
+- 2026-09-15 [fix(parser): parse `/` after an `await` identifier as division](https://github.com/meriyah/meriyah/pull/659)
 
 ### [crmne/spotifast](https://github.com/crmne/spotifast): 1 merged
 
@@ -849,9 +878,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 - 2026-09-10 [proto: reject transport parameters with a mismatched length](https://github.com/quinn-rs/quinn/pull/2832)
 - 2026-09-10 [[0.11.x] proto: reject transport parameters with a mismatched length](https://github.com/quinn-rs/quinn/pull/2866)
 
-### [wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest): 1 merged
+### [wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest): 2 merged
 
 - 2026-09-10 [Fix `q` weights in `Accept` header parsing](https://github.com/wemake-services/django-modern-rest/pull/1407)
+- 2026-09-15 [Strip optional whitespace when splitting headers on `,`](https://github.com/wemake-services/django-modern-rest/pull/1526)
 
 ### [foliojs/pdfkit](https://github.com/foliojs/pdfkit): 1 merged
 
@@ -869,9 +899,10 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 
 - 2026-09-11 [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/pull/324)
 
-### [tconbeer/harlequin](https://github.com/tconbeer/harlequin): 1 merged
+### [tconbeer/harlequin](https://github.com/tconbeer/harlequin): 2 merged
 
 - 2026-09-11 [fix: don't break the JSON export on a single quote in the path](https://github.com/tconbeer/harlequin/pull/1142), closed and merged by the maintainer as [#1146](https://github.com/tconbeer/harlequin/pull/1146)
+- 2026-09-15 [fix: write the Feather file version the Data Exporter asked for](https://github.com/tconbeer/harlequin/pull/1158)
 
 ### [marin-community/marin](https://github.com/marin-community/marin): 1 merged
 
@@ -900,6 +931,18 @@ Commits are those authored by @MaxFreedomPollard on each repository's default br
 ### [embassy-rs/embassy](https://github.com/embassy-rs/embassy): 1 merged
 
 - 2026-09-14 [embassy-sync: wake the next waiter when a FairSemaphore acquire is canceled](https://github.com/embassy-rs/embassy/pull/6964)
+
+### [quarkusio/quarkus](https://github.com/quarkusio/quarkus): 1 merged
+
+- 2026-09-15 [Qute: require the index parameter for list get/take/takeLast](https://github.com/quarkusio/quarkus/pull/56460)
+
+### [modelscope/ms-swift](https://github.com/modelscope/ms-swift): 1 merged
+
+- 2026-09-15 [fix(metrics): mask ignored labels in padding-free seq_acc](https://github.com/modelscope/ms-swift/pull/10049)
+
+### [leookun/cursor-byok](https://github.com/leookun/cursor-byok): 1 merged
+
+- 2026-09-15 [fix(search): stop a repeated URL from faking cross-engine agreement](https://github.com/leookun/cursor-byok/pull/431)
 
 ### Directory and registry listings
 
