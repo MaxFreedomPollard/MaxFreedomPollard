@@ -1,4 +1,6 @@
-Here are some of my recent commits and projects. 
+My code contributions are live on many agentic evolution repositories, such as [NVIDIA's SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator), [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution), [autocontext](https://github.com/greyhaven-ai/autocontext) and [headlong](https://github.com/laude-institute/headlong).
+
+I am a long-time contributor to [Hermes Agent](https://github.com/NousResearch/hermes-agent), as well as to many other projects, including [Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins), which makes any agent harness multimodal-native, and [86Box](https://github.com/86Box/86Box), an emulator of x86-based machines.
 
 ## Accepted benchmark challenges
 
@@ -9,10 +11,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[tobymao/sqlglot](https://github.com/tobymao/sqlglot)**: [Support postgres session statements and the @ and ^@ operators](shipd/sqlglot-postgres-session-statements/)
 
 ## Merged contributions
-
-My code contributions are live on many agentic evolution repositories, such as [NVIDIA's SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator), [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution), [autocontext](https://github.com/greyhaven-ai/autocontext) and [headlong](https://github.com/laude-institute/headlong).
-
-I am a long-time contributor to [Hermes Agent](https://github.com/NousResearch/hermes-agent), as well as to many other projects, including [Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins), which makes any agent harness multimodal-native, and [86Box](https://github.com/86Box/86Box), an emulator of x86-based machines.
 
 - **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: 15 merged commits, seven of them through pull requests; credited as a contributor in the [v2026.6.19](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19), [v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1) and [v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) release notes
   - [fix(skills): make bundled-update backup handling crash-safe and idempotent](https://github.com/NousResearch/hermes-agent/commit/3581131e7de1560633c921b4782ea87dcbac3a9e)
