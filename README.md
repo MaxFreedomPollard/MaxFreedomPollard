@@ -10,8 +10,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 ## Merged contributions
 
-Code merged into 97 projects: 127 merged pull requests, plus eight commits cherry-picked into hermes-agent. Every pull request is also listed in [contributions.md](contributions.md).
-
 - **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: 15 merged commits, seven of them through pull requests; credited as a contributor in the [v2026.6.19](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19), [v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1) and [v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) release notes
   - [fix(skills): make bundled-update backup handling crash-safe and idempotent](https://github.com/NousResearch/hermes-agent/commit/3581131e7de1560633c921b4782ea87dcbac3a9e)
   - [test(skills): add regression tests for bundled-update backup recovery](https://github.com/NousResearch/hermes-agent/commit/9a2b976326340f0fec7eb9a88cfeb953ffdd1e56)
@@ -95,7 +93,6 @@ Code merged into 97 projects: 127 merged pull requests, plus eight commits cherr
 - **[castorini/rank_llm](https://github.com/castorini/rank_llm)**: [Fix trec_eval dropping the first evaluation option](https://github.com/castorini/rank_llm/pull/437)
 - **[celery/kombu](https://github.com/celery/kombu)**: [fix(utils): don't evict a key when overwriting an existing LRUCache entry](https://github.com/celery/kombu/pull/2621)
 - **[chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui)**: [fix(react): read the important marker only at the end of a value](https://github.com/chakra-ui/chakra-ui/pull/10970)
-- **[changesets/changesets](https://github.com/changesets/changesets)**: [Report a package in multiple fixed or linked groups only once](https://github.com/changesets/changesets/pull/2282)
 - **[charmbracelet/catwalk](https://github.com/charmbracelet/catwalk)**: [fix: add missing providers to KnownProviders](https://github.com/charmbracelet/catwalk/pull/578)
 - **[crmne/spotifast](https://github.com/crmne/spotifast)**: [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/spotifast/pull/344)
 - **[crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)**: [channel: Implement Display and Error for TryReadyError and ReadyTimeoutError](https://github.com/crossbeam-rs/crossbeam/pull/1327)
@@ -163,7 +160,6 @@ Code merged into 97 projects: 127 merged pull requests, plus eight commits cherr
 - **[xintaofei/codeg](https://github.com/xintaofei/codeg)**: [fix(cline): close a stripped block at its own closing tag](https://github.com/xintaofei/codeg/pull/670)
 - **[yoanbernabeu/grepai](https://github.com/yoanbernabeu/grepai)**: [fix(search): break score ties deterministically so ranking is reproducible](https://github.com/yoanbernabeu/grepai/pull/303)
 - **[zenstackhq/zenstack](https://github.com/zenstackhq/zenstack)**: [fix(zod): treat `@uuid` without a version as any UUID version](https://github.com/zenstackhq/zenstack/pull/2832)
-- **[zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt)**: [fix: keep model download lock PID when acquisition fails](https://github.com/zylon-ai/private-gpt/pull/2362)
 
 The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 

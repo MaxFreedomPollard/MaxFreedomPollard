@@ -146,10 +146,6 @@ Generated from the GitHub search API on 2026-09-15: pull requests authored by @M
 
 - 2026-09-07 — [fix(react): read the important marker only at the end of a value](https://github.com/chakra-ui/chakra-ui/pull/10970)
 
-### [changesets/changesets](https://github.com/changesets/changesets) — 1 merged
-
-- 2026-09-07 — [Report a package in multiple fixed or linked groups only once](https://github.com/changesets/changesets/pull/2282)
-
 ### [charmbracelet/catwalk](https://github.com/charmbracelet/catwalk) — 1 merged
 
 - 2026-09-09 — [fix: add missing providers to KnownProviders](https://github.com/charmbracelet/catwalk/pull/578)
@@ -417,10 +413,6 @@ Generated from the GitHub search API on 2026-09-15: pull requests authored by @M
 ### [zenstackhq/zenstack](https://github.com/zenstackhq/zenstack) — 1 merged
 
 - 2026-09-06 — [fix(zod): treat `@uuid` without a version as any UUID version](https://github.com/zenstackhq/zenstack/pull/2832)
-
-### [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) — 1 merged
-
-- 2026-09-08 — [fix: keep model download lock PID when acquisition fails](https://github.com/zylon-ai/private-gpt/pull/2362)
 
 ## Directory and registry listings for Compartment
 
