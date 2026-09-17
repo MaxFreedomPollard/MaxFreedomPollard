@@ -43,12 +43,21 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
   - [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/pull/52)
   - [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
+- **[abema/go-mp4](https://github.com/abema/go-mp4)**: 2 merged
+  - [Fix numTemporalLayers and temporalIdNested bit widths in hvcC](https://github.com/abema/go-mp4/pull/185)
+  - [Fix discarded errors in marshalSlice and marshalUint](https://github.com/abema/go-mp4/pull/187)
 - **[boyter/scc](https://github.com/boyter/scc)**: 2 merged
   - [fix(asp.net): correct the server side comment terminator](https://github.com/boyter/scc/pull/772)
   - [fix(dart): count single quoted string literals](https://github.com/boyter/scc/pull/773)
+- **[caronc/apprise](https://github.com/caronc/apprise)**: 2 merged
+  - [Honor language= in onesignal:// and preserve it through url()](https://github.com/caronc/apprise/pull/1720)
+  - [Preserve query parameters in signl4:// url()](https://github.com/caronc/apprise/pull/1732)
 - **[ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go)**: 2 merged
   - [fix(chcol): return true from HasType when the Variant carries a type](https://github.com/ClickHouse/clickhouse-go/pull/2006)
   - [fix(churl): validate each host of a comma separated DSN authority](https://github.com/ClickHouse/clickhouse-go/pull/2005)
+- **[deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation)**: 2 merged
+  - [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/pull/822)
+  - [fix: Rewrite translated field names in all annotate() expressions](https://github.com/deschler/django-modeltranslation/pull/825)
 - **[ekzhang/jax-js](https://github.com/ekzhang/jax-js)**: 2 merged
   - [Fix copysign() dropping the magnitude when y is zero](https://github.com/ekzhang/jax-js/pull/214)
   - [Fix sign() returning 1 for NaN](https://github.com/ekzhang/jax-js/pull/215)
@@ -61,9 +70,24 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers)**: 2 merged
   - [[fix] Write the sparsity CSV columns once in three sparse evaluators](https://github.com/huggingface/sentence-transformers/pull/3985)
   - [[docs] Describe the MarginMSE target as the signed margin](https://github.com/huggingface/sentence-transformers/pull/4009)
+- **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)**: 2 merged
+  - [fix(video-subtitles): keep the space between merged subtitle clauses](https://github.com/hugohe3/ppt-master/pull/283)
+  - [fix(quick): read the deck language and theme fonts from the roster's first page](https://github.com/hugohe3/ppt-master/pull/292)
+- **[hyparam/hyparquet](https://github.com/hyparam/hyparquet)**: 2 merged
+  - [Fix $not filters on dot-notation paths](https://github.com/hyparam/hyparquet/pull/177)
+  - [Keep default parsers when only some are overridden](https://github.com/hyparam/hyparquet/pull/178)
+- **[jundot/omlx](https://github.com/jundot/omlx)**: 2 merged
+  - [fix(eval): stop a comma from swallowing the GSM8K answer](https://github.com/jundot/omlx/pull/3484)
+  - [fix(eval): honor a stated "answer is X" in multiple choice](https://github.com/jundot/omlx/pull/3668)
+- **[kenn-io/agentsview](https://github.com/kenn-io/agentsview)**: 2 merged
+  - [fix(search): derive snippet spans from the matched bytes](https://github.com/kenn-io/agentsview/pull/1643)
+  - [fix(quality): keep signal excerpts on rune boundaries](https://github.com/kenn-io/agentsview/pull/1788)
 - **[meriyah/meriyah](https://github.com/meriyah/meriyah)**: 2 merged
   - [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/pull/646)
   - [fix(parser): parse `/` after an `await` identifier as division](https://github.com/meriyah/meriyah/pull/659)
+- **[nominal-io/instro](https://github.com/nominal-io/instro)**: 2 merged
+  - [fix(eload): cache mode only after the driver confirms set_mode](https://github.com/nominal-io/instro/pull/485)
+  - [fix(dmm): release the driver and reset apply state when close() fails](https://github.com/nominal-io/instro/pull/534)
 - **[psd-tools/psd-tools](https://github.com/psd-tools/psd-tools)**: 2 merged
   - [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/pull/794)
   - [fix: replace the layer at an index instead of inserting before it](https://github.com/psd-tools/psd-tools/pull/811)
@@ -79,17 +103,21 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)**: 2 merged
   - [fix(diff): compare bad file extensions case-insensitively](https://github.com/The-PR-Agent/pr-agent/pull/3103)
   - [fix(bitbucket): send inline comment ranges with start_to](https://github.com/The-PR-Agent/pr-agent/pull/3384)
+- **[TimothyYe/godns](https://github.com/TimothyYe/godns)**: 2 merged
+  - [fix: match ip_type case-insensitively in IONOS and Hetzner providers](https://github.com/TimothyYe/godns/pull/316)
+  - [fix: discard wrong-family IP instead of returning it from getIPOnline](https://github.com/TimothyYe/godns/pull/319)
+- **[vadimdemedes/ink](https://github.com/vadimdemedes/ink)**: 2 merged
+  - [Fix `wrapText` cache key collision between different texts and widths](https://github.com/vadimdemedes/ink/pull/998)
+  - [Fix multi-line `<Text>` vanishing when it starts above the top of the output](https://github.com/vadimdemedes/ink/pull/1001)
 - **[wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest)**: 2 merged
   - [Fix `q` weights in `Accept` header parsing](https://github.com/wemake-services/django-modern-rest/pull/1407)
   - [Strip optional whitespace when splitting headers on `,`](https://github.com/wemake-services/django-modern-rest/pull/1526)
-- **[abema/go-mp4](https://github.com/abema/go-mp4)**: [Fix numTemporalLayers and temporalIdNested bit widths in hvcC](https://github.com/abema/go-mp4/pull/185)
 - **[agavra/tuicr](https://github.com/agavra/tuicr)**: [fix(input): type AltGr characters in the command, search and filter prompts](https://github.com/agavra/tuicr/pull/694)
 - **[agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)**: [fix(rag): escape Excel Markdown table cells](https://github.com/agentscope-ai/agentscope/pull/2528)
 - **[akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)**: [fix(wiki): drop a leading BOM on a page with no frontmatter](https://github.com/akitaonrails/ai-memory/pull/663)
 - **[apache/answer](https://github.com/apache/answer)**: [fix: comment url swaps title and answer id](https://github.com/apache/answer/pull/1603)
 - **[apache/datasketches-java](https://github.com/apache/datasketches-java)**: [Fix Util.numDigits returning 0 for 0 and 1, and 18 for 1E18](https://github.com/apache/datasketches-java/pull/762)
 - **[bitshifter/glam-rs](https://github.com/bitshifter/glam-rs)**: [fix(vec): round half-way cases away from zero in the SIMD backends](https://github.com/bitshifter/glam-rs/pull/831)
-- **[caronc/apprise](https://github.com/caronc/apprise)**: [Honor language= in onesignal:// and preserve it through url()](https://github.com/caronc/apprise/pull/1720)
 - **[castorini/rank_llm](https://github.com/castorini/rank_llm)**: [Fix trec_eval dropping the first evaluation option](https://github.com/castorini/rank_llm/pull/437)
 - **[celery/kombu](https://github.com/celery/kombu)**: [fix(utils): don't evict a key when overwriting an existing LRUCache entry](https://github.com/celery/kombu/pull/2621)
 - **[chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui)**: [fix(react): read the important marker only at the end of a value](https://github.com/chakra-ui/chakra-ui/pull/10970)
@@ -97,7 +125,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[crmne/spotifast](https://github.com/crmne/spotifast)**: [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/spotifast/pull/344)
 - **[crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)**: [channel: Implement Display and Error for TryReadyError and ReadyTimeoutError](https://github.com/crossbeam-rs/crossbeam/pull/1327)
 - **[dalathegreat/Battery-Emulator](https://github.com/dalathegreat/Battery-Emulator)**: [Fix SOL-ARK-LV-CAN 0x359 over-current sign bug](https://github.com/dalathegreat/Battery-Emulator/pull/2929)
-- **[deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation)**: [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/pull/822)
 - **[devitocodes/devito](https://github.com/devitocodes/devito)**: [misc: Snapshot the environment when a switchenv is entered](https://github.com/devitocodes/devito/pull/3019)
 - **[Effect-TS/effect](https://github.com/Effect-TS/effect)**: [fix(cli): split key=value pairs at the first separator](https://github.com/Effect-TS/effect/pull/8086)
 - **[elastio/bon](https://github.com/elastio/bon)**: [Strip the `r#` prefix from raw identifiers in `derive(Debug)`](https://github.com/elastio/bon/pull/402)
@@ -111,15 +138,11 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[georust/rstar](https://github.com/georust/rstar)**: [Fix overflow panic draining an empty tree with integer coordinates](https://github.com/georust/rstar/pull/246)
 - **[go-goyave/goyave](https://github.com/go-goyave/goyave)**: [httputil: fix quality value parsing in ParseMultiValuesHeader](https://github.com/go-goyave/goyave/pull/295)
 - **[gotenberg/gotenberg](https://github.com/gotenberg/gotenberg)**: [fix(libreoffice): report an encrypted .xlsb as password-protected](https://github.com/gotenberg/gotenberg/pull/1655)
-- **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)**: [fix(video-subtitles): keep the space between merged subtitle clauses](https://github.com/hugohe3/ppt-master/pull/283)
-- **[hyparam/hyparquet](https://github.com/hyparam/hyparquet)**: [Fix $not filters on dot-notation paths](https://github.com/hyparam/hyparquet/pull/177)
 - **[inducer/loopy](https://github.com/inducer/loopy)**: [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/pull/1048)
 - **[ishepard/pydriller](https://github.com/ishepard/pydriller)**: [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/pull/324)
 - **[jhd3197/ServerKit](https://github.com/jhd3197/ServerKit)**: [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/pull/139)
 - **[joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x)**: [drive_virtual: fix CHDIR succeeding on a file on drive Z:](https://github.com/joncampbell123/dosbox-x/pull/6533)
-- **[jundot/omlx](https://github.com/jundot/omlx)**: [fix(eval): stop a comma from swallowing the GSM8K answer](https://github.com/jundot/omlx/pull/3484)
 - **[junhoyeo/tokscale](https://github.com/junhoyeo/tokscale)**: [fix(core): parse MiMo Code and fx on the local report path](https://github.com/junhoyeo/tokscale/pull/1300)
-- **[kenn-io/agentsview](https://github.com/kenn-io/agentsview)**: [fix(search): derive snippet spans from the matched bytes](https://github.com/kenn-io/agentsview/pull/1643)
 - **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)**: [fix(deployer): merge gmsaCredentialSpecName from its own field](https://github.com/kgateway-dev/kgateway/pull/14660)
 - **[kubescape/kubescape](https://github.com/kubescape/kubescape)**: [fix(rbacgraph): order escalation results instead of reading map order](https://github.com/kubescape/kubescape/pull/3739)
 - **[leookun/cursor-byok](https://github.com/leookun/cursor-byok)**: [fix(search): stop a repeated URL from faking cross-engine agreement](https://github.com/leookun/cursor-byok/pull/431)
@@ -131,9 +154,9 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[modelscope/ms-swift](https://github.com/modelscope/ms-swift)**: [fix(metrics): mask ignored labels in padding-free seq_acc](https://github.com/modelscope/ms-swift/pull/10049)
 - **[mozilla/pontoon](https://github.com/mozilla/pontoon)**: [Update data-theme when the user picks a theme](https://github.com/mozilla/pontoon/pull/4501)
 - **[noahbald/oxvg](https://github.com/noahbald/oxvg)**: [fix(oxvg_optimiser): keep ellipses selected by a stylesheet in convertShapeToPath](https://github.com/noahbald/oxvg/pull/277)
-- **[nominal-io/instro](https://github.com/nominal-io/instro)**: [fix(eload): cache mode only after the driver confirms set_mode](https://github.com/nominal-io/instro/pull/485)
 - **[NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution)**: [fix(config): honor explicit --hermes-repo and make config construction non-fatal](https://github.com/NousResearch/hermes-agent-self-evolution/pull/122)
 - **[NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs)**: [Add Run::finish() to flush pending logs before exit](https://github.com/NousResearch/wandb-rs/pull/2)
+- **[NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)**: [feat(reporting): record the evaluated source identity on benchmark cards](https://github.com/NVIDIA/SkillEvaluator/pull/131)
 - **[odygrd/quill](https://github.com/odygrd/quill)**: [Flush sinks and run periodic tasks when manual backend polling drains the queues](https://github.com/odygrd/quill/pull/989)
 - **[onnx/onnx](https://github.com/onnx/onnx)**: [fix(reference): reorder Unique outputs correctly when sorted=0](https://github.com/onnx/onnx/pull/8424)
 - **[open-circle/valibot](https://github.com/open-circle/valibot)**: [fix(cache): clone cached issues to stop issue paths from accumulating](https://github.com/open-circle/valibot/pull/1620)
@@ -141,19 +164,19 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)**: [fix(server): relay client websocket closes with a legal code](https://github.com/opensandbox-group/OpenSandbox/pull/1731)
 - **[oras-project/oras](https://github.com/oras-project/oras)**: [fix: attribute recursive copy tag failures to the destination](https://github.com/oras-project/oras/pull/2157)
 - **[pacifio/atlas](https://github.com/pacifio/atlas)**: [fix(redact): route JSONL payloads through the structure-aware pass](https://github.com/pacifio/atlas/pull/244)
+- **[pixijs/pixijs](https://github.com/pixijs/pixijs)**: [fix: handle strokes wider than the shape in Ellipse.strokeContains](https://github.com/pixijs/pixijs/pull/12185)
 - **[pmndrs/koota](https://github.com/pmndrs/koota)**: [🐛 core: fix query hash collisions from the shared sort buffer](https://github.com/pmndrs/koota/pull/281)
 - **[probe-rs/probe-rs](https://github.com/probe-rs/probe-rs)**: [Fix the semihosting file open modes for update and append](https://github.com/probe-rs/probe-rs/pull/4312)
 - **[PyLabRobot/pylabrobot](https://github.com/PyLabRobot/pylabrobot)**: [fix(resources): center a plate on the adapter hole's y size, not its x size](https://github.com/PyLabRobot/pylabrobot/pull/1244)
 - **[quarkusio/quarkus](https://github.com/quarkusio/quarkus)**: [Qute: require the index parameter for list get/take/takeLast](https://github.com/quarkusio/quarkus/pull/56460)
 - **[rust-diplomat/diplomat](https://github.com/rust-diplomat/diplomat)**: [hir: resolve callback optional-opaque returns in the enclosing module](https://github.com/rust-diplomat/diplomat/pull/1271)
+- **[sql-formatter-org/sql-formatter](https://github.com/sql-formatter-org/sql-formatter)**: [fix(singlestoredb): support % as the modulo operator](https://github.com/sql-formatter-org/sql-formatter/pull/971)
 - **[srl-labs/containerlab](https://github.com/srl-labs/containerlab)**: [fix: canonical image name for registries addressed by host and port](https://github.com/srl-labs/containerlab/pull/3391)
 - **[tconbeer/harlequin](https://github.com/tconbeer/harlequin)**: [fix: write the Feather file version the Data Exporter asked for](https://github.com/tconbeer/harlequin/pull/1158)
 - **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**: [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
 - **[testem/testem](https://github.com/testem/testem)**: [fix(report-file): surface write stream errors instead of a TypeError](https://github.com/testem/testem/pull/2058)
-- **[TimothyYe/godns](https://github.com/TimothyYe/godns)**: [fix: match ip_type case-insensitively in IONOS and Hetzner providers](https://github.com/TimothyYe/godns/pull/316)
 - **[tombi-toml/tombi](https://github.com/tombi-toml/tombi)**: [fix(lexer): close multi-line string after escaped backslash](https://github.com/tombi-toml/tombi/pull/2167)
 - **[uutils/coreutils](https://github.com/uutils/coreutils)**: [fmt: honor -x and -X instead of always matching prefixes exactly](https://github.com/uutils/coreutils/pull/14417)
-- **[vadimdemedes/ink](https://github.com/vadimdemedes/ink)**: [Fix `wrapText` cache key collision between different texts and widths](https://github.com/vadimdemedes/ink/pull/998)
 - **[velero-io/velero](https://github.com/velero-io/velero)**: [Scope schedule and repo CLI list calls to the Velero namespace](https://github.com/velero-io/velero/pull/10482)
 - **[vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni)**: [[Doc] Fix markdownlint findings in the serving API reference](https://github.com/vllm-project/vllm-omni/pull/7111)
 - **[wshobson/agents](https://github.com/wshobson/agents)**: [fix(adapters): quote YAML scalars in OpenCode and Copilot frontmatter](https://github.com/wshobson/agents/pull/700)
