@@ -2,6 +2,8 @@ My code contributions are live on many agentic evolution repositories, such as [
 
 I am a long-time contributor to [Hermes Agent](https://github.com/NousResearch/hermes-agent), as well as to many other projects, including [Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins), which makes any agent harness multimodal-native, and [86Box](https://github.com/86Box/86Box), an emulator of x86-based machines.
 
+Creator of [Compartment](https://github.com/MaxFreedomPollard/Compartment), an encrypted, fully offline memory for AI agents, and other projects such as [Nuclear Computing](https://github.com/MaxFreedomPollard/nuclear-computing) and the [Artificial Knowledge Collection](https://github.com/MaxFreedomPollard/artificial-knowledge-collection-6.0).
+
 ## Accepted benchmark challenges
 
 Challenges authored for Datacurve's ShipD platform, each accepted after automated checks, solver runs and human review; [three are included here](shipd/) as examples, with the hidden tests and reference solutions withheld to protect Datacurve's proprietary benchmark material, and each folder records exactly what was removed:
