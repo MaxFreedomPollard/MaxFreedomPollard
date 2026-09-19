@@ -14,7 +14,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 ## Merged contributions
 
-- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: 15 merged commits, seven of them through pull requests; credited as a contributor in the [v2026.6.19](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19), [v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1) and [v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) release notes
+- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: 16 merged commits, seven of them through pull requests; credited as a contributor in the [v2026.6.19](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19), [v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1) and [v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) release notes
   - [fix(skills): make bundled-update backup handling crash-safe and idempotent](https://github.com/NousResearch/hermes-agent/commit/3581131e7de1560633c921b4782ea87dcbac3a9e)
   - [test(skills): add regression tests for bundled-update backup recovery](https://github.com/NousResearch/hermes-agent/commit/9a2b976326340f0fec7eb9a88cfeb953ffdd1e56)
   - [fix(curator): stop the rollback safety snapshot from pruning its target](https://github.com/NousResearch/hermes-agent/commit/fc1119ca66e321989a61564aa526b33cb6146d41)
@@ -30,6 +30,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [fix(cli): dispatch /background inline instead of queuing it behind the turn](https://github.com/NousResearch/hermes-agent/commit/3dee0634c1436635fbcf51c87a7f32b4101a41b9)
   - [test: restore four silently shadowed definitions and guard against more](https://github.com/NousResearch/hermes-agent/commit/7729c183b4a2f70c3b583eee6f93e7149a4081f8)
   - [fix(gemini): collapse array-typed tool schemas instead of crashing translation](https://github.com/NousResearch/hermes-agent/commit/6a04ea67c0e75ef1218bf4ceaac071c2f16a0701)
+  - [fix(router): define _DISK_TTL_SECONDS so the reasoning-efforts disk mirror is read](https://github.com/NousResearch/hermes-agent/pull/111800/commits/94e0928e706609deebd3f488ab4d7ddfb593a279)
 - **[86Box/86Box](https://github.com/86Box/86Box)**: 8 merged
   - [softpower: Fix the power-off delay spinner range overflowing int16_t](https://github.com/86Box/86Box/pull/7888)
   - [Voodoo: Fix nccTable0 Q2 writes landing in the I2 coefficient](https://github.com/86Box/86Box/pull/7926)
@@ -80,6 +81,9 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[hyparam/hyparquet](https://github.com/hyparam/hyparquet)**: 2 merged
   - [Fix $not filters on dot-notation paths](https://github.com/hyparam/hyparquet/pull/177)
   - [Keep default parsers when only some are overridden](https://github.com/hyparam/hyparquet/pull/178)
+- **[jhd3197/ServerKit](https://github.com/jhd3197/ServerKit)**: 2 merged
+  - [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/pull/139)
+  - [fix(logs): compare whole segments in path guard](https://github.com/jhd3197/ServerKit/pull/145)
 - **[jundot/omlx](https://github.com/jundot/omlx)**: 2 merged
   - [fix(eval): stop a comma from swallowing the GSM8K answer](https://github.com/jundot/omlx/pull/3484)
   - [fix(eval): honor a stated "answer is X" in multiple choice](https://github.com/jundot/omlx/pull/3668)
@@ -122,6 +126,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[apache/answer](https://github.com/apache/answer)**: [fix: comment url swaps title and answer id](https://github.com/apache/answer/pull/1603)
 - **[apache/datasketches-java](https://github.com/apache/datasketches-java)**: [Fix Util.numDigits returning 0 for 0 and 1, and 18 for 1E18](https://github.com/apache/datasketches-java/pull/762)
 - **[bitshifter/glam-rs](https://github.com/bitshifter/glam-rs)**: [fix(vec): round half-way cases away from zero in the SIMD backends](https://github.com/bitshifter/glam-rs/pull/831)
+- **[boa-dev/boa](https://github.com/boa-dev/boa)**: [fix(string): reject signed Infinity and non-decimal literals in StringToNumber](https://github.com/boa-dev/boa/pull/5509)
 - **[castorini/rank_llm](https://github.com/castorini/rank_llm)**: [Fix trec_eval dropping the first evaluation option](https://github.com/castorini/rank_llm/pull/437)
 - **[celery/kombu](https://github.com/celery/kombu)**: [fix(utils): don't evict a key when overwriting an existing LRUCache entry](https://github.com/celery/kombu/pull/2621)
 - **[chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui)**: [fix(react): read the important marker only at the end of a value](https://github.com/chakra-ui/chakra-ui/pull/10970)
@@ -144,7 +149,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[gotenberg/gotenberg](https://github.com/gotenberg/gotenberg)**: [fix(libreoffice): report an encrypted .xlsb as password-protected](https://github.com/gotenberg/gotenberg/pull/1655)
 - **[inducer/loopy](https://github.com/inducer/loopy)**: [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/pull/1048)
 - **[ishepard/pydriller](https://github.com/ishepard/pydriller)**: [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/pull/324)
-- **[jhd3197/ServerKit](https://github.com/jhd3197/ServerKit)**: [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/pull/139)
 - **[joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x)**: [drive_virtual: fix CHDIR succeeding on a file on drive Z:](https://github.com/joncampbell123/dosbox-x/pull/6533)
 - **[junhoyeo/tokscale](https://github.com/junhoyeo/tokscale)**: [fix(core): parse MiMo Code and fx on the local report path](https://github.com/junhoyeo/tokscale/pull/1300)
 - **[kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway)**: [fix(deployer): merge gmsaCredentialSpecName from its own field](https://github.com/kgateway-dev/kgateway/pull/14660)
@@ -168,6 +172,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)**: [fix(server): relay client websocket closes with a legal code](https://github.com/opensandbox-group/OpenSandbox/pull/1731)
 - **[oras-project/oras](https://github.com/oras-project/oras)**: [fix: attribute recursive copy tag failures to the destination](https://github.com/oras-project/oras/pull/2157)
 - **[pacifio/atlas](https://github.com/pacifio/atlas)**: [fix(redact): route JSONL payloads through the structure-aware pass](https://github.com/pacifio/atlas/pull/244)
+- **[pgdogdev/pgdog](https://github.com/pgdogdev/pgdog)**: [fix(types): hash 0.0 and -0.0 to the same value](https://github.com/pgdogdev/pgdog/pull/1507)
 - **[pixijs/pixijs](https://github.com/pixijs/pixijs)**: [fix: handle strokes wider than the shape in Ellipse.strokeContains](https://github.com/pixijs/pixijs/pull/12185)
 - **[pmndrs/koota](https://github.com/pmndrs/koota)**: [🐛 core: fix query hash collisions from the shared sort buffer](https://github.com/pmndrs/koota/pull/281)
 - **[probe-rs/probe-rs](https://github.com/probe-rs/probe-rs)**: [Fix the semihosting file open modes for update and append](https://github.com/probe-rs/probe-rs/pull/4312)
@@ -183,6 +188,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[uutils/coreutils](https://github.com/uutils/coreutils)**: [fmt: honor -x and -X instead of always matching prefixes exactly](https://github.com/uutils/coreutils/pull/14417)
 - **[velero-io/velero](https://github.com/velero-io/velero)**: [Scope schedule and repo CLI list calls to the Velero namespace](https://github.com/velero-io/velero/pull/10482)
 - **[vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni)**: [[Doc] Fix markdownlint findings in the serving API reference](https://github.com/vllm-project/vllm-omni/pull/7111)
+- **[vuejs/test-utils](https://github.com/vuejs/test-utils)**: [fix: keep the namespace prefix in attributes()](https://github.com/vuejs/test-utils/pull/2941)
 - **[wshobson/agents](https://github.com/wshobson/agents)**: [fix(adapters): quote YAML scalars in OpenCode and Copilot frontmatter](https://github.com/wshobson/agents/pull/700)
 - **[xintaofei/codeg](https://github.com/xintaofei/codeg)**: [fix(cline): close a stripped block at its own closing tag](https://github.com/xintaofei/codeg/pull/670)
 - **[yoanbernabeu/grepai](https://github.com/yoanbernabeu/grepai)**: [fix(search): break score ties deterministically so ranking is reproducible](https://github.com/yoanbernabeu/grepai/pull/303)
