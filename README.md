@@ -14,7 +14,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 ## Merged contributions
 
-- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: 15 merged commits, seven of them through pull requests; credited as a contributor in the [v2026.6.19](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19), [v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1) and [v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) release notes
+My [Compartment](https://github.com/MaxFreedomPollard/Compartment) agentic memory now ships in [Hermes Agent's standard plugin catalog](https://github.com/NousResearch/hermes-agent/blob/main/plugin-catalog/compartment.yaml) as a selectable memory provider.
+
+- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: 16 merged commits, eight of them through pull requests; credited as a contributor in the [v2026.6.19](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19), [v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1) and [v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) release notes
+  - [feat(plugin-catalog): add compartment (encrypted offline memory provider)](https://github.com/NousResearch/hermes-agent/pull/114494)
   - [fix(skills): make bundled-update backup handling crash-safe and idempotent](https://github.com/NousResearch/hermes-agent/commit/3581131e7de1560633c921b4782ea87dcbac3a9e)
   - [test(skills): add regression tests for bundled-update backup recovery](https://github.com/NousResearch/hermes-agent/commit/9a2b976326340f0fec7eb9a88cfeb953ffdd1e56)
   - [fix(curator): stop the rollback safety snapshot from pruning its target](https://github.com/NousResearch/hermes-agent/commit/fc1119ca66e321989a61564aa526b33cb6146d41)
@@ -56,6 +59,9 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[caronc/apprise](https://github.com/caronc/apprise)**: 2 merged
   - [Honor language= in onesignal:// and preserve it through url()](https://github.com/caronc/apprise/pull/1720)
   - [Preserve query parameters in signl4:// url()](https://github.com/caronc/apprise/pull/1732)
+- **[celery/kombu](https://github.com/celery/kombu)**: 2 merged
+  - [fix(utils): don't evict a key when overwriting an existing LRUCache entry](https://github.com/celery/kombu/pull/2621)
+  - [fix(utils): advance the token bucket timestamp even when the bucket is full](https://github.com/celery/kombu/pull/2652)
 - **[ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go)**: 2 merged
   - [fix(chcol): return true from HasType when the Variant carries a type](https://github.com/ClickHouse/clickhouse-go/pull/2006)
   - [fix(churl): validate each host of a comma separated DSN authority](https://github.com/ClickHouse/clickhouse-go/pull/2005)
@@ -68,6 +74,9 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify)**: 2 merged
   - [fix: drop unmatched properties when additionalProperties is false](https://github.com/fastify/fast-json-stringify/pull/879)
   - [fix: apply the else branch when a schema has if and else but no then](https://github.com/fastify/fast-json-stringify/pull/884)
+- **[foliojs/pdfkit](https://github.com/foliojs/pdfkit)**: 2 merged
+  - [Fix annotation rectangle under a rotated transformation matrix](https://github.com/foliojs/pdfkit/pull/1794)
+  - [Fix doc.list() throwing on a numbered or lettered list with align center or right](https://github.com/foliojs/pdfkit/pull/1800)
 - **[greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext)**: 2 merged
   - [fix: default dataclass metadata to a dict, not a pydantic FieldInfo](https://github.com/greyhaven-ai/autocontext/pull/1324)
   - [fix: mirror every compaction ledger append, not only large chunks](https://github.com/greyhaven-ai/autocontext/pull/1345)
@@ -127,7 +136,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[bitshifter/glam-rs](https://github.com/bitshifter/glam-rs)**: [fix(vec): round half-way cases away from zero in the SIMD backends](https://github.com/bitshifter/glam-rs/pull/831)
 - **[boa-dev/boa](https://github.com/boa-dev/boa)**: [fix(string): reject signed Infinity and non-decimal literals in StringToNumber](https://github.com/boa-dev/boa/pull/5509)
 - **[castorini/rank_llm](https://github.com/castorini/rank_llm)**: [Fix trec_eval dropping the first evaluation option](https://github.com/castorini/rank_llm/pull/437)
-- **[celery/kombu](https://github.com/celery/kombu)**: [fix(utils): don't evict a key when overwriting an existing LRUCache entry](https://github.com/celery/kombu/pull/2621)
 - **[chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui)**: [fix(react): read the important marker only at the end of a value](https://github.com/chakra-ui/chakra-ui/pull/10970)
 - **[charmbracelet/catwalk](https://github.com/charmbracelet/catwalk)**: [fix: add missing providers to KnownProviders](https://github.com/charmbracelet/catwalk/pull/578)
 - **[crmne/spotifast](https://github.com/crmne/spotifast)**: [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/spotifast/pull/344)
@@ -140,7 +148,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[evcxr/evcxr](https://github.com/evcxr/evcxr)**: [Fix comment handling when looking for commands](https://github.com/evcxr/evcxr/pull/507)
 - **[expressjs/multer](https://github.com/expressjs/multer)**: [fix: report the decoded filename on LIMIT_FILE_SIZE](https://github.com/expressjs/multer/pull/1478)
 - **[floci-io/floci](https://github.com/floci-io/floci)**: [fix(eventbridge,scheduler): read cron day-of-week as AWS 1-7 SUN-SAT](https://github.com/floci-io/floci/pull/3147)
-- **[foliojs/pdfkit](https://github.com/foliojs/pdfkit)**: [Fix annotation rectangle under a rotated transformation matrix](https://github.com/foliojs/pdfkit/pull/1794)
 - **[gbdev/rgbds](https://github.com/gbdev/rgbds)**: [Avoid signed overflow in RGBLINK's `+`, `-`, and `*`](https://github.com/gbdev/rgbds/pull/2060)
 - **[gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory)**: [fix: keep grid_with_text labels on their anchors](https://github.com/gdsfactory/gdsfactory/pull/4821)
 - **[georust/rstar](https://github.com/georust/rstar)**: [Fix overflow panic draining an empty tree with integer coordinates](https://github.com/georust/rstar/pull/246)
@@ -163,7 +170,9 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[noahbald/oxvg](https://github.com/noahbald/oxvg)**: [fix(oxvg_optimiser): keep ellipses selected by a stylesheet in convertShapeToPath](https://github.com/noahbald/oxvg/pull/277)
 - **[NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution)**: [fix(config): honor explicit --hermes-repo and make config construction non-fatal](https://github.com/NousResearch/hermes-agent-self-evolution/pull/122)
 - **[NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs)**: [Add Run::finish() to flush pending logs before exit](https://github.com/NousResearch/wandb-rs/pull/2)
+- **[NVIDIA/OWL](https://github.com/NVIDIA/OWL)**: [Add OWL_DOUBLE types to typeToString](https://github.com/NVIDIA/OWL/pull/28)
 - **[NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)**: [feat(reporting): record the evaluated source identity on benchmark cards](https://github.com/NVIDIA/SkillEvaluator/pull/131)
+- **[NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI)**: [Fix: include NRIRayTracing.h in NRIWrapperVK.h](https://github.com/NVIDIA-RTX/NRI/pull/260)
 - **[odygrd/quill](https://github.com/odygrd/quill)**: [Flush sinks and run periodic tasks when manual backend polling drains the queues](https://github.com/odygrd/quill/pull/989)
 - **[onnx/onnx](https://github.com/onnx/onnx)**: [fix(reference): reorder Unique outputs correctly when sorted=0](https://github.com/onnx/onnx/pull/8424)
 - **[open-circle/valibot](https://github.com/open-circle/valibot)**: [fix(cache): clone cached issues to stop issue paths from accumulating](https://github.com/open-circle/valibot/pull/1620)
@@ -193,7 +202,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[yoanbernabeu/grepai](https://github.com/yoanbernabeu/grepai)**: [fix(search): break score ties deterministically so ranking is reproducible](https://github.com/yoanbernabeu/grepai/pull/303)
 - **[zenstackhq/zenstack](https://github.com/zenstackhq/zenstack)**: [fix(zod): treat `@uuid` without a version as any UUID version](https://github.com/zenstackhq/zenstack/pull/2832)
 
-The hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
+Earlier hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 
 ## Projects
 
