@@ -14,8 +14,8 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 ## Merged contributions
 
-- **[NousResearch](https://github.com/NousResearch)**: 18 merged contributions across 3 repositories
-  - **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: 16 merged commits; credited as a contributor in the [v2026.6.19](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19), [v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1) and [v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) release notes
+- **[NousResearch](https://github.com/NousResearch)**
+  - **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: credited as a contributor in the [v2026.6.19](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19), [v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1), [v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) and [v2026.9.11](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.11) release notes
     - [feat(plugin-catalog): add compartment (encrypted offline memory provider)](https://github.com/NousResearch/hermes-agent/pull/114494)
     - [fix(skills): make bundled-update backup handling crash-safe and idempotent](https://github.com/NousResearch/hermes-agent/commit/3581131e7de1560633c921b4782ea87dcbac3a9e)
     - [test(skills): add regression tests for bundled-update backup recovery](https://github.com/NousResearch/hermes-agent/commit/9a2b976326340f0fec7eb9a88cfeb953ffdd1e56)
@@ -32,11 +32,11 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
     - [fix(cli): dispatch /background inline instead of queuing it behind the turn](https://github.com/NousResearch/hermes-agent/commit/3dee0634c1436635fbcf51c87a7f32b4101a41b9)
     - [test: restore four silently shadowed definitions and guard against more](https://github.com/NousResearch/hermes-agent/commit/7729c183b4a2f70c3b583eee6f93e7149a4081f8)
     - [fix(gemini): collapse array-typed tool schemas instead of crashing translation](https://github.com/NousResearch/hermes-agent/commit/6a04ea67c0e75ef1218bf4ceaac071c2f16a0701)
-  - **[NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution)**: 1 merged
+  - **[NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution)**
     - [fix(config): honor explicit --hermes-repo and make config construction non-fatal](https://github.com/NousResearch/hermes-agent-self-evolution/pull/122)
-  - **[NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs)**: 1 merged
+  - **[NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs)**
     - [Add Run::finish() to flush pending logs before exit](https://github.com/NousResearch/wandb-rs/pull/2)
-- **[86Box/86Box](https://github.com/86Box/86Box)**: 8 merged
+- **[86Box/86Box](https://github.com/86Box/86Box)**
   - [softpower: Fix the power-off delay spinner range overflowing int16_t](https://github.com/86Box/86Box/pull/7888)
   - [Voodoo: Fix nccTable0 Q2 writes landing in the I2 coefficient](https://github.com/86Box/86Box/pull/7926)
   - [XTA: Restore the missing break in the WDXT-150 case](https://github.com/86Box/86Box/pull/7925)
@@ -45,102 +45,102 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [Fix machines and BIOS entries missing on case-sensitive filesystems](https://github.com/86Box/86Box/pull/7922)
   - [GUS: Fix the ADC sample rate divisor missing the +2 bias](https://github.com/86Box/86Box/pull/7941)
   - [MIDI: Fix input queue overflow hang and broken real-time bytes](https://github.com/86Box/86Box/pull/7940)
-- **[laude-institute/headlong](https://github.com/laude-institute/headlong)**: 3 merged
+- **[laude-institute/headlong](https://github.com/laude-institute/headlong)**
   - [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
   - [ci: point the smoke container's apt at the Azure mirror](https://github.com/laude-institute/headlong/pull/114)
   - [traj: formatted tail and cat return the steps --filter matches](https://github.com/laude-institute/headlong/pull/112)
-- **[NVIDIA](https://github.com/NVIDIA)**: 3 merged contributions across 3 repositories
-  - **[NVIDIA/OWL](https://github.com/NVIDIA/OWL)**: 1 merged
+- **[NVIDIA](https://github.com/NVIDIA)**
+  - **[NVIDIA/OWL](https://github.com/NVIDIA/OWL)**
     - [Add OWL_DOUBLE types to typeToString](https://github.com/NVIDIA/OWL/pull/28)
-  - **[NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)**: 1 merged
+  - **[NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)**
     - [feat(reporting): record the evaluated source identity on benchmark cards](https://github.com/NVIDIA/SkillEvaluator/pull/131)
-  - **[NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI)**: 1 merged
+  - **[NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI)**
     - [Fix: include NRIRayTracing.h in NRIWrapperVK.h](https://github.com/NVIDIA-RTX/NRI/pull/260)
-- **[QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins)**: 3 merged
+- **[QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins)**
   - [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
   - [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/pull/52)
   - [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
-- **[abema/go-mp4](https://github.com/abema/go-mp4)**: 2 merged
+- **[abema/go-mp4](https://github.com/abema/go-mp4)**
   - [Fix numTemporalLayers and temporalIdNested bit widths in hvcC](https://github.com/abema/go-mp4/pull/185)
   - [Fix discarded errors in marshalSlice and marshalUint](https://github.com/abema/go-mp4/pull/187)
-- **[apache](https://github.com/apache)**: 2 merged contributions across 2 repositories
-  - **[apache/answer](https://github.com/apache/answer)**: 1 merged
+- **[apache](https://github.com/apache)**
+  - **[apache/answer](https://github.com/apache/answer)**
     - [fix: comment url swaps title and answer id](https://github.com/apache/answer/pull/1603)
-  - **[apache/datasketches-java](https://github.com/apache/datasketches-java)**: 1 merged
+  - **[apache/datasketches-java](https://github.com/apache/datasketches-java)**
     - [Fix Util.numDigits returning 0 for 0 and 1, and 18 for 1E18](https://github.com/apache/datasketches-java/pull/762)
-- **[boyter/scc](https://github.com/boyter/scc)**: 2 merged
+- **[boyter/scc](https://github.com/boyter/scc)**
   - [fix(asp.net): correct the server side comment terminator](https://github.com/boyter/scc/pull/772)
   - [fix(dart): count single quoted string literals](https://github.com/boyter/scc/pull/773)
-- **[caronc/apprise](https://github.com/caronc/apprise)**: 2 merged
+- **[caronc/apprise](https://github.com/caronc/apprise)**
   - [Honor language= in onesignal:// and preserve it through url()](https://github.com/caronc/apprise/pull/1720)
   - [Preserve query parameters in signl4:// url()](https://github.com/caronc/apprise/pull/1732)
-- **[celery/kombu](https://github.com/celery/kombu)**: 2 merged
+- **[celery/kombu](https://github.com/celery/kombu)**
   - [fix(utils): don't evict a key when overwriting an existing LRUCache entry](https://github.com/celery/kombu/pull/2621)
   - [fix(utils): advance the token bucket timestamp even when the bucket is full](https://github.com/celery/kombu/pull/2652)
-- **[ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go)**: 2 merged
+- **[ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go)**
   - [fix(chcol): return true from HasType when the Variant carries a type](https://github.com/ClickHouse/clickhouse-go/pull/2006)
   - [fix(churl): validate each host of a comma separated DSN authority](https://github.com/ClickHouse/clickhouse-go/pull/2005)
-- **[deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation)**: 2 merged
+- **[deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation)**
   - [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/pull/822)
   - [fix: Rewrite translated field names in all annotate() expressions](https://github.com/deschler/django-modeltranslation/pull/825)
-- **[ekzhang/jax-js](https://github.com/ekzhang/jax-js)**: 2 merged
+- **[ekzhang/jax-js](https://github.com/ekzhang/jax-js)**
   - [Fix copysign() dropping the magnitude when y is zero](https://github.com/ekzhang/jax-js/pull/214)
   - [Fix sign() returning 1 for NaN](https://github.com/ekzhang/jax-js/pull/215)
-- **[fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify)**: 2 merged
+- **[fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify)**
   - [fix: drop unmatched properties when additionalProperties is false](https://github.com/fastify/fast-json-stringify/pull/879)
   - [fix: apply the else branch when a schema has if and else but no then](https://github.com/fastify/fast-json-stringify/pull/884)
-- **[foliojs/pdfkit](https://github.com/foliojs/pdfkit)**: 2 merged
+- **[foliojs/pdfkit](https://github.com/foliojs/pdfkit)**
   - [Fix annotation rectangle under a rotated transformation matrix](https://github.com/foliojs/pdfkit/pull/1794)
   - [Fix doc.list() throwing on a numbered or lettered list with align center or right](https://github.com/foliojs/pdfkit/pull/1800)
-- **[greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext)**: 2 merged
+- **[greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext)**
   - [fix: default dataclass metadata to a dict, not a pydantic FieldInfo](https://github.com/greyhaven-ai/autocontext/pull/1324)
   - [fix: mirror every compaction ledger append, not only large chunks](https://github.com/greyhaven-ai/autocontext/pull/1345)
-- **[huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers)**: 2 merged
+- **[huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers)**
   - [[fix] Write the sparsity CSV columns once in three sparse evaluators](https://github.com/huggingface/sentence-transformers/pull/3985)
   - [[docs] Describe the MarginMSE target as the signed margin](https://github.com/huggingface/sentence-transformers/pull/4009)
-- **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)**: 2 merged
+- **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)**
   - [fix(video-subtitles): keep the space between merged subtitle clauses](https://github.com/hugohe3/ppt-master/pull/283)
   - [fix(quick): read the deck language and theme fonts from the roster's first page](https://github.com/hugohe3/ppt-master/pull/292)
-- **[hyparam/hyparquet](https://github.com/hyparam/hyparquet)**: 2 merged
+- **[hyparam/hyparquet](https://github.com/hyparam/hyparquet)**
   - [Fix $not filters on dot-notation paths](https://github.com/hyparam/hyparquet/pull/177)
   - [Keep default parsers when only some are overridden](https://github.com/hyparam/hyparquet/pull/178)
-- **[jhd3197/ServerKit](https://github.com/jhd3197/ServerKit)**: 2 merged
+- **[jhd3197/ServerKit](https://github.com/jhd3197/ServerKit)**
   - [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/pull/139)
   - [fix(logs): compare whole segments in path guard](https://github.com/jhd3197/ServerKit/pull/145)
-- **[jundot/omlx](https://github.com/jundot/omlx)**: 2 merged
+- **[jundot/omlx](https://github.com/jundot/omlx)**
   - [fix(eval): stop a comma from swallowing the GSM8K answer](https://github.com/jundot/omlx/pull/3484)
   - [fix(eval): honor a stated "answer is X" in multiple choice](https://github.com/jundot/omlx/pull/3668)
-- **[kenn-io/agentsview](https://github.com/kenn-io/agentsview)**: 2 merged
+- **[kenn-io/agentsview](https://github.com/kenn-io/agentsview)**
   - [fix(search): derive snippet spans from the matched bytes](https://github.com/kenn-io/agentsview/pull/1643)
   - [fix(quality): keep signal excerpts on rune boundaries](https://github.com/kenn-io/agentsview/pull/1788)
-- **[meriyah/meriyah](https://github.com/meriyah/meriyah)**: 2 merged
+- **[meriyah/meriyah](https://github.com/meriyah/meriyah)**
   - [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/pull/646)
   - [fix(parser): parse `/` after an `await` identifier as division](https://github.com/meriyah/meriyah/pull/659)
-- **[nominal-io/instro](https://github.com/nominal-io/instro)**: 2 merged
+- **[nominal-io/instro](https://github.com/nominal-io/instro)**
   - [fix(eload): cache mode only after the driver confirms set_mode](https://github.com/nominal-io/instro/pull/485)
   - [fix(dmm): release the driver and reset apply state when close() fails](https://github.com/nominal-io/instro/pull/534)
-- **[psd-tools/psd-tools](https://github.com/psd-tools/psd-tools)**: 2 merged
+- **[psd-tools/psd-tools](https://github.com/psd-tools/psd-tools)**
   - [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/pull/794)
   - [fix: replace the layer at an index instead of inserting before it](https://github.com/psd-tools/psd-tools/pull/811)
-- **[python-attrs/cattrs](https://github.com/python-attrs/cattrs)**: 2 merged
+- **[python-attrs/cattrs](https://github.com/python-attrs/cattrs)**
   - [Sort extra keys when formatting ForbiddenExtraKeysError](https://github.com/python-attrs/cattrs/pull/776)
   - [Escape the index note when structuring heterogeneous tuples](https://github.com/python-attrs/cattrs/pull/777)
-- **[quinn-rs/quinn](https://github.com/quinn-rs/quinn)**: 2 merged
+- **[quinn-rs/quinn](https://github.com/quinn-rs/quinn)**
   - [[0.11.x] proto: reject transport parameters with a mismatched length](https://github.com/quinn-rs/quinn/pull/2866)
   - [proto: reject transport parameters with a mismatched length](https://github.com/quinn-rs/quinn/pull/2832)
-- **[raysan5/raylib](https://github.com/raysan5/raylib)**: 2 merged
+- **[raysan5/raylib](https://github.com/raysan5/raylib)**
   - [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator](https://github.com/raysan5/raylib/pull/6132)
   - [[rtext] Fix TextSplit() reading past its buffer on text of 1024 bytes or more](https://github.com/raysan5/raylib/pull/6136)
-- **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)**: 2 merged
+- **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)**
   - [fix(diff): compare bad file extensions case-insensitively](https://github.com/The-PR-Agent/pr-agent/pull/3103)
   - [fix(bitbucket): send inline comment ranges with start_to](https://github.com/The-PR-Agent/pr-agent/pull/3384)
-- **[TimothyYe/godns](https://github.com/TimothyYe/godns)**: 2 merged
+- **[TimothyYe/godns](https://github.com/TimothyYe/godns)**
   - [fix: match ip_type case-insensitively in IONOS and Hetzner providers](https://github.com/TimothyYe/godns/pull/316)
   - [fix: discard wrong-family IP instead of returning it from getIPOnline](https://github.com/TimothyYe/godns/pull/319)
-- **[vadimdemedes/ink](https://github.com/vadimdemedes/ink)**: 2 merged
+- **[vadimdemedes/ink](https://github.com/vadimdemedes/ink)**
   - [Fix `wrapText` cache key collision between different texts and widths](https://github.com/vadimdemedes/ink/pull/998)
   - [Fix multi-line `<Text>` vanishing when it starts above the top of the output](https://github.com/vadimdemedes/ink/pull/1001)
-- **[wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest)**: 2 merged
+- **[wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest)**
   - [Fix `q` weights in `Accept` header parsing](https://github.com/wemake-services/django-modern-rest/pull/1407)
   - [Strip optional whitespace when splitting headers on `,`](https://github.com/wemake-services/django-modern-rest/pull/1526)
 - **[agavra/tuicr](https://github.com/agavra/tuicr)**: [fix(input): type AltGr characters in the command, search and filter prompts](https://github.com/agavra/tuicr/pull/694)
