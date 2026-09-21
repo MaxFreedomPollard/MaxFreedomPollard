@@ -49,14 +49,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [GUS: Fix the ADC sample rate divisor missing the +2 bias](https://github.com/86Box/86Box/pull/7941)
 - [MIDI: Fix input queue overflow hang and broken real-time bytes](https://github.com/86Box/86Box/pull/7940)
 
-### [laude-institute/headlong](https://github.com/laude-institute/headlong)
-
-- [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
-- [ci: point the smoke container's apt at the Azure mirror](https://github.com/laude-institute/headlong/pull/114)
-- [traj: formatted tail and cat return the steps --filter matches](https://github.com/laude-institute/headlong/pull/112)
-
 ### [NVIDIA](https://github.com/NVIDIA)
 
+- **[NVIDIA/cccl](https://github.com/NVIDIA/cccl)**
+  - [Add count_if NVHPC stdpar smoke test](https://github.com/NVIDIA/cccl/pull/11521)
 - **[NVIDIA/OWL](https://github.com/NVIDIA/OWL)**
   - [Add OWL_DOUBLE types to typeToString](https://github.com/NVIDIA/OWL/pull/28)
 - **[NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)**
@@ -68,11 +64,25 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI)**
   - [Fix: include NRIRayTracing.h in NRIWrapperVK.h](https://github.com/NVIDIA-RTX/NRI/pull/260)
 
+### [laude-institute/headlong](https://github.com/laude-institute/headlong)
+
+- [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
+- [ci: point the smoke container's apt at the Azure mirror](https://github.com/laude-institute/headlong/pull/114)
+- [traj: formatted tail and cat return the steps --filter matches](https://github.com/laude-institute/headlong/pull/112)
+
 ### [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins)
 
 - [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
 - [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/pull/52)
 - [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
+
+### [Tencent](https://github.com/Tencent)
+
+- **[Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)**
+  - [fix(record): record a page reload instead of dropping it as a same-URL navigation](https://github.com/Tencent/BrowserSkill/pull/184)
+  - [fix(extension): return visible labels from select](https://github.com/Tencent/BrowserSkill/pull/307)
+- **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**
+  - [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
 
 ### [abema/go-mp4](https://github.com/abema/go-mp4)
 
@@ -195,13 +205,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator](https://github.com/raysan5/raylib/pull/6132)
 - [[rtext] Fix TextSplit() reading past its buffer on text of 1024 bytes or more](https://github.com/raysan5/raylib/pull/6136)
-
-### [Tencent](https://github.com/Tencent)
-
-- **[Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)**
-  - [fix(record): record a page reload instead of dropping it as a same-URL navigation](https://github.com/Tencent/BrowserSkill/pull/184)
-- **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**
-  - [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
 
 ### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)
 
@@ -402,6 +405,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [pacifio/atlas](https://github.com/pacifio/atlas)
 
 - [fix(redact): route JSONL payloads through the structure-aware pass](https://github.com/pacifio/atlas/pull/244)
+
+### [pest-parser/pest](https://github.com/pest-parser/pest)
+
+- [Stop Span::lines from yielding a line past the span](https://github.com/pest-parser/pest/pull/1201)
 
 ### [pgdogdev/pgdog](https://github.com/pgdogdev/pgdog)
 
