@@ -196,6 +196,13 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator](https://github.com/raysan5/raylib/pull/6132)
 - [[rtext] Fix TextSplit() reading past its buffer on text of 1024 bytes or more](https://github.com/raysan5/raylib/pull/6136)
 
+### [Tencent](https://github.com/Tencent)
+
+- **[Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)**
+  - [fix(record): record a page reload instead of dropping it as a same-URL navigation](https://github.com/Tencent/BrowserSkill/pull/184)
+- **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**
+  - [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
+
 ### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)
 
 - [fix(diff): compare bad file extensions case-insensitively](https://github.com/The-PR-Agent/pr-agent/pull/3103)
@@ -435,10 +442,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [tconbeer/harlequin](https://github.com/tconbeer/harlequin)
 
 - [fix: write the Feather file version the Data Exporter asked for](https://github.com/tconbeer/harlequin/pull/1158)
-
-### [Tencent/WeKnora](https://github.com/Tencent/WeKnora)
-
-- [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
 
 ### [testem/testem](https://github.com/testem/testem)
 
