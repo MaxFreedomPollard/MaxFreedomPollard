@@ -1,4 +1,4 @@
-My code contributions are live on many agentic evolution repositories, such as [NVIDIA's SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator), [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution), [autocontext](https://github.com/greyhaven-ai/autocontext) and [headlong](https://github.com/laude-institute/headlong).
+My code contributions are live on many agentic evolution repositories, such as [NVIDIA's SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator), [NVIDIA's Molt](https://github.com/NVIDIA-NeMo/labs-molt), [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution), [autocontext](https://github.com/greyhaven-ai/autocontext) and [headlong](https://github.com/laude-institute/headlong).
 
 I am a long-time contributor to [Hermes Agent](https://github.com/NousResearch/hermes-agent), as well as to many other projects, including [Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins), which makes any agent harness multimodal-native, and [86Box](https://github.com/86Box/86Box), an emulator of x86-based machines.
 
