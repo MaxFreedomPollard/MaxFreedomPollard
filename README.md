@@ -61,6 +61,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [Add OWL_DOUBLE types to typeToString](https://github.com/NVIDIA/OWL/pull/28)
 - **[NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)**
   - [feat(reporting): record the evaluated source identity on benchmark cards](https://github.com/NVIDIA/SkillEvaluator/pull/131)
+- **[NVIDIA/TileGym](https://github.com/NVIDIA/TileGym)**
+  - [fix(ops): export tilecpp only when its backend is available](https://github.com/NVIDIA/TileGym/pull/200)
+- **[NVIDIA-NeMo/labs-molt](https://github.com/NVIDIA-NeMo/labs-molt)**
+  - [fix(recipe): resubmit the renamed GLM-5.2 Slurm script](https://github.com/NVIDIA-NeMo/labs-molt/pull/135)
 - **[NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI)**
   - [Fix: include NRIRayTracing.h in NRIWrapperVK.h](https://github.com/NVIDIA-RTX/NRI/pull/260)
 
@@ -167,6 +171,11 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix(eload): cache mode only after the driver confirms set_mode](https://github.com/nominal-io/instro/pull/485)
 - [fix(dmm): release the driver and reset apply state when close() fails](https://github.com/nominal-io/instro/pull/534)
 
+### [open-circle/valibot](https://github.com/open-circle/valibot)
+
+- [fix(cache): clone cached issues to stop issue paths from accumulating](https://github.com/open-circle/valibot/pull/1620)
+- [fix(i18n): add missing async action translations](https://github.com/open-circle/valibot/pull/1645)
+
 ### [psd-tools/psd-tools](https://github.com/psd-tools/psd-tools)
 
 - [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/pull/794)
@@ -218,6 +227,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)
 
 - [fix(wiki): drop a leading BOM on a page with no frontmatter](https://github.com/akitaonrails/ai-memory/pull/663)
+
+### [amicalhq/amical](https://github.com/amicalhq/amical)
+
+- [fix(shortcuts): accept bare Return as a macOS shortcut key](https://github.com/amicalhq/amical/pull/183)
 
 ### [bitshifter/glam-rs](https://github.com/bitshifter/glam-rs)
 
@@ -366,10 +379,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [onnx/onnx](https://github.com/onnx/onnx)
 
 - [fix(reference): reorder Unique outputs correctly when sorted=0](https://github.com/onnx/onnx/pull/8424)
-
-### [open-circle/valibot](https://github.com/open-circle/valibot)
-
-- [fix(cache): clone cached issues to stop issue paths from accumulating](https://github.com/open-circle/valibot/pull/1620)
 
 ### [openhab/openhab-addons](https://github.com/openhab/openhab-addons)
 
