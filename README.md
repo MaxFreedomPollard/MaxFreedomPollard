@@ -38,17 +38,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs)**
   - [Add Run::finish() to flush pending logs before exit](https://github.com/NousResearch/wandb-rs/pull/2)
 
-### [86Box/86Box](https://github.com/86Box/86Box)
-
-- [softpower: Fix the power-off delay spinner range overflowing int16_t](https://github.com/86Box/86Box/pull/7888)
-- [Voodoo: Fix nccTable0 Q2 writes landing in the I2 coefficient](https://github.com/86Box/86Box/pull/7926)
-- [XTA: Restore the missing break in the WDXT-150 case](https://github.com/86Box/86Box/pull/7925)
-- [Config: Fix crash loading a config without a mouse_type key](https://github.com/86Box/86Box/pull/7924)
-- [net_plip: Fix misplaced parenthesis disabling the transmit bounds check](https://github.com/86Box/86Box/pull/7923)
-- [Fix machines and BIOS entries missing on case-sensitive filesystems](https://github.com/86Box/86Box/pull/7922)
-- [GUS: Fix the ADC sample rate divisor missing the +2 bias](https://github.com/86Box/86Box/pull/7941)
-- [MIDI: Fix input queue overflow hang and broken real-time bytes](https://github.com/86Box/86Box/pull/7940)
-
 ### [NVIDIA](https://github.com/NVIDIA)
 
 - **[NVIDIA/cccl](https://github.com/NVIDIA/cccl)**
@@ -74,6 +63,26 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI)**
   - [Fix: include NRIRayTracing.h in NRIWrapperVK.h](https://github.com/NVIDIA-RTX/NRI/pull/260)
 
+### [86Box/86Box](https://github.com/86Box/86Box)
+
+- [softpower: Fix the power-off delay spinner range overflowing int16_t](https://github.com/86Box/86Box/pull/7888)
+- [Voodoo: Fix nccTable0 Q2 writes landing in the I2 coefficient](https://github.com/86Box/86Box/pull/7926)
+- [XTA: Restore the missing break in the WDXT-150 case](https://github.com/86Box/86Box/pull/7925)
+- [Config: Fix crash loading a config without a mouse_type key](https://github.com/86Box/86Box/pull/7924)
+- [net_plip: Fix misplaced parenthesis disabling the transmit bounds check](https://github.com/86Box/86Box/pull/7923)
+- [Fix machines and BIOS entries missing on case-sensitive filesystems](https://github.com/86Box/86Box/pull/7922)
+- [GUS: Fix the ADC sample rate divisor missing the +2 bias](https://github.com/86Box/86Box/pull/7941)
+- [MIDI: Fix input queue overflow hang and broken real-time bytes](https://github.com/86Box/86Box/pull/7940)
+
+### [Tencent](https://github.com/Tencent)
+
+- **[Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)**
+  - [fix(record): record a page reload instead of dropping it as a same-URL navigation](https://github.com/Tencent/BrowserSkill/pull/184)
+  - [fix(extension): return visible labels from select](https://github.com/Tencent/BrowserSkill/pull/307)
+  - [fix(dsh-plugin): settle runner promises when the child never emits close](https://github.com/Tencent/BrowserSkill/pull/183)
+- **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**
+  - [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
+
 ### [laude-institute/headlong](https://github.com/laude-institute/headlong)
 
 - [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
@@ -85,15 +94,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
 - [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/pull/52)
 - [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
-
-### [Tencent](https://github.com/Tencent)
-
-- **[Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)**
-  - [fix(record): record a page reload instead of dropping it as a same-URL navigation](https://github.com/Tencent/BrowserSkill/pull/184)
-  - [fix(extension): return visible labels from select](https://github.com/Tencent/BrowserSkill/pull/307)
-  - [fix(dsh-plugin): settle runner promises when the child never emits close](https://github.com/Tencent/BrowserSkill/pull/183)
-- **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**
-  - [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
 
 ### [abema/go-mp4](https://github.com/abema/go-mp4)
 
