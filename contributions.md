@@ -1,441 +1,547 @@
 # Contributions
 
-Generated from the GitHub search API on 2026-09-15: pull requests authored by @MaxFreedomPollard with state `merged`, grouped by repository. Directory and registry listings and own repositories are listed separately.
+Merged contributions, grouped by repository. Directory and registry listings and own repositories are listed separately.
 
-## Merged pull requests by repository
+## Merged contributions by repository
 
-### [86Box/86Box](https://github.com/86Box/86Box) — 8 merged
+### [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent), 16 merged
 
-- 2026-09-07 — [softpower: Fix the power-off delay spinner range overflowing int16_t](https://github.com/86Box/86Box/pull/7888)
-- 2026-09-11 — [Voodoo: Fix nccTable0 Q2 writes landing in the I2 coefficient](https://github.com/86Box/86Box/pull/7926)
-- 2026-09-11 — [XTA: Restore the missing break in the WDXT-150 case](https://github.com/86Box/86Box/pull/7925)
-- 2026-09-11 — [Config: Fix crash loading a config without a mouse_type key](https://github.com/86Box/86Box/pull/7924)
-- 2026-09-11 — [net_plip: Fix misplaced parenthesis disabling the transmit bounds check](https://github.com/86Box/86Box/pull/7923)
-- 2026-09-11 — [Fix machines and BIOS entries missing on case-sensitive filesystems](https://github.com/86Box/86Box/pull/7922)
-- 2026-09-12 — [GUS: Fix the ADC sample rate divisor missing the +2 bias](https://github.com/86Box/86Box/pull/7941)
-- 2026-09-12 — [MIDI: Fix input queue overflow hang and broken real-time bytes](https://github.com/86Box/86Box/pull/7940)
+- 2026-06-13 [fix(skills): make bundled-update backup handling crash-safe and idempotent](https://github.com/NousResearch/hermes-agent/commit/3581131e7de1560633c921b4782ea87dcbac3a9e)
+- 2026-06-13 [test(skills): add regression tests for bundled-update backup recovery](https://github.com/NousResearch/hermes-agent/commit/9a2b976326340f0fec7eb9a88cfeb953ffdd1e56)
+- 2026-06-17 [fix(curator): stop the rollback safety snapshot from pruning its target](https://github.com/NousResearch/hermes-agent/commit/fc1119ca66e321989a61564aa526b33cb6146d41)
+- 2026-06-17 [fix(curator): stop restore from matching unrelated skills by name prefix](https://github.com/NousResearch/hermes-agent/commit/992b9223893453b3b1527b2ba728996ec81e83f2)
+- 2026-06-30 [Merge consecutive same-role contents for native Gemini](https://github.com/NousResearch/hermes-agent/commit/936af2f4f549f5ff22ef00b082748d115080780e)
+- 2026-07-26 [fix(config): merge duplicate kanban block so auto_subscribe_on_create default survives](https://github.com/NousResearch/hermes-agent/commit/aa636c6fca0d7d9af7c574c524c43cb2035a6242)
+- 2026-08-01 [fix(curator): restore the real skills tree when a rollback extract dies part-way](https://github.com/NousResearch/hermes-agent/commit/65e9ece964988b03c777ea6a563f438cad42f2e1)
+- 2026-08-01 [fix(yuanbao): await the forwarded-records loading heartbeat](https://github.com/NousResearch/hermes-agent/commit/87f5c5351a2c56e27dc271d7a865a874c18b0bfd)
+- 2026-08-01 [fix(auth): a transient read failure is not corruption](https://github.com/NousResearch/hermes-agent/commit/31032b4f51a0b254b751a838f927f34baee1bd03)
+- 2026-08-01 [fix(gateway): do not claim a destructive-slash opt-out that was not saved](https://github.com/NousResearch/hermes-agent/commit/eeaba3a88db906dc1bc7e86946644adbce4bbe75)
+- 2026-08-01 [fix(sessions): briefly wait out a live compression lock instead of killing the turn](https://github.com/NousResearch/hermes-agent/commit/221be76e36de4f2c0c9395126a71552abe7b4a9f)
+- 2026-08-01 [fix(cli): dispatch /background inline instead of queuing it behind the turn](https://github.com/NousResearch/hermes-agent/commit/3dee0634c1436635fbcf51c87a7f32b4101a41b9)
+- 2026-08-01 [test: restore four silently shadowed definitions and guard against more](https://github.com/NousResearch/hermes-agent/commit/7729c183b4a2f70c3b583eee6f93e7149a4081f8)
+- 2026-09-08 [fix(gemini): collapse array-typed tool schemas instead of crashing translation](https://github.com/NousResearch/hermes-agent/commit/6a04ea67c0e75ef1218bf4ceaac071c2f16a0701)
+- 2026-09-13 [fix(tools): stop read_file rendering a phantom empty line for newline-terminated files](https://github.com/NousResearch/hermes-agent/commit/10c34dd7e2441c14f19abea3656fba718999b589)
+- 2026-09-19 [feat(plugin-catalog): add compartment (encrypted offline memory provider)](https://github.com/NousResearch/hermes-agent/pull/114494)
 
-### [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — 7 merged
+### [86Box/86Box](https://github.com/86Box/86Box), 8 merged
 
-- 2026-08-01 — [test: restore four silently shadowed definitions and guard against more](https://github.com/NousResearch/hermes-agent/pull/75272)
-- 2026-08-01 — [fix(cli): dispatch /background inline instead of queuing it behind the turn](https://github.com/NousResearch/hermes-agent/pull/75267)
-- 2026-08-01 — [fix(sessions): briefly wait out a live compression lock instead of killing the turn](https://github.com/NousResearch/hermes-agent/pull/75264)
-- 2026-08-01 — [fix(gateway): do not claim a destructive-slash opt-out that was not saved](https://github.com/NousResearch/hermes-agent/pull/75261)
-- 2026-08-01 — [fix(auth): a transient read failure is not corruption](https://github.com/NousResearch/hermes-agent/pull/75258)
-- 2026-08-01 — [fix(yuanbao): await the forwarded-records loading heartbeat](https://github.com/NousResearch/hermes-agent/pull/75233)
-- 2026-08-01 — [fix(curator): restore the real skills tree when a rollback extract dies part-way](https://github.com/NousResearch/hermes-agent/pull/75229)
+- 2026-09-07 [softpower: Fix the power-off delay spinner range overflowing int16_t](https://github.com/86Box/86Box/pull/7888)
+- 2026-09-11 [Voodoo: Fix nccTable0 Q2 writes landing in the I2 coefficient](https://github.com/86Box/86Box/pull/7926)
+- 2026-09-11 [XTA: Restore the missing break in the WDXT-150 case](https://github.com/86Box/86Box/pull/7925)
+- 2026-09-11 [Config: Fix crash loading a config without a mouse_type key](https://github.com/86Box/86Box/pull/7924)
+- 2026-09-11 [net_plip: Fix misplaced parenthesis disabling the transmit bounds check](https://github.com/86Box/86Box/pull/7923)
+- 2026-09-11 [Fix machines and BIOS entries missing on case-sensitive filesystems](https://github.com/86Box/86Box/pull/7922)
+- 2026-09-12 [GUS: Fix the ADC sample rate divisor missing the +2 bias](https://github.com/86Box/86Box/pull/7941)
+- 2026-09-12 [MIDI: Fix input queue overflow hang and broken real-time bytes](https://github.com/86Box/86Box/pull/7940)
 
-### [laude-institute/headlong](https://github.com/laude-institute/headlong) — 3 merged
+### [laude-institute/headlong](https://github.com/laude-institute/headlong), 3 merged
 
-- 2026-09-05 — [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
-- 2026-09-09 — [ci: point the smoke container's apt at the Azure mirror](https://github.com/laude-institute/headlong/pull/114)
-- 2026-09-09 — [traj: formatted tail and cat return the steps --filter matches](https://github.com/laude-institute/headlong/pull/112)
+- 2026-09-05 [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
+- 2026-09-09 [ci: point the smoke container's apt at the Azure mirror](https://github.com/laude-institute/headlong/pull/114)
+- 2026-09-09 [traj: formatted tail and cat return the steps --filter matches](https://github.com/laude-institute/headlong/pull/112)
 
-### [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins) — 3 merged
+### [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins), 3 merged
 
-- 2026-09-09 — [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
-- 2026-09-09 — [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/pull/52)
-- 2026-09-09 — [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
+- 2026-09-09 [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
+- 2026-09-09 [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/pull/52)
+- 2026-09-09 [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
 
-### [boyter/scc](https://github.com/boyter/scc) — 2 merged
+### [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill), 3 merged
 
-- 2026-09-07 — [fix(asp.net): correct the server side comment terminator](https://github.com/boyter/scc/pull/772)
-- 2026-09-10 — [fix(dart): count single quoted string literals](https://github.com/boyter/scc/pull/773)
+- 2026-09-21 [fix(record): record a page reload instead of dropping it as a same-URL navigation](https://github.com/Tencent/BrowserSkill/pull/184)
+- 2026-09-21 [fix(extension): return visible labels from select](https://github.com/Tencent/BrowserSkill/pull/307)
+- 2026-09-21 [fix(dsh-plugin): settle runner promises when the child never emits close](https://github.com/Tencent/BrowserSkill/pull/183)
 
-### [ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go) — 2 merged
+### [abema/go-mp4](https://github.com/abema/go-mp4), 2 merged
 
-- 2026-09-09 — [fix(chcol): return true from HasType when the Variant carries a type](https://github.com/ClickHouse/clickhouse-go/pull/2006)
-- 2026-09-11 — [fix(churl): validate each host of a comma separated DSN authority](https://github.com/ClickHouse/clickhouse-go/pull/2005)
+- 2026-09-08 [Fix numTemporalLayers and temporalIdNested bit widths in hvcC](https://github.com/abema/go-mp4/pull/185)
+- 2026-09-16 [Fix discarded errors in marshalSlice and marshalUint](https://github.com/abema/go-mp4/pull/187)
 
-### [ekzhang/jax-js](https://github.com/ekzhang/jax-js) — 2 merged
+### [boyter/scc](https://github.com/boyter/scc), 2 merged
 
-- 2026-09-06 — [Fix copysign() dropping the magnitude when y is zero](https://github.com/ekzhang/jax-js/pull/214)
-- 2026-09-10 — [Fix sign() returning 1 for NaN](https://github.com/ekzhang/jax-js/pull/215)
+- 2026-09-07 [fix(asp.net): correct the server side comment terminator](https://github.com/boyter/scc/pull/772)
+- 2026-09-10 [fix(dart): count single quoted string literals](https://github.com/boyter/scc/pull/773)
 
-### [fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify) — 2 merged
+### [caronc/apprise](https://github.com/caronc/apprise), 2 merged
 
-- 2026-09-08 — [fix: drop unmatched properties when additionalProperties is false](https://github.com/fastify/fast-json-stringify/pull/879)
-- 2026-09-15 — [fix: apply the else branch when a schema has if and else but no then](https://github.com/fastify/fast-json-stringify/pull/884)
+- 2026-09-09 [Honor language= in onesignal:// and preserve it through url()](https://github.com/caronc/apprise/pull/1720)
+- 2026-09-16 [Preserve query parameters in signl4:// url()](https://github.com/caronc/apprise/pull/1732)
 
-### [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext) — 2 merged
+### [celery/kombu](https://github.com/celery/kombu), 2 merged
 
-- 2026-09-08 — [fix: default dataclass metadata to a dict, not a pydantic FieldInfo](https://github.com/greyhaven-ai/autocontext/pull/1324)
-- 2026-09-15 — [fix: mirror every compaction ledger append, not only large chunks](https://github.com/greyhaven-ai/autocontext/pull/1345)
+- 2026-09-06 [fix(utils): don't evict a key when overwriting an existing LRUCache entry](https://github.com/celery/kombu/pull/2621)
+- 2026-09-19 [fix(utils): advance the token bucket timestamp even when the bucket is full](https://github.com/celery/kombu/pull/2652)
 
-### [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) — 2 merged
+### [ClickHouse/clickhouse-go](https://github.com/ClickHouse/clickhouse-go), 2 merged
 
-- 2026-09-07 — [[fix] Write the sparsity CSV columns once in three sparse evaluators](https://github.com/huggingface/sentence-transformers/pull/3985)
-- 2026-09-15 — [[docs] Describe the MarginMSE target as the signed margin](https://github.com/huggingface/sentence-transformers/pull/4009)
+- 2026-09-09 [fix(chcol): return true from HasType when the Variant carries a type](https://github.com/ClickHouse/clickhouse-go/pull/2006)
+- 2026-09-11 [fix(churl): validate each host of a comma separated DSN authority](https://github.com/ClickHouse/clickhouse-go/pull/2005)
 
-### [meriyah/meriyah](https://github.com/meriyah/meriyah) — 2 merged
+### [deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation), 2 merged
 
-- 2026-09-09 — [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/pull/646)
-- 2026-09-15 — [fix(parser): parse `/` after an `await` identifier as division](https://github.com/meriyah/meriyah/pull/659)
+- 2026-09-07 [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/pull/822)
+- 2026-09-17 [fix: Rewrite translated field names in all annotate() expressions](https://github.com/deschler/django-modeltranslation/pull/825)
 
-### [psd-tools/psd-tools](https://github.com/psd-tools/psd-tools) — 2 merged
+### [ekzhang/jax-js](https://github.com/ekzhang/jax-js), 2 merged
 
-- 2026-09-09 — [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/pull/794)
-- 2026-09-15 — [fix: replace the layer at an index instead of inserting before it](https://github.com/psd-tools/psd-tools/pull/811)
+- 2026-09-06 [Fix copysign() dropping the magnitude when y is zero](https://github.com/ekzhang/jax-js/pull/214)
+- 2026-09-10 [Fix sign() returning 1 for NaN](https://github.com/ekzhang/jax-js/pull/215)
 
-### [python-attrs/cattrs](https://github.com/python-attrs/cattrs) — 2 merged
+### [fastify/fast-json-stringify](https://github.com/fastify/fast-json-stringify), 2 merged
 
-- 2026-09-07 — [Sort extra keys when formatting ForbiddenExtraKeysError](https://github.com/python-attrs/cattrs/pull/776)
-- 2026-09-14 — [Escape the index note when structuring heterogeneous tuples](https://github.com/python-attrs/cattrs/pull/777)
+- 2026-09-08 [fix: drop unmatched properties when additionalProperties is false](https://github.com/fastify/fast-json-stringify/pull/879)
+- 2026-09-15 [fix: apply the else branch when a schema has if and else but no then](https://github.com/fastify/fast-json-stringify/pull/884)
 
-### [quinn-rs/quinn](https://github.com/quinn-rs/quinn) — 2 merged
+### [foliojs/pdfkit](https://github.com/foliojs/pdfkit), 2 merged
 
-- 2026-09-10 — [[0.11.x] proto: reject transport parameters with a mismatched length](https://github.com/quinn-rs/quinn/pull/2866)
-- 2026-09-10 — [proto: reject transport parameters with a mismatched length](https://github.com/quinn-rs/quinn/pull/2832)
+- 2026-09-10 [Fix annotation rectangle under a rotated transformation matrix](https://github.com/foliojs/pdfkit/pull/1794)
+- 2026-09-19 [Fix doc.list() throwing on a numbered or lettered list with align center or right](https://github.com/foliojs/pdfkit/pull/1800)
 
-### [raysan5/raylib](https://github.com/raysan5/raylib) — 2 merged
+### [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext), 2 merged
 
-- 2026-09-06 — [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator](https://github.com/raysan5/raylib/pull/6132)
-- 2026-09-10 — [[rtext] Fix TextSplit() reading past its buffer on text of 1024 bytes or more](https://github.com/raysan5/raylib/pull/6136)
+- 2026-09-08 [fix: default dataclass metadata to a dict, not a pydantic FieldInfo](https://github.com/greyhaven-ai/autocontext/pull/1324)
+- 2026-09-15 [fix: mirror every compaction ledger append, not only large chunks](https://github.com/greyhaven-ai/autocontext/pull/1345)
 
-### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent) — 2 merged
+### [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers), 2 merged
 
-- 2026-09-07 — [fix(diff): compare bad file extensions case-insensitively](https://github.com/The-PR-Agent/pr-agent/pull/3103)
-- 2026-09-15 — [fix(bitbucket): send inline comment ranges with start_to](https://github.com/The-PR-Agent/pr-agent/pull/3384)
+- 2026-09-07 [[fix] Write the sparsity CSV columns once in three sparse evaluators](https://github.com/huggingface/sentence-transformers/pull/3985)
+- 2026-09-15 [[docs] Describe the MarginMSE target as the signed margin](https://github.com/huggingface/sentence-transformers/pull/4009)
 
-### [wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest) — 2 merged
+### [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master), 2 merged
 
-- 2026-09-10 — [Fix `q` weights in `Accept` header parsing](https://github.com/wemake-services/django-modern-rest/pull/1407)
-- 2026-09-15 — [Strip optional whitespace when splitting headers on `,`](https://github.com/wemake-services/django-modern-rest/pull/1526)
+- 2026-09-07 [fix(video-subtitles): keep the space between merged subtitle clauses](https://github.com/hugohe3/ppt-master/pull/283)
+- 2026-09-16 [fix(quick): read the deck language and theme fonts from the roster's first page](https://github.com/hugohe3/ppt-master/pull/292)
 
-### [abema/go-mp4](https://github.com/abema/go-mp4) — 1 merged
+### [hyparam/hyparquet](https://github.com/hyparam/hyparquet), 2 merged
 
-- 2026-09-08 — [Fix numTemporalLayers and temporalIdNested bit widths in hvcC](https://github.com/abema/go-mp4/pull/185)
+- 2026-09-11 [Fix $not filters on dot-notation paths](https://github.com/hyparam/hyparquet/pull/177)
+- 2026-09-16 [Keep default parsers when only some are overridden](https://github.com/hyparam/hyparquet/pull/178)
 
-### [agavra/tuicr](https://github.com/agavra/tuicr) — 1 merged
+### [jhd3197/ServerKit](https://github.com/jhd3197/ServerKit), 2 merged
 
-- 2026-09-07 — [fix(input): type AltGr characters in the command, search and filter prompts](https://github.com/agavra/tuicr/pull/694)
+- 2026-09-08 [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/pull/139)
+- 2026-09-18 [fix(logs): compare whole segments in path guard](https://github.com/jhd3197/ServerKit/pull/145)
 
-### [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope) — 1 merged
+### [jundot/omlx](https://github.com/jundot/omlx), 2 merged
 
-- 2026-09-07 — [fix(rag): escape Excel Markdown table cells](https://github.com/agentscope-ai/agentscope/pull/2528)
+- 2026-09-08 [fix(eval): stop a comma from swallowing the GSM8K answer](https://github.com/jundot/omlx/pull/3484)
+- 2026-09-16 [fix(eval): honor a stated "answer is X" in multiple choice](https://github.com/jundot/omlx/pull/3668)
 
-### [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) — 1 merged
+### [kenn-io/agentsview](https://github.com/kenn-io/agentsview), 2 merged
 
-- 2026-09-07 — [fix(wiki): drop a leading BOM on a page with no frontmatter](https://github.com/akitaonrails/ai-memory/pull/663)
+- 2026-09-07 [fix(search): derive snippet spans from the matched bytes](https://github.com/kenn-io/agentsview/pull/1643)
+- 2026-09-17 [fix(quality): keep signal excerpts on rune boundaries](https://github.com/kenn-io/agentsview/pull/1788)
 
-### [apache/answer](https://github.com/apache/answer) — 1 merged
+### [meriyah/meriyah](https://github.com/meriyah/meriyah), 2 merged
 
-- 2026-09-08 — [fix: comment url swaps title and answer id](https://github.com/apache/answer/pull/1603)
+- 2026-09-09 [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/pull/646)
+- 2026-09-15 [fix(parser): parse `/` after an `await` identifier as division](https://github.com/meriyah/meriyah/pull/659)
 
-### [apache/datasketches-java](https://github.com/apache/datasketches-java) — 1 merged
+### [nominal-io/instro](https://github.com/nominal-io/instro), 2 merged
 
-- 2026-09-16 — [Fix Util.numDigits returning 0 for 0 and 1, and 18 for 1E18](https://github.com/apache/datasketches-java/pull/762)
+- 2026-09-07 [fix(eload): cache mode only after the driver confirms set_mode](https://github.com/nominal-io/instro/pull/485)
+- 2026-09-16 [fix(dmm): release the driver and reset apply state when close() fails](https://github.com/nominal-io/instro/pull/534)
 
-### [bitshifter/glam-rs](https://github.com/bitshifter/glam-rs) — 1 merged
+### [open-circle/valibot](https://github.com/open-circle/valibot), 2 merged
 
-- 2026-09-07 — [fix(vec): round half-way cases away from zero in the SIMD backends](https://github.com/bitshifter/glam-rs/pull/831)
+- 2026-09-08 [fix(cache): clone cached issues to stop issue paths from accumulating](https://github.com/open-circle/valibot/pull/1620)
+- 2026-09-20 [fix(i18n): add missing async action translations](https://github.com/open-circle/valibot/pull/1645)
 
-### [caronc/apprise](https://github.com/caronc/apprise) — 1 merged
+### [psd-tools/psd-tools](https://github.com/psd-tools/psd-tools), 2 merged
 
-- 2026-09-09 — [Honor language= in onesignal:// and preserve it through url()](https://github.com/caronc/apprise/pull/1720)
+- 2026-09-09 [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/pull/794)
+- 2026-09-15 [fix: replace the layer at an index instead of inserting before it](https://github.com/psd-tools/psd-tools/pull/811)
 
-### [castorini/rank_llm](https://github.com/castorini/rank_llm) — 1 merged
+### [PyLabRobot/pylabrobot](https://github.com/PyLabRobot/pylabrobot), 2 merged
 
-- 2026-09-07 — [Fix trec_eval dropping the first evaluation option](https://github.com/castorini/rank_llm/pull/437)
+- 2026-09-06 [fix(resources): center a plate on the adapter hole's y size, not its x size](https://github.com/PyLabRobot/pylabrobot/pull/1244)
+- 2026-09-22 [fix(resources): stop transposing a tip spot's size_x and size_y](https://github.com/PyLabRobot/pylabrobot/pull/1251)
 
-### [celery/kombu](https://github.com/celery/kombu) — 1 merged
+### [python-attrs/cattrs](https://github.com/python-attrs/cattrs), 2 merged
 
-- 2026-09-06 — [fix(utils): don't evict a key when overwriting an existing LRUCache entry](https://github.com/celery/kombu/pull/2621)
+- 2026-09-07 [Sort extra keys when formatting ForbiddenExtraKeysError](https://github.com/python-attrs/cattrs/pull/776)
+- 2026-09-14 [Escape the index note when structuring heterogeneous tuples](https://github.com/python-attrs/cattrs/pull/777)
 
-### [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) — 1 merged
+### [quinn-rs/quinn](https://github.com/quinn-rs/quinn), 2 merged
 
-- 2026-09-07 — [fix(react): read the important marker only at the end of a value](https://github.com/chakra-ui/chakra-ui/pull/10970)
+- 2026-09-10 [[0.11.x] proto: reject transport parameters with a mismatched length](https://github.com/quinn-rs/quinn/pull/2866)
+- 2026-09-10 [proto: reject transport parameters with a mismatched length](https://github.com/quinn-rs/quinn/pull/2832)
 
-### [charmbracelet/catwalk](https://github.com/charmbracelet/catwalk) — 1 merged
+### [raysan5/raylib](https://github.com/raysan5/raylib), 2 merged
 
-- 2026-09-09 — [fix: add missing providers to KnownProviders](https://github.com/charmbracelet/catwalk/pull/578)
+- 2026-09-06 [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator](https://github.com/raysan5/raylib/pull/6132)
+- 2026-09-10 [[rtext] Fix TextSplit() reading past its buffer on text of 1024 bytes or more](https://github.com/raysan5/raylib/pull/6136)
 
-### [crmne/spotifast](https://github.com/crmne/spotifast) — 1 merged
+### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent), 2 merged
 
-- 2026-09-09 — [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/spotifast/pull/344)
+- 2026-09-07 [fix(diff): compare bad file extensions case-insensitively](https://github.com/The-PR-Agent/pr-agent/pull/3103)
+- 2026-09-15 [fix(bitbucket): send inline comment ranges with start_to](https://github.com/The-PR-Agent/pr-agent/pull/3384)
 
-### [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam) — 1 merged
+### [TimothyYe/godns](https://github.com/TimothyYe/godns), 2 merged
 
-- 2026-09-07 — [channel: Implement Display and Error for TryReadyError and ReadyTimeoutError](https://github.com/crossbeam-rs/crossbeam/pull/1327)
+- 2026-09-12 [fix: match ip_type case-insensitively in IONOS and Hetzner providers](https://github.com/TimothyYe/godns/pull/316)
+- 2026-09-16 [fix: discard wrong-family IP instead of returning it from getIPOnline](https://github.com/TimothyYe/godns/pull/319)
 
-### [dalathegreat/Battery-Emulator](https://github.com/dalathegreat/Battery-Emulator) — 1 merged
+### [vadimdemedes/ink](https://github.com/vadimdemedes/ink), 2 merged
 
-- 2026-09-07 — [Fix SOL-ARK-LV-CAN 0x359 over-current sign bug](https://github.com/dalathegreat/Battery-Emulator/pull/2929)
+- 2026-09-08 [Fix `wrapText` cache key collision between different texts and widths](https://github.com/vadimdemedes/ink/pull/998)
+- 2026-09-16 [Fix multi-line `<Text>` vanishing when it starts above the top of the output](https://github.com/vadimdemedes/ink/pull/1001)
 
-### [deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation) — 1 merged
+### [wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest), 2 merged
 
-- 2026-09-07 — [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/pull/822)
+- 2026-09-10 [Fix `q` weights in `Accept` header parsing](https://github.com/wemake-services/django-modern-rest/pull/1407)
+- 2026-09-15 [Strip optional whitespace when splitting headers on `,`](https://github.com/wemake-services/django-modern-rest/pull/1526)
 
-### [devitocodes/devito](https://github.com/devitocodes/devito) — 1 merged
+### [agavra/tuicr](https://github.com/agavra/tuicr), 1 merged
 
-- 2026-09-10 — [misc: Snapshot the environment when a switchenv is entered](https://github.com/devitocodes/devito/pull/3019)
+- 2026-09-07 [fix(input): type AltGr characters in the command, search and filter prompts](https://github.com/agavra/tuicr/pull/694)
 
-### [Effect-TS/effect](https://github.com/Effect-TS/effect) — 1 merged
+### [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope), 1 merged
 
-- 2026-09-07 — [fix(cli): split key=value pairs at the first separator](https://github.com/Effect-TS/effect/pull/8086)
+- 2026-09-07 [fix(rag): escape Excel Markdown table cells](https://github.com/agentscope-ai/agentscope/pull/2528)
 
-### [elastio/bon](https://github.com/elastio/bon) — 1 merged
+### [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory), 1 merged
 
-- 2026-09-07 — [Strip the `r#` prefix from raw identifiers in `derive(Debug)`](https://github.com/elastio/bon/pull/402)
+- 2026-09-07 [fix(wiki): drop a leading BOM on a page with no frontmatter](https://github.com/akitaonrails/ai-memory/pull/663)
 
-### [embassy-rs/embassy](https://github.com/embassy-rs/embassy) — 1 merged
+### [amicalhq/amical](https://github.com/amicalhq/amical), 1 merged
 
-- 2026-09-14 — [embassy-sync: wake the next waiter when a FairSemaphore acquire is canceled](https://github.com/embassy-rs/embassy/pull/6964)
+- 2026-09-20 [fix(shortcuts): accept bare Return as a macOS shortcut key](https://github.com/amicalhq/amical/pull/183)
 
-### [evcxr/evcxr](https://github.com/evcxr/evcxr) — 1 merged
+### [apache/answer](https://github.com/apache/answer), 1 merged
 
-- 2026-09-07 — [Fix comment handling when looking for commands](https://github.com/evcxr/evcxr/pull/507)
+- 2026-09-08 [fix: comment url swaps title and answer id](https://github.com/apache/answer/pull/1603)
 
-### [expressjs/multer](https://github.com/expressjs/multer) — 1 merged
+### [apache/datasketches-java](https://github.com/apache/datasketches-java), 1 merged
 
-- 2026-09-14 — [fix: report the decoded filename on LIMIT_FILE_SIZE](https://github.com/expressjs/multer/pull/1478)
+- 2026-09-16 [Fix Util.numDigits returning 0 for 0 and 1, and 18 for 1E18](https://github.com/apache/datasketches-java/pull/762)
 
-### [floci-io/floci](https://github.com/floci-io/floci) — 1 merged
+### [bitshifter/glam-rs](https://github.com/bitshifter/glam-rs), 1 merged
 
-- 2026-09-06 — [fix(eventbridge,scheduler): read cron day-of-week as AWS 1-7 SUN-SAT](https://github.com/floci-io/floci/pull/3147)
+- 2026-09-07 [fix(vec): round half-way cases away from zero in the SIMD backends](https://github.com/bitshifter/glam-rs/pull/831)
 
-### [foliojs/pdfkit](https://github.com/foliojs/pdfkit) — 1 merged
+### [boa-dev/boa](https://github.com/boa-dev/boa), 1 merged
 
-- 2026-09-10 — [Fix annotation rectangle under a rotated transformation matrix](https://github.com/foliojs/pdfkit/pull/1794)
+- 2026-09-18 [fix(string): reject signed Infinity and non-decimal literals in StringToNumber](https://github.com/boa-dev/boa/pull/5509)
 
-### [gbdev/rgbds](https://github.com/gbdev/rgbds) — 1 merged
+### [castorini/rank_llm](https://github.com/castorini/rank_llm), 1 merged
 
-- 2026-09-07 — [Avoid signed overflow in RGBLINK's `+`, `-`, and `*`](https://github.com/gbdev/rgbds/pull/2060)
+- 2026-09-07 [Fix trec_eval dropping the first evaluation option](https://github.com/castorini/rank_llm/pull/437)
 
-### [gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory) — 1 merged
+### [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui), 1 merged
 
-- 2026-09-08 — [fix: keep grid_with_text labels on their anchors](https://github.com/gdsfactory/gdsfactory/pull/4821)
+- 2026-09-07 [fix(react): read the important marker only at the end of a value](https://github.com/chakra-ui/chakra-ui/pull/10970)
 
-### [georust/rstar](https://github.com/georust/rstar) — 1 merged
+### [charmbracelet/catwalk](https://github.com/charmbracelet/catwalk), 1 merged
 
-- 2026-09-11 — [Fix overflow panic draining an empty tree with integer coordinates](https://github.com/georust/rstar/pull/246)
+- 2026-09-09 [fix: add missing providers to KnownProviders](https://github.com/charmbracelet/catwalk/pull/578)
 
-### [go-goyave/goyave](https://github.com/go-goyave/goyave) — 1 merged
+### [crmne/spotifast](https://github.com/crmne/spotifast), 1 merged
 
-- 2026-09-08 — [httputil: fix quality value parsing in ParseMultiValuesHeader](https://github.com/go-goyave/goyave/pull/295)
+- 2026-09-09 [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/spotifast/pull/344)
 
-### [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg) — 1 merged
+### [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam), 1 merged
 
-- 2026-09-06 — [fix(libreoffice): report an encrypted .xlsb as password-protected](https://github.com/gotenberg/gotenberg/pull/1655)
+- 2026-09-07 [channel: Implement Display and Error for TryReadyError and ReadyTimeoutError](https://github.com/crossbeam-rs/crossbeam/pull/1327)
 
-### [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) — 1 merged
+### [dalathegreat/Battery-Emulator](https://github.com/dalathegreat/Battery-Emulator), 1 merged
 
-- 2026-09-07 — [fix(video-subtitles): keep the space between merged subtitle clauses](https://github.com/hugohe3/ppt-master/pull/283)
+- 2026-09-07 [Fix SOL-ARK-LV-CAN 0x359 over-current sign bug](https://github.com/dalathegreat/Battery-Emulator/pull/2929)
 
-### [hyparam/hyparquet](https://github.com/hyparam/hyparquet) — 1 merged
+### [devitocodes/devito](https://github.com/devitocodes/devito), 1 merged
 
-- 2026-09-11 — [Fix $not filters on dot-notation paths](https://github.com/hyparam/hyparquet/pull/177)
+- 2026-09-10 [misc: Snapshot the environment when a switchenv is entered](https://github.com/devitocodes/devito/pull/3019)
 
-### [inducer/loopy](https://github.com/inducer/loopy) — 1 merged
+### [Effect-TS/effect](https://github.com/Effect-TS/effect), 1 merged
 
-- 2026-09-11 — [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/pull/1048)
+- 2026-09-07 [fix(cli): split key=value pairs at the first separator](https://github.com/Effect-TS/effect/pull/8086)
 
-### [ishepard/pydriller](https://github.com/ishepard/pydriller) — 1 merged
+### [elastio/bon](https://github.com/elastio/bon), 1 merged
 
-- 2026-09-11 — [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/pull/324)
+- 2026-09-07 [Strip the `r#` prefix from raw identifiers in `derive(Debug)`](https://github.com/elastio/bon/pull/402)
 
-### [jhd3197/ServerKit](https://github.com/jhd3197/ServerKit) — 1 merged
+### [embassy-rs/embassy](https://github.com/embassy-rs/embassy), 1 merged
 
-- 2026-09-08 — [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/pull/139)
+- 2026-09-14 [embassy-sync: wake the next waiter when a FairSemaphore acquire is canceled](https://github.com/embassy-rs/embassy/pull/6964)
 
-### [joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x) — 1 merged
+### [evcxr/evcxr](https://github.com/evcxr/evcxr), 1 merged
 
-- 2026-09-08 — [drive_virtual: fix CHDIR succeeding on a file on drive Z:](https://github.com/joncampbell123/dosbox-x/pull/6533)
+- 2026-09-07 [Fix comment handling when looking for commands](https://github.com/evcxr/evcxr/pull/507)
 
-### [jundot/omlx](https://github.com/jundot/omlx) — 1 merged
+### [expressjs/multer](https://github.com/expressjs/multer), 1 merged
 
-- 2026-09-08 — [fix(eval): stop a comma from swallowing the GSM8K answer](https://github.com/jundot/omlx/pull/3484)
+- 2026-09-14 [fix: report the decoded filename on LIMIT_FILE_SIZE](https://github.com/expressjs/multer/pull/1478)
 
-### [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale) — 1 merged
+### [floci-io/floci](https://github.com/floci-io/floci), 1 merged
 
-- 2026-09-06 — [fix(core): parse MiMo Code and fx on the local report path](https://github.com/junhoyeo/tokscale/pull/1300)
+- 2026-09-06 [fix(eventbridge,scheduler): read cron day-of-week as AWS 1-7 SUN-SAT](https://github.com/floci-io/floci/pull/3147)
 
-### [kenn-io/agentsview](https://github.com/kenn-io/agentsview) — 1 merged
+### [gbdev/rgbds](https://github.com/gbdev/rgbds), 1 merged
 
-- 2026-09-07 — [fix(search): derive snippet spans from the matched bytes](https://github.com/kenn-io/agentsview/pull/1643)
+- 2026-09-07 [Avoid signed overflow in RGBLINK's `+`, `-`, and `*`](https://github.com/gbdev/rgbds/pull/2060)
 
-### [kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway) — 1 merged
+### [gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory), 1 merged
 
-- 2026-09-12 — [fix(deployer): merge gmsaCredentialSpecName from its own field](https://github.com/kgateway-dev/kgateway/pull/14660)
+- 2026-09-08 [fix: keep grid_with_text labels on their anchors](https://github.com/gdsfactory/gdsfactory/pull/4821)
 
-### [kubescape/kubescape](https://github.com/kubescape/kubescape) — 1 merged
+### [georust/rstar](https://github.com/georust/rstar), 1 merged
 
-- 2026-09-07 — [fix(rbacgraph): order escalation results instead of reading map order](https://github.com/kubescape/kubescape/pull/3739)
+- 2026-09-11 [Fix overflow panic draining an empty tree with integer coordinates](https://github.com/georust/rstar/pull/246)
 
-### [leookun/cursor-byok](https://github.com/leookun/cursor-byok) — 1 merged
+### [go-goyave/goyave](https://github.com/go-goyave/goyave), 1 merged
 
-- 2026-09-15 — [fix(search): stop a repeated URL from faking cross-engine agreement](https://github.com/leookun/cursor-byok/pull/431)
+- 2026-09-08 [httputil: fix quality value parsing in ParseMultiValuesHeader](https://github.com/go-goyave/goyave/pull/295)
 
-### [libarchive/libarchive](https://github.com/libarchive/libarchive) — 1 merged
+### [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg), 1 merged
 
-- 2026-09-08 — [man: fix option names that archive_write_set_options rejects](https://github.com/libarchive/libarchive/pull/3495)
+- 2026-09-06 [fix(libreoffice): report an encrypted .xlsb as password-protected](https://github.com/gotenberg/gotenberg/pull/1655)
 
-### [magefree/mage](https://github.com/magefree/mage) — 1 merged
+### [inducer/loopy](https://github.com/inducer/loopy), 1 merged
 
-- 2026-09-06 — [Fix Wickersmith's Tools creating untapped Scarecrow tokens](https://github.com/magefree/mage/pull/16115)
+- 2026-09-11 [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/pull/1048)
 
-### [maplibre/maplibre-tile-spec](https://github.com/maplibre/maplibre-tile-spec) — 1 merged
+### [ishepard/pydriller](https://github.com/ishepard/pydriller), 1 merged
 
-- 2026-09-06 — [fix(ts): keep byte RLE within the lengths its headers can express](https://github.com/maplibre/maplibre-tile-spec/pull/1653)
+- 2026-09-11 [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/pull/324)
 
-### [marin-community/marin](https://github.com/marin-community/marin) — 1 merged
+### [joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x), 1 merged
 
-- 2026-09-11 — [[markdown] Omit the link and image title when the HTML has none](https://github.com/marin-community/marin/pull/8938)
+- 2026-09-08 [drive_virtual: fix CHDIR succeeding on a file on drive Z:](https://github.com/joncampbell123/dosbox-x/pull/6533)
 
-### [modelcontextprotocol/go-sdk](https://github.com/modelcontextprotocol/go-sdk) — 1 merged
+### [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale), 1 merged
 
-- 2026-09-07 — [auth: strip a terminating slash from the issuer before building metadata URLs](https://github.com/modelcontextprotocol/go-sdk/pull/1245)
+- 2026-09-06 [fix(core): parse MiMo Code and fx on the local report path](https://github.com/junhoyeo/tokscale/pull/1300)
 
-### [modelscope/ms-swift](https://github.com/modelscope/ms-swift) — 1 merged
+### [kgateway-dev/kgateway](https://github.com/kgateway-dev/kgateway), 1 merged
 
-- 2026-09-15 — [fix(metrics): mask ignored labels in padding-free seq_acc](https://github.com/modelscope/ms-swift/pull/10049)
+- 2026-09-12 [fix(deployer): merge gmsaCredentialSpecName from its own field](https://github.com/kgateway-dev/kgateway/pull/14660)
 
-### [mozilla/pontoon](https://github.com/mozilla/pontoon) — 1 merged
+### [kubescape/kubescape](https://github.com/kubescape/kubescape), 1 merged
 
-- 2026-09-07 — [Update data-theme when the user picks a theme](https://github.com/mozilla/pontoon/pull/4501)
+- 2026-09-07 [fix(rbacgraph): order escalation results instead of reading map order](https://github.com/kubescape/kubescape/pull/3739)
 
-### [noahbald/oxvg](https://github.com/noahbald/oxvg) — 1 merged
+### [leookun/cursor-byok](https://github.com/leookun/cursor-byok), 1 merged
 
-- 2026-09-07 — [fix(oxvg_optimiser): keep ellipses selected by a stylesheet in convertShapeToPath](https://github.com/noahbald/oxvg/pull/277)
+- 2026-09-15 [fix(search): stop a repeated URL from faking cross-engine agreement](https://github.com/leookun/cursor-byok/pull/431)
 
-### [nominal-io/instro](https://github.com/nominal-io/instro) — 1 merged
+### [libarchive/libarchive](https://github.com/libarchive/libarchive), 1 merged
 
-- 2026-09-07 — [fix(eload): cache mode only after the driver confirms set_mode](https://github.com/nominal-io/instro/pull/485)
+- 2026-09-08 [man: fix option names that archive_write_set_options rejects](https://github.com/libarchive/libarchive/pull/3495)
 
-### [NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) — 1 merged
+### [magefree/mage](https://github.com/magefree/mage), 1 merged
 
-- 2026-06-17 — [fix(config): honor explicit --hermes-repo and make config construction non-fatal](https://github.com/NousResearch/hermes-agent-self-evolution/pull/122)
+- 2026-09-06 [Fix Wickersmith's Tools creating untapped Scarecrow tokens](https://github.com/magefree/mage/pull/16115)
 
-### [NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs) — 1 merged
+### [maplibre/maplibre-tile-spec](https://github.com/maplibre/maplibre-tile-spec), 1 merged
 
-- 2026-06-25 — [Add Run::finish() to flush pending logs before exit](https://github.com/NousResearch/wandb-rs/pull/2)
+- 2026-09-06 [fix(ts): keep byte RLE within the lengths its headers can express](https://github.com/maplibre/maplibre-tile-spec/pull/1653)
 
-### [odygrd/quill](https://github.com/odygrd/quill) — 1 merged
+### [marin-community/marin](https://github.com/marin-community/marin), 1 merged
 
-- 2026-09-07 — [Flush sinks and run periodic tasks when manual backend polling drains the queues](https://github.com/odygrd/quill/pull/989)
+- 2026-09-11 [[markdown] Omit the link and image title when the HTML has none](https://github.com/marin-community/marin/pull/8938)
 
-### [onnx/onnx](https://github.com/onnx/onnx) — 1 merged
+### [modelcontextprotocol/go-sdk](https://github.com/modelcontextprotocol/go-sdk), 1 merged
 
-- 2026-09-09 — [fix(reference): reorder Unique outputs correctly when sorted=0](https://github.com/onnx/onnx/pull/8424)
+- 2026-09-07 [auth: strip a terminating slash from the issuer before building metadata URLs](https://github.com/modelcontextprotocol/go-sdk/pull/1245)
 
-### [open-circle/valibot](https://github.com/open-circle/valibot) — 1 merged
+### [modelscope/ms-swift](https://github.com/modelscope/ms-swift), 1 merged
 
-- 2026-09-08 — [fix(cache): clone cached issues to stop issue paths from accumulating](https://github.com/open-circle/valibot/pull/1620)
+- 2026-09-15 [fix(metrics): mask ignored labels in padding-free seq_acc](https://github.com/modelscope/ms-swift/pull/10049)
 
-### [openhab/openhab-addons](https://github.com/openhab/openhab-addons) — 1 merged
+### [mozilla/pontoon](https://github.com/mozilla/pontoon), 1 merged
 
-- 2026-09-06 — [[nobohub] Fix ignored keepaliveInterval setting](https://github.com/openhab/openhab-addons/pull/21613)
+- 2026-09-07 [Update data-theme when the user picks a theme](https://github.com/mozilla/pontoon/pull/4501)
 
-### [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) — 1 merged
+### [noahbald/oxvg](https://github.com/noahbald/oxvg), 1 merged
 
-- 2026-09-07 — [fix(server): relay client websocket closes with a legal code](https://github.com/opensandbox-group/OpenSandbox/pull/1731)
+- 2026-09-07 [fix(oxvg_optimiser): keep ellipses selected by a stylesheet in convertShapeToPath](https://github.com/noahbald/oxvg/pull/277)
 
-### [oras-project/oras](https://github.com/oras-project/oras) — 1 merged
+### [NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution), 1 merged
 
-- 2026-09-06 — [fix: attribute recursive copy tag failures to the destination](https://github.com/oras-project/oras/pull/2157)
+- 2026-06-17 [fix(config): honor explicit --hermes-repo and make config construction non-fatal](https://github.com/NousResearch/hermes-agent-self-evolution/pull/122)
 
-### [pacifio/atlas](https://github.com/pacifio/atlas) — 1 merged
+### [NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs), 1 merged
 
-- 2026-09-07 — [fix(redact): route JSONL payloads through the structure-aware pass](https://github.com/pacifio/atlas/pull/244)
+- 2026-06-25 [Add Run::finish() to flush pending logs before exit](https://github.com/NousResearch/wandb-rs/pull/2)
 
-### [pmndrs/koota](https://github.com/pmndrs/koota) — 1 merged
+### [NVIDIA-NeMo/labs-molt](https://github.com/NVIDIA-NeMo/labs-molt), 1 merged
 
-- 2026-09-08 — [🐛 core: fix query hash collisions from the shared sort buffer](https://github.com/pmndrs/koota/pull/281)
+- 2026-09-20 [fix(recipe): resubmit the renamed GLM-5.2 Slurm script](https://github.com/NVIDIA-NeMo/labs-molt/pull/135)
 
-### [probe-rs/probe-rs](https://github.com/probe-rs/probe-rs) — 1 merged
+### [NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI), 1 merged
 
-- 2026-09-06 — [Fix the semihosting file open modes for update and append](https://github.com/probe-rs/probe-rs/pull/4312)
+- 2026-09-20 [Fix: include NRIRayTracing.h in NRIWrapperVK.h](https://github.com/NVIDIA-RTX/NRI/pull/260)
 
-### [PyLabRobot/pylabrobot](https://github.com/PyLabRobot/pylabrobot) — 1 merged
+### [NVIDIA/cccl](https://github.com/NVIDIA/cccl), 1 merged
 
-- 2026-09-06 — [fix(resources): center a plate on the adapter hole's y size, not its x size](https://github.com/PyLabRobot/pylabrobot/pull/1244)
+- 2026-09-21 [Add count_if NVHPC stdpar smoke test](https://github.com/NVIDIA/cccl/pull/11521)
 
-### [quarkusio/quarkus](https://github.com/quarkusio/quarkus) — 1 merged
+### [NVIDIA/cloudai](https://github.com/NVIDIA/cloudai), 1 merged
 
-- 2026-09-15 — [Qute: require the index parameter for list get/take/takeLast](https://github.com/quarkusio/quarkus/pull/56460)
+- 2026-09-21 [Make File.is_installed binary-safe](https://github.com/NVIDIA/cloudai/pull/1044)
 
-### [rust-diplomat/diplomat](https://github.com/rust-diplomat/diplomat) — 1 merged
+### [NVIDIA/cuopt-examples](https://github.com/NVIDIA/cuopt-examples), 1 merged
 
-- 2026-09-09 — [hir: resolve callback optional-opaque returns in the enclosing module](https://github.com/rust-diplomat/diplomat/pull/1271)
+- 2026-09-21 [Fix EARLI notebook links in the README](https://github.com/NVIDIA/cuopt-examples/pull/174)
 
-### [srl-labs/containerlab](https://github.com/srl-labs/containerlab) — 1 merged
+### [NVIDIA/DALI](https://github.com/NVIDIA/DALI), 1 merged
 
-- 2026-09-07 — [fix: canonical image name for registries addressed by host and port](https://github.com/srl-labs/containerlab/pull/3391)
+- 2026-09-21 [Document that random_shuffle shuffles only locally](https://github.com/NVIDIA/DALI/pull/6491)
 
-### [tconbeer/harlequin](https://github.com/tconbeer/harlequin) — 1 merged
+### [NVIDIA/multi-storage-client](https://github.com/NVIDIA/multi-storage-client), 1 merged
 
-- 2026-09-15 — [fix: write the Feather file version the Data Exporter asked for](https://github.com/tconbeer/harlequin/pull/1158)
+- 2026-09-21 [fix(pathlib): compare profiles in is_relative_to](https://github.com/NVIDIA/multi-storage-client/pull/179)
 
-### [Tencent/WeKnora](https://github.com/Tencent/WeKnora) — 1 merged
+### [NVIDIA/OWL](https://github.com/NVIDIA/OWL), 1 merged
 
-- 2026-09-07 — [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
+- 2026-09-19 [Add OWL_DOUBLE types to typeToString](https://github.com/NVIDIA/OWL/pull/28)
 
-### [testem/testem](https://github.com/testem/testem) — 1 merged
+### [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator), 1 merged
 
-- 2026-09-07 — [fix(report-file): surface write stream errors instead of a TypeError](https://github.com/testem/testem/pull/2058)
+- 2026-09-17 [feat(reporting): record the evaluated source identity on benchmark cards](https://github.com/NVIDIA/SkillEvaluator/pull/131)
 
-### [TimothyYe/godns](https://github.com/TimothyYe/godns) — 1 merged
+### [NVIDIA/sphinx-llm](https://github.com/NVIDIA/sphinx-llm), 1 merged
 
-- 2026-09-12 — [fix: match ip_type case-insensitively in IONOS and Hetzner providers](https://github.com/TimothyYe/godns/pull/316)
+- 2026-09-21 [Read page descriptions on older Docutils releases](https://github.com/NVIDIA/sphinx-llm/pull/156)
 
-### [tombi-toml/tombi](https://github.com/tombi-toml/tombi) — 1 merged
+### [NVIDIA/TileGym](https://github.com/NVIDIA/TileGym), 1 merged
 
-- 2026-09-08 — [fix(lexer): close multi-line string after escaped backslash](https://github.com/tombi-toml/tombi/pull/2167)
+- 2026-09-21 [fix(ops): export tilecpp only when its backend is available](https://github.com/NVIDIA/TileGym/pull/200)
 
-### [uutils/coreutils](https://github.com/uutils/coreutils) — 1 merged
+### [odygrd/quill](https://github.com/odygrd/quill), 1 merged
 
-- 2026-09-07 — [fmt: honor -x and -X instead of always matching prefixes exactly](https://github.com/uutils/coreutils/pull/14417)
+- 2026-09-07 [Flush sinks and run periodic tasks when manual backend polling drains the queues](https://github.com/odygrd/quill/pull/989)
 
-### [vadimdemedes/ink](https://github.com/vadimdemedes/ink) — 1 merged
+### [onnx/onnx](https://github.com/onnx/onnx), 1 merged
 
-- 2026-09-08 — [Fix `wrapText` cache key collision between different texts and widths](https://github.com/vadimdemedes/ink/pull/998)
+- 2026-09-09 [fix(reference): reorder Unique outputs correctly when sorted=0](https://github.com/onnx/onnx/pull/8424)
 
-### [velero-io/velero](https://github.com/velero-io/velero) — 1 merged
+### [openhab/openhab-addons](https://github.com/openhab/openhab-addons), 1 merged
 
-- 2026-09-09 — [Scope schedule and repo CLI list calls to the Velero namespace](https://github.com/velero-io/velero/pull/10482)
+- 2026-09-06 [[nobohub] Fix ignored keepaliveInterval setting](https://github.com/openhab/openhab-addons/pull/21613)
 
-### [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni) — 1 merged
+### [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox), 1 merged
 
-- 2026-09-06 — [[Doc] Fix markdownlint findings in the serving API reference](https://github.com/vllm-project/vllm-omni/pull/7111)
+- 2026-09-07 [fix(server): relay client websocket closes with a legal code](https://github.com/opensandbox-group/OpenSandbox/pull/1731)
 
-### [wshobson/agents](https://github.com/wshobson/agents) — 1 merged
+### [oras-project/oras](https://github.com/oras-project/oras), 1 merged
 
-- 2026-09-13 — [fix(adapters): quote YAML scalars in OpenCode and Copilot frontmatter](https://github.com/wshobson/agents/pull/700)
+- 2026-09-06 [fix: attribute recursive copy tag failures to the destination](https://github.com/oras-project/oras/pull/2157)
 
-### [xintaofei/codeg](https://github.com/xintaofei/codeg) — 1 merged
+### [pacifio/atlas](https://github.com/pacifio/atlas), 1 merged
 
-- 2026-09-07 — [fix(cline): close a stripped block at its own closing tag](https://github.com/xintaofei/codeg/pull/670)
+- 2026-09-07 [fix(redact): route JSONL payloads through the structure-aware pass](https://github.com/pacifio/atlas/pull/244)
 
-### [yoanbernabeu/grepai](https://github.com/yoanbernabeu/grepai) — 1 merged
+### [pest-parser/pest](https://github.com/pest-parser/pest), 1 merged
 
-- 2026-09-10 — [fix(search): break score ties deterministically so ranking is reproducible](https://github.com/yoanbernabeu/grepai/pull/303)
+- 2026-09-21 [Stop Span::lines from yielding a line past the span](https://github.com/pest-parser/pest/pull/1201)
 
-### [zenstackhq/zenstack](https://github.com/zenstackhq/zenstack) — 1 merged
+### [pgdogdev/pgdog](https://github.com/pgdogdev/pgdog), 1 merged
 
-- 2026-09-06 — [fix(zod): treat `@uuid` without a version as any UUID version](https://github.com/zenstackhq/zenstack/pull/2832)
+- 2026-09-18 [fix(types): hash 0.0 and -0.0 to the same value](https://github.com/pgdogdev/pgdog/pull/1507)
+
+### [pixijs/pixijs](https://github.com/pixijs/pixijs), 1 merged
+
+- 2026-09-16 [fix: handle strokes wider than the shape in Ellipse.strokeContains](https://github.com/pixijs/pixijs/pull/12185)
+
+### [pmndrs/koota](https://github.com/pmndrs/koota), 1 merged
+
+- 2026-09-08 [🐛 core: fix query hash collisions from the shared sort buffer](https://github.com/pmndrs/koota/pull/281)
+
+### [probe-rs/probe-rs](https://github.com/probe-rs/probe-rs), 1 merged
+
+- 2026-09-06 [Fix the semihosting file open modes for update and append](https://github.com/probe-rs/probe-rs/pull/4312)
+
+### [ProjectMirador/mirador](https://github.com/ProjectMirador/mirador), 1 merged
+
+- 2026-09-21 [Fix provider logo image requests when the logo has an image service](https://github.com/ProjectMirador/mirador/pull/4524)
+
+### [quarkusio/quarkus](https://github.com/quarkusio/quarkus), 1 merged
+
+- 2026-09-15 [Qute: require the index parameter for list get/take/takeLast](https://github.com/quarkusio/quarkus/pull/56460)
+
+### [rust-diplomat/diplomat](https://github.com/rust-diplomat/diplomat), 1 merged
+
+- 2026-09-09 [hir: resolve callback optional-opaque returns in the enclosing module](https://github.com/rust-diplomat/diplomat/pull/1271)
+
+### [sql-formatter-org/sql-formatter](https://github.com/sql-formatter-org/sql-formatter), 1 merged
+
+- 2026-09-16 [fix(singlestoredb): support % as the modulo operator](https://github.com/sql-formatter-org/sql-formatter/pull/971)
+
+### [srl-labs/containerlab](https://github.com/srl-labs/containerlab), 1 merged
+
+- 2026-09-07 [fix: canonical image name for registries addressed by host and port](https://github.com/srl-labs/containerlab/pull/3391)
+
+### [tconbeer/harlequin](https://github.com/tconbeer/harlequin), 1 merged
+
+- 2026-09-15 [fix: write the Feather file version the Data Exporter asked for](https://github.com/tconbeer/harlequin/pull/1158)
+
+### [Tencent/WeKnora](https://github.com/Tencent/WeKnora), 1 merged
+
+- 2026-09-07 [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
+
+### [testem/testem](https://github.com/testem/testem), 1 merged
+
+- 2026-09-07 [fix(report-file): surface write stream errors instead of a TypeError](https://github.com/testem/testem/pull/2058)
+
+### [tombi-toml/tombi](https://github.com/tombi-toml/tombi), 1 merged
+
+- 2026-09-08 [fix(lexer): close multi-line string after escaped backslash](https://github.com/tombi-toml/tombi/pull/2167)
+
+### [uutils/coreutils](https://github.com/uutils/coreutils), 1 merged
+
+- 2026-09-07 [fmt: honor -x and -X instead of always matching prefixes exactly](https://github.com/uutils/coreutils/pull/14417)
+
+### [velero-io/velero](https://github.com/velero-io/velero), 1 merged
+
+- 2026-09-09 [Scope schedule and repo CLI list calls to the Velero namespace](https://github.com/velero-io/velero/pull/10482)
+
+### [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni), 1 merged
+
+- 2026-09-06 [[Doc] Fix markdownlint findings in the serving API reference](https://github.com/vllm-project/vllm-omni/pull/7111)
+
+### [vuejs/test-utils](https://github.com/vuejs/test-utils), 1 merged
+
+- 2026-09-18 [fix: keep the namespace prefix in attributes()](https://github.com/vuejs/test-utils/pull/2941)
+
+### [wshobson/agents](https://github.com/wshobson/agents), 1 merged
+
+- 2026-09-13 [fix(adapters): quote YAML scalars in OpenCode and Copilot frontmatter](https://github.com/wshobson/agents/pull/700)
+
+### [xintaofei/codeg](https://github.com/xintaofei/codeg), 1 merged
+
+- 2026-09-07 [fix(cline): close a stripped block at its own closing tag](https://github.com/xintaofei/codeg/pull/670)
+
+### [yoanbernabeu/grepai](https://github.com/yoanbernabeu/grepai), 1 merged
+
+- 2026-09-10 [fix(search): break score ties deterministically so ranking is reproducible](https://github.com/yoanbernabeu/grepai/pull/303)
+
+### [zenstackhq/zenstack](https://github.com/zenstackhq/zenstack), 1 merged
+
+- 2026-09-06 [fix(zod): treat `@uuid` without a version as any UUID version](https://github.com/zenstackhq/zenstack/pull/2832)
 
 ## Directory and registry listings for Compartment
 
-- 2026-08-16 — [abordage/awesome-mcp](https://github.com/abordage/awesome-mcp/pull/91): Add Compartment to AI Memory & RAG > Memory
-- 2026-08-17 — [IAAR-Shanghai/Awesome-AI-Memory](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/pull/127): Add Compartment to Systems and Open Sources
-- 2026-07-25 — [Jenqyang/Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents/pull/396): Add engRAM to Tools
-- 2026-08-17 — [Jenqyang/Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents/pull/402): Rename engRAM to Compartment
-- 2026-07-23 — [TeleAI-UAGI/Awesome-Agent-Memory](https://github.com/TeleAI-UAGI/Awesome-Agent-Memory/pull/69): Add engRAM to Emerging projects (Open-Source)
-- 2026-08-01 — [TeleAI-UAGI/Awesome-Agent-Memory](https://github.com/TeleAI-UAGI/Awesome-Agent-Memory/pull/70): Rename engRAM to Compartment
-- 2026-07-25 — [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers/pull/1352): Add engRAM MCP server
-- 2026-07-29 — [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers/pull/1405): Add install command to MaxFreedomPollard/Compartment entry
-- 2026-08-03 — [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers/pull/1510): Correct Compartment license to Apache-2.0
-- 2026-07-27 — [toolsdk-ai/toolsdk-mcp-registry](https://github.com/toolsdk-ai/toolsdk-mcp-registry/pull/418): Add Compartment MCP server to knowledge-memory
+- 2026-08-16 [abordage/awesome-mcp](https://github.com/abordage/awesome-mcp/pull/91): Add Compartment to AI Memory & RAG > Memory
+- 2026-08-17 [IAAR-Shanghai/Awesome-AI-Memory](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/pull/127): Add Compartment to Systems and Open Sources
+- 2026-07-25 [Jenqyang/Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents/pull/396): Add engRAM to Tools
+- 2026-08-17 [Jenqyang/Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents/pull/402): Rename engRAM to Compartment
+- 2026-07-23 [TeleAI-UAGI/Awesome-Agent-Memory](https://github.com/TeleAI-UAGI/Awesome-Agent-Memory/pull/69): Add engRAM to Emerging projects (Open-Source)
+- 2026-08-01 [TeleAI-UAGI/Awesome-Agent-Memory](https://github.com/TeleAI-UAGI/Awesome-Agent-Memory/pull/70): Rename engRAM to Compartment
+- 2026-07-25 [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers/pull/1352): Add engRAM MCP server
+- 2026-07-29 [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers/pull/1405): Add install command to MaxFreedomPollard/Compartment entry
+- 2026-08-03 [TensorBlock/awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers/pull/1510): Correct Compartment license to Apache-2.0
+- 2026-07-27 [toolsdk-ai/toolsdk-mcp-registry](https://github.com/toolsdk-ai/toolsdk-mcp-registry/pull/418): Add Compartment MCP server to knowledge-memory
 
 ## Own repositories
 
-- 2026-09-02 — [Compartment](https://github.com/MaxFreedomPollard/Compartment/pull/5): Dashboard: name every entity in the memory graph; drop the tier bar
-- 2026-09-03 — [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/13): Search ENSDF for the photon keystone: level restoring pairs and the veto gateway
-- 2026-09-03 — [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/11): Compute the neutron sector keystone: the two region gate in OpenMC at k < 1
-- 2026-09-04 — [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/16): CI: report the three transport directories, and reproduce the two OpenMC ones
-- 2026-09-04 — [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/15): Run the ampoule in real photon transport: budget, gate, synapse, boundary and dose
-- 2026-09-06 — [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/18): The second edition: the vessel compiled, and the repository as a checked instrument
-- 2026-09-06 — [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/17): Record the cross-section library by name in the run provenance
+- 2026-09-02 [Compartment](https://github.com/MaxFreedomPollard/Compartment/pull/5): Dashboard: name every entity in the memory graph; drop the tier bar
+- 2026-09-03 [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/13): Search ENSDF for the photon keystone: level restoring pairs and the veto gateway
+- 2026-09-03 [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/11): Compute the neutron sector keystone: the two region gate in OpenMC at k < 1
+- 2026-09-04 [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/16): CI: report the three transport directories, and reproduce the two OpenMC ones
+- 2026-09-04 [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/15): Run the ampoule in real photon transport: budget, gate, synapse, boundary and dose
+- 2026-09-06 [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/18): The second edition: the vessel compiled, and the repository as a checked instrument
+- 2026-09-06 [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/17): Record the cross-section library by name in the run provenance
 
 ## Downstream copies carrying these commits
 
@@ -661,4 +767,3 @@ Generated from the GitHub search API on 2026-09-15: pull requests authored by @M
 - [zwbao/hermes-cofounder](https://github.com/zwbao/hermes-cofounder)
 
 </details>
-

@@ -53,10 +53,20 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - **[NVIDIA/cccl](https://github.com/NVIDIA/cccl)**
   - [Add count_if NVHPC stdpar smoke test](https://github.com/NVIDIA/cccl/pull/11521)
+- **[NVIDIA/cloudai](https://github.com/NVIDIA/cloudai)**
+  - [Make File.is_installed binary-safe](https://github.com/NVIDIA/cloudai/pull/1044)
+- **[NVIDIA/cuopt-examples](https://github.com/NVIDIA/cuopt-examples)**
+  - [Fix EARLI notebook links in the README](https://github.com/NVIDIA/cuopt-examples/pull/174)
+- **[NVIDIA/DALI](https://github.com/NVIDIA/DALI)**
+  - [Document that random_shuffle shuffles only locally](https://github.com/NVIDIA/DALI/pull/6491)
+- **[NVIDIA/multi-storage-client](https://github.com/NVIDIA/multi-storage-client)**
+  - [fix(pathlib): compare profiles in is_relative_to](https://github.com/NVIDIA/multi-storage-client/pull/179)
 - **[NVIDIA/OWL](https://github.com/NVIDIA/OWL)**
   - [Add OWL_DOUBLE types to typeToString](https://github.com/NVIDIA/OWL/pull/28)
 - **[NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)**
   - [feat(reporting): record the evaluated source identity on benchmark cards](https://github.com/NVIDIA/SkillEvaluator/pull/131)
+- **[NVIDIA/sphinx-llm](https://github.com/NVIDIA/sphinx-llm)**
+  - [Read page descriptions on older Docutils releases](https://github.com/NVIDIA/sphinx-llm/pull/156)
 - **[NVIDIA/TileGym](https://github.com/NVIDIA/TileGym)**
   - [fix(ops): export tilecpp only when its backend is available](https://github.com/NVIDIA/TileGym/pull/200)
 - **[NVIDIA-NeMo/labs-molt](https://github.com/NVIDIA-NeMo/labs-molt)**
@@ -81,6 +91,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)**
   - [fix(record): record a page reload instead of dropping it as a same-URL navigation](https://github.com/Tencent/BrowserSkill/pull/184)
   - [fix(extension): return visible labels from select](https://github.com/Tencent/BrowserSkill/pull/307)
+  - [fix(dsh-plugin): settle runner promises when the child never emits close](https://github.com/Tencent/BrowserSkill/pull/183)
 - **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**
   - [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
 
@@ -190,6 +201,11 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/pull/794)
 - [fix: replace the layer at an index instead of inserting before it](https://github.com/psd-tools/psd-tools/pull/811)
+
+### [PyLabRobot/pylabrobot](https://github.com/PyLabRobot/pylabrobot)
+
+- [fix(resources): center a plate on the adapter hole's y size, not its x size](https://github.com/PyLabRobot/pylabrobot/pull/1244)
+- [fix(resources): stop transposing a tip spot's size_x and size_y](https://github.com/PyLabRobot/pylabrobot/pull/1251)
 
 ### [python-attrs/cattrs](https://github.com/python-attrs/cattrs)
 
@@ -426,9 +442,9 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [Fix the semihosting file open modes for update and append](https://github.com/probe-rs/probe-rs/pull/4312)
 
-### [PyLabRobot/pylabrobot](https://github.com/PyLabRobot/pylabrobot)
+### [ProjectMirador/mirador](https://github.com/ProjectMirador/mirador)
 
-- [fix(resources): center a plate on the adapter hole's y size, not its x size](https://github.com/PyLabRobot/pylabrobot/pull/1244)
+- [Fix provider logo image requests when the logo has an image service](https://github.com/ProjectMirador/mirador/pull/4524)
 
 ### [quarkusio/quarkus](https://github.com/quarkusio/quarkus)
 
