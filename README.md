@@ -1,6 +1,12 @@
-I contribute to repositories at [Nous Research](https://github.com/NousResearch), [NVIDIA](https://github.com/NVIDIA), [Tencent](https://github.com/Tencent), [Qwen](https://github.com/QwenLM) and many other projects. Much of that is agentic evolution work, such as [NVIDIA's SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator), [NVIDIA's Molt](https://github.com/NVIDIA-NeMo/labs-molt), [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution), [autocontext](https://github.com/greyhaven-ai/autocontext) and [headlong](https://github.com/laude-institute/headlong). I am a long-time contributor to [Hermes Agent](https://github.com/NousResearch/hermes-agent), to [Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins), which makes any agent harness multimodal-native, to [86Box](https://github.com/86Box/86Box), an emulator of x86-based machines, and to more than 100 other repositories.
+I contribute to agentic AI projects for organizations like [Nous Research](https://github.com/NousResearch), [NVIDIA](https://github.com/NVIDIA), [Tencent](https://github.com/Tencent), [Qwen](https://github.com/QwenLM), and more.
+
+I love to help evolve agents, so you'll find my work in repos such as NVIDIA's [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) & [Molt](https://github.com/NVIDIA-NeMo/labs-molt), [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution), [autocontext](https://github.com/greyhaven-ai/autocontext) and [headlong](https://github.com/laude-institute/headlong).
+
+I am a long-time contributor to [Hermes Agent](https://github.com/NousResearch/hermes-agent), the most popular agentic AI, with over three million downloads to date. A full list of the 110+ repositories I have contributed to recently is below.
 
 Creator of [Compartment](https://github.com/MaxFreedomPollard/Compartment), an encrypted, fully offline memory for AI agents, and other projects such as [nuclear compute](https://github.com/MaxFreedomPollard/nuclear-computing) and the [Artificial Knowledge Collection](https://github.com/MaxFreedomPollard/artificial-knowledge-collection-6.0). My [Compartment](https://github.com/MaxFreedomPollard/Compartment) agentic memory now ships as a default memory option in [Hermes Agent](https://github.com/NousResearch/hermes-agent/blob/main/plugin-catalog/compartment.yaml).
+
+I have had many scattered GitHub accounts over the years. This one is the first in my real name, and is only a few months old. This portfolio is my most recent work only.
 
 ## Accepted benchmark challenges
 
