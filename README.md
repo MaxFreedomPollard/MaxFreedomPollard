@@ -6,7 +6,7 @@ I am a long-time contributor to [Hermes Agent](https://github.com/NousResearch/h
 
 Creator of [Compartment](https://github.com/MaxFreedomPollard/Compartment), an encrypted, fully offline memory for AI agents, and other projects such as [nuclear compute](https://github.com/MaxFreedomPollard/nuclear-computing) and the [Artificial Knowledge Collection](https://github.com/MaxFreedomPollard/artificial-knowledge-collection-6.0). My [Compartment](https://github.com/MaxFreedomPollard/Compartment) agentic memory now ships as a default memory option in [Hermes Agent](https://github.com/NousResearch/hermes-agent/blob/main/plugin-catalog/compartment.yaml).
 
-I have had many scattered GitHub accounts over the years. This one is the first in my real name, and is only 6 months old. This portfolio is my most recent work only.
+I have had many scattered GitHub accounts over the years. This new account is the first in my real name. This portfolio is my most recent work only.
 
 ## Accepted benchmark challenges
 
