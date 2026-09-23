@@ -46,11 +46,15 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [fix(gemini): collapse array-typed tool schemas instead of crashing translation](https://github.com/NousResearch/hermes-agent/commit/6a04ea67c0e75ef1218bf4ceaac071c2f16a0701)
 - **[NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution)**
   - [fix(config): honor explicit --hermes-repo and make config construction non-fatal](https://github.com/NousResearch/hermes-agent-self-evolution/pull/122)
+- **[NousResearch/hermes-plugin-claude-subscription-directsdk](https://github.com/NousResearch/hermes-plugin-claude-subscription-directsdk)**
+  - [fix: explain a logged-out CLI instead of a bare Native API error](https://github.com/NousResearch/hermes-plugin-claude-subscription-directsdk/pull/23)
 - **[NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs)**
   - [Add Run::finish() to flush pending logs before exit](https://github.com/NousResearch/wandb-rs/pull/2)
 
 ### [NVIDIA](https://github.com/NVIDIA)
 
+- **[NVIDIA/barney](https://github.com/NVIDIA/barney)**
+  - [Run the datatype regression test against the native source](https://github.com/NVIDIA/barney/pull/63)
 - **[NVIDIA/cccl](https://github.com/NVIDIA/cccl)**
   - [Add count_if NVHPC stdpar smoke test](https://github.com/NVIDIA/cccl/pull/11521)
 - **[NVIDIA/cloudai](https://github.com/NVIDIA/cloudai)**
@@ -61,6 +65,8 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [Document that random_shuffle shuffles only locally](https://github.com/NVIDIA/DALI/pull/6491)
 - **[NVIDIA/multi-storage-client](https://github.com/NVIDIA/multi-storage-client)**
   - [fix(pathlib): compare profiles in is_relative_to](https://github.com/NVIDIA/multi-storage-client/pull/179)
+- **[NVIDIA/nodewright](https://github.com/NVIDIA/nodewright)**
+  - [fix(operator): scope package pod events to the operator namespace](https://github.com/NVIDIA/nodewright/pull/646)
 - **[NVIDIA/OWL](https://github.com/NVIDIA/OWL)**
   - [Add OWL_DOUBLE types to typeToString](https://github.com/NVIDIA/OWL/pull/28)
 - **[NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)**
@@ -94,6 +100,15 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**
   - [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
 
+### [apache](https://github.com/apache)
+
+- **[apache/answer](https://github.com/apache/answer)**
+  - [fix: comment url swaps title and answer id](https://github.com/apache/answer/pull/1603)
+- **[apache/datasketches-java](https://github.com/apache/datasketches-java)**
+  - [Fix Util.numDigits returning 0 for 0 and 1, and 18 for 1E18](https://github.com/apache/datasketches-java/pull/762)
+- **[apache/logging-log4j2](https://github.com/apache/logging-log4j2)**
+  - [Forward mail attributes in deprecated `SmtpAppender.createAppender`](https://github.com/apache/logging-log4j2/pull/4304)
+
 ### [laude-institute/headlong](https://github.com/laude-institute/headlong)
 
 - [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
@@ -110,13 +125,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [Fix numTemporalLayers and temporalIdNested bit widths in hvcC](https://github.com/abema/go-mp4/pull/185)
 - [Fix discarded errors in marshalSlice and marshalUint](https://github.com/abema/go-mp4/pull/187)
-
-### [apache](https://github.com/apache)
-
-- **[apache/answer](https://github.com/apache/answer)**
-  - [fix: comment url swaps title and answer id](https://github.com/apache/answer/pull/1603)
-- **[apache/datasketches-java](https://github.com/apache/datasketches-java)**
-  - [Fix Util.numDigits returning 0 for 0 and 1, and 18 for 1E18](https://github.com/apache/datasketches-java/pull/762)
 
 ### [boyter/scc](https://github.com/boyter/scc)
 
