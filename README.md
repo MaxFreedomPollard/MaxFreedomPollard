@@ -1,3 +1,14 @@
+<div align="center">
+  <h2>
+    Hi, I'm Max Freedom Pollard<br>
+    Agentic AI Developer • Full Stack Developer • Open Source Contributor
+  </h2>
+  <span><b>Python</b> • TypeScript • Go • Rust • C/C++ • Java</span>
+</div>
+
+- **Coding experience:** 10 years.
+- **Strong area:** agents, MCP, agent memory and evaluation, across languages from 1970s troff to Rust.
+
 I contribute to agentic AI projects for organizations like [Nous Research](https://github.com/NousResearch), [NVIDIA](https://github.com/NVIDIA), [Tencent](https://github.com/Tencent), [Qwen](https://github.com/QwenLM), and more.
 
 I love to help evolve agents, so you'll find my work in repos such as NVIDIA's [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) & [Molt](https://github.com/NVIDIA-NeMo/labs-molt), [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution), [autocontext](https://github.com/greyhaven-ai/autocontext) and [headlong](https://github.com/laude-institute/headlong).
