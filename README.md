@@ -1,13 +1,11 @@
 <div align="center">
   <h2>
     Hi, I'm Max Freedom Pollard<br>
-    Agentic AI Developer • Full Stack Developer • Open Source Contributor
+    <sub>Agentic AI Developer • Full Stack Developer • Open Source Contributor</sub>
   </h2>
-  <span><b>Python</b> • TypeScript • Go • Rust • C/C++ • Java</span>
+  <p><b>Python</b> • TypeScript • Go • Rust • C/C++ • Java</p>
+  <p><b>Strong area:</b> agents, MCP, agent memory and evaluation,<br>across languages from Game Boy assembly to Rust.</p>
 </div>
-
-- **Coding experience:** 10 years.
-- **Strong area:** agents, MCP, agent memory and evaluation, across languages from Game Boy assembly to Rust.
 
 I contribute to agentic AI projects for organizations like [Nous Research](https://github.com/NousResearch), [NVIDIA](https://github.com/NVIDIA), [Tencent](https://github.com/Tencent), [Qwen](https://github.com/QwenLM), and more.
 
