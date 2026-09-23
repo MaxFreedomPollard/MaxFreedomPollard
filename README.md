@@ -7,7 +7,7 @@
 </div>
 
 - **Coding experience:** 10 years.
-- **Strong area:** agents, MCP, agent memory and evaluation, across languages from 1970s troff to Rust.
+- **Strong area:** agents, MCP, agent memory and evaluation, across languages from Game Boy assembly to Rust.
 
 I contribute to agentic AI projects for organizations like [Nous Research](https://github.com/NousResearch), [NVIDIA](https://github.com/NVIDIA), [Tencent](https://github.com/Tencent), [Qwen](https://github.com/QwenLM), and more.
 
