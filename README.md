@@ -73,6 +73,8 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [feat(reporting): record the evaluated source identity on benchmark cards](https://github.com/NVIDIA/SkillEvaluator/pull/131)
 - **[NVIDIA/sphinx-llm](https://github.com/NVIDIA/sphinx-llm)**
   - [Read page descriptions on older Docutils releases](https://github.com/NVIDIA/sphinx-llm/pull/156)
+- **[NVIDIA/stdexec](https://github.com/NVIDIA/stdexec)**
+  - [Fix completion signature detection with GCC 13.1 and 13.2](https://github.com/NVIDIA/stdexec/pull/2280)
 - **[NVIDIA/TileGym](https://github.com/NVIDIA/TileGym)**
   - [fix(ops): export tilecpp only when its backend is available](https://github.com/NVIDIA/TileGym/pull/200)
 - **[NVIDIA-NeMo/labs-molt](https://github.com/NVIDIA-NeMo/labs-molt)**
@@ -91,6 +93,17 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [GUS: Fix the ADC sample rate divisor missing the +2 bias](https://github.com/86Box/86Box/pull/7941)
 - [MIDI: Fix input queue overflow hang and broken real-time bytes](https://github.com/86Box/86Box/pull/7940)
 
+### [apache](https://github.com/apache)
+
+- **[apache/answer](https://github.com/apache/answer)**
+  - [fix: comment url swaps title and answer id](https://github.com/apache/answer/pull/1603)
+- **[apache/datafusion](https://github.com/apache/datafusion)**
+  - [fix: apply regexp_instr subexpr to the N-th match, not the first](https://github.com/apache/datafusion/pull/24991)
+- **[apache/datasketches-java](https://github.com/apache/datasketches-java)**
+  - [Fix Util.numDigits returning 0 for 0 and 1, and 18 for 1E18](https://github.com/apache/datasketches-java/pull/762)
+- **[apache/logging-log4j2](https://github.com/apache/logging-log4j2)**
+  - [Forward mail attributes in deprecated `SmtpAppender.createAppender`](https://github.com/apache/logging-log4j2/pull/4304)
+
 ### [Tencent](https://github.com/Tencent)
 
 - **[Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)**
@@ -99,15 +112,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [fix(dsh-plugin): settle runner promises when the child never emits close](https://github.com/Tencent/BrowserSkill/pull/183)
 - **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**
   - [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
-
-### [apache](https://github.com/apache)
-
-- **[apache/answer](https://github.com/apache/answer)**
-  - [fix: comment url swaps title and answer id](https://github.com/apache/answer/pull/1603)
-- **[apache/datasketches-java](https://github.com/apache/datasketches-java)**
-  - [Fix Util.numDigits returning 0 for 0 and 1, and 18 for 1E18](https://github.com/apache/datasketches-java/pull/762)
-- **[apache/logging-log4j2](https://github.com/apache/logging-log4j2)**
-  - [Forward mail attributes in deprecated `SmtpAppender.createAppender`](https://github.com/apache/logging-log4j2/pull/4304)
 
 ### [laude-institute/headlong](https://github.com/laude-institute/headlong)
 
@@ -186,6 +190,11 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [Fix $not filters on dot-notation paths](https://github.com/hyparam/hyparquet/pull/177)
 - [Keep default parsers when only some are overridden](https://github.com/hyparam/hyparquet/pull/178)
 
+### [ishepard/pydriller](https://github.com/ishepard/pydriller)
+
+- [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/pull/324)
+- [Fix old_path and new_path being wrong for empty added or deleted files](https://github.com/ishepard/pydriller/pull/325)
+
 ### [jhd3197/ServerKit](https://github.com/jhd3197/ServerKit)
 
 - [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/pull/139)
@@ -205,6 +214,13 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/pull/646)
 - [fix(parser): parse `/` after an `await` identifier as division](https://github.com/meriyah/meriyah/pull/659)
+
+### [mozilla](https://github.com/mozilla)
+
+- **[mozilla/pontoon](https://github.com/mozilla/pontoon)**
+  - [Update data-theme when the user picks a theme](https://github.com/mozilla/pontoon/pull/4501)
+- **[mozilla/web-ext](https://github.com/mozilla/web-ext)**
+  - [fix: Fixed files not being ignored when sourceDir contains glob characters](https://github.com/mozilla/web-ext/pull/3835)
 
 ### [nominal-io/instro](https://github.com/nominal-io/instro)
 
@@ -240,6 +256,11 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator](https://github.com/raysan5/raylib/pull/6132)
 - [[rtext] Fix TextSplit() reading past its buffer on text of 1024 bytes or more](https://github.com/raysan5/raylib/pull/6136)
+
+### [testem/testem](https://github.com/testem/testem)
+
+- [fix(report-file): surface write stream errors instead of a TypeError](https://github.com/testem/testem/pull/2058)
+- [fix(server): honor multiple onlyContentTypes and non-matching Accept](https://github.com/testem/testem/pull/2086)
 
 ### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)
 
@@ -361,10 +382,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/pull/1048)
 
-### [ishepard/pydriller](https://github.com/ishepard/pydriller)
-
-- [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/pull/324)
-
 ### [joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x)
 
 - [drive_virtual: fix CHDIR succeeding on a file on drive Z:](https://github.com/joncampbell123/dosbox-x/pull/6533)
@@ -408,10 +425,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [modelscope/ms-swift](https://github.com/modelscope/ms-swift)
 
 - [fix(metrics): mask ignored labels in padding-free seq_acc](https://github.com/modelscope/ms-swift/pull/10049)
-
-### [mozilla/pontoon](https://github.com/mozilla/pontoon)
-
-- [Update data-theme when the user picks a theme](https://github.com/mozilla/pontoon/pull/4501)
 
 ### [noahbald/oxvg](https://github.com/noahbald/oxvg)
 
@@ -484,10 +497,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [tconbeer/harlequin](https://github.com/tconbeer/harlequin)
 
 - [fix: write the Feather file version the Data Exporter asked for](https://github.com/tconbeer/harlequin/pull/1158)
-
-### [testem/testem](https://github.com/testem/testem)
-
-- [fix(report-file): surface write stream errors instead of a TypeError](https://github.com/testem/testem/pull/2058)
 
 ### [tombi-toml/tombi](https://github.com/tombi-toml/tombi)
 
