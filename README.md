@@ -28,6 +28,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [NousResearch](https://github.com/NousResearch)
 
 - **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: credited as a contributor in the [v2026.6.19](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19), [v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1), [v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) and [v2026.9.11](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.11) release notes
+  - [fix(tui): make the launch cwd win over an inherited HERMES_CWD](https://github.com/NousResearch/hermes-agent/commit/6a499df86c47e23657f61da0f8e182ec079de2ae)
   - [feat(plugin-catalog): add compartment (encrypted offline memory provider)](https://github.com/NousResearch/hermes-agent/pull/114494)
   - [fix(skills): make bundled-update backup handling crash-safe and idempotent](https://github.com/NousResearch/hermes-agent/commit/3581131e7de1560633c921b4782ea87dcbac3a9e)
   - [test(skills): add regression tests for bundled-update backup recovery](https://github.com/NousResearch/hermes-agent/commit/9a2b976326340f0fec7eb9a88cfeb953ffdd1e56)
@@ -373,6 +374,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [go-goyave/goyave](https://github.com/go-goyave/goyave)
 
 - [httputil: fix quality value parsing in ParseMultiValuesHeader](https://github.com/go-goyave/goyave/pull/295)
+- [compress: fix quality value of 0 being ignored in getEncoder](https://github.com/go-goyave/goyave/pull/296)
 
 ### [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg)
 
@@ -521,6 +523,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [wshobson/agents](https://github.com/wshobson/agents)
 
 - [fix(adapters): quote YAML scalars in OpenCode and Copilot frontmatter](https://github.com/wshobson/agents/pull/700)
+- [fix(plugin-eval): count each fenced code block once, not once per fence](https://github.com/wshobson/agents/pull/710)
 
 ### [xintaofei/codeg](https://github.com/xintaofei/codeg)
 
