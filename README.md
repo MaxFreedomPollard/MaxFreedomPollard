@@ -498,6 +498,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 ### [tconbeer/harlequin](https://github.com/tconbeer/harlequin)
 
+- [fix: don't break the JSON export on a single quote in the path](https://github.com/tconbeer/harlequin/pull/1146)
 - [fix: write the Feather file version the Data Exporter asked for](https://github.com/tconbeer/harlequin/pull/1158)
 
 ### [tombi-toml/tombi](https://github.com/tombi-toml/tombi)
