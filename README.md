@@ -28,6 +28,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [NousResearch](https://github.com/NousResearch)
 
 - **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: credited as a contributor in the [v2026.6.19](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19), [v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1), [v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) and [v2026.9.11](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.11) release notes
+  - [fix(tui): close agents orphaned during session build](https://github.com/NousResearch/hermes-agent/commit/bd5257d263c0f06a2bb499629e89fe3cfe2328a8)
   - [fix(tui): make the launch cwd win over an inherited HERMES_CWD](https://github.com/NousResearch/hermes-agent/commit/6a499df86c47e23657f61da0f8e182ec079de2ae)
   - [feat(plugin-catalog): add compartment (encrypted offline memory provider)](https://github.com/NousResearch/hermes-agent/pull/114494)
   - [fix(skills): make bundled-update backup handling crash-safe and idempotent](https://github.com/NousResearch/hermes-agent/commit/3581131e7de1560633c921b4782ea87dcbac3a9e)
@@ -47,6 +48,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [fix(gemini): collapse array-typed tool schemas instead of crashing translation](https://github.com/NousResearch/hermes-agent/commit/6a04ea67c0e75ef1218bf4ceaac071c2f16a0701)
 - **[NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution)**
   - [fix(config): honor explicit --hermes-repo and make config construction non-fatal](https://github.com/NousResearch/hermes-agent-self-evolution/pull/122)
+- **[NousResearch/hermes-example-plugins](https://github.com/NousResearch/hermes-example-plugins)**
+  - [docs(plugin-llm-async-example): correct the concurrency description and usage example](https://github.com/NousResearch/hermes-example-plugins/commit/c6d95aa2f5a90adaca9c392f68e5054a0efeab11)
+- **[NousResearch/hermes-plugin-blender](https://github.com/NousResearch/hermes-plugin-blender)**
+  - [docs: correct the result contract and document the _for_cli Blender lookup](https://github.com/NousResearch/hermes-plugin-blender/pull/1)
 - **[NousResearch/hermes-plugin-claude-subscription-directsdk](https://github.com/NousResearch/hermes-plugin-claude-subscription-directsdk)**
   - [fix: explain a logged-out CLI instead of a bare Native API error](https://github.com/NousResearch/hermes-plugin-claude-subscription-directsdk/pull/23)
 - **[NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs)**
@@ -60,10 +65,16 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [Add count_if NVHPC stdpar smoke test](https://github.com/NVIDIA/cccl/pull/11521)
 - **[NVIDIA/cloudai](https://github.com/NVIDIA/cloudai)**
   - [Make File.is_installed binary-safe](https://github.com/NVIDIA/cloudai/pull/1044)
+- **[NVIDIA/cluster-readiness-engine](https://github.com/NVIDIA/cluster-readiness-engine)**
+  - [test: exercise release ref guards and follow attest wrappers](https://github.com/NVIDIA/cluster-readiness-engine/pull/359)
 - **[NVIDIA/cuopt-examples](https://github.com/NVIDIA/cuopt-examples)**
   - [Fix EARLI notebook links in the README](https://github.com/NVIDIA/cuopt-examples/pull/174)
 - **[NVIDIA/DALI](https://github.com/NVIDIA/DALI)**
   - [Document that random_shuffle shuffles only locally](https://github.com/NVIDIA/DALI/pull/6491)
+- **[NVIDIA/deepops](https://github.com/NVIDIA/deepops)**
+  - [tests/slurm-epilog: check the cleanup status and add pathname regressions](https://github.com/NVIDIA/deepops/pull/1410)
+- **[NVIDIA/makani](https://github.com/NVIDIA/makani)**
+  - [Read channel names from the "channel" dataset in h5_convert.py](https://github.com/NVIDIA/makani/pull/183)
 - **[NVIDIA/multi-storage-client](https://github.com/NVIDIA/multi-storage-client)**
   - [fix(pathlib): compare profiles in is_relative_to](https://github.com/NVIDIA/multi-storage-client/pull/179)
 - **[NVIDIA/nodewright](https://github.com/NVIDIA/nodewright)**
@@ -105,6 +116,13 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[apache/logging-log4j2](https://github.com/apache/logging-log4j2)**
   - [Forward mail attributes in deprecated `SmtpAppender.createAppender`](https://github.com/apache/logging-log4j2/pull/4304)
 
+### [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins)
+
+- [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
+- [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/pull/52)
+- [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
+- [fix(core): reject a page selection that matches no page](https://github.com/QwenLM/Qwen-MM-Plugins/pull/61)
+
 ### [Tencent](https://github.com/Tencent)
 
 - **[Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)**
@@ -119,12 +137,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
 - [ci: point the smoke container's apt at the Azure mirror](https://github.com/laude-institute/headlong/pull/114)
 - [traj: formatted tail and cat return the steps --filter matches](https://github.com/laude-institute/headlong/pull/112)
-
-### [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins)
-
-- [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
-- [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/pull/52)
-- [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
 
 ### [abema/go-mp4](https://github.com/abema/go-mp4)
 
@@ -170,6 +182,11 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [Fix annotation rectangle under a rotated transformation matrix](https://github.com/foliojs/pdfkit/pull/1794)
 - [Fix doc.list() throwing on a numbered or lettered list with align center or right](https://github.com/foliojs/pdfkit/pull/1800)
+
+### [go-goyave/goyave](https://github.com/go-goyave/goyave)
+
+- [httputil: fix quality value parsing in ParseMultiValuesHeader](https://github.com/go-goyave/goyave/pull/295)
+- [compress: fix quality value of 0 being ignored in getEncoder](https://github.com/go-goyave/goyave/pull/296)
 
 ### [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext)
 
@@ -258,6 +275,11 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator](https://github.com/raysan5/raylib/pull/6132)
 - [[rtext] Fix TextSplit() reading past its buffer on text of 1024 bytes or more](https://github.com/raysan5/raylib/pull/6136)
 
+### [tconbeer/harlequin](https://github.com/tconbeer/harlequin)
+
+- [fix: don't break the JSON export on a single quote in the path](https://github.com/tconbeer/harlequin/pull/1146)
+- [fix: write the Feather file version the Data Exporter asked for](https://github.com/tconbeer/harlequin/pull/1158)
+
 ### [testem/testem](https://github.com/testem/testem)
 
 - [fix(report-file): surface write stream errors instead of a TypeError](https://github.com/testem/testem/pull/2058)
@@ -283,6 +305,11 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [Fix `q` weights in `Accept` header parsing](https://github.com/wemake-services/django-modern-rest/pull/1407)
 - [Strip optional whitespace when splitting headers on `,`](https://github.com/wemake-services/django-modern-rest/pull/1526)
 
+### [wshobson/agents](https://github.com/wshobson/agents)
+
+- [fix(adapters): quote YAML scalars in OpenCode and Copilot frontmatter](https://github.com/wshobson/agents/pull/700)
+- [fix(plugin-eval): count each fenced code block once, not once per fence](https://github.com/wshobson/agents/pull/710)
+
 ### [agavra/tuicr](https://github.com/agavra/tuicr)
 
 - [fix(input): type AltGr characters in the command, search and filter prompts](https://github.com/agavra/tuicr/pull/694)
@@ -306,6 +333,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [boa-dev/boa](https://github.com/boa-dev/boa)
 
 - [fix(string): reject signed Infinity and non-decimal literals in StringToNumber](https://github.com/boa-dev/boa/pull/5509)
+
+### [carvel-dev/ytt](https://github.com/carvel-dev/ytt)
+
+- [Report each builtin's own name when it errors](https://github.com/carvel-dev/ytt/pull/1008)
 
 ### [castorini/rank_llm](https://github.com/castorini/rank_llm)
 
@@ -371,11 +402,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [Fix overflow panic draining an empty tree with integer coordinates](https://github.com/georust/rstar/pull/246)
 
-### [go-goyave/goyave](https://github.com/go-goyave/goyave)
-
-- [httputil: fix quality value parsing in ParseMultiValuesHeader](https://github.com/go-goyave/goyave/pull/295)
-- [compress: fix quality value of 0 being ignored in getEncoder](https://github.com/go-goyave/goyave/pull/296)
-
 ### [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg)
 
 - [fix(libreoffice): report an encrypted .xlsb as password-protected](https://github.com/gotenberg/gotenberg/pull/1655)
@@ -407,6 +433,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [libarchive/libarchive](https://github.com/libarchive/libarchive)
 
 - [man: fix option names that archive_write_set_options rejects](https://github.com/libarchive/libarchive/pull/3495)
+
+### [libnoname/noname](https://github.com/libnoname/noname)
+
+- [fix(fs): 修复文件系统服务器的路径越界检查漏判同级目录](https://github.com/libnoname/noname/pull/4397)
 
 ### [magefree/mage](https://github.com/magefree/mage)
 
@@ -496,11 +526,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [fix: canonical image name for registries addressed by host and port](https://github.com/srl-labs/containerlab/pull/3391)
 
-### [tconbeer/harlequin](https://github.com/tconbeer/harlequin)
-
-- [fix: don't break the JSON export on a single quote in the path](https://github.com/tconbeer/harlequin/pull/1146)
-- [fix: write the Feather file version the Data Exporter asked for](https://github.com/tconbeer/harlequin/pull/1158)
-
 ### [tombi-toml/tombi](https://github.com/tombi-toml/tombi)
 
 - [fix(lexer): close multi-line string after escaped backslash](https://github.com/tombi-toml/tombi/pull/2167)
@@ -520,11 +545,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [vuejs/test-utils](https://github.com/vuejs/test-utils)
 
 - [fix: keep the namespace prefix in attributes()](https://github.com/vuejs/test-utils/pull/2941)
-
-### [wshobson/agents](https://github.com/wshobson/agents)
-
-- [fix(adapters): quote YAML scalars in OpenCode and Copilot frontmatter](https://github.com/wshobson/agents/pull/700)
-- [fix(plugin-eval): count each fenced code block once, not once per fence](https://github.com/wshobson/agents/pull/710)
 
 ### [xintaofei/codeg](https://github.com/xintaofei/codeg)
 
