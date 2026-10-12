@@ -1,0 +1,21 @@
+[
+ {
+  "versionNumber": 1,
+  "date": "2026-09-28",
+  "outcome": "approved",
+  "fieldBands": {
+   "description": {
+    "band": 3
+   },
+   "solution": {
+    "band": 3
+   },
+   "tests": {
+    "band": 2
+   }
+  },
+  "qualityScore": 6,
+  "overallQuality": 2.6666666666666665,
+  "note": "free-text reviewer feedback redacted; see REDACTED.md"
+ }
+]

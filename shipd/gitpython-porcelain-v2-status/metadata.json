@@ -1,0 +1,17 @@
+{
+  "problemId": "kh72kf93x2p38gy0a7vgyq85ns8eys26",
+  "title": "Add typed repository status snapshots from Git porcelain v2",
+  "status": "accepted",
+  "version": 1,
+  "versionId": "kd740146qgk0aw5938b88xtdsd8f2dvv",
+  "isLocked": true,
+  "language": "python",
+  "difficulty": null,
+  "category": "feature_request",
+  "repoUrl": "https://github.com/gitpython-developers/gitpython",
+  "commitHash": "db47516dac750c5968b8f6d388b18712c355df50",
+  "githubIssueUrl": null,
+  "estimatedLOC": null,
+  "testOutputMode": null,
+  "downloadedAt": "2026-10-12T22:15:11.050Z"
+}

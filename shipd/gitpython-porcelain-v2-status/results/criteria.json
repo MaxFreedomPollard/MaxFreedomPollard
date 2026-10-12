@@ -1,0 +1,109 @@
+{
+ "allPassing": false,
+ "computedDifficulty": "medium",
+ "criteria": [
+  {
+   "description": "No agent run flagged the task as unfair or broken",
+   "detail": "No fairness issues",
+   "id": "fair",
+   "label": "Fair task",
+   "preview": true,
+   "status": "pass"
+  },
+  {
+   "description": "At least 1 agent run must solve the problem",
+   "detail": "4/10 solved",
+   "id": "solvable",
+   "label": "Solvable",
+   "preview": true,
+   "status": "pass"
+  },
+  {
+   "description": "At least 8 Nova runs must complete. 0% solved.",
+   "id": "novaCoverage",
+   "label": "Nova rollouts",
+   "preview": true,
+   "status": "pending"
+  },
+  {
+   "description": "Nova runs must average more than 256K tokens of sequence length",
+   "id": "novaSequenceLength",
+   "label": "Long horizon",
+   "preview": true,
+   "status": "pending"
+  },
+  {
+   "description": "At least 4 runs on Orion or 4 runs on Vega, solved more than 0% and at most 25% of the time",
+   "id": "strongCoverage",
+   "label": "Orion / Vega rollouts",
+   "preview": true,
+   "status": "pending"
+  },
+  {
+   "description": "Cheat rate must be below 20% (across all agents)",
+   "detail": "No cheating detected",
+   "id": "noCheating",
+   "label": "No cheating",
+   "preview": true,
+   "status": "pass"
+  },
+  {
+   "description": "No run should be blocked by environment or verifier issues",
+   "detail": "No environment blockers detected",
+   "id": "noEnvBlocker",
+   "label": "No environment blockers",
+   "preview": true,
+   "status": "pass"
+  },
+  {
+   "description": "Passing runs must hold up under the false-positive review panel",
+   "detail": "No false positives detected",
+   "id": "noFalsePositives",
+   "label": "No false positives",
+   "preview": true,
+   "status": "pass"
+  }
+ ],
+ "currentSubmissionType": "olympus",
+ "marsAllPassing": null,
+ "marsCriteria": null,
+ "observedPassRate": 0.4,
+ "olympusV2": true,
+ "olympusV2Pools": {
+  "nova": {
+   "avgSequenceLength": null,
+   "codename": "Nova",
+   "measured": 0,
+   "passRate": null,
+   "passes": 0,
+   "running": 0,
+   "working": 0
+  },
+  "strong": [
+   {
+    "avgSequenceLength": null,
+    "codename": "Orion",
+    "measured": 0,
+    "passRate": null,
+    "passes": 0,
+    "running": 0,
+    "working": 0
+   },
+   {
+    "avgSequenceLength": null,
+    "codename": "Vega",
+    "measured": 0,
+    "passRate": null,
+    "passes": 0,
+    "running": 0,
+    "working": 0
+   }
+  ]
+ },
+ "viewer": {
+  "isBeginner": false,
+  "marsLocked": true,
+  "olympusLocked": false,
+  "unlockTierName": null
+ }
+}

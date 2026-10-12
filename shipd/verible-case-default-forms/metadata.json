@@ -1,0 +1,17 @@
+{
+  "problemId": "kh7a3m87da1w43ym9a8z3fjpz58dqy8y",
+  "title": "Recognise default arms in the inside, matches and generate case forms, and require begin and end after do, repeat and final",
+  "status": "accepted",
+  "version": 1,
+  "versionId": "kd71yqqfk935va7hhjxjhfpqn98ey666",
+  "isLocked": true,
+  "language": "cpp",
+  "difficulty": null,
+  "category": "feature_request",
+  "repoUrl": "https://github.com/chipsalliance/verible",
+  "commitHash": "6cce8f192b55640ddd5221b926cc952d979aa2b7",
+  "githubIssueUrl": null,
+  "estimatedLOC": 320,
+  "testOutputMode": null,
+  "downloadedAt": "2026-10-12T22:15:10.519Z"
+}

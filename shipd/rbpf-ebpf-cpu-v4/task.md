@@ -1,0 +1,7 @@
+Add the instructions that version 4 of the eBPF instruction set introduces to the verifier and to all three execution engines.
+
+DIV and MOD with offset 1 are signed division and modulo. The quotient is truncated toward zero, the minimum value divided by -1 gives itself with a remainder of 0, division by zero gives 0 and modulo by zero keeps the dividend. For the signed forms in the 32-bit class, the kept dividend is its low 32 bits and the minimum value is 0x80000000. MOV from a register with offset 8 or 16, or 32 in the 64-bit class, copies the low 8, 16 or 32 bits of the source sign-extended to the width of the operation.
+
+Loads with mode 0x80 exist only in the LDX class, in byte, half word and word sizes, and are the mode 0x60 loads of the same size except that they sign-extend the value to 64 bits. The END operation in the 64-bit class exists only with the K source, and swaps the bytes of the low 16, 32 or 64 bits named by the immediate and zeroes the bits above. JA in the JMP32 class jumps by its 32-bit immediate, and its offset field must be 0. The ebpf module exports the new mode as BPF_MEMSX (0x80) and the new opcodes as LD_B_SX_REG (0x91), LD_H_SX_REG (0x89), LD_W_SX_REG (0x81), BSWAP (0xd7) and JA32 (0x06).
+
+The verifier rejects DIV and MOD offsets other than 0 and 1, a non-zero offset on MOV from an immediate, register MOV offsets other than 0 and those above, and any other byte-swap width. Any other field that a new instruction leaves unused, register numbers aside, may hold any value.

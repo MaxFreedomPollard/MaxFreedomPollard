@@ -1,0 +1,17 @@
+{
+  "problemId": "kh75dvqnqgfecfr0e61akgadad8dpjn3",
+  "title": "Decode sorted and navigable collections",
+  "status": "accepted",
+  "version": 1,
+  "versionId": "kd76bvkcbza5zj97t5p6tgy6xx8ew2gv",
+  "isLocked": true,
+  "language": "java",
+  "difficulty": null,
+  "category": "feature_request",
+  "repoUrl": "https://github.com/netflix/archaius",
+  "commitHash": "f40de16d1c74ffd0efbd12b14342e78969a3d5bf",
+  "githubIssueUrl": null,
+  "estimatedLOC": 150,
+  "testOutputMode": null,
+  "downloadedAt": "2026-10-12T22:15:09.928Z"
+}

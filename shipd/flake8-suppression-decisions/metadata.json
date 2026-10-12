@@ -1,0 +1,17 @@
+{
+  "problemId": "kh7fq56dzz6a051a6s2dmzjx9h8d5325",
+  "title": "Correct suppression decisions and explain hidden violations",
+  "status": "accepted",
+  "version": 2,
+  "versionId": "kd7dyst62hbepk426q149j79zh8dha0p",
+  "isLocked": true,
+  "language": "python",
+  "difficulty": null,
+  "category": "feature_request",
+  "repoUrl": "https://github.com/pycqa/flake8",
+  "commitHash": "efe6750405be77b661f64e60002c4ef8e922daf5",
+  "githubIssueUrl": null,
+  "estimatedLOC": null,
+  "testOutputMode": null,
+  "downloadedAt": "2026-10-12T22:15:03.641Z"
+}

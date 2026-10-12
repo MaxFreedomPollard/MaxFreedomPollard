@@ -1,0 +1,21 @@
+label,agent,verdict,hidden_tests_passed,fault,files_modified,solution_loc,agent_messages,execution_seconds,environment_blocker
+Nova #1,Nova,FAIL_MISSED_REQUIREMENT,False,agent,9,541,123,1408,False
+Nova #2,Nova,FAIL_MISSED_REQUIREMENT,False,agent,8,488,123,1507,False
+Nova #3,Nova,FAIL_INTEGRATION_ERROR,False,agent,6,461,52,865,False
+Nova #4,Nova,FAIL_MISSED_REQUIREMENT,False,agent,7,485,96,1023,False
+Nova #5,Nova,FAIL_MISSED_REQUIREMENT,False,agent,8,404,68,744,False
+Nova #6,Nova,FAIL_MISSED_REQUIREMENT,False,agent,9,526,146,1995,True
+Nova #7,Nova,FAIL_MISSED_REQUIREMENT,False,agent,8,464,94,1120,False
+Nova #8,Nova,PASS_LEGITIMATE,True,pass,6,499,189,2895,False
+Nova #9,Nova,FAIL_MISSED_REQUIREMENT,False,agent,7,521,73,840,False
+Nova #10,Nova,PASS_LEGITIMATE,True,pass,4,357,141,1493,True
+Nova #1 · re-eval 1,Nova,FAIL_MISSED_REQUIREMENT,False,agent,8,465,93,203,False
+Orion #1 · re-eval 1,Orion,FAIL_MISSED_REQUIREMENT,False,agent,5,555,133,199,True
+Nova #1 · re-eval 1,Nova,FAIL_MISSED_REQUIREMENT,False,agent,9,378,129,166,False
+Nova #2 · re-eval 1,Nova,FAIL_MISSED_REQUIREMENT,False,agent,8,457,134,156,False
+Nova #2 · re-eval 1,Nova,FAIL_MISSED_REQUIREMENT,False,agent,9,513,135,286,False
+Nova #3 · re-eval 1,Nova,FAIL_MISSED_REQUIREMENT,False,agent,7,434,85,168,False
+Nova #4 · re-eval 1,Nova,FAIL_MISSED_REQUIREMENT,False,agent,8,498,136,212,True
+Nova #5 · re-eval 1,Nova,FAIL_MISSED_REQUIREMENT,False,agent,5,505,120,256,False
+Nova #6 · re-eval 1,Nova,FAIL_MISSED_REQUIREMENT,False,agent,7,526,135,256,False
+Nova #7 · re-eval 1,Nova,FAIL_MISSED_REQUIREMENT,False,agent,8,384,145,197,True

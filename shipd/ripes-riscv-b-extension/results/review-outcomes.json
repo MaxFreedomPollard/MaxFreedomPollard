@@ -1,0 +1,40 @@
+[
+ {
+  "versionNumber": 5,
+  "date": "2026-09-30",
+  "outcome": "approved",
+  "fieldBands": {
+   "description": {
+    "band": 3
+   },
+   "solution": {
+    "band": 3
+   },
+   "tests": {
+    "band": 3
+   }
+  },
+  "qualityScore": 7,
+  "overallQuality": 3,
+  "note": "free-text reviewer feedback redacted; see REDACTED.md"
+ },
+ {
+  "versionNumber": 6,
+  "date": "2026-10-02",
+  "outcome": "approved",
+  "fieldBands": {
+   "description": {
+    "band": 3
+   },
+   "solution": {
+    "band": 3
+   },
+   "tests": {
+    "band": 3
+   }
+  },
+  "qualityScore": 7,
+  "overallQuality": 3,
+  "note": "free-text reviewer feedback redacted; see REDACTED.md"
+ }
+]

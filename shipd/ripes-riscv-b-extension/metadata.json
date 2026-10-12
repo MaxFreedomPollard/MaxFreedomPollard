@@ -1,0 +1,17 @@
+{
+  "problemId": "kh73ya9f6y0phy87hz34568gsd8f3vfm",
+  "title": "Add the RISC-V B bit-manipulation extension",
+  "status": "accepted",
+  "version": 6,
+  "versionId": "kd79s69m5jjrx3pf7pwkw6ty2n8fg669",
+  "isLocked": true,
+  "language": "cpp",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/mortbopet/ripes",
+  "commitHash": "5b8a616edcb6f0a2ddb07e78951348b72497f1e1",
+  "githubIssueUrl": null,
+  "estimatedLOC": 800,
+  "testOutputMode": null,
+  "downloadedAt": "2026-10-12T22:15:12.031Z"
+}

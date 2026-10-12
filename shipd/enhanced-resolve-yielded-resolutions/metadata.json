@@ -1,0 +1,17 @@
+{
+  "problemId": "kh799fm4p50rbtpfp6pzydqhjs8cj8s5",
+  "title": "Stream distinct yielded resolutions with complete, transparent unsafe-cache outcomes",
+  "status": "accepted",
+  "version": 4,
+  "versionId": "kd7ak6jsy82j9ghzc6bj7bag758dw81a",
+  "isLocked": true,
+  "language": "javascript",
+  "difficulty": null,
+  "category": "feature_request",
+  "repoUrl": "https://github.com/webpack/enhanced-resolve",
+  "commitHash": "aefeac310a824190502425fc89f0b72d0237dd18",
+  "githubIssueUrl": null,
+  "estimatedLOC": null,
+  "testOutputMode": null,
+  "downloadedAt": "2026-10-12T22:15:09.568Z"
+}

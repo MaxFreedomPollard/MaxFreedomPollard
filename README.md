@@ -17,11 +17,18 @@ I've had a few scattered GitHub accounts over the years. This is my new one, wit
 
 ## Accepted benchmark challenges
 
-Challenges authored for Datacurve's ShipD platform, each accepted after automated checks, solver runs and human review; [three are included here](shipd/) as examples, with the hidden tests and reference solutions withheld to protect Datacurve's proprietary benchmark material, and each folder records exactly what was removed:
+Challenges authored for Datacurve's ShipD platform, each accepted after automated checks, solver runs and human review; [ten are included here](shipd/) as examples, with the hidden tests and reference solutions withheld to protect Datacurve's proprietary benchmark material, and each folder records exactly what was removed:
 
+- **[netflix/archaius](https://github.com/netflix/archaius)**: [Decode sorted and navigable collections](shipd/archaius-sorted-navigable-collections/)
+- **[webpack/enhanced-resolve](https://github.com/webpack/enhanced-resolve)**: [Stream distinct yielded resolutions with complete, transparent unsafe-cache outcomes](shipd/enhanced-resolve-yielded-resolutions/)
+- **[pycqa/flake8](https://github.com/pycqa/flake8)**: [Correct suppression decisions and explain hidden violations](shipd/flake8-suppression-decisions/)
+- **[gitpython-developers/gitpython](https://github.com/gitpython-developers/gitpython)**: [Add typed repository status snapshots from Git porcelain v2](shipd/gitpython-porcelain-v2-status/)
 - **[instagram/libcst](https://github.com/instagram/libcst)**: [Bind match capture patterns and comprehension walrus targets in scope metadata](shipd/libcst-scope-metadata/)
 - **[coleifer/peewee](https://github.com/coleifer/peewee)**: [Add ROLLUP, FETCH FIRST and TABLESAMPLE support to the query builder](shipd/peewee-rollup-fetchfirst-tablesample/)
+- **[qmonnet/rbpf](https://github.com/qmonnet/rbpf)**: [Support the eBPF CPU v4 instructions](shipd/rbpf-ebpf-cpu-v4/)
+- **[mortbopet/ripes](https://github.com/mortbopet/ripes)**: [Add the RISC-V B bit-manipulation extension](shipd/ripes-riscv-b-extension/)
 - **[tobymao/sqlglot](https://github.com/tobymao/sqlglot)**: [Support postgres session statements and the @ and ^@ operators](shipd/sqlglot-postgres-session-statements/)
+- **[chipsalliance/verible](https://github.com/chipsalliance/verible)**: [Recognise default arms in the inside, matches and generate case forms, and require begin and end after do, repeat and final](shipd/verible-case-default-forms/)
 
 ## Merged contributions
 
