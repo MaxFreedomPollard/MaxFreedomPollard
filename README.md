@@ -28,6 +28,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [NousResearch](https://github.com/NousResearch)
 
 - **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: credited as a contributor in the [v2026.6.19](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19), [v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1), [v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) and [v2026.9.11](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.11) release notes
+  - [fix(models): muse-spark 1.2/1.3 are on the Nous Portal, stop hiding them from the Nous picker](https://github.com/NousResearch/hermes-agent/pull/109827)
   - [fix(tui): close agents orphaned during session build](https://github.com/NousResearch/hermes-agent/commit/bd5257d263c0f06a2bb499629e89fe3cfe2328a8)
   - [fix(tui): make the launch cwd win over an inherited HERMES_CWD](https://github.com/NousResearch/hermes-agent/commit/6a499df86c47e23657f61da0f8e182ec079de2ae)
   - [feat(plugin-catalog): add compartment (encrypted offline memory provider)](https://github.com/NousResearch/hermes-agent/pull/114494)
@@ -73,12 +74,16 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [Document that random_shuffle shuffles only locally](https://github.com/NVIDIA/DALI/pull/6491)
 - **[NVIDIA/deepops](https://github.com/NVIDIA/deepops)**
   - [tests/slurm-epilog: check the cleanup status and add pathname regressions](https://github.com/NVIDIA/deepops/pull/1410)
+- **[NVIDIA/go-nvml](https://github.com/NVIDIA/go-nvml)**
+  - [Trim sample and topology results to the returned count](https://github.com/NVIDIA/go-nvml/pull/212)
 - **[NVIDIA/makani](https://github.com/NVIDIA/makani)**
   - [Read channel names from the "channel" dataset in h5_convert.py](https://github.com/NVIDIA/makani/pull/183)
 - **[NVIDIA/multi-storage-client](https://github.com/NVIDIA/multi-storage-client)**
   - [fix(pathlib): compare profiles in is_relative_to](https://github.com/NVIDIA/multi-storage-client/pull/179)
 - **[NVIDIA/nodewright](https://github.com/NVIDIA/nodewright)**
   - [fix(operator): scope package pod events to the operator namespace](https://github.com/NVIDIA/nodewright/pull/646)
+- **[NVIDIA/nvbench](https://github.com/NVIDIA/nvbench)**
+  - [Sync the vendored RAPIDS.cmake with rapids-cmake release/25.12](https://github.com/NVIDIA/nvbench/pull/466)
 - **[NVIDIA/OWL](https://github.com/NVIDIA/OWL)**
   - [Add OWL_DOUBLE types to typeToString](https://github.com/NVIDIA/OWL/pull/28)
 - **[NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)**
@@ -238,7 +243,9 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[mozilla/pontoon](https://github.com/mozilla/pontoon)**
   - [Update data-theme when the user picks a theme](https://github.com/mozilla/pontoon/pull/4501)
 - **[mozilla/web-ext](https://github.com/mozilla/web-ext)**
+  - [fix(sign): Defaulted amoBaseUrl when signing from the Node API](https://github.com/mozilla/web-ext/pull/3833)
   - [fix: Fixed files not being ignored when sourceDir contains glob characters](https://github.com/mozilla/web-ext/pull/3835)
+  - [fix(chromium): Fixed silent reload failures on Chrome 125 and earlier](https://github.com/mozilla/web-ext/pull/3836)
 
 ### [nominal-io/instro](https://github.com/nominal-io/instro)
 
@@ -482,6 +489,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [fix: attribute recursive copy tag failures to the destination](https://github.com/oras-project/oras/pull/2157)
 
+### [OSU-NLP-Group/QUEST](https://github.com/OSU-NLP-Group/QUEST)
+
+- [Fix UnboundLocalError in reward.py: compute_score cannot compute any reward](https://github.com/OSU-NLP-Group/QUEST/pull/7)
+
 ### [pacifio/atlas](https://github.com/pacifio/atlas)
 
 - [fix(redact): route JSONL payloads through the structure-aware pass](https://github.com/pacifio/atlas/pull/244)
@@ -525,6 +536,14 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [srl-labs/containerlab](https://github.com/srl-labs/containerlab)
 
 - [fix: canonical image name for registries addressed by host and port](https://github.com/srl-labs/containerlab/pull/3391)
+
+### [syrizelink/OpenFic](https://github.com/syrizelink/OpenFic)
+
+- [fix(backend): 修复章节导出成品在 24 小时有效期内被清理删除的问题](https://github.com/syrizelink/OpenFic/pull/385)
+
+### [TanStack/query](https://github.com/TanStack/query)
+
+- [fix(query-persist-client-core/createPersister): await 'storage.setItem' when persisting a query](https://github.com/TanStack/query/pull/11410)
 
 ### [tombi-toml/tombi](https://github.com/tombi-toml/tombi)
 
