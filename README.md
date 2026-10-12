@@ -17,7 +17,7 @@ I've had a few scattered GitHub accounts over the years. This is my new one, wit
 
 ## Accepted benchmark challenges
 
-Challenges authored for Datacurve's ShipD platform, each accepted after automated checks, solver runs and human review; [ten are included here](shipd/) as examples, with the hidden tests and reference solutions withheld to protect Datacurve's proprietary benchmark material, and each folder records exactly what was removed:
+Challenges authored for Datacurve's ShipD platform, each accepted after automated checks, solver runs and human review; [ten are included here](shipd/) as examples, with the hidden tests and reference solutions withheld to protect Datacurve's proprietary benchmark material:
 
 - **[netflix/archaius](https://github.com/netflix/archaius)**: [Decode sorted and navigable collections](shipd/archaius-sorted-navigable-collections/)
 - **[webpack/enhanced-resolve](https://github.com/webpack/enhanced-resolve)**: [Stream distinct yielded resolutions with complete, transparent unsafe-cache outcomes](shipd/enhanced-resolve-yielded-resolutions/)
