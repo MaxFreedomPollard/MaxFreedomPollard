@@ -93,6 +93,8 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [Sync the vendored RAPIDS.cmake with rapids-cmake release/25.12](https://github.com/NVIDIA/nvbench/pull/466)
 - **[NVIDIA/OWL](https://github.com/NVIDIA/OWL)**
   - [Add OWL_DOUBLE types to typeToString](https://github.com/NVIDIA/OWL/pull/28)
+- **[NVIDIA/rumpelpod](https://github.com/NVIDIA/rumpelpod)**
+  - [Skip .gitmodules entries that have no gitlink](https://github.com/NVIDIA/rumpelpod/pull/5)
 - **[NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)**
   - [feat(reporting): record the evaluated source identity on benchmark cards](https://github.com/NVIDIA/SkillEvaluator/pull/131)
 - **[NVIDIA/sphinx-llm](https://github.com/NVIDIA/sphinx-llm)**
@@ -360,6 +362,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [fix(react): read the important marker only at the end of a value](https://github.com/chakra-ui/chakra-ui/pull/10970)
 
+### [changesets/changesets](https://github.com/changesets/changesets)
+
+- [Report a package in multiple fixed or linked groups only once](https://github.com/changesets/changesets/pull/2282)
+
 ### [charmbracelet/catwalk](https://github.com/charmbracelet/catwalk)
 
 - [fix: add missing providers to KnownProviders](https://github.com/charmbracelet/catwalk/pull/578)
@@ -583,6 +589,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [zenstackhq/zenstack](https://github.com/zenstackhq/zenstack)
 
 - [fix(zod): treat `@uuid` without a version as any UUID version](https://github.com/zenstackhq/zenstack/pull/2832)
+
+### [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt)
+
+- [fix: keep model download lock PID when acquisition fails](https://github.com/zylon-ai/private-gpt/pull/2362)
 
 Earlier hermes-agent commits are also carried by 216 downstream copies and derivatives of that project ([list](contributions.md#downstream-copies-carrying-these-commits)).
 
