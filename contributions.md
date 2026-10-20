@@ -4,7 +4,7 @@ Merged contributions, grouped by repository. Directory and registry listings and
 
 ## Merged contributions by repository
 
-### [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent), 16 merged
+### [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent), 17 merged
 
 - 2026-06-13 [fix(skills): make bundled-update backup handling crash-safe and idempotent](https://github.com/NousResearch/hermes-agent/commit/3581131e7de1560633c921b4782ea87dcbac3a9e)
 - 2026-06-13 [test(skills): add regression tests for bundled-update backup recovery](https://github.com/NousResearch/hermes-agent/commit/9a2b976326340f0fec7eb9a88cfeb953ffdd1e56)
@@ -22,6 +22,7 @@ Merged contributions, grouped by repository. Directory and registry listings and
 - 2026-09-08 [fix(gemini): collapse array-typed tool schemas instead of crashing translation](https://github.com/NousResearch/hermes-agent/commit/6a04ea67c0e75ef1218bf4ceaac071c2f16a0701)
 - 2026-09-13 [fix(tools): stop read_file rendering a phantom empty line for newline-terminated files](https://github.com/NousResearch/hermes-agent/commit/10c34dd7e2441c14f19abea3656fba718999b589)
 - 2026-09-19 [feat(plugin-catalog): add compartment (encrypted offline memory provider)](https://github.com/NousResearch/hermes-agent/pull/114494)
+- 2026-10-12 [fix(models): muse-spark 1.2/1.3 are on the Nous Portal, stop hiding them from the Nous picker](https://github.com/NousResearch/hermes-agent/pull/109827)
 
 ### [86Box/86Box](https://github.com/86Box/86Box), 8 merged
 
@@ -34,17 +35,24 @@ Merged contributions, grouped by repository. Directory and registry listings and
 - 2026-09-12 [GUS: Fix the ADC sample rate divisor missing the +2 bias](https://github.com/86Box/86Box/pull/7941)
 - 2026-09-12 [MIDI: Fix input queue overflow hang and broken real-time bytes](https://github.com/86Box/86Box/pull/7940)
 
+### [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins), 4 merged
+
+- 2026-09-09 [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
+- 2026-09-09 [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/pull/52)
+- 2026-09-09 [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
+- 2026-10-01 [fix(core): reject a page selection that matches no page](https://github.com/QwenLM/Qwen-MM-Plugins/pull/61)
+
 ### [laude-institute/headlong](https://github.com/laude-institute/headlong), 3 merged
 
 - 2026-09-05 [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
 - 2026-09-09 [ci: point the smoke container's apt at the Azure mirror](https://github.com/laude-institute/headlong/pull/114)
 - 2026-09-09 [traj: formatted tail and cat return the steps --filter matches](https://github.com/laude-institute/headlong/pull/112)
 
-### [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins), 3 merged
+### [mozilla/web-ext](https://github.com/mozilla/web-ext), 3 merged
 
-- 2026-09-09 [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
-- 2026-09-09 [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/pull/52)
-- 2026-09-09 [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
+- 2026-09-24 [fix: Fixed files not being ignored when sourceDir contains glob characters](https://github.com/mozilla/web-ext/pull/3835)
+- 2026-10-08 [fix(sign): Defaulted amoBaseUrl when signing from the Node API](https://github.com/mozilla/web-ext/pull/3833)
+- 2026-10-08 [fix(chromium): Fixed silent reload failures on Chrome 125 and earlier](https://github.com/mozilla/web-ext/pull/3836)
 
 ### [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill), 3 merged
 
@@ -97,6 +105,11 @@ Merged contributions, grouped by repository. Directory and registry listings and
 - 2026-09-10 [Fix annotation rectangle under a rotated transformation matrix](https://github.com/foliojs/pdfkit/pull/1794)
 - 2026-09-19 [Fix doc.list() throwing on a numbered or lettered list with align center or right](https://github.com/foliojs/pdfkit/pull/1800)
 
+### [go-goyave/goyave](https://github.com/go-goyave/goyave), 2 merged
+
+- 2026-09-08 [httputil: fix quality value parsing in ParseMultiValuesHeader](https://github.com/go-goyave/goyave/pull/295)
+- 2026-09-28 [compress: fix quality value of 0 being ignored in getEncoder](https://github.com/go-goyave/goyave/pull/296)
+
 ### [greyhaven-ai/autocontext](https://github.com/greyhaven-ai/autocontext), 2 merged
 
 - 2026-09-08 [fix: default dataclass metadata to a dict, not a pydantic FieldInfo](https://github.com/greyhaven-ai/autocontext/pull/1324)
@@ -116,6 +129,11 @@ Merged contributions, grouped by repository. Directory and registry listings and
 
 - 2026-09-11 [Fix $not filters on dot-notation paths](https://github.com/hyparam/hyparquet/pull/177)
 - 2026-09-16 [Keep default parsers when only some are overridden](https://github.com/hyparam/hyparquet/pull/178)
+
+### [ishepard/pydriller](https://github.com/ishepard/pydriller), 2 merged
+
+- 2026-09-11 [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/pull/324)
+- 2026-09-25 [Fix old_path and new_path being wrong for empty added or deleted files](https://github.com/ishepard/pydriller/pull/325)
 
 ### [jhd3197/ServerKit](https://github.com/jhd3197/ServerKit), 2 merged
 
@@ -172,6 +190,11 @@ Merged contributions, grouped by repository. Directory and registry listings and
 - 2026-09-06 [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator](https://github.com/raysan5/raylib/pull/6132)
 - 2026-09-10 [[rtext] Fix TextSplit() reading past its buffer on text of 1024 bytes or more](https://github.com/raysan5/raylib/pull/6136)
 
+### [testem/testem](https://github.com/testem/testem), 2 merged
+
+- 2026-09-07 [fix(report-file): surface write stream errors instead of a TypeError](https://github.com/testem/testem/pull/2058)
+- 2026-09-25 [fix(server): honor multiple onlyContentTypes and non-matching Accept](https://github.com/testem/testem/pull/2086)
+
 ### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent), 2 merged
 
 - 2026-09-07 [fix(diff): compare bad file extensions case-insensitively](https://github.com/The-PR-Agent/pr-agent/pull/3103)
@@ -191,6 +214,11 @@ Merged contributions, grouped by repository. Directory and registry listings and
 
 - 2026-09-10 [Fix `q` weights in `Accept` header parsing](https://github.com/wemake-services/django-modern-rest/pull/1407)
 - 2026-09-15 [Strip optional whitespace when splitting headers on `,`](https://github.com/wemake-services/django-modern-rest/pull/1526)
+
+### [wshobson/agents](https://github.com/wshobson/agents), 2 merged
+
+- 2026-09-13 [fix(adapters): quote YAML scalars in OpenCode and Copilot frontmatter](https://github.com/wshobson/agents/pull/700)
+- 2026-09-25 [fix(plugin-eval): count each fenced code block once, not once per fence](https://github.com/wshobson/agents/pull/710)
 
 ### [agavra/tuicr](https://github.com/agavra/tuicr), 1 merged
 
@@ -212,9 +240,17 @@ Merged contributions, grouped by repository. Directory and registry listings and
 
 - 2026-09-08 [fix: comment url swaps title and answer id](https://github.com/apache/answer/pull/1603)
 
+### [apache/datafusion](https://github.com/apache/datafusion), 1 merged
+
+- 2026-09-25 [fix: apply regexp_instr subexpr to the N-th match, not the first](https://github.com/apache/datafusion/pull/24991)
+
 ### [apache/datasketches-java](https://github.com/apache/datasketches-java), 1 merged
 
 - 2026-09-16 [Fix Util.numDigits returning 0 for 0 and 1, and 18 for 1E18](https://github.com/apache/datasketches-java/pull/762)
+
+### [apache/logging-log4j2](https://github.com/apache/logging-log4j2), 1 merged
+
+- 2026-09-23 [Forward mail attributes in deprecated `SmtpAppender.createAppender`](https://github.com/apache/logging-log4j2/pull/4304)
 
 ### [bitshifter/glam-rs](https://github.com/bitshifter/glam-rs), 1 merged
 
@@ -224,6 +260,10 @@ Merged contributions, grouped by repository. Directory and registry listings and
 
 - 2026-09-18 [fix(string): reject signed Infinity and non-decimal literals in StringToNumber](https://github.com/boa-dev/boa/pull/5509)
 
+### [carvel-dev/ytt](https://github.com/carvel-dev/ytt), 1 merged
+
+- 2026-10-03 [Report each builtin's own name when it errors](https://github.com/carvel-dev/ytt/pull/1008)
+
 ### [castorini/rank_llm](https://github.com/castorini/rank_llm), 1 merged
 
 - 2026-09-07 [Fix trec_eval dropping the first evaluation option](https://github.com/castorini/rank_llm/pull/437)
@@ -231,6 +271,10 @@ Merged contributions, grouped by repository. Directory and registry listings and
 ### [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui), 1 merged
 
 - 2026-09-07 [fix(react): read the important marker only at the end of a value](https://github.com/chakra-ui/chakra-ui/pull/10970)
+
+### [changesets/changesets](https://github.com/changesets/changesets), 1 merged
+
+- 2026-09-07 [Report a package in multiple fixed or linked groups only once](https://github.com/changesets/changesets/pull/2282)
 
 ### [charmbracelet/catwalk](https://github.com/charmbracelet/catwalk), 1 merged
 
@@ -288,10 +332,6 @@ Merged contributions, grouped by repository. Directory and registry listings and
 
 - 2026-09-11 [Fix overflow panic draining an empty tree with integer coordinates](https://github.com/georust/rstar/pull/246)
 
-### [go-goyave/goyave](https://github.com/go-goyave/goyave), 1 merged
-
-- 2026-09-08 [httputil: fix quality value parsing in ParseMultiValuesHeader](https://github.com/go-goyave/goyave/pull/295)
-
 ### [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg), 1 merged
 
 - 2026-09-06 [fix(libreoffice): report an encrypted .xlsb as password-protected](https://github.com/gotenberg/gotenberg/pull/1655)
@@ -299,10 +339,6 @@ Merged contributions, grouped by repository. Directory and registry listings and
 ### [inducer/loopy](https://github.com/inducer/loopy), 1 merged
 
 - 2026-09-11 [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/pull/1048)
-
-### [ishepard/pydriller](https://github.com/ishepard/pydriller), 1 merged
-
-- 2026-09-11 [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/pull/324)
 
 ### [joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x), 1 merged
 
@@ -327,6 +363,10 @@ Merged contributions, grouped by repository. Directory and registry listings and
 ### [libarchive/libarchive](https://github.com/libarchive/libarchive), 1 merged
 
 - 2026-09-08 [man: fix option names that archive_write_set_options rejects](https://github.com/libarchive/libarchive/pull/3495)
+
+### [libnoname/noname](https://github.com/libnoname/noname), 1 merged
+
+- 2026-10-03 [fix(fs): 修复文件系统服务器的路径越界检查漏判同级目录](https://github.com/libnoname/noname/pull/4397)
 
 ### [magefree/mage](https://github.com/magefree/mage), 1 merged
 
@@ -360,6 +400,14 @@ Merged contributions, grouped by repository. Directory and registry listings and
 
 - 2026-06-17 [fix(config): honor explicit --hermes-repo and make config construction non-fatal](https://github.com/NousResearch/hermes-agent-self-evolution/pull/122)
 
+### [NousResearch/hermes-plugin-blender](https://github.com/NousResearch/hermes-plugin-blender), 1 merged
+
+- 2026-10-05 [docs: correct the result contract and document the _for_cli Blender lookup](https://github.com/NousResearch/hermes-plugin-blender/pull/1)
+
+### [NousResearch/hermes-plugin-claude-subscription-directsdk](https://github.com/NousResearch/hermes-plugin-claude-subscription-directsdk), 1 merged
+
+- 2026-09-23 [fix: explain a logged-out CLI instead of a bare Native API error](https://github.com/NousResearch/hermes-plugin-claude-subscription-directsdk/pull/23)
+
 ### [NousResearch/wandb-rs](https://github.com/NousResearch/wandb-rs), 1 merged
 
 - 2026-06-25 [Add Run::finish() to flush pending logs before exit](https://github.com/NousResearch/wandb-rs/pull/2)
@@ -372,6 +420,10 @@ Merged contributions, grouped by repository. Directory and registry listings and
 
 - 2026-09-20 [Fix: include NRIRayTracing.h in NRIWrapperVK.h](https://github.com/NVIDIA-RTX/NRI/pull/260)
 
+### [NVIDIA/barney](https://github.com/NVIDIA/barney), 1 merged
+
+- 2026-09-23 [Run the datatype regression test against the native source](https://github.com/NVIDIA/barney/pull/63)
+
 ### [NVIDIA/cccl](https://github.com/NVIDIA/cccl), 1 merged
 
 - 2026-09-21 [Add count_if NVHPC stdpar smoke test](https://github.com/NVIDIA/cccl/pull/11521)
@@ -379,6 +431,10 @@ Merged contributions, grouped by repository. Directory and registry listings and
 ### [NVIDIA/cloudai](https://github.com/NVIDIA/cloudai), 1 merged
 
 - 2026-09-21 [Make File.is_installed binary-safe](https://github.com/NVIDIA/cloudai/pull/1044)
+
+### [NVIDIA/cluster-readiness-engine](https://github.com/NVIDIA/cluster-readiness-engine), 1 merged
+
+- 2026-10-04 [test: exercise release ref guards and follow attest wrappers](https://github.com/NVIDIA/cluster-readiness-engine/pull/359)
 
 ### [NVIDIA/cuopt-examples](https://github.com/NVIDIA/cuopt-examples), 1 merged
 
@@ -388,13 +444,37 @@ Merged contributions, grouped by repository. Directory and registry listings and
 
 - 2026-09-21 [Document that random_shuffle shuffles only locally](https://github.com/NVIDIA/DALI/pull/6491)
 
+### [NVIDIA/deepops](https://github.com/NVIDIA/deepops), 1 merged
+
+- 2026-09-30 [tests/slurm-epilog: check the cleanup status and add pathname regressions](https://github.com/NVIDIA/deepops/pull/1410)
+
+### [NVIDIA/go-nvml](https://github.com/NVIDIA/go-nvml), 1 merged
+
+- 2026-10-06 [Trim sample and topology results to the returned count](https://github.com/NVIDIA/go-nvml/pull/212)
+
+### [NVIDIA/makani](https://github.com/NVIDIA/makani), 1 merged
+
+- 2026-09-30 [Read channel names from the "channel" dataset in h5_convert.py](https://github.com/NVIDIA/makani/pull/183)
+
 ### [NVIDIA/multi-storage-client](https://github.com/NVIDIA/multi-storage-client), 1 merged
 
 - 2026-09-21 [fix(pathlib): compare profiles in is_relative_to](https://github.com/NVIDIA/multi-storage-client/pull/179)
 
+### [NVIDIA/nodewright](https://github.com/NVIDIA/nodewright), 1 merged
+
+- 2026-09-23 [fix(operator): scope package pod events to the operator namespace](https://github.com/NVIDIA/nodewright/pull/646)
+
+### [NVIDIA/nvbench](https://github.com/NVIDIA/nvbench), 1 merged
+
+- 2026-10-07 [Sync the vendored RAPIDS.cmake with rapids-cmake release/25.12](https://github.com/NVIDIA/nvbench/pull/466)
+
 ### [NVIDIA/OWL](https://github.com/NVIDIA/OWL), 1 merged
 
 - 2026-09-19 [Add OWL_DOUBLE types to typeToString](https://github.com/NVIDIA/OWL/pull/28)
+
+### [NVIDIA/rumpelpod](https://github.com/NVIDIA/rumpelpod), 1 merged
+
+- 2026-10-13 [Skip .gitmodules entries that have no gitlink](https://github.com/NVIDIA/rumpelpod/pull/5)
 
 ### [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator), 1 merged
 
@@ -403,6 +483,10 @@ Merged contributions, grouped by repository. Directory and registry listings and
 ### [NVIDIA/sphinx-llm](https://github.com/NVIDIA/sphinx-llm), 1 merged
 
 - 2026-09-21 [Read page descriptions on older Docutils releases](https://github.com/NVIDIA/sphinx-llm/pull/156)
+
+### [NVIDIA/stdexec](https://github.com/NVIDIA/stdexec), 1 merged
+
+- 2026-09-23 [Fix completion signature detection with GCC 13.1 and 13.2](https://github.com/NVIDIA/stdexec/pull/2280)
 
 ### [NVIDIA/TileGym](https://github.com/NVIDIA/TileGym), 1 merged
 
@@ -427,6 +511,10 @@ Merged contributions, grouped by repository. Directory and registry listings and
 ### [oras-project/oras](https://github.com/oras-project/oras), 1 merged
 
 - 2026-09-06 [fix: attribute recursive copy tag failures to the destination](https://github.com/oras-project/oras/pull/2157)
+
+### [OSU-NLP-Group/QUEST](https://github.com/OSU-NLP-Group/QUEST), 1 merged
+
+- 2026-10-06 [Fix UnboundLocalError in reward.py: compute_score cannot compute any reward](https://github.com/OSU-NLP-Group/QUEST/pull/7)
 
 ### [pacifio/atlas](https://github.com/pacifio/atlas), 1 merged
 
@@ -472,6 +560,14 @@ Merged contributions, grouped by repository. Directory and registry listings and
 
 - 2026-09-07 [fix: canonical image name for registries addressed by host and port](https://github.com/srl-labs/containerlab/pull/3391)
 
+### [syrizelink/OpenFic](https://github.com/syrizelink/OpenFic), 1 merged
+
+- 2026-10-06 [fix(backend): 修复章节导出成品在 24 小时有效期内被清理删除的问题](https://github.com/syrizelink/OpenFic/pull/385)
+
+### [TanStack/query](https://github.com/TanStack/query), 1 merged
+
+- 2026-10-12 [fix(query-persist-client-core/createPersister): await 'storage.setItem' when persisting a query](https://github.com/TanStack/query/pull/11410)
+
 ### [tconbeer/harlequin](https://github.com/tconbeer/harlequin), 1 merged
 
 - 2026-09-15 [fix: write the Feather file version the Data Exporter asked for](https://github.com/tconbeer/harlequin/pull/1158)
@@ -479,10 +575,6 @@ Merged contributions, grouped by repository. Directory and registry listings and
 ### [Tencent/WeKnora](https://github.com/Tencent/WeKnora), 1 merged
 
 - 2026-09-07 [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
-
-### [testem/testem](https://github.com/testem/testem), 1 merged
-
-- 2026-09-07 [fix(report-file): surface write stream errors instead of a TypeError](https://github.com/testem/testem/pull/2058)
 
 ### [tombi-toml/tombi](https://github.com/tombi-toml/tombi), 1 merged
 
@@ -504,10 +596,6 @@ Merged contributions, grouped by repository. Directory and registry listings and
 
 - 2026-09-18 [fix: keep the namespace prefix in attributes()](https://github.com/vuejs/test-utils/pull/2941)
 
-### [wshobson/agents](https://github.com/wshobson/agents), 1 merged
-
-- 2026-09-13 [fix(adapters): quote YAML scalars in OpenCode and Copilot frontmatter](https://github.com/wshobson/agents/pull/700)
-
 ### [xintaofei/codeg](https://github.com/xintaofei/codeg), 1 merged
 
 - 2026-09-07 [fix(cline): close a stripped block at its own closing tag](https://github.com/xintaofei/codeg/pull/670)
@@ -519,6 +607,10 @@ Merged contributions, grouped by repository. Directory and registry listings and
 ### [zenstackhq/zenstack](https://github.com/zenstackhq/zenstack), 1 merged
 
 - 2026-09-06 [fix(zod): treat `@uuid` without a version as any UUID version](https://github.com/zenstackhq/zenstack/pull/2832)
+
+### [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt), 1 merged
+
+- 2026-09-08 [fix: keep model download lock PID when acquisition fails](https://github.com/zylon-ai/private-gpt/pull/2362)
 
 ## Directory and registry listings for Compartment
 
@@ -542,6 +634,7 @@ Merged contributions, grouped by repository. Directory and registry listings and
 - 2026-09-04 [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/15): Run the ampoule in real photon transport: budget, gate, synapse, boundary and dose
 - 2026-09-06 [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/18): The second edition: the vessel compiled, and the repository as a checked instrument
 - 2026-09-06 [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing/pull/17): Record the cross-section library by name in the run provenance
+- 2026-10-17 [Compartment](https://github.com/MaxFreedomPollard/Compartment/pull/10): Stability, reliability and performance: 79 fixes, release 4.12.0
 
 ## Downstream copies carrying these commits
 
