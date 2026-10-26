@@ -105,6 +105,8 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [Use the package summary as the default llms.txt description](https://github.com/NVIDIA/sphinx-llm/pull/198)
 - **[NVIDIA/stdexec](https://github.com/NVIDIA/stdexec)**
   - [Fix completion signature detection with GCC 13.1 and 13.2](https://github.com/NVIDIA/stdexec/pull/2280)
+  - [Make the clangd helper target optional and tolerate a missing source](https://github.com/NVIDIA/stdexec/pull/2352)
+  - [Fix when_all and when_any completing twice under a racing stop request](https://github.com/NVIDIA/stdexec/pull/2358)
 - **[NVIDIA/TileGym](https://github.com/NVIDIA/TileGym)**
   - [fix(ops): export tilecpp only when its backend is available](https://github.com/NVIDIA/TileGym/pull/200)
 - **[NVIDIA-NeMo/labs-molt](https://github.com/NVIDIA-NeMo/labs-molt)**
@@ -166,11 +168,23 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [Fix discarded errors in marshalSlice and marshalUint](https://github.com/abema/go-mp4/pull/187)
 - [Fix unmarshalling of sgpd RollDistancesL](https://github.com/abema/go-mp4/pull/188)
 
+### [boyter/scc](https://github.com/boyter/scc)
+
+- [fix(asp.net): correct the server side comment terminator](https://github.com/boyter/scc/pull/772)
+- [fix(dart): count single quoted string literals](https://github.com/boyter/scc/pull/773)
+- [fix(twig): count {# #} comments](https://github.com/boyter/scc/pull/798)
+
 ### [caronc/apprise](https://github.com/caronc/apprise)
 
 - [Honor language= in onesignal:// and preserve it through url()](https://github.com/caronc/apprise/pull/1720)
 - [Preserve query parameters in signl4:// url()](https://github.com/caronc/apprise/pull/1732)
 - [Honor +Arg=Val and -Arg in ifttt:// URLs](https://github.com/caronc/apprise/pull/1831)
+
+### [ekzhang/jax-js](https://github.com/ekzhang/jax-js)
+
+- [Fix copysign() dropping the magnitude when y is zero](https://github.com/ekzhang/jax-js/pull/214)
+- [Fix sign() returning 1 for NaN](https://github.com/ekzhang/jax-js/pull/215)
+- [Fix matmul() broadcasting for operands of different ranks](https://github.com/ekzhang/jax-js/pull/239)
 
 ### [foliojs/pdfkit](https://github.com/foliojs/pdfkit)
 
@@ -196,6 +210,12 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [[docs] Describe the MarginMSE target as the signed margin](https://github.com/huggingface/sentence-transformers/pull/4009)
 - [[fix] Stack tensor-formatted labels in the CrossEncoder data collator](https://github.com/huggingface/sentence-transformers/pull/4257)
 
+### [jhd3197/ServerKit](https://github.com/jhd3197/ServerKit)
+
+- [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/pull/139)
+- [fix(logs): compare whole segments in path guard](https://github.com/jhd3197/ServerKit/pull/145)
+- [fix(security): honour the failed-login time window](https://github.com/jhd3197/ServerKit/pull/180)
+
 ### [jundot/omlx](https://github.com/jundot/omlx)
 
 - [fix(eval): stop a comma from swallowing the GSM8K answer](https://github.com/jundot/omlx/pull/3484)
@@ -213,6 +233,12 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/pull/646)
 - [fix(parser): parse `/` after an `await` identifier as division](https://github.com/meriyah/meriyah/pull/659)
 - [fix(parser): don't extend `yield` with member access, calls or binary operators](https://github.com/meriyah/meriyah/pull/669)
+
+### [PyLabRobot/pylabrobot](https://github.com/PyLabRobot/pylabrobot)
+
+- [fix(resources): center a plate on the adapter hole's y size, not its x size](https://github.com/PyLabRobot/pylabrobot/pull/1244)
+- [fix(resources): stop transposing a tip spot's size_x and size_y](https://github.com/PyLabRobot/pylabrobot/pull/1251)
+- [fix(resources): align a lidded plate on a plate adapter by its wells](https://github.com/PyLabRobot/pylabrobot/pull/1533)
 
 ### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)
 
@@ -236,10 +262,15 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix(wiki): drop a leading BOM on a page with no frontmatter](https://github.com/akitaonrails/ai-memory/pull/663)
 - [fix(importer): keep subtitle cues that follow two blank lines](https://github.com/akitaonrails/ai-memory/pull/1627)
 
-### [boyter/scc](https://github.com/boyter/scc)
+### [carvel-dev/ytt](https://github.com/carvel-dev/ytt)
 
-- [fix(asp.net): correct the server side comment terminator](https://github.com/boyter/scc/pull/772)
-- [fix(dart): count single quoted string literals](https://github.com/boyter/scc/pull/773)
+- [Report each builtin's own name when it errors](https://github.com/carvel-dev/ytt/pull/1008)
+- [Accept a string for overlay/match by= on documents](https://github.com/carvel-dev/ytt/pull/1022)
+
+### [castorini/rank_llm](https://github.com/castorini/rank_llm)
+
+- [Fix trec_eval dropping the first evaluation option](https://github.com/castorini/rank_llm/pull/437)
+- [Fix create_model_coordinator rejecting valid prompt template paths](https://github.com/castorini/rank_llm/pull/472)
 
 ### [celery/kombu](https://github.com/celery/kombu)
 
@@ -261,15 +292,15 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/pull/822)
 - [fix: Rewrite translated field names in all annotate() expressions](https://github.com/deschler/django-modeltranslation/pull/825)
 
+### [devitocodes/devito](https://github.com/devitocodes/devito)
+
+- [misc: Snapshot the environment when a switchenv is entered](https://github.com/devitocodes/devito/pull/3019)
+- [data: Fix negative slice bounds along modulo-indexed Dimensions](https://github.com/devitocodes/devito/pull/3086)
+
 ### [Effect-TS/effect](https://github.com/Effect-TS/effect)
 
 - [fix(cli): split key=value pairs at the first separator](https://github.com/Effect-TS/effect/pull/8086)
 - [Fix SQL name transforms failing on JSON arrays that contain null](https://github.com/Effect-TS/effect/pull/9825)
-
-### [ekzhang/jax-js](https://github.com/ekzhang/jax-js)
-
-- [Fix copysign() dropping the magnitude when y is zero](https://github.com/ekzhang/jax-js/pull/214)
-- [Fix sign() returning 1 for NaN](https://github.com/ekzhang/jax-js/pull/215)
 
 ### [elastio/bon](https://github.com/elastio/bon)
 
@@ -286,6 +317,16 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix: drop unmatched properties when additionalProperties is false](https://github.com/fastify/fast-json-stringify/pull/879)
 - [fix: apply the else branch when a schema has if and else but no then](https://github.com/fastify/fast-json-stringify/pull/884)
 
+### [Gallopsled/pwntools](https://github.com/Gallopsled/pwntools)
+
+- [Disable debuginfod doctests in libcdb.unstrip_libc on stable](https://github.com/Gallopsled/pwntools/pull/2773)
+- [fix(packing): dd() raises TypeError on a bytearray destination](https://github.com/Gallopsled/pwntools/pull/2772)
+
+### [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg)
+
+- [fix(libreoffice): report an encrypted .xlsb as password-protected](https://github.com/gotenberg/gotenberg/pull/1655)
+- [fix(api): match the OIDC Bearer scheme case-insensitively](https://github.com/gotenberg/gotenberg/pull/1696)
+
 ### [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)
 
 - [fix(video-subtitles): keep the space between merged subtitle clauses](https://github.com/hugohe3/ppt-master/pull/283)
@@ -301,15 +342,15 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [Fix added_lines and deleted_lines dropping "++" and "--" content](https://github.com/ishepard/pydriller/pull/324)
 - [Fix old_path and new_path being wrong for empty added or deleted files](https://github.com/ishepard/pydriller/pull/325)
 
-### [jhd3197/ServerKit](https://github.com/jhd3197/ServerKit)
-
-- [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/pull/139)
-- [fix(logs): compare whole segments in path guard](https://github.com/jhd3197/ServerKit/pull/145)
-
 ### [junhoyeo/tokscale](https://github.com/junhoyeo/tokscale)
 
 - [fix(core): parse MiMo Code and fx on the local report path](https://github.com/junhoyeo/tokscale/pull/1300)
 - [fix(qwen): stop counting cached and reasoning tokens twice](https://github.com/junhoyeo/tokscale/pull/1527)
+
+### [libnoname/noname](https://github.com/libnoname/noname)
+
+- [fix(fs): 修复文件系统服务器的路径越界检查漏判同级目录](https://github.com/libnoname/noname/pull/4397)
+- [fix(character): 修复新杀谋周瑜【英谋】阴状态结算死循环](https://github.com/libnoname/noname/pull/4556)
 
 ### [modelcontextprotocol/go-sdk](https://github.com/modelcontextprotocol/go-sdk)
 
@@ -325,10 +366,20 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [fix: Fixed files not being ignored when sourceDir contains glob characters](https://github.com/mozilla/web-ext/pull/3835)
   - [fix(chromium): Fixed silent reload failures on Chrome 125 and earlier](https://github.com/mozilla/web-ext/pull/3836)
 
+### [noahbald/oxvg](https://github.com/noahbald/oxvg)
+
+- [fix(oxvg_optimiser): keep ellipses selected by a stylesheet in convertShapeToPath](https://github.com/noahbald/oxvg/pull/277)
+- [fix(oxvg_optimiser): keep defaults used by attribute selectors in removeUnknownsAndDefaults](https://github.com/noahbald/oxvg/pull/326)
+
 ### [nominal-io/instro](https://github.com/nominal-io/instro)
 
 - [fix(eload): cache mode only after the driver confirms set_mode](https://github.com/nominal-io/instro/pull/485)
 - [fix(dmm): release the driver and reset apply state when close() fails](https://github.com/nominal-io/instro/pull/534)
+
+### [odygrd/quill](https://github.com/odygrd/quill)
+
+- [Flush sinks and run periodic tasks when manual backend polling drains the queues](https://github.com/odygrd/quill/pull/989)
+- [Keep thread names longer than 15 characters on macOS](https://github.com/odygrd/quill/pull/1008)
 
 ### [open-circle/valibot](https://github.com/open-circle/valibot)
 
@@ -349,11 +400,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/pull/794)
 - [fix: replace the layer at an index instead of inserting before it](https://github.com/psd-tools/psd-tools/pull/811)
-
-### [PyLabRobot/pylabrobot](https://github.com/PyLabRobot/pylabrobot)
-
-- [fix(resources): center a plate on the adapter hole's y size, not its x size](https://github.com/PyLabRobot/pylabrobot/pull/1244)
-- [fix(resources): stop transposing a tip spot's size_x and size_y](https://github.com/PyLabRobot/pylabrobot/pull/1251)
 
 ### [python-attrs/cattrs](https://github.com/python-attrs/cattrs)
 
@@ -400,6 +446,11 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix(adapters): quote YAML scalars in OpenCode and Copilot frontmatter](https://github.com/wshobson/agents/pull/700)
 - [fix(plugin-eval): count each fenced code block once, not once per fence](https://github.com/wshobson/agents/pull/710)
 
+### [yoanbernabeu/grepai](https://github.com/yoanbernabeu/grepai)
+
+- [fix(search): break score ties deterministically so ranking is reproducible](https://github.com/yoanbernabeu/grepai/pull/303)
+- [fix(chunker): stop emitting a redundant chunk at the end of every file](https://github.com/yoanbernabeu/grepai/pull/333)
+
 ### [agavra/tuicr](https://github.com/agavra/tuicr)
 
 - [fix(input): type AltGr characters in the command, search and filter prompts](https://github.com/agavra/tuicr/pull/694)
@@ -415,14 +466,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [boa-dev/boa](https://github.com/boa-dev/boa)
 
 - [fix(string): reject signed Infinity and non-decimal literals in StringToNumber](https://github.com/boa-dev/boa/pull/5509)
-
-### [carvel-dev/ytt](https://github.com/carvel-dev/ytt)
-
-- [Report each builtin's own name when it errors](https://github.com/carvel-dev/ytt/pull/1008)
-
-### [castorini/rank_llm](https://github.com/castorini/rank_llm)
-
-- [Fix trec_eval dropping the first evaluation option](https://github.com/castorini/rank_llm/pull/437)
 
 ### [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui)
 
@@ -444,10 +487,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [Fix SOL-ARK-LV-CAN 0x359 over-current sign bug](https://github.com/dalathegreat/Battery-Emulator/pull/2929)
 
-### [devitocodes/devito](https://github.com/devitocodes/devito)
-
-- [misc: Snapshot the environment when a switchenv is entered](https://github.com/devitocodes/devito/pull/3019)
-
 ### [embassy-rs/embassy](https://github.com/embassy-rs/embassy)
 
 - [embassy-sync: wake the next waiter when a FairSemaphore acquire is canceled](https://github.com/embassy-rs/embassy/pull/6964)
@@ -460,10 +499,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [fix(eventbridge,scheduler): read cron day-of-week as AWS 1-7 SUN-SAT](https://github.com/floci-io/floci/pull/3147)
 
-### [Gallopsled/pwntools](https://github.com/Gallopsled/pwntools)
-
-- [Disable debuginfod doctests in libcdb.unstrip_libc on stable](https://github.com/Gallopsled/pwntools/pull/2773)
-
 ### [gbdev/rgbds](https://github.com/gbdev/rgbds)
 
 - [Avoid signed overflow in RGBLINK's `+`, `-`, and `*`](https://github.com/gbdev/rgbds/pull/2060)
@@ -475,10 +510,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [georust/rstar](https://github.com/georust/rstar)
 
 - [Fix overflow panic draining an empty tree with integer coordinates](https://github.com/georust/rstar/pull/246)
-
-### [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg)
-
-- [fix(libreoffice): report an encrypted .xlsb as password-protected](https://github.com/gotenberg/gotenberg/pull/1655)
 
 ### [inducer/loopy](https://github.com/inducer/loopy)
 
@@ -504,10 +535,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [man: fix option names that archive_write_set_options rejects](https://github.com/libarchive/libarchive/pull/3495)
 
-### [libnoname/noname](https://github.com/libnoname/noname)
-
-- [fix(fs): 修复文件系统服务器的路径越界检查漏判同级目录](https://github.com/libnoname/noname/pull/4397)
-
 ### [magefree/mage](https://github.com/magefree/mage)
 
 - [Fix Wickersmith's Tools creating untapped Scarecrow tokens](https://github.com/magefree/mage/pull/16115)
@@ -523,14 +550,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [modelscope/ms-swift](https://github.com/modelscope/ms-swift)
 
 - [fix(metrics): mask ignored labels in padding-free seq_acc](https://github.com/modelscope/ms-swift/pull/10049)
-
-### [noahbald/oxvg](https://github.com/noahbald/oxvg)
-
-- [fix(oxvg_optimiser): keep ellipses selected by a stylesheet in convertShapeToPath](https://github.com/noahbald/oxvg/pull/277)
-
-### [odygrd/quill](https://github.com/odygrd/quill)
-
-- [Flush sinks and run periodic tasks when manual backend polling drains the queues](https://github.com/odygrd/quill/pull/989)
 
 ### [onnx/onnx](https://github.com/onnx/onnx)
 
@@ -615,10 +634,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [xintaofei/codeg](https://github.com/xintaofei/codeg)
 
 - [fix(cline): close a stripped block at its own closing tag](https://github.com/xintaofei/codeg/pull/670)
-
-### [yoanbernabeu/grepai](https://github.com/yoanbernabeu/grepai)
-
-- [fix(search): break score ties deterministically so ranking is reproducible](https://github.com/yoanbernabeu/grepai/pull/303)
 
 ### [zenstackhq/zenstack](https://github.com/zenstackhq/zenstack)
 
