@@ -13,8 +13,6 @@ I am a long-time contributor to [Hermes Agent](https://github.com/NousResearch/h
 
 Creator of [Compartment](https://github.com/MaxFreedomPollard/Compartment), an encrypted, fully offline memory for AI agents, and other projects such as [nuclear compute](https://github.com/MaxFreedomPollard/nuclear-computing) and the [Artificial Knowledge Collection](https://github.com/MaxFreedomPollard/artificial-knowledge-collection-6.0). My [Compartment](https://github.com/MaxFreedomPollard/Compartment) agentic memory now ships as a default memory option in [Hermes Agent](https://github.com/NousResearch/hermes-agent/blob/main/plugin-catalog/compartment.yaml).
 
-I've had a few scattered GitHub accounts over the years. This is my new one, with my recent work.
-
 ## Accepted benchmark challenges
 
 Challenges authored for Datacurve's ShipD platform, each accepted after automated checks, solver runs and human review; [ten are included here](shipd/) as examples, with the hidden tests and reference solutions withheld to protect Datacurve's proprietary benchmark material:
