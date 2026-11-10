@@ -10,7 +10,7 @@ I contribute to agentic AI projects for organizations like [Nous Research](https
 
 I am a long-time contributor to [Hermes Agent](https://github.com/NousResearch/hermes-agent), the most popular agentic AI, with over three million downloads to date.
 
-Creator of [Compartment](https://github.com/MaxFreedomPollard/Compartment), an encrypted, fully offline memory for AI agents which ships as a default plugin option for Hermes, and other projects that contribute to AI. 
+Creator of [Compartment](https://github.com/MaxFreedomPollard/Compartment), an encrypted, fully offline vector memory for AI agents which ships as a default plugin option for Hermes, among other projects that contribute to AI. Compartment is more than just offline vector memory, it has incredibly unique linkage, storage, recall and intuitivity. 
 
 ## Accepted benchmark challenges
 
