@@ -8,9 +8,9 @@
 
 I contribute to agentic AI projects for organizations like [Nous Research](https://github.com/NousResearch), [NVIDIA](https://github.com/NVIDIA), [Tencent](https://github.com/Tencent), [Qwen](https://github.com/QwenLM), and more. I love to help evolve agents, so you'll find my work in repos such as NVIDIA's [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) & [Molt](https://github.com/NVIDIA-NeMo/labs-molt), [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution), [autocontext](https://github.com/greyhaven-ai/autocontext) and [headlong](https://github.com/laude-institute/headlong).
 
-I am a long-time contributor to [Hermes Agent](https://github.com/NousResearch/hermes-agent), the most popular agentic AI, with over three million downloads to date. A full list of the 120+ repositories I have contributed to recently is below.
+I am a long-time contributor to [Hermes Agent](https://github.com/NousResearch/hermes-agent), the most popular agentic AI, with over three million downloads to date.
 
-Creator of [Compartment](https://github.com/MaxFreedomPollard/Compartment), an encrypted, fully offline memory for AI agents, and other projects such as [nuclear compute](https://github.com/MaxFreedomPollard/nuclear-computing) and the [Artificial Knowledge Collection](https://github.com/MaxFreedomPollard/artificial-knowledge-collection-6.0). My [Compartment](https://github.com/MaxFreedomPollard/Compartment) agentic memory now ships as a default memory option in [Hermes Agent](https://github.com/NousResearch/hermes-agent/blob/main/plugin-catalog/compartment.yaml).
+Creator of [Compartment](https://github.com/MaxFreedomPollard/Compartment), an encrypted, fully offline memory for AI agents which ships as a default plugin option for Hermes, and other projects that contribute to AI. 
 
 ## Accepted benchmark challenges
 
