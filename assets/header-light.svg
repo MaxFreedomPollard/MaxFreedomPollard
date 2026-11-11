@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="166" viewBox="0 0 900 166" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="112" viewBox="0 0 900 112" fill="none">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="166" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="112" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#FFFFFF"/>
       <stop offset="50%" stop-color="#F8FAFC"/>
       <stop offset="100%" stop-color="#F1F5F9"/>
     </linearGradient>
 
-    <radialGradient id="glowLeft" cx="310" cy="0" r="380" gradientUnits="userSpaceOnUse">
+    <radialGradient id="glowLeft" cx="320" cy="0" r="360" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.09"/>
       <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="glowRight" cx="590" cy="0" r="380" gradientUnits="userSpaceOnUse">
+    <radialGradient id="glowRight" cx="580" cy="0" r="360" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#6366F1" stop-opacity="0.07"/>
       <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
     </radialGradient>
 
-    <linearGradient id="cardBorder" x1="450" y1="0" x2="450" y2="166" gradientUnits="userSpaceOnUse">
+    <linearGradient id="cardBorder" x1="450" y1="0" x2="450" y2="112" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#CBD5E1"/>
       <stop offset="100%" stop-color="#E2E8F0"/>
     </linearGradient>
@@ -29,89 +29,40 @@
       <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
     </linearGradient>
 
-    <linearGradient id="titleFill" x1="450" y1="30" x2="450" y2="66" gradientUnits="userSpaceOnUse">
+    <linearGradient id="titleFill" x1="450" y1="40" x2="450" y2="72" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#0F172A"/>
       <stop offset="100%" stop-color="#1E293B"/>
-    </linearGradient>
-
-    <linearGradient id="pillFill" x1="0" y1="0" x2="0" y2="34" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.96"/>
-      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0.96"/>
-    </linearGradient>
-
-    <linearGradient id="divider" x1="270" y1="80" x2="630" y2="80" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#CBD5E1" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#CBD5E1" stop-opacity="0.90"/>
-      <stop offset="100%" stop-color="#CBD5E1" stop-opacity="0"/>
     </linearGradient>
 
     <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="0.95" fill="#64748B" fill-opacity="0.15"/>
     </pattern>
 
-    <radialGradient id="dotFade" cx="450" cy="83" r="450" gradientUnits="userSpaceOnUse">
+    <radialGradient id="dotFade" cx="450" cy="56" r="440" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#1A1A1A"/>
       <stop offset="45%" stop-color="#4D4D4D"/>
       <stop offset="100%" stop-color="#FFFFFF"/>
     </radialGradient>
 
     <mask id="dotMask">
-      <rect width="900" height="166" fill="url(#dotFade)"/>
+      <rect width="900" height="112" fill="url(#dotFade)"/>
     </mask>
 
     <clipPath id="cardClip">
-      <rect x="1" y="1" width="898" height="164" rx="16"/>
+      <rect x="1" y="1" width="898" height="110" rx="16"/>
     </clipPath>
   </defs>
 
   <g clip-path="url(#cardClip)">
-    <rect x="1" y="1" width="898" height="164" rx="16" fill="url(#bg)"/>
-    <rect x="1" y="1" width="898" height="164" fill="url(#glowLeft)"/>
-    <rect x="1" y="1" width="898" height="164" fill="url(#glowRight)"/>
-    <rect x="1" y="1" width="898" height="164" fill="url(#dots)" mask="url(#dotMask)"/>
+    <rect x="1" y="1" width="898" height="110" rx="16" fill="url(#bg)"/>
+    <rect x="1" y="1" width="898" height="110" fill="url(#glowLeft)"/>
+    <rect x="1" y="1" width="898" height="110" fill="url(#glowRight)"/>
+    <rect x="1" y="1" width="898" height="110" fill="url(#dots)" mask="url(#dotMask)"/>
   </g>
 
-  <rect x="1" y="1" width="898" height="164" rx="16" stroke="url(#cardBorder)" stroke-width="1"/>
+  <rect x="1" y="1" width="898" height="110" rx="16" stroke="url(#cardBorder)" stroke-width="1"/>
   <line x1="160" y1="1" x2="740" y2="1" stroke="url(#topBeam)" stroke-width="1.5"/>
 
   <!-- Display Name -->
-  <text x="450" y="59" text-anchor="middle" fill="url(#titleFill)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="-0.7">Max Freedom Pollard</text>
-
-  <!-- Subtle Center Rule -->
-  <line x1="270" y1="80" x2="630" y2="80" stroke="url(#divider)" stroke-width="1"/>
-
-  <!-- Pill 1: Software Engineering -->
-  <g transform="translate(204, 99)">
-    <rect width="175" height="34" rx="17" fill="url(#pillFill)" stroke="#CBD5E1" stroke-opacity="0.95" stroke-width="1"/>
-    <circle cx="17" cy="17" r="11" fill="#0284C7" fill-opacity="0.10"/>
-    <g transform="translate(11, 11)" stroke="#0284C7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <polyline points="3.8 3 0.8 6 3.8 9"/>
-      <polyline points="8.2 3 11.2 6 8.2 9"/>
-      <line x1="6.8" y1="1.8" x2="5.2" y2="10.2"/>
-    </g>
-    <text x="36" y="21.5" fill="#334155" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0.1">Software Engineering</text>
-  </g>
-
-  <!-- Pill 2: Artificial Intelligence -->
-  <g transform="translate(391, 99)">
-    <rect width="168" height="34" rx="17" fill="url(#pillFill)" stroke="#CBD5E1" stroke-opacity="0.95" stroke-width="1"/>
-    <circle cx="17" cy="17" r="11" fill="#4F46E5" fill-opacity="0.10"/>
-    <g transform="translate(11, 11)" stroke="#4F46E5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M6 1L7.3 4.7L11 6L7.3 7.3L6 11L4.7 7.3L1 6L4.7 4.7L6 1Z"/>
-    </g>
-    <text x="36" y="21.5" fill="#334155" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0.1">Artificial Intelligence</text>
-  </g>
-
-  <!-- Pill 3: Open Source -->
-  <g transform="translate(571, 99)">
-    <rect width="125" height="34" rx="17" fill="url(#pillFill)" stroke="#CBD5E1" stroke-opacity="0.95" stroke-width="1"/>
-    <circle cx="17" cy="17" r="11" fill="#059669" fill-opacity="0.10"/>
-    <g transform="translate(11, 11)" stroke="#059669" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="3" cy="3" r="1.8"/>
-      <circle cx="9" cy="9" r="1.8"/>
-      <path d="M3 4.8V10.5"/>
-      <path d="M3 4.8C3 7.3 5.2 9 7.2 9"/>
-    </g>
-    <text x="36" y="21.5" fill="#334155" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0.1">Open Source</text>
-  </g>
+  <text x="450" y="69" text-anchor="middle" fill="url(#titleFill)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="700" letter-spacing="-0.75">Max Freedom Pollard</text>
 </svg>
