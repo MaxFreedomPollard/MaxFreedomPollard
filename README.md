@@ -1,11 +1,9 @@
 <div align="center">
-  <a href="https://github.com/MaxFreedomPollard">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
-      <img alt="Max Freedom Pollard" src="./assets/banner-light.svg" width="100%">
-    </picture>
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
+    <img alt="Max Freedom Pollard" src="./assets/banner-light.svg" width="100%">
+  </picture>
 </div>
 
 I build tools for AI agents and contribute across open source, with 290+ changes merged into 140+ repositories in Python, Rust, Go, TypeScript, C/C++, and Java for organizations like [Nous Research](https://github.com/NousResearch), [NVIDIA](https://github.com/NVIDIA), [Sakana AI](https://github.com/SakanaAI), [Qwen](https://github.com/QwenLM), [Tencent](https://github.com/Tencent), [Hugging Face](https://github.com/huggingface), [Apache](https://github.com/apache), and [Mozilla](https://github.com/mozilla). Most of my focus is on agent memory, evaluation, and self-evolution, including ongoing work on [Hermes Agent](https://github.com/NousResearch/hermes-agent) alongside [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution), [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator), [Molt](https://github.com/NVIDIA-NeMo/labs-molt), [ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve), [autocontext](https://github.com/greyhaven-ai/autocontext), and [headlong](https://github.com/laude-institute/headlong).
