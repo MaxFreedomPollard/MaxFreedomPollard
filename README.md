@@ -1,16 +1,15 @@
 <div align="center">
   <h2>
-    Hi, I'm Max Freedom Pollard<br>
-    <sub>Agentic AI Developer • Full Stack Developer • Open Source Contributor</sub>
+    Max Freedom Pollard<br>
+    <sub>Agentic AI Engineer • Full-Stack Software Developer • Open-Source Contributor</sub>
   </h2>
-
 </div>
 
-I contribute to agentic AI projects for organizations like [Nous Research](https://github.com/NousResearch), [NVIDIA](https://github.com/NVIDIA), [Tencent](https://github.com/Tencent), [Qwen](https://github.com/QwenLM), and more. I love to help evolve agents, so you'll find my work in repos such as NVIDIA's [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) & [Molt](https://github.com/NVIDIA-NeMo/labs-molt), [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution), [autocontext](https://github.com/greyhaven-ai/autocontext) and [headlong](https://github.com/laude-institute/headlong).
+Software engineer specializing in agentic AI systems, persistent agent memory, and self-evolving agent architectures, with **290+ merged contributions across 140+ open-source repositories** in Python, Rust, Go, TypeScript, C/C++, and Java. My upstream engineering spans projects maintained by [Nous Research](https://github.com/NousResearch), [NVIDIA](https://github.com/NVIDIA), [Sakana AI](https://github.com/SakanaAI), [Qwen](https://github.com/QwenLM), [Tencent](https://github.com/Tencent), [Hugging Face](https://github.com/huggingface), [Apache](https://github.com/apache), and [Mozilla](https://github.com/mozilla).
 
-I am a long-time contributor to [Hermes Agent](https://github.com/NousResearch/hermes-agent), the most popular agentic AI, with over three million downloads to date.
+Long-term contributor to [Nous Research's Hermes Agent](https://github.com/NousResearch/hermes-agent) (over three million downloads; credited across five release cycles), alongside contributions to agent evaluation and self-evolution platforms including [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution), NVIDIA's [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) and [Molt](https://github.com/NVIDIA-NeMo/labs-molt), Sakana AI's [ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve), [autocontext](https://github.com/greyhaven-ai/autocontext), and [headlong](https://github.com/laude-institute/headlong).
 
-Creator of [Compartment](https://github.com/MaxFreedomPollard/Compartment), an encrypted, fully offline vector memory for AI agents which ships as a default plugin option for Hermes and other agents. Compartment is more than just offline vector memory, it has incredibly unique linkage, storage, recall and intuitivity. I have a couple of other projects dedicated to advancing agentic AI.
+Creator of [Compartment](https://github.com/MaxFreedomPollard/Compartment), an encrypted, fully offline memory platform for AI agents that ships in the [Hermes Agent plugin catalog](https://github.com/NousResearch/hermes-agent/blob/main/plugin-catalog/compartment.yaml) and integrates across MCP-compatible agents and IDEs. Beyond encrypted local vector storage, Compartment models memory as atomic, source-attributed claims linked through an interactive entity graph, pairing supersession chains (separating durable facts from evolving preferences) with sub-15 ms hybrid vector and lexical recall. I also architect graduate-level repository benchmarks for frontier model training on Datacurve's ShipD platform and maintain research projects in structured AI knowledge ([Artificial Knowledge Collection 6.0](https://github.com/MaxFreedomPollard/artificial-knowledge-collection-6.0)) and alternative compute substrates ([Nuclear Computing](https://github.com/MaxFreedomPollard/nuclear-computing)).
 
 ## Accepted benchmark challenges
 
@@ -31,7 +30,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 ### [NousResearch](https://github.com/NousResearch)
 
-- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: credited as a contributor in the [v2026.6.19](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19), [v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1), [v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3) and [v2026.9.11](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.11) release notes
+- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)**: credited as a contributor in the [v2026.6.19](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19), [v2026.7.1](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1), [v2026.8.3](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3), [v2026.9.11](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.11) and [v0.22.0](https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0) release notes
   - [fix(models): muse-spark 1.2/1.3 are on the Nous Portal, stop hiding them from the Nous picker](https://github.com/NousResearch/hermes-agent/pull/109827)
   - [fix(tui): close agents orphaned during session build](https://github.com/NousResearch/hermes-agent/commit/bd5257d263c0f06a2bb499629e89fe3cfe2328a8)
   - [fix(tui): make the launch cwd win over an inherited HERMES_CWD](https://github.com/NousResearch/hermes-agent/commit/6a499df86c47e23657f61da0f8e182ec079de2ae)
@@ -66,6 +65,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - **[NVIDIA/barney](https://github.com/NVIDIA/barney)**
   - [Run the datatype regression test against the native source](https://github.com/NVIDIA/barney/pull/63)
+  - [anari: fix crash on curves without primitive.index or vertex.radius](https://github.com/NVIDIA/barney/pull/87)
 - **[NVIDIA/cccl](https://github.com/NVIDIA/cccl)**
   - [Add count_if NVHPC stdpar smoke test](https://github.com/NVIDIA/cccl/pull/11521)
 - **[NVIDIA/cloudai](https://github.com/NVIDIA/cloudai)**
@@ -74,8 +74,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [test: exercise release ref guards and follow attest wrappers](https://github.com/NVIDIA/cluster-readiness-engine/pull/359)
 - **[NVIDIA/cuopt-examples](https://github.com/NVIDIA/cuopt-examples)**
   - [Fix EARLI notebook links in the README](https://github.com/NVIDIA/cuopt-examples/pull/174)
+  - [Fix the infeasible shift cap in the workforce MILP notebook](https://github.com/NVIDIA/cuopt-examples/pull/188)
 - **[NVIDIA/DALI](https://github.com/NVIDIA/DALI)**
   - [Document that random_shuffle shuffles only locally](https://github.com/NVIDIA/DALI/pull/6491)
+  - [Fix wds2idx offsets of members with GNU long names](https://github.com/NVIDIA/DALI/pull/6547)
 - **[NVIDIA/deepops](https://github.com/NVIDIA/deepops)**
   - [tests/slurm-epilog: check the cleanup status and add pathname regressions](https://github.com/NVIDIA/deepops/pull/1410)
   - [fix(setup): install the documented config/requirements.yml](https://github.com/NVIDIA/deepops/pull/1435)
@@ -83,6 +85,8 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [Trim sample and topology results to the returned count](https://github.com/NVIDIA/go-nvml/pull/212)
 - **[NVIDIA/makani](https://github.com/NVIDIA/makani)**
   - [Read channel names from the "channel" dataset in h5_convert.py](https://github.com/NVIDIA/makani/pull/183)
+  - [Count each sample once in the ACC, SSR and spread of masked data](https://github.com/NVIDIA/makani/pull/202)
+  - [Fix UnboundLocalError in the CRPS losses for single member forecasts with spatial weights](https://github.com/NVIDIA/makani/pull/204)
 - **[NVIDIA/multi-storage-client](https://github.com/NVIDIA/multi-storage-client)**
   - [fix(pathlib): compare profiles in is_relative_to](https://github.com/NVIDIA/multi-storage-client/pull/179)
   - [fix(fsspec): honor start and end in cat_file](https://github.com/NVIDIA/multi-storage-client/pull/225)
@@ -97,6 +101,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)**
   - [feat(reporting): record the evaluated source identity on benchmark cards](https://github.com/NVIDIA/SkillEvaluator/pull/131)
   - [fix(judge): treat an "unavailable" schema option as a schema rejection](https://github.com/NVIDIA/SkillEvaluator/pull/219)
+  - [fix(quality): score non-mapping metadata instead of crashing](https://github.com/NVIDIA/SkillEvaluator/pull/226)
 - **[NVIDIA/sphinx-llm](https://github.com/NVIDIA/sphinx-llm)**
   - [Read page descriptions on older Docutils releases](https://github.com/NVIDIA/sphinx-llm/pull/156)
   - [Use the package summary as the default llms.txt description](https://github.com/NVIDIA/sphinx-llm/pull/198)
@@ -106,6 +111,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [Fix when_all and when_any completing twice under a racing stop request](https://github.com/NVIDIA/stdexec/pull/2358)
 - **[NVIDIA/TileGym](https://github.com/NVIDIA/TileGym)**
   - [fix(ops): export tilecpp only when its backend is available](https://github.com/NVIDIA/TileGym/pull/200)
+  - [fix(ci): use run_all_json result file names in the selective baseline merge](https://github.com/NVIDIA/TileGym/pull/220)
 - **[NVIDIA-NeMo/labs-molt](https://github.com/NVIDIA-NeMo/labs-molt)**
   - [fix(recipe): resubmit the renamed GLM-5.2 Slurm script](https://github.com/NVIDIA-NeMo/labs-molt/pull/135)
   - [fix(chat): keep every message a turn appends after the reply](https://github.com/NVIDIA-NeMo/labs-molt/pull/237)
@@ -133,15 +139,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [fix: apply regexp_instr subexpr to the N-th match, not the first](https://github.com/apache/datafusion/pull/24991)
 - **[apache/datasketches-java](https://github.com/apache/datasketches-java)**
   - [Fix Util.numDigits returning 0 for 0 and 1, and 18 for 1E18](https://github.com/apache/datasketches-java/pull/762)
+  - [Fix JaccardSimilarity.exactlyEqual throwing for small theta sketches](https://github.com/apache/datasketches-java/pull/778)
 - **[apache/logging-log4j2](https://github.com/apache/logging-log4j2)**
   - [Forward mail attributes in deprecated `SmtpAppender.createAppender`](https://github.com/apache/logging-log4j2/pull/4304)
-
-### [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins)
-
-- [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
-- [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/pull/52)
-- [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
-- [fix(core): reject a page selection that matches no page](https://github.com/QwenLM/Qwen-MM-Plugins/pull/61)
+  - [Fix merging of structured data elements with the same SD-ID in `Rfc5424Layout`](https://github.com/apache/logging-log4j2/pull/4420)
 
 ### [Tencent](https://github.com/Tencent)
 
@@ -149,21 +150,39 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [fix(record): record a page reload instead of dropping it as a same-URL navigation](https://github.com/Tencent/BrowserSkill/pull/184)
   - [fix(extension): return visible labels from select](https://github.com/Tencent/BrowserSkill/pull/307)
   - [fix(dsh-plugin): settle runner promises when the child never emits close](https://github.com/Tencent/BrowserSkill/pull/183)
+  - [fix(extension): preserve plus keys in keyboard chords](https://github.com/Tencent/BrowserSkill/pull/308)
 - **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**
   - [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
   - [fix(docreader): keep Markdown block structure in EPUB chapters](https://github.com/Tencent/WeKnora/pull/4632)
 
-### [laude-institute/headlong](https://github.com/laude-institute/headlong)
+### [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins)
 
-- [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
-- [ci: point the smoke container's apt at the Azure mirror](https://github.com/laude-institute/headlong/pull/114)
-- [traj: formatted tail and cat return the steps --filter matches](https://github.com/laude-institute/headlong/pull/112)
+- [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
+- [fix(shared): normalize box corner order before drawing](https://github.com/QwenLM/Qwen-MM-Plugins/pull/52)
+- [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
+- [fix(core): reject a page selection that matches no page](https://github.com/QwenLM/Qwen-MM-Plugins/pull/61)
+- [fix(shared): draw boxes in color on grayscale, palette and CMYK images](https://github.com/QwenLM/Qwen-MM-Plugins/pull/104)
+
+### [mozilla](https://github.com/mozilla)
+
+- **[mozilla/pontoon](https://github.com/mozilla/pontoon)**
+  - [Update data-theme when the user picks a theme](https://github.com/mozilla/pontoon/pull/4501)
+- **[mozilla/web-ext](https://github.com/mozilla/web-ext)**
+  - [fix(sign): Defaulted amoBaseUrl when signing from the Node API](https://github.com/mozilla/web-ext/pull/3833)
+  - [fix: Fixed files not being ignored when sourceDir contains glob characters](https://github.com/mozilla/web-ext/pull/3835)
+  - [fix(chromium): Fixed silent reload failures on Chrome 125 and earlier](https://github.com/mozilla/web-ext/pull/3836)
 
 ### [abema/go-mp4](https://github.com/abema/go-mp4)
 
 - [Fix numTemporalLayers and temporalIdNested bit widths in hvcC](https://github.com/abema/go-mp4/pull/185)
 - [Fix discarded errors in marshalSlice and marshalUint](https://github.com/abema/go-mp4/pull/187)
 - [Fix unmarshalling of sgpd RollDistancesL](https://github.com/abema/go-mp4/pull/188)
+
+### [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)
+
+- [fix(rag): escape Excel Markdown table cells](https://github.com/agentscope-ai/agentscope/pull/2528)
+- [fix(formatter): put parallel Gemini function responses in one user turn](https://github.com/agentscope-ai/agentscope/pull/2631)
+- [fix(formatter): keep parallel Ollama tool calls on one assistant message](https://github.com/agentscope-ai/agentscope/pull/3910)
 
 ### [boyter/scc](https://github.com/boyter/scc)
 
@@ -207,6 +226,12 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [[docs] Describe the MarginMSE target as the signed margin](https://github.com/huggingface/sentence-transformers/pull/4009)
 - [[fix] Stack tensor-formatted labels in the CrossEncoder data collator](https://github.com/huggingface/sentence-transformers/pull/4257)
 
+### [hyparam/hyparquet](https://github.com/hyparam/hyparquet)
+
+- [Fix $not filters on dot-notation paths](https://github.com/hyparam/hyparquet/pull/177)
+- [Keep default parsers when only some are overridden](https://github.com/hyparam/hyparquet/pull/178)
+- [Fix DECIMAL values off by one ulp from inexact scaling](https://github.com/hyparam/hyparquet/pull/199)
+
 ### [jhd3197/ServerKit](https://github.com/jhd3197/ServerKit)
 
 - [fix(bitbucket): send redirect_uri on the authorize hop](https://github.com/jhd3197/ServerKit/pull/139)
@@ -225,17 +250,47 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix(quality): keep signal excerpts on rune boundaries](https://github.com/kenn-io/agentsview/pull/1788)
 - [fix(frontend): count search results, not reply lines, in tool summaries](https://github.com/kenn-io/agentsview/pull/2403)
 
+### [laude-institute/headlong](https://github.com/laude-institute/headlong)
+
+- [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
+- [ci: point the smoke container's apt at the Azure mirror](https://github.com/laude-institute/headlong/pull/114)
+- [traj: formatted tail and cat return the steps --filter matches](https://github.com/laude-institute/headlong/pull/112)
+
 ### [meriyah/meriyah](https://github.com/meriyah/meriyah)
 
 - [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/pull/646)
 - [fix(parser): parse `/` after an `await` identifier as division](https://github.com/meriyah/meriyah/pull/659)
 - [fix(parser): don't extend `yield` with member access, calls or binary operators](https://github.com/meriyah/meriyah/pull/669)
 
+### [pmndrs/koota](https://github.com/pmndrs/koota)
+
+- [🐛 core: fix query hash collisions from the shared sort buffer](https://github.com/pmndrs/koota/pull/281)
+- [Finish the destroy cascade when a subscriber destroys an entity](https://github.com/pmndrs/koota/pull/284)
+- [🐛 core: fix tracking queries throwing after world.reset()](https://github.com/pmndrs/koota/pull/299)
+
+### [psd-tools/psd-tools](https://github.com/psd-tools/psd-tools)
+
+- [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/pull/794)
+- [fix: replace the layer at an index instead of inserting before it](https://github.com/psd-tools/psd-tools/pull/811)
+- [fix: read and composite a legacy Brightness/Contrast layer](https://github.com/psd-tools/psd-tools/pull/1039)
+
 ### [PyLabRobot/pylabrobot](https://github.com/PyLabRobot/pylabrobot)
 
 - [fix(resources): center a plate on the adapter hole's y size, not its x size](https://github.com/PyLabRobot/pylabrobot/pull/1244)
 - [fix(resources): stop transposing a tip spot's size_x and size_y](https://github.com/PyLabRobot/pylabrobot/pull/1251)
 - [fix(resources): align a lidded plate on a plate adapter by its wells](https://github.com/PyLabRobot/pylabrobot/pull/1533)
+
+### [tconbeer/harlequin](https://github.com/tconbeer/harlequin)
+
+- [fix: don't break the JSON export on a single quote in the path](https://github.com/tconbeer/harlequin/pull/1146)
+- [fix: write the Feather file version the Data Exporter asked for](https://github.com/tconbeer/harlequin/pull/1158)
+- [fix: make the SQLite Data Catalog's Describe and Show DDL actions work](https://github.com/tconbeer/harlequin/pull/1195)
+
+### [testem/testem](https://github.com/testem/testem)
+
+- [fix(report-file): surface write stream errors instead of a TypeError](https://github.com/testem/testem/pull/2058)
+- [fix(server): honor multiple onlyContentTypes and non-matching Accept](https://github.com/testem/testem/pull/2086)
+- [fix(server): stop serving siblings that share the cwd prefix](https://github.com/testem/testem/pull/2104)
 
 ### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)
 
@@ -249,10 +304,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix: discard wrong-family IP instead of returning it from getIPOnline](https://github.com/TimothyYe/godns/pull/319)
 - [fix: keep Cloudflare record comment and tags when updating the IP](https://github.com/TimothyYe/godns/pull/324)
 
-### [agentscope-ai/agentscope](https://github.com/agentscope-ai/agentscope)
+### [agavra/tuicr](https://github.com/agavra/tuicr)
 
-- [fix(rag): escape Excel Markdown table cells](https://github.com/agentscope-ai/agentscope/pull/2528)
-- [fix(formatter): put parallel Gemini function responses in one user turn](https://github.com/agentscope-ai/agentscope/pull/2631)
+- [fix(input): type AltGr characters in the command, search and filter prompts](https://github.com/agavra/tuicr/pull/694)
+- [fix(azure): cap error details by characters so non-ASCII bodies don't panic](https://github.com/agavra/tuicr/pull/805)
 
 ### [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)
 
@@ -284,6 +339,16 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix(chcol): return true from HasType when the Variant carries a type](https://github.com/ClickHouse/clickhouse-go/pull/2006)
 - [fix(churl): validate each host of a comma separated DSN authority](https://github.com/ClickHouse/clickhouse-go/pull/2005)
 
+### [crmne/spotifast](https://github.com/crmne/spotifast)
+
+- [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/spotifast/pull/344)
+- [Keep the first line of a .lrc file saved with a byte order mark](https://github.com/crmne/spotifast/commit/a910bfe255025f545552e9d1132e4f132f4a117b)
+
+### [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)
+
+- [channel: Implement Display and Error for TryReadyError and ReadyTimeoutError](https://github.com/crossbeam-rs/crossbeam/pull/1327)
+- [ShardedLock: Fix Debug implementation for ShardedLock{Read,Write}Guard](https://github.com/crossbeam-rs/crossbeam/pull/1350)
+
 ### [deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation)
 
 - [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/pull/822)
@@ -304,6 +369,11 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [Strip the `r#` prefix from raw identifiers in `derive(Debug)`](https://github.com/elastio/bon/pull/402)
 - [Fix a panic with `cfg` attributes on items named with raw identifiers](https://github.com/elastio/bon/pull/411)
 
+### [evcxr/evcxr](https://github.com/evcxr/evcxr)
+
+- [Fix comment handling when looking for commands](https://github.com/evcxr/evcxr/pull/507)
+- [Don't submit incomplete REPL input that uses the `'_` lifetime](https://github.com/evcxr/evcxr/pull/519)
+
 ### [expressjs/multer](https://github.com/expressjs/multer)
 
 - [fix: report the decoded filename on LIMIT_FILE_SIZE](https://github.com/expressjs/multer/pull/1478)
@@ -319,6 +389,11 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [Disable debuginfod doctests in libcdb.unstrip_libc on stable](https://github.com/Gallopsled/pwntools/pull/2773)
 - [fix(packing): dd() raises TypeError on a bytearray destination](https://github.com/Gallopsled/pwntools/pull/2772)
 
+### [gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory)
+
+- [fix: keep grid_with_text labels on their anchors](https://github.com/gdsfactory/gdsfactory/pull/4821)
+- [fix: stretch taper_adiabatic to an explicit length](https://github.com/gdsfactory/gdsfactory/pull/4908)
+
 ### [gotenberg/gotenberg](https://github.com/gotenberg/gotenberg)
 
 - [fix(libreoffice): report an encrypted .xlsb as password-protected](https://github.com/gotenberg/gotenberg/pull/1655)
@@ -329,10 +404,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix(video-subtitles): keep the space between merged subtitle clauses](https://github.com/hugohe3/ppt-master/pull/283)
 - [fix(quick): read the deck language and theme fonts from the roster's first page](https://github.com/hugohe3/ppt-master/pull/292)
 
-### [hyparam/hyparquet](https://github.com/hyparam/hyparquet)
+### [inducer/loopy](https://github.com/inducer/loopy)
 
-- [Fix $not filters on dot-notation paths](https://github.com/hyparam/hyparquet/pull/177)
-- [Keep default parsers when only some are overridden](https://github.com/hyparam/hyparquet/pull/178)
+- [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/pull/1048)
+- [Fix ISPC code generation for subscripted private temporaries](https://github.com/inducer/loopy/pull/1057)
 
 ### [ishepard/pydriller](https://github.com/ishepard/pydriller)
 
@@ -344,24 +419,30 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix(core): parse MiMo Code and fx on the local report path](https://github.com/junhoyeo/tokscale/pull/1300)
 - [fix(qwen): stop counting cached and reasoning tokens twice](https://github.com/junhoyeo/tokscale/pull/1527)
 
+### [kubescape/kubescape](https://github.com/kubescape/kubescape)
+
+- [fix(rbacgraph): order escalation results instead of reading map order](https://github.com/kubescape/kubescape/pull/3739)
+- [fix(printer): include exception audit and namespace summaries in YAML output](https://github.com/kubescape/kubescape/pull/4719)
+
+### [libarchive/libarchive](https://github.com/libarchive/libarchive)
+
+- [man: fix option names that archive_write_set_options rejects](https://github.com/libarchive/libarchive/pull/3495)
+- [write: report close callback failures from archive_write_close()](https://github.com/libarchive/libarchive/pull/3749)
+
 ### [libnoname/noname](https://github.com/libnoname/noname)
 
 - [fix(fs): 修复文件系统服务器的路径越界检查漏判同级目录](https://github.com/libnoname/noname/pull/4397)
 - [fix(character): 修复新杀谋周瑜【英谋】阴状态结算死循环](https://github.com/libnoname/noname/pull/4556)
 
+### [magefree/mage](https://github.com/magefree/mage)
+
+- [Fix Wickersmith's Tools creating untapped Scarecrow tokens](https://github.com/magefree/mage/pull/16115)
+- [[SOI] Fix Sage of Ancient Lore's back face dying as a 0/0 on transform](https://github.com/magefree/mage/pull/16587)
+
 ### [modelcontextprotocol/go-sdk](https://github.com/modelcontextprotocol/go-sdk)
 
 - [auth: strip a terminating slash from the issuer before building metadata URLs](https://github.com/modelcontextprotocol/go-sdk/pull/1245)
 - [mcp: skip non-message events in SSEClientTransport](https://github.com/modelcontextprotocol/go-sdk/pull/1439)
-
-### [mozilla](https://github.com/mozilla)
-
-- **[mozilla/pontoon](https://github.com/mozilla/pontoon)**
-  - [Update data-theme when the user picks a theme](https://github.com/mozilla/pontoon/pull/4501)
-- **[mozilla/web-ext](https://github.com/mozilla/web-ext)**
-  - [fix(sign): Defaulted amoBaseUrl when signing from the Node API](https://github.com/mozilla/web-ext/pull/3833)
-  - [fix: Fixed files not being ignored when sourceDir contains glob characters](https://github.com/mozilla/web-ext/pull/3835)
-  - [fix(chromium): Fixed silent reload failures on Chrome 125 and earlier](https://github.com/mozilla/web-ext/pull/3836)
 
 ### [noahbald/oxvg](https://github.com/noahbald/oxvg)
 
@@ -378,6 +459,11 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [Flush sinks and run periodic tasks when manual backend polling drains the queues](https://github.com/odygrd/quill/pull/989)
 - [Keep thread names longer than 15 characters on macOS](https://github.com/odygrd/quill/pull/1008)
 
+### [onnx/onnx](https://github.com/onnx/onnx)
+
+- [fix(reference): reorder Unique outputs correctly when sorted=0](https://github.com/onnx/onnx/pull/8424)
+- [fix(reference): accept scalar and omitted optional inputs in NonMaxSuppression](https://github.com/onnx/onnx/pull/8655)
+
 ### [open-circle/valibot](https://github.com/open-circle/valibot)
 
 - [fix(cache): clone cached issues to stop issue paths from accumulating](https://github.com/open-circle/valibot/pull/1620)
@@ -388,15 +474,25 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix(server): relay client websocket closes with a legal code](https://github.com/opensandbox-group/OpenSandbox/pull/1731)
 - [fix(sdk-python): ignore a trailing slash or /v1 in the connection domain](https://github.com/opensandbox-group/OpenSandbox/pull/2347)
 
+### [oras-project/oras](https://github.com/oras-project/oras)
+
+- [fix: attribute recursive copy tag failures to the destination](https://github.com/oras-project/oras/pull/2157)
+- [fix: report no referenceAsTags for an untagged push](https://github.com/oras-project/oras/pull/2328)
+
+### [pixijs/pixijs](https://github.com/pixijs/pixijs)
+
+- [fix: handle strokes wider than the shape in Ellipse.strokeContains](https://github.com/pixijs/pixijs/pull/12185)
+- [fix: clamp the corner radius in RoundedRectangle.strokeContains](https://github.com/pixijs/pixijs/pull/12333)
+
 ### [probe-rs/probe-rs](https://github.com/probe-rs/probe-rs)
 
 - [Fix the semihosting file open modes for update and append](https://github.com/probe-rs/probe-rs/pull/4312)
 - [Fix the semihosting SYS_READ return value for partial reads](https://github.com/probe-rs/probe-rs/pull/4525)
 
-### [psd-tools/psd-tools](https://github.com/psd-tools/psd-tools)
+### [ProjectMirador/mirador](https://github.com/ProjectMirador/mirador)
 
-- [fix: keep the bytes after a Hue/Saturation block's range records (#645)](https://github.com/psd-tools/psd-tools/pull/794)
-- [fix: replace the layer at an index instead of inserting before it](https://github.com/psd-tools/psd-tools/pull/811)
+- [Fix provider logo image requests when the logo has an image service](https://github.com/ProjectMirador/mirador/pull/4524)
+- [Fix canvas description for v3 summaries and language-tagged v2 values](https://github.com/ProjectMirador/mirador/pull/4617)
 
 ### [python-attrs/cattrs](https://github.com/python-attrs/cattrs)
 
@@ -413,15 +509,20 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [[rtext] Fix TextToPascal()/TextToCamel() truncating text after a separator](https://github.com/raysan5/raylib/pull/6132)
 - [[rtext] Fix TextSplit() reading past its buffer on text of 1024 bytes or more](https://github.com/raysan5/raylib/pull/6136)
 
-### [tconbeer/harlequin](https://github.com/tconbeer/harlequin)
+### [rust-diplomat/diplomat](https://github.com/rust-diplomat/diplomat)
 
-- [fix: don't break the JSON export on a single quote in the path](https://github.com/tconbeer/harlequin/pull/1146)
-- [fix: write the Feather file version the Data Exporter asked for](https://github.com/tconbeer/harlequin/pull/1158)
+- [hir: resolve callback optional-opaque returns in the enclosing module](https://github.com/rust-diplomat/diplomat/pull/1271)
+- [kotlin: use renamed names for struct and enum field types](https://github.com/rust-diplomat/diplomat/pull/1309)
 
-### [testem/testem](https://github.com/testem/testem)
+### [spacering-net/codeg](https://github.com/spacering-net/codeg)
 
-- [fix(report-file): surface write stream errors instead of a TypeError](https://github.com/testem/testem/pull/2058)
-- [fix(server): honor multiple onlyContentTypes and non-matching Accept](https://github.com/testem/testem/pull/2086)
+- [fix(cline): close a stripped block at its own closing tag](https://github.com/spacering-net/codeg/pull/670)
+- [fix(git): read numstat paths unquoted, as git status already does](https://github.com/spacering-net/codeg/pull/1022)
+
+### [srl-labs/containerlab](https://github.com/srl-labs/containerlab)
+
+- [fix: canonical image name for registries addressed by host and port](https://github.com/srl-labs/containerlab/pull/3391)
+- [fix: handle nodes, kinds and defaults defined without a body](https://github.com/srl-labs/containerlab/pull/3518)
 
 ### [tombi-toml/tombi](https://github.com/tombi-toml/tombi)
 
@@ -432,6 +533,16 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [Fix `wrapText` cache key collision between different texts and widths](https://github.com/vadimdemedes/ink/pull/998)
 - [Fix multi-line `<Text>` vanishing when it starts above the top of the output](https://github.com/vadimdemedes/ink/pull/1001)
+
+### [velero-io/velero](https://github.com/velero-io/velero)
+
+- [Scope schedule and repo CLI list calls to the Velero namespace](https://github.com/velero-io/velero/pull/10482)
+- [Allow backup and restore logs to be fetched while Finalizing](https://github.com/velero-io/velero/pull/10684)
+
+### [vuejs/test-utils](https://github.com/vuejs/test-utils)
+
+- [fix: keep the namespace prefix in attributes()](https://github.com/vuejs/test-utils/pull/2941)
+- [fix: stub directives registered with a camelCase or kebab-case name](https://github.com/vuejs/test-utils/pull/2982)
 
 ### [wemake-services/django-modern-rest](https://github.com/wemake-services/django-modern-rest)
 
@@ -448,9 +559,15 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix(search): break score ties deterministically so ranking is reproducible](https://github.com/yoanbernabeu/grepai/pull/303)
 - [fix(chunker): stop emitting a redundant chunk at the end of every file](https://github.com/yoanbernabeu/grepai/pull/333)
 
-### [agavra/tuicr](https://github.com/agavra/tuicr)
+### [zenstackhq/zenstack](https://github.com/zenstackhq/zenstack)
 
-- [fix(input): type AltGr characters in the command, search and filter prompts](https://github.com/agavra/tuicr/pull/694)
+- [fix(zod): treat `@uuid` without a version as any UUID version](https://github.com/zenstackhq/zenstack/pull/2832)
+- [fix(orm): enforce field validation attributes and `@@validate` inside custom types](https://github.com/zenstackhq/zenstack/pull/2890)
+
+### [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt)
+
+- [fix: keep model download lock PID when acquisition fails](https://github.com/zylon-ai/private-gpt/pull/2362)
+- [fix(files): download files whose names are not ASCII](https://github.com/zylon-ai/private-gpt/pull/2426)
 
 ### [amicalhq/amical](https://github.com/amicalhq/amical)
 
@@ -472,25 +589,17 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [Report a package in multiple fixed or linked groups only once](https://github.com/changesets/changesets/pull/2282)
 
-### [crmne/spotifast](https://github.com/crmne/spotifast)
-
-- [Clear a queued song's row without taking the playlist's own](https://github.com/crmne/spotifast/pull/344)
-
-### [crossbeam-rs/crossbeam](https://github.com/crossbeam-rs/crossbeam)
-
-- [channel: Implement Display and Error for TryReadyError and ReadyTimeoutError](https://github.com/crossbeam-rs/crossbeam/pull/1327)
-
 ### [dalathegreat/Battery-Emulator](https://github.com/dalathegreat/Battery-Emulator)
 
 - [Fix SOL-ARK-LV-CAN 0x359 over-current sign bug](https://github.com/dalathegreat/Battery-Emulator/pull/2929)
 
+### [django-commons/django-axes](https://github.com/django-commons/django-axes)
+
+- [Fix argument order in the async middleware lockout response](https://github.com/django-commons/django-axes/pull/1494)
+
 ### [embassy-rs/embassy](https://github.com/embassy-rs/embassy)
 
 - [embassy-sync: wake the next waiter when a FairSemaphore acquire is canceled](https://github.com/embassy-rs/embassy/pull/6964)
-
-### [evcxr/evcxr](https://github.com/evcxr/evcxr)
-
-- [Fix comment handling when looking for commands](https://github.com/evcxr/evcxr/pull/507)
 
 ### [floci-io/floci](https://github.com/floci-io/floci)
 
@@ -500,17 +609,9 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [Avoid signed overflow in RGBLINK's `+`, `-`, and `*`](https://github.com/gbdev/rgbds/pull/2060)
 
-### [gdsfactory/gdsfactory](https://github.com/gdsfactory/gdsfactory)
-
-- [fix: keep grid_with_text labels on their anchors](https://github.com/gdsfactory/gdsfactory/pull/4821)
-
 ### [georust/rstar](https://github.com/georust/rstar)
 
 - [Fix overflow panic draining an empty tree with integer coordinates](https://github.com/georust/rstar/pull/246)
-
-### [inducer/loopy](https://github.com/inducer/loopy)
-
-- [Fix CudaCallable type inference never being called](https://github.com/inducer/loopy/pull/1048)
 
 ### [joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x)
 
@@ -520,21 +621,9 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [fix(deployer): merge gmsaCredentialSpecName from its own field](https://github.com/kgateway-dev/kgateway/pull/14660)
 
-### [kubescape/kubescape](https://github.com/kubescape/kubescape)
-
-- [fix(rbacgraph): order escalation results instead of reading map order](https://github.com/kubescape/kubescape/pull/3739)
-
 ### [leookun/cursor-byok](https://github.com/leookun/cursor-byok)
 
 - [fix(search): stop a repeated URL from faking cross-engine agreement](https://github.com/leookun/cursor-byok/pull/431)
-
-### [libarchive/libarchive](https://github.com/libarchive/libarchive)
-
-- [man: fix option names that archive_write_set_options rejects](https://github.com/libarchive/libarchive/pull/3495)
-
-### [magefree/mage](https://github.com/magefree/mage)
-
-- [Fix Wickersmith's Tools creating untapped Scarecrow tokens](https://github.com/magefree/mage/pull/16115)
 
 ### [maplibre/maplibre-tile-spec](https://github.com/maplibre/maplibre-tile-spec)
 
@@ -548,25 +637,13 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [fix(metrics): mask ignored labels in padding-free seq_acc](https://github.com/modelscope/ms-swift/pull/10049)
 
-### [onnx/onnx](https://github.com/onnx/onnx)
-
-- [fix(reference): reorder Unique outputs correctly when sorted=0](https://github.com/onnx/onnx/pull/8424)
-
 ### [openhab/openhab-addons](https://github.com/openhab/openhab-addons)
 
 - [[nobohub] Fix ignored keepaliveInterval setting](https://github.com/openhab/openhab-addons/pull/21613)
 
-### [oras-project/oras](https://github.com/oras-project/oras)
-
-- [fix: attribute recursive copy tag failures to the destination](https://github.com/oras-project/oras/pull/2157)
-
 ### [OSU-NLP-Group/QUEST](https://github.com/OSU-NLP-Group/QUEST)
 
 - [Fix UnboundLocalError in reward.py: compute_score cannot compute any reward](https://github.com/OSU-NLP-Group/QUEST/pull/7)
-
-### [pacifio/atlas](https://github.com/pacifio/atlas)
-
-- [fix(redact): route JSONL payloads through the structure-aware pass](https://github.com/pacifio/atlas/pull/244)
 
 ### [pest-parser/pest](https://github.com/pest-parser/pest)
 
@@ -576,33 +653,25 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [fix(types): hash 0.0 and -0.0 to the same value](https://github.com/pgdogdev/pgdog/pull/1507)
 
-### [pixijs/pixijs](https://github.com/pixijs/pixijs)
+### [prometheus/alertmanager](https://github.com/prometheus/alertmanager)
 
-- [fix: handle strokes wider than the shape in Ellipse.strokeContains](https://github.com/pixijs/pixijs/pull/12185)
-
-### [pmndrs/koota](https://github.com/pmndrs/koota)
-
-- [🐛 core: fix query hash collisions from the shared sort buffer](https://github.com/pmndrs/koota/pull/281)
-
-### [ProjectMirador/mirador](https://github.com/ProjectMirador/mirador)
-
-- [Fix provider logo image requests when the logo has an image service](https://github.com/ProjectMirador/mirador/pull/4524)
+- [notify: fix panic when truncating multi-byte messages](https://github.com/prometheus/alertmanager/pull/5544)
 
 ### [quarkusio/quarkus](https://github.com/quarkusio/quarkus)
 
 - [Qute: require the index parameter for list get/take/takeLast](https://github.com/quarkusio/quarkus/pull/56460)
 
-### [rust-diplomat/diplomat](https://github.com/rust-diplomat/diplomat)
+### [SakanaAI/ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve)
 
-- [hir: resolve callback optional-opaque returns in the enclosing module](https://github.com/rust-diplomat/diplomat/pull/1271)
+- [fix(llm): match extract_between tags literally so C++ fences extract cleanly](https://github.com/SakanaAI/ShinkaEvolve/pull/193)
+
+### [springdoc/springdoc-openapi](https://github.com/springdoc/springdoc-openapi)
+
+- [fix: read @ResponseStatus from the controller class](https://github.com/springdoc/springdoc-openapi/commit/3bd27ce3f73fd6f031fd536ef5f2073e852e0840)
 
 ### [sql-formatter-org/sql-formatter](https://github.com/sql-formatter-org/sql-formatter)
 
 - [fix(singlestoredb): support % as the modulo operator](https://github.com/sql-formatter-org/sql-formatter/pull/971)
-
-### [srl-labs/containerlab](https://github.com/srl-labs/containerlab)
-
-- [fix: canonical image name for registries addressed by host and port](https://github.com/srl-labs/containerlab/pull/3391)
 
 ### [syrizelink/OpenFic](https://github.com/syrizelink/OpenFic)
 
@@ -612,37 +681,21 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [fix(query-persist-client-core/createPersister): await 'storage.setItem' when persisting a query](https://github.com/TanStack/query/pull/11410)
 
+### [tryatlas/atlas](https://github.com/tryatlas/atlas)
+
+- [fix(redact): route JSONL payloads through the structure-aware pass](https://github.com/tryatlas/atlas/pull/244)
+
 ### [uutils/coreutils](https://github.com/uutils/coreutils)
 
 - [fmt: honor -x and -X instead of always matching prefixes exactly](https://github.com/uutils/coreutils/pull/14417)
-
-### [velero-io/velero](https://github.com/velero-io/velero)
-
-- [Scope schedule and repo CLI list calls to the Velero namespace](https://github.com/velero-io/velero/pull/10482)
 
 ### [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni)
 
 - [[Doc] Fix markdownlint findings in the serving API reference](https://github.com/vllm-project/vllm-omni/pull/7111)
 
-### [vuejs/test-utils](https://github.com/vuejs/test-utils)
-
-- [fix: keep the namespace prefix in attributes()](https://github.com/vuejs/test-utils/pull/2941)
-
-### [xintaofei/codeg](https://github.com/xintaofei/codeg)
-
-- [fix(cline): close a stripped block at its own closing tag](https://github.com/xintaofei/codeg/pull/670)
-
-### [zenstackhq/zenstack](https://github.com/zenstackhq/zenstack)
-
-- [fix(zod): treat `@uuid` without a version as any UUID version](https://github.com/zenstackhq/zenstack/pull/2832)
-
-### [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt)
-
-- [fix: keep model download lock PID when acquisition fails](https://github.com/zylon-ai/private-gpt/pull/2362)
-
 ## Projects
 
-- [Compartment](https://github.com/MaxFreedomPollard/Compartment): Encrypted, fully offline agentic memory. One click install, GUI w/ memory map, all OS and agents. Superior memory creation, storage and retrieval. Python, Apache-2.0, with a [docs site](https://maxfreedompollard.github.io/Compartment/). Listed in [Awesome-AI-Memory](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/pull/127), [Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents/pull/402), [Awesome-Agent-Memory](https://github.com/TeleAI-UAGI/Awesome-Agent-Memory/pull/70), [awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers/pull/1510), [awesome-mcp](https://github.com/abordage/awesome-mcp/pull/91), [toolsdk-mcp-registry](https://github.com/toolsdk-ai/toolsdk-mcp-registry/pull/418).
+- [Compartment](https://github.com/MaxFreedomPollard/Compartment): Encrypted, fully offline agentic memory. One click install, GUI w/ memory map, all OS and agents. Superior memory creation, storage and retrieval. Python, Apache-2.0, with a [docs site](https://maxfreedompollard.github.io/Compartment/). Listed in [Awesome-AI-Memory](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/pull/127), [Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents/pull/402), [Awesome-Agent-Memory](https://github.com/TeleAI-UAGI/Awesome-Agent-Memory/pull/70), [awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers/pull/1510), [awesome-mcp](https://github.com/abordage/awesome-mcp/pull/91), [toolsdk-mcp-registry](https://github.com/toolsdk-ai/toolsdk-mcp-registry/pull/418), [awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins/pull/1257).
 - [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing): Nuclear compute (radiative compute) as an alternative computing substrate to electronic and quantum machines: one radioactive medium supplies power, logic, memory, and interconnect, enabling sealed portable computers that compute without external power.
 - [artificial-knowledge-collection-6.0](https://github.com/MaxFreedomPollard/artificial-knowledge-collection-6.0): Knowledge of special interest to AI: nine datasets of concepts, relationships, constants and measurements, each one clean file, aligned into a single 544,279-node map, plus a reasoning benchmark. Artificial knowledge for artificial intelligence.
 
