@@ -95,6 +95,7 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [Sync the vendored RAPIDS.cmake with rapids-cmake release/25.12](https://github.com/NVIDIA/nvbench/pull/466)
 - **[NVIDIA/OWL](https://github.com/NVIDIA/OWL)**
   - [Add OWL_DOUBLE types to typeToString](https://github.com/NVIDIA/OWL/pull/28)
+  - [Skip released ray gens when building the SBT](https://github.com/NVIDIA/OWL/pull/31)
 - **[NVIDIA/rumpelpod](https://github.com/NVIDIA/rumpelpod)**
   - [Skip .gitmodules entries that have no gitlink](https://github.com/NVIDIA/rumpelpod/pull/5)
 - **[NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)**
@@ -154,6 +155,16 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
   - [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
   - [fix(docreader): keep Markdown block structure in EPUB chapters](https://github.com/Tencent/WeKnora/pull/4632)
 
+### [mozilla](https://github.com/mozilla)
+
+- **[mozilla/pontoon](https://github.com/mozilla/pontoon)**
+  - [Update data-theme when the user picks a theme](https://github.com/mozilla/pontoon/pull/4501)
+  - [Don't highlight search matches inside markup](https://github.com/mozilla/pontoon/pull/4655)
+- **[mozilla/web-ext](https://github.com/mozilla/web-ext)**
+  - [fix(sign): Defaulted amoBaseUrl when signing from the Node API](https://github.com/mozilla/web-ext/pull/3833)
+  - [fix: Fixed files not being ignored when sourceDir contains glob characters](https://github.com/mozilla/web-ext/pull/3835)
+  - [fix(chromium): Fixed silent reload failures on Chrome 125 and earlier](https://github.com/mozilla/web-ext/pull/3836)
+
 ### [QwenLM/Qwen-MM-Plugins](https://github.com/QwenLM/Qwen-MM-Plugins)
 
 - [fix(shared): read input_audio.format from a URL's path, not its query string](https://github.com/QwenLM/Qwen-MM-Plugins/pull/54)
@@ -161,15 +172,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
 - [fix(core): reject a page selection that matches no page](https://github.com/QwenLM/Qwen-MM-Plugins/pull/61)
 - [fix(shared): draw boxes in color on grayscale, palette and CMYK images](https://github.com/QwenLM/Qwen-MM-Plugins/pull/104)
-
-### [mozilla](https://github.com/mozilla)
-
-- **[mozilla/pontoon](https://github.com/mozilla/pontoon)**
-  - [Update data-theme when the user picks a theme](https://github.com/mozilla/pontoon/pull/4501)
-- **[mozilla/web-ext](https://github.com/mozilla/web-ext)**
-  - [fix(sign): Defaulted amoBaseUrl when signing from the Node API](https://github.com/mozilla/web-ext/pull/3833)
-  - [fix: Fixed files not being ignored when sourceDir contains glob characters](https://github.com/mozilla/web-ext/pull/3835)
-  - [fix(chromium): Fixed silent reload failures on Chrome 125 and earlier](https://github.com/mozilla/web-ext/pull/3836)
 
 ### [abema/go-mp4](https://github.com/abema/go-mp4)
 
@@ -612,6 +614,10 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 
 - [Fix overflow panic draining an empty tree with integer coordinates](https://github.com/georust/rstar/pull/246)
 
+### [inngest/inngest](https://github.com/inngest/inngest)
+
+- [fix(util): return an error when a crit section panics](https://github.com/inngest/inngest/pull/4834)
+
 ### [joncampbell123/dosbox-x](https://github.com/joncampbell123/dosbox-x)
 
 - [drive_virtual: fix CHDIR succeeding on a file on drive Z:](https://github.com/joncampbell123/dosbox-x/pull/6533)
@@ -691,7 +697,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni)
 
 - [[Doc] Fix markdownlint findings in the serving API reference](https://github.com/vllm-project/vllm-omni/pull/7111)
-
 ## Projects
 
 - [Compartment](https://github.com/MaxFreedomPollard/Compartment): Encrypted, fully offline agentic memory. One click install, GUI w/ memory map, all OS and agents. Superior memory creation, storage and retrieval. Python, Apache-2.0, with a [docs site](https://maxfreedompollard.github.io/Compartment/). Listed in [Awesome-AI-Memory](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/pull/127), [Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents/pull/402), [Awesome-Agent-Memory](https://github.com/TeleAI-UAGI/Awesome-Agent-Memory/pull/70), [awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers/pull/1510), [awesome-mcp](https://github.com/abordage/awesome-mcp/pull/91), [toolsdk-mcp-registry](https://github.com/toolsdk-ai/toolsdk-mcp-registry/pull/418), [awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins/pull/1257).
