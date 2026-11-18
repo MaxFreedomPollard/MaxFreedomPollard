@@ -1,0 +1,60 @@
+name: Update Contributed Repos Live Stripe
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+      - "scripts/svg_stripes.py"
+      - "scripts/update_oss_live.py"
+      - ".github/workflows/update-oss-live.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-data-branch
+  cancel-in-progress: false
+
+jobs:
+  update-oss:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Prepare live-data worktree
+        run: |
+          git fetch origin live-data:refs/remotes/origin/live-data 2>/dev/null || true
+          if git show-ref --verify --quiet refs/remotes/origin/live-data; then
+            git worktree add -B live-data /tmp/live-data refs/remotes/origin/live-data
+          else
+            git worktree add --detach /tmp/live-data
+            git -C /tmp/live-data checkout --orphan live-data
+            git -C /tmp/live-data rm -rf . >/dev/null 2>&1 || true
+          fi
+
+      - name: Generate contributed repositories SVG stripes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_oss_live.py --output-dir /tmp/live-data
+
+      - name: Commit and push live-data if metrics changed
+        run: |
+          cd /tmp/live-data
+          git add oss-dark.svg oss-light.svg oss.json
+          if git diff --cached --quiet; then
+            echo "Contributed repository metrics unchanged; skipping commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(live-data): refresh contributed repository metrics"
+          git push origin HEAD:live-data

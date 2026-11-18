@@ -4,11 +4,32 @@
     <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
     <img alt="Max Freedom Pollard" src="./assets/banner-light.svg" width="100%">
   </picture>
+  <a href="https://github.com/MaxFreedomPollard#merged-contributions">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MaxFreedomPollard/MaxFreedomPollard/live-data/oss-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MaxFreedomPollard/MaxFreedomPollard/live-data/oss-light.svg">
+      <img alt="Contributed repositories live metrics" src="https://raw.githubusercontent.com/MaxFreedomPollard/MaxFreedomPollard/live-data/oss-light.svg" width="100%">
+    </picture>
+  </a>
+  <a href="https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/leaderboard">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MaxFreedomPollard/MaxFreedomPollard/live-data/kaggle-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MaxFreedomPollard/MaxFreedomPollard/live-data/kaggle-light.svg">
+      <img alt="Kaggle live competition rankings" src="https://raw.githubusercontent.com/MaxFreedomPollard/MaxFreedomPollard/live-data/kaggle-light.svg" width="100%">
+    </picture>
+  </a>
 </div>
 
-I build tools for AI agents and contribute across open source, with 290+ changes merged into 140+ repositories in Python, Rust, Go, TypeScript, C/C++, and Java for organizations like [Nous Research](https://github.com/NousResearch), [NVIDIA](https://github.com/NVIDIA), [Sakana AI](https://github.com/SakanaAI), [Qwen](https://github.com/QwenLM), [Tencent](https://github.com/Tencent), [Hugging Face](https://github.com/huggingface), [Apache](https://github.com/apache), and [Mozilla](https://github.com/mozilla). Most of my focus is on agent memory, evaluation, and self-evolution, including ongoing work on [Hermes Agent](https://github.com/NousResearch/hermes-agent) alongside [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution), [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator), [Molt](https://github.com/NVIDIA-NeMo/labs-molt), [ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve), [autocontext](https://github.com/greyhaven-ai/autocontext), and [headlong](https://github.com/laude-institute/headlong).
+I build tools for AI agents and contribute across open source, with 300+ changes merged into 145+ repositories in Python, Rust, Go, TypeScript, C/C++, and Java for organizations like [Nous Research](https://github.com/NousResearch), [NVIDIA](https://github.com/NVIDIA), [Sakana AI](https://github.com/SakanaAI), [Qwen](https://github.com/QwenLM), [Tencent](https://github.com/Tencent), [Hugging Face](https://github.com/huggingface), [Apache](https://github.com/apache), and [Mozilla](https://github.com/mozilla). Most of my focus is on agent memory, evaluation, and self-evolution, including ongoing work on [Hermes Agent](https://github.com/NousResearch/hermes-agent) alongside [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution), [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator), [Molt](https://github.com/NVIDIA-NeMo/labs-molt), [ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve), [autocontext](https://github.com/greyhaven-ai/autocontext), and [headlong](https://github.com/laude-institute/headlong).
 
-Among other projects, I created [Compartment](https://github.com/MaxFreedomPollard/Compartment), an encrypted, offline memory server for AI agents that ships in the [Hermes Agent plugin catalog](https://github.com/NousResearch/hermes-agent/blob/main/plugin-catalog/compartment.yaml) and has one click setup with Anthropic's Claude Code and Claude Desktop, OpenAI Codex, Cursor, VS Code, OpenClaw, and other MCP clients. Rather than plain vector storage, it keeps single-claim memories with source provenance, links them in an entity graph, tracks opinion updates separately from facts, and recalls them in ~12 ms with hybrid vector and keyword search. I also built [Max Watch](https://github.com/MaxFreedomPollard/Max-Watch), a free motion-activated Mac security camera app that records while the screen is locked, and [Artificial Knowledge Collection 6.0](https://github.com/MaxFreedomPollard/artificial-knowledge-collection-6.0), a cleaned common-sense and reference knowledge dataset for AI.
+## Free and open-source software
+
+In addition to my collaborative open-source work, I have released free, local-first software and datasets:
+
+- **[Compartment](https://github.com/MaxFreedomPollard/Compartment)**: Encrypted, fully offline persistent memory server and desktop app for AI agents with ~12 ms hybrid vector/keyword recall, shipping in the [Hermes Agent plugin catalog](https://github.com/NousResearch/hermes-agent/blob/main/plugin-catalog/compartment.yaml) with one-click setup across Claude Code, Claude Desktop, Codex, Cursor, VS Code, and OpenClaw.<br>[![Stars](https://img.shields.io/github/stars/MaxFreedomPollard/Compartment?style=flat&color=0284c7)](https://github.com/MaxFreedomPollard/Compartment/stargazers) [![PyPI](https://img.shields.io/pypi/v/compartment?color=4f46e5)](https://pypi.org/project/compartment/) [![Downloads](https://static.pepy.tech/badge/compartment)](https://pepy.tech/project/compartment) [![CI](https://github.com/MaxFreedomPollard/Compartment/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/MaxFreedomPollard/Compartment/actions/workflows/ci.yml)
+- **[Max Watch](https://github.com/MaxFreedomPollard/Max-Watch)**: Free, offline motion-activated security camera app for macOS and Windows that keeps recording while the screen is locked into a password-protected AES-256-GCM vault.
+- **[Reverse Engineer Logic](https://github.com/MaxFreedomPollard/reverse-engineer-logic)**: Native macOS app, CLI, and MCP server (`rel`) that runs sentence-by-sentence obligation-ledger analysis on messages, contracts, negotiations, and policies to surface subtext, incentives, and strategic omissions.
+- **[Artificial Knowledge Collection 6.0](https://github.com/MaxFreedomPollard/artificial-knowledge-collection-6.0)**: Nine cleaned, human-authored common-sense and reference knowledge datasets aligned into a single 544,279-node graph, paired with the 11,250-question AKC-Eval reasoning benchmark.
 
 ## Accepted benchmark challenges
 
@@ -697,12 +718,6 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 ### [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni)
 
 - [[Doc] Fix markdownlint findings in the serving API reference](https://github.com/vllm-project/vllm-omni/pull/7111)
-
-## Projects
-
-- [Compartment](https://github.com/MaxFreedomPollard/Compartment): Encrypted, fully offline agentic memory. One click install, GUI w/ memory map, all OS and agents. Superior memory creation, storage and retrieval. Python, Apache-2.0, with a [docs site](https://maxfreedompollard.github.io/Compartment/). Listed in [Awesome-AI-Memory](https://github.com/IAAR-Shanghai/Awesome-AI-Memory/pull/127), [Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents/pull/402), [Awesome-Agent-Memory](https://github.com/TeleAI-UAGI/Awesome-Agent-Memory/pull/70), [awesome-mcp-servers](https://github.com/TensorBlock/awesome-mcp-servers/pull/1510), [awesome-mcp](https://github.com/abordage/awesome-mcp/pull/91), [toolsdk-mcp-registry](https://github.com/toolsdk-ai/toolsdk-mcp-registry/pull/418), [awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins/pull/1257).
-- [nuclear-computing](https://github.com/MaxFreedomPollard/nuclear-computing): Nuclear compute (radiative compute) as an alternative computing substrate to electronic and quantum machines: one radioactive medium supplies power, logic, memory, and interconnect, enabling sealed portable computers that compute without external power.
-- [artificial-knowledge-collection-6.0](https://github.com/MaxFreedomPollard/artificial-knowledge-collection-6.0): Knowledge of special interest to AI: nine datasets of concepts, relationships, constants and measurements, each one clean file, aligned into a single 544,279-node map, plus a reasoning benchmark. Artificial knowledge for artificial intelligence.
 
 ## Certifications and education
 
