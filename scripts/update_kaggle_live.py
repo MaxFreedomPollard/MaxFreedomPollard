@@ -33,6 +33,7 @@ CANDIDATE_TEAM_NAMES = {
     "maxfreedom",
 }
 CANDIDATE_HANDLES = {
+    "maxfpollard",
     "maxfreedompollard",
     "maxpollard",
     "maxfreedom",

@@ -11,7 +11,7 @@
       <img alt="Contributed repositories live metrics" src="https://raw.githubusercontent.com/MaxFreedomPollard/MaxFreedomPollard/live-data/oss-light.svg" width="100%">
     </picture>
   </a>
-  <a href="https://www.kaggle.com/competitions/google-verifiable-quantum-circuit-compilation/leaderboard">
+  <a href="https://www.kaggle.com/maxfpollard">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MaxFreedomPollard/MaxFreedomPollard/live-data/kaggle-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MaxFreedomPollard/MaxFreedomPollard/live-data/kaggle-light.svg">
