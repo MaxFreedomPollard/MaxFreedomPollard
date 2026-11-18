@@ -35,7 +35,7 @@
   <text x="390" y="29.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.6" xml:space="preserve"><tspan fill="#475569">IEEE: </tspan><tspan fill="#0F172A" font-weight="600">#1 pub · #23 priv</tspan><tspan fill="#64748B" font-size="11.5">&#160;(/802)</tspan></text>
 
   <!-- Cell 3: Google Quantum AI live ranking -->
-  <text x="671" y="29.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.6" xml:space="preserve"><tspan fill="#475569">Google Quantum AI: </tspan><tspan fill="#0F172A" font-weight="600">#565</tspan><tspan fill="#64748B" font-size="11.5">&#160;(/3,337)</tspan></text>
+  <text x="671" y="29.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.6" xml:space="preserve"><tspan fill="#475569">Google Quantum AI: </tspan><tspan fill="#0F172A" font-weight="600">#78</tspan><tspan fill="#64748B" font-size="11.5">&#160;(/3,354)</tspan></text>
 
   <!-- Cell 4: 15m live indicator -->
   <circle cx="826" cy="25" r="3" fill="#0284C7"/>
