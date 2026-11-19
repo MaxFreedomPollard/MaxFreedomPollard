@@ -15,7 +15,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from svg_stripes import render_kaggle_stripe  # noqa: E402
+from svg_stripes import render_kaggle_slices, render_kaggle_stripe  # noqa: E402
 
 KAGGLE_BASE = "https://www.kaggle.com"
 KAGGLE_RPC = f"{KAGGLE_BASE}/api/i"
@@ -270,6 +270,19 @@ def render_from_summary(summary: dict, output_dir: Path) -> None:
             quantum_sub=quantum_sub,
         )
         (output_dir / f"kaggle-{theme}.svg").write_text(svg, encoding="utf-8")
+
+        slices = render_kaggle_slices(
+            theme,
+            entered_count=entered,
+            ieee_text=ieee_text,
+            ieee_sub=ieee_sub,
+            quantum_text=quantum_text,
+            quantum_sub=quantum_sub,
+        )
+        for slice_name, slice_svg in slices.items():
+            (output_dir / f"kaggle-{slice_name}-{theme}.svg").write_text(
+                slice_svg, encoding="utf-8"
+            )
 
     (output_dir / "kaggle.json").write_text(
         json.dumps(summary, indent=2, sort_keys=True) + "\n",

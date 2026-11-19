@@ -50,7 +50,7 @@ jobs:
       - name: Commit and push live-data if rankings changed
         run: |
           cd /tmp/live-data
-          git add kaggle-dark.svg kaggle-light.svg kaggle.json
+          git add kaggle*.svg kaggle.json
           if git diff --cached --quiet; then
             echo "Kaggle rankings unchanged; skipping commit."
             exit 0
