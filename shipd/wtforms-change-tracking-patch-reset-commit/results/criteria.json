@@ -1,0 +1,94 @@
+{
+ "canSubmit": true,
+ "canSubmitWithoutBypass": true,
+ "cooldownAppliesToProblem": false,
+ "criteria": [
+  {
+   "detail": "5/5 passing",
+   "id": "prechecks",
+   "label": "Prechecks",
+   "stale": false,
+   "status": "pass"
+  },
+  {
+   "id": "scopeGate",
+   "label": "Scope Gate",
+   "status": "pass",
+   "verdict": "pass"
+  },
+  {
+   "detail": "7/7 passing",
+   "id": "dynamicChecks",
+   "label": "Quality Checks",
+   "stale": false,
+   "status": "pass"
+  },
+  {
+   "detail": "No fairness issues",
+   "id": "agentFair",
+   "label": "Fair task",
+   "status": "pass"
+  },
+  {
+   "detail": "1/35 solved",
+   "id": "agentSolvable",
+   "label": "Solvable",
+   "status": "pass"
+  },
+  {
+   "detail": "Nova 27/4 \u00b7 Orion 4/4 \u00b7 Vega 4/4",
+   "id": "agentCodenameCoverage",
+   "label": "Rollouts on every model",
+   "status": "pass"
+  },
+  {
+   "detail": "Nova 0/27 solved \u00b7 Orion 1/4 solved \u00b7 Vega 0/4 solved",
+   "id": "agentPassStructure",
+   "label": "Solved by one model only",
+   "status": "pass"
+  },
+  {
+   "detail": "avg 401K over 27 measured run(s)",
+   "id": "agentNovaSequenceLength",
+   "label": "Long horizon",
+   "status": "pass"
+  },
+  {
+   "detail": "No cheating detected",
+   "id": "agentNoCheating",
+   "label": "No cheating",
+   "status": "pass"
+  },
+  {
+   "detail": "No environment blockers detected",
+   "id": "agentNoEnvBlocker",
+   "label": "No environment blockers",
+   "status": "pass"
+  },
+  {
+   "detail": "Passed with caveats",
+   "id": "agentNoFalsePositives",
+   "label": "No false positives",
+   "status": "warn"
+  },
+  {
+   "detail": "approved",
+   "id": "autoReview",
+   "label": "Auto Review",
+   "status": "pass"
+  },
+  {
+   "detail": "image rebuilds hermetically",
+   "id": "rebuildSafe",
+   "label": "Rebuild-safe",
+   "status": "pass"
+  },
+  {
+   "detail": "image deep-rebuilds from clean source + vendored deps",
+   "id": "harborSafe",
+   "label": "Harbor rebuild-safe",
+   "status": "pass"
+  }
+ ],
+ "isBypassed": false
+}

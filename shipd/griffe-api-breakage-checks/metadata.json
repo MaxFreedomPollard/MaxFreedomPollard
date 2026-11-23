@@ -1,0 +1,13 @@
+{
+  "problemId": "kh70b2mnds7fyck2qjvz2trtt58cjc1d",
+  "title": "Detect resolution order, async, property mutability and abstract method API breakages",
+  "status": "finalizing_review_reverted",
+  "version": 6,
+  "versionId": "kd7190pwwn5v1gs2pxje8pyyrd8dggtb",
+  "language": "python",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/mkdocstrings/griffe",
+  "commitHash": "a345344b40f50f8556ee5d08665880ff9251485f",
+  "date": "2026-08-30"
+}

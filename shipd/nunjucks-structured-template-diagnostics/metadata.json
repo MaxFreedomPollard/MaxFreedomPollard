@@ -1,0 +1,13 @@
+{
+  "problemId": "kh73k4qq7zwxz5e7cmrg16771s8ctqxn",
+  "title": "Add structured template diagnostics to Nunjucks errors",
+  "status": "human_reviewed",
+  "version": 5,
+  "versionId": null,
+  "language": "javascript",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/mozilla/nunjucks",
+  "commitHash": "2025c933fba374482ef97122514bb36de6bf9de4",
+  "date": "2026-09-01"
+}

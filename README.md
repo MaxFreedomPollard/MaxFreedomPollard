@@ -25,9 +25,11 @@ In addition to my collaborative open-source work, I have released free, local-fi
 - **[Reverse Engineer Logic](https://github.com/MaxFreedomPollard/reverse-engineer-logic)**: Native macOS app, CLI, and MCP server (`rel`) that runs sentence-by-sentence obligation-ledger analysis on messages, contracts, negotiations, and policies to surface subtext, incentives, and strategic omissions.
 - **[Artificial Knowledge Collection 6.0](https://github.com/MaxFreedomPollard/artificial-knowledge-collection-6.0)**: Nine cleaned, human-authored common-sense and reference knowledge datasets aligned into a single 544,279-node graph, paired with the 11,250-question AKC-Eval reasoning benchmark.
 
-## Accepted benchmark challenges
+## Benchmark challenges
 
-Challenges authored for Datacurve's ShipD platform, each accepted after automated checks, solver runs and human review; [ten are included here](shipd/) as examples, with the hidden tests and reference solutions withheld to protect Datacurve's proprietary benchmark material:
+Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD platform ([full index and platform records in `shipd/`](shipd/)), with the hidden tests and reference solutions withheld from the public copies:
+
+### Accepted (13)
 
 - **[netflix/archaius](https://github.com/netflix/archaius)**: [Decode sorted and navigable collections](shipd/archaius-sorted-navigable-collections/)
 - **[webpack/enhanced-resolve](https://github.com/webpack/enhanced-resolve)**: [Stream distinct yielded resolutions with complete, transparent unsafe-cache outcomes](shipd/enhanced-resolve-yielded-resolutions/)
@@ -35,10 +37,43 @@ Challenges authored for Datacurve's ShipD platform, each accepted after automate
 - **[gitpython-developers/gitpython](https://github.com/gitpython-developers/gitpython)**: [Add typed repository status snapshots from Git porcelain v2](shipd/gitpython-porcelain-v2-status/)
 - **[instagram/libcst](https://github.com/instagram/libcst)**: [Bind match capture patterns and comprehension walrus targets in scope metadata](shipd/libcst-scope-metadata/)
 - **[coleifer/peewee](https://github.com/coleifer/peewee)**: [Add ROLLUP, FETCH FIRST and TABLESAMPLE support to the query builder](shipd/peewee-rollup-fetchfirst-tablesample/)
+- **[prompt-toolkit/python-prompt-toolkit](https://github.com/prompt-toolkit/python-prompt-toolkit)**: [Add sentence and paragraph movement to the Vi and Emacs key bindings](shipd/python-prompt-toolkit-sentence-paragraph-motion/)
 - **[qmonnet/rbpf](https://github.com/qmonnet/rbpf)**: [Support the eBPF CPU v4 instructions](shipd/rbpf-ebpf-cpu-v4/)
 - **[mortbopet/ripes](https://github.com/mortbopet/ripes)**: [Add the RISC-V B bit-manipulation extension](shipd/ripes-riscv-b-extension/)
+- **[scons/scons](https://github.com/scons/scons)**: [Append, prepend and remove through keyword values](shipd/scons-keyword-append-prepend-remove/)
 - **[tobymao/sqlglot](https://github.com/tobymao/sqlglot)**: [Support postgres session statements and the @ and ^@ operators](shipd/sqlglot-postgres-session-statements/)
+- **[u-root/u-root](https://github.com/u-root/u-root)**: [Lossless write-back of parsed SMBIOS structures](shipd/u-root-smbios-writeback/)
 - **[chipsalliance/verible](https://github.com/chipsalliance/verible)**: [Recognise default arms in the inside, matches and generate case forms, and require begin and end after do, repeat and final](shipd/verible-case-default-forms/)
+
+### Auto Review and human-review submissions (10)
+
+Challenges that passed Auto Review, reached `finalizing_review`, or completed human review before retroactive platform policy changes (such as the Criteria V4 256K-token Orion sequence floor):
+
+- **[boombuler/barcode](https://github.com/boombuler/barcode)**: [Add Micro QR Code encoding](shipd/barcode-micro-qr-encoding/)
+- **[bmatcuk/doublestar](https://github.com/bmatcuk/doublestar)**: [Fix case-insensitive literal path resolution](shipd/doublestar-case-insensitive-literals/)
+- **[caarlos0/env](https://github.com/caarlos0/env)**: [Export under Parse key ownership](shipd/env-struct-export/)
+- **[alisaifee/flask-limiter](https://github.com/alisaifee/flask-limiter)**: [Tagged limit exemptions, response-aware deduction costs, and CLI tag filtering](shipd/flask-limiter-tagged-exemptions-response-cost/)
+- **[mkdocstrings/griffe](https://github.com/mkdocstrings/griffe)**: [Detect resolution order, async, property mutability and abstract method API breakages](shipd/griffe-api-breakage-checks/)
+- **[tschaub/mock-fs](https://github.com/tschaub/mock-fs)**: [Mock modern filesystem APIs](shipd/mock-fs-modern-filesystem-apis/)
+- **[mozilla/nunjucks](https://github.com/mozilla/nunjucks)**: [Add structured template diagnostics to Nunjucks errors](shipd/nunjucks-structured-template-diagnostics/)
+- **[uoftcprg/pokerkit](https://github.com/uoftcprg/pokerkit)**: [Index deals up to suit isomorphism](shipd/pokerkit-suit-isomorphism-indexing/)
+- **[sympy/sympy](https://github.com/sympy/sympy)**: [Add Kostka-Foulkes polynomials](shipd/sympy-kostka-foulkes-polynomials/)
+- **[pallets-eco/wtforms](https://github.com/pallets-eco/wtforms)**: [Add form and field change tracking, partial patching, reset, and commit](shipd/wtforms-change-tracking-patch-reset-commit/)
+
+### Criteria V4 audited and complete builds (12)
+
+- **[WebAssembly/binaryen](https://github.com/WebAssembly/binaryen)**: [Support type visibility annotations in open and closed world](shipd/binaryen-type-visibility/)
+- **[evanw/esbuild](https://github.com/evanw/esbuild)**: [Preserve ESM module evaluation order with code splitting](shipd/esbuild-splitting-import-order/)
+- **[marshmallow-code/flask-smorest](https://github.com/marshmallow-code/flask-smorest)**: [Conditional ETag and Cache-Control lifecycle](shipd/flask-smorest-etag-cache-control/)
+- **[jupytext/jupytext](https://github.com/jupytext/jupytext)**: [Support config-aware notebook piping and cell filtering](shipd/jupytext-config-aware-piping/)
+- **[vercel-labs/just-bash](https://github.com/vercel-labs/just-bash)**: [Make od follow GNU od for address radixes, skips, types, widths and repeated rows](shipd/just-bash-gnu-od/)
+- **[dpkp/kafka-python](https://github.com/dpkp/kafka-python)**: [Producer partition pause flow control and selective unsent buffer abort](shipd/kafka-python-producer-pause-abort/)
+- **[luau-lang/luau](https://github.com/luau-lang/luau)**: [Add lexical defer statements to Luau](shipd/luau-lexical-defer/)
+- **[pybamm-team/PyBaMM](https://github.com/pybamm-team/PyBaMM)**: [Extract windows from composite solution histories](shipd/pybamm-solution-window/)
+- **[pytest-dev/pyfakefs](https://github.com/pytest-dev/pyfakefs)**: [Case sensitivity per mount point and Unicode name matching on macOS](shipd/pyfakefs-per-mount-case-sensitivity/)
+- **[mwilliamson/python-mammoth](https://github.com/mwilliamson/python-mammoth)**: [Keep list numbering when Word lists are interrupted or restarted](shipd/python-mammoth-word-list-numbering/)
+- **[sveltejs/svelte](https://github.com/sveltejs/svelte)**: [Add $state.from custom accessor rune](shipd/svelte-state-from-rune/)
+- **[webpack/webpack](https://github.com/webpack/webpack)**: [Support multi-root module concatenation for shared chunks](shipd/webpack-multi-root-concatenation/)
 
 ## Merged contributions
 

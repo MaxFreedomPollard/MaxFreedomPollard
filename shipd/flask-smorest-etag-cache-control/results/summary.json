@@ -1,0 +1,19 @@
+{
+  "problemId": "kh76epgf2z20xfa68t0jfth0vx8gnp3q",
+  "status": "complete_build",
+  "date": "2026-10-19",
+  "repo": "marshmallow-code/flask-smorest",
+  "commit": "2a0dc534586cf37742e3a2c59c36b8a5066446f7",
+  "checksAndReview": {
+    "Local verification": "103 F2P tests passing, 100% statement and branch coverage",
+    "Platform status": "Auto-archived on 2026-11-12; retired under Criteria V4's compact-repo Orion horizon limit"
+  },
+  "redactedPatchStats": {
+    "solutionFiles": 4,
+    "solutionAddedLines": 396,
+    "solutionSha256": "703d9d948eb85e306de6ec7bc832b193b3cfde95d584f9fa9032cf4b9cac79b8",
+    "testFiles": 2,
+    "testAddedLines": 4219,
+    "testSha256": "8ba0ca5da28be59255764f3a471611ddb9de9ee107c63cd89e726defd1c5a1f7"
+  }
+}

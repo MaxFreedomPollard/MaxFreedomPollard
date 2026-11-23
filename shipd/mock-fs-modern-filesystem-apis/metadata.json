@@ -1,0 +1,13 @@
+{
+  "problemId": "kh72frt45h5ftxgzqbky0ckfg58de2qj",
+  "title": "Mock modern filesystem APIs",
+  "status": "human_reviewed",
+  "version": 3,
+  "versionId": null,
+  "language": "javascript",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/tschaub/mock-fs",
+  "commitHash": "bbcea1835921cadc7edeeccbfa922cce5688ac0c",
+  "date": "2026-09-18"
+}

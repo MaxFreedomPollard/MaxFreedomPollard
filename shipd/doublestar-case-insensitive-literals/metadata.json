@@ -1,0 +1,13 @@
+{
+  "problemId": "kh70ett5ceh0m6vr8rfxk374k98dfcn4",
+  "title": "Fix case-insensitive literal path resolution",
+  "status": "human_reviewed",
+  "version": 2,
+  "versionId": null,
+  "language": "go",
+  "difficulty": "hard",
+  "category": "bugfix",
+  "repoUrl": "https://github.com/bmatcuk/doublestar",
+  "commitHash": "a9ad9e0ef4d6b7e4443090e9a7201d847a881711",
+  "date": "2026-09-03"
+}

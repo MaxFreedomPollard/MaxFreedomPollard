@@ -1,0 +1,19 @@
+{
+  "problemId": "kh77fz7jqpj7ehrmm29rb9qa098hjdj0",
+  "status": "reverted_v4_cutover",
+  "date": "2026-11-19",
+  "repo": "jupytext/jupytext",
+  "commit": "932bcdb243842598acb00f6ab861b645bfc98b6a",
+  "checksAndReview": {
+    "Orion rollouts": "0/7 passes (89,186 to 114,275 tokens)",
+    "Platform status change": "Reverted and archived at Criteria V4 cutover (< 256,000-token Orion floor)"
+  },
+  "redactedPatchStats": {
+    "solutionFiles": 5,
+    "solutionAddedLines": 234,
+    "solutionSha256": "fed7fb69cfc5a757e92e6eb2f647cb13fa61dd6902bd890089233efa22501306",
+    "testFiles": 2,
+    "testAddedLines": 1498,
+    "testSha256": "7bd2aaacbcb4139c7d061bcd207c36d60fbb3b9c67bd810fdb8204e4fe9f1a86"
+  }
+}

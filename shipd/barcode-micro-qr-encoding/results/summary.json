@@ -1,0 +1,20 @@
+{
+  "problemId": "kh78c7acfr3kpwpv7a5ymrqc8x8f6vf6",
+  "status": "finalizing_review_reverted",
+  "date": "2026-10-10",
+  "repo": "boombuler/barcode",
+  "commit": "8485d4afd9da706ac5dfecd60c5616eb640ca4cd",
+  "checksAndReview": {
+    "Submission history": "Submitted 2026-09-28 and 2026-09-29; reviewed 2026-10-10",
+    "Post-review revision (v4)": "Cleared Prechecks, Verify Solution, Verifier Completeness Audit, and Solution Quality",
+    "Platform status change": "Reached finalizing_review before managerVerdict = revert"
+  },
+  "redactedPatchStats": {
+    "solutionFiles": 3,
+    "solutionAddedLines": 333,
+    "solutionSha256": "d6020eb1ae1b7fc9b1f3556fd51c8621e011f9d2360861d3c1c37347d6689680",
+    "testFiles": 4,
+    "testAddedLines": 3024,
+    "testSha256": "c8d00ac5f4a56febfeff73cc53efa43a22c684144821af1b58e81baea0521a05"
+  }
+}

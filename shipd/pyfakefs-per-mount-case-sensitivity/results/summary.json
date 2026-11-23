@@ -1,0 +1,19 @@
+{
+  "problemId": "kh7aps84t11wrs3nj37x3zhmj98h63np",
+  "status": "v4_all_checks_passed",
+  "date": "2026-11-20",
+  "repo": "pytest-dev/pyfakefs",
+  "commit": "f43fce450a7b53fe27a5b99ca5ef5494c22eee72",
+  "checksAndReview": {
+    "Criteria V4 automated checks (R30)": "100% pre-rollout gates PASS (0 warnings)",
+    "Orion #1 rollout": "1/1 PASS_LEGITIMATE (116,214 tokens, below V4's 256,000-token floor)"
+  },
+  "redactedPatchStats": {
+    "solutionFiles": 3,
+    "solutionAddedLines": 198,
+    "solutionSha256": "c3f154e2a7b2e7f74e15c14555c5add0e191aaf7fa51cbe036f04c87d635da0f",
+    "testFiles": 3,
+    "testAddedLines": 2536,
+    "testSha256": "5de73196b7e81a51bf62e0649f4d104a9ceec6e5bddb87e0898064b4771f4ea1"
+  }
+}

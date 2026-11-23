@@ -1,0 +1,13 @@
+{
+  "problemId": "kh7ba2vy4pt8xafvc6hfd2d2e18f4298",
+  "title": "Append, prepend and remove through keyword values",
+  "status": "accepted",
+  "version": 1,
+  "versionId": "kd7fgqkpgdqq4bza4eykfjdj9d8gas95",
+  "language": "python",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/scons/scons",
+  "commitHash": "80c749ed90adc3cf623b5dfa206917067f3b5677",
+  "date": "2026-10-16"
+}

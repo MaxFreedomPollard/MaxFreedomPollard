@@ -1,0 +1,9 @@
+FROM public.ecr.aws/d3j8x8q7/olympus-base-python:latest
+WORKDIR /app
+COPY . .
+ENV PIP_DISABLE_PIP_VERSION_CHECK=1
+RUN pip install --no-cache-dir annotated-types==0.7.0 anytree==2.13.0 backoff==2.2.1 black==26.10.1 bpx==1.1.1 casadi==3.8.1 certifi==2026.10.19 charset-normalizer==3.4.4 click==8.3.1 contourpy==1.4.0 coverage==7.17.0 cycler==0.12.1 distro==1.9.0 editables==0.6 execnet==2.1.2 fonttools==4.61.1 hatch-vcs==0.5.0 hatchling==1.33.0 hypothesis==6.170.14 idna==3.15 iniconfig==2.3.1 kiwisolver==1.5.1 latexcodec==3.0.1 markdown-it-py==4.0.0 matplotlib==3.11.2 mdurl==0.1.2 meshio==5.3.5 mpmath==1.3.0 mypy-extensions==1.1.0 numpy==2.5.3 packaging==26.3 pandas==3.0.6 pathspec==1.0.4 pillow==12.3.0 platformdirs==4.11.8 pluggy==1.7.0 pooch==1.9.0 posthog==7.54.0 py-cpuinfo2==10.1.1 pybammsolvers==0.11.1 pybtex==0.26.1 pydantic==2.14.0 pydantic-core==2.50.0 pygments==2.20.0 pyparsing==3.3.2 pyrefly==1.4.0 pytest==9.2.0 pytest-benchmark==5.3.1 pytest-cov==7.1.0 pytest-mock==3.17.0 pytest-xdist==3.8.0 python-dateutil==2.9.0.post0 pytokens==0.4.1 pyyaml==6.0.3 requests==2.33.0 rich==14.3.2 ruff==0.17.3 scikit-fem==12.0.2 scipy==1.18.1 setuptools==84.2.1 setuptools-scm==10.3.4 six==1.17.0 sortedcontainers==2.4.0 sympy==1.14.0 tomlkit==0.15.2 trove-classifiers==2026.9.21.13 typing-extensions==4.16.0 typing-inspection==0.4.4 tzdata==2026.6 urllib3==2.8.0 vcs-versioning==2.6.0 xarray==2026.9.0
+# Register local editable PyBaMM source and entry points offline (equivalent to pip install -e .).
+RUN cd /app/packages/pybamm && python3 -c "import hatchling.build,pathlib,site,zipfile; wheel=hatchling.build.build_editable('/tmp'); path=pathlib.Path('/tmp')/wheel; zipfile.ZipFile(path).extractall(site.getsitepackages()[0]); path.unlink()"
+ENV PYBAMM_DISABLE_TELEMETRY=true MPLBACKEND=Agg
+CMD ["/bin/bash"]

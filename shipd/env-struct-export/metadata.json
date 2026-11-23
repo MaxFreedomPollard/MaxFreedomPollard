@@ -1,0 +1,13 @@
+{
+  "problemId": "kh76bq7adyx34w0nf8vhs03y2d8fm788",
+  "title": "Export under Parse key ownership",
+  "status": "auto_review_approved",
+  "version": 1,
+  "versionId": "kd780wgsxfsc53rbkze042rp5d8heqm7",
+  "language": "go",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/caarlos0/env",
+  "commitHash": "505764460181dd3bfcd15b26dc7f63b7322737ad",
+  "date": "2026-11-02"
+}

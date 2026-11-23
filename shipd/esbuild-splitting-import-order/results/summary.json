@@ -1,0 +1,19 @@
+{
+  "problemId": "esbuild-v4-local",
+  "status": "v4_prechecks_and_verify_passed",
+  "date": "2026-11-21",
+  "repo": "evanw/esbuild",
+  "commit": "f6058f8364fe7ab91ca57a83e02577ed74c9cae4",
+  "checksAndReview": {
+    "Criteria V4 checks completed": "Prechecks 15/15 PASS, Scope Gate PASS, Verify Tests PASS, Verify Solution PASS, Verify Flakiness PASS",
+    "Scope": "5 production files, +1,747 LOC in linker/chunking graph"
+  },
+  "redactedPatchStats": {
+    "solutionFiles": 5,
+    "solutionAddedLines": 1747,
+    "solutionSha256": "11d80b125a02b8c20a3080bd27ba4a34d780cc9bd13ca151ea567a76a941d24b",
+    "testFiles": 2,
+    "testAddedLines": 1543,
+    "testSha256": "b38bc9d154cc3f8023fc5f2465b6fe27017f0bac175b41982e756c2755baac84"
+  }
+}

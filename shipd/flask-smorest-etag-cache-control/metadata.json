@@ -1,0 +1,13 @@
+{
+  "problemId": "kh76epgf2z20xfa68t0jfth0vx8gnp3q",
+  "title": "Conditional ETag and Cache-Control lifecycle",
+  "status": "complete_build",
+  "version": 46,
+  "versionId": null,
+  "language": "python",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/marshmallow-code/flask-smorest",
+  "commitHash": "2a0dc534586cf37742e3a2c59c36b8a5066446f7",
+  "date": "2026-10-19"
+}

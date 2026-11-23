@@ -1,0 +1,13 @@
+{
+  "problemId": "kh750xpwt2p1z7hhsp5krkjwch8fqrtc",
+  "title": "Lossless write-back of parsed SMBIOS structures",
+  "status": "accepted",
+  "version": 1,
+  "versionId": "kd7et6ptapreq5ajwvm4qkfj5h8gdz7k",
+  "language": "go",
+  "difficulty": "hard",
+  "category": "bugfix",
+  "repoUrl": "https://github.com/u-root/u-root",
+  "commitHash": "34ab3028053499999c2d8a00a02240fc6e6dbee7",
+  "date": "2026-10-17"
+}

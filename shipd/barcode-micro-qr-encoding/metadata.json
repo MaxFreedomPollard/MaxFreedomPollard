@@ -1,0 +1,13 @@
+{
+  "problemId": "kh78c7acfr3kpwpv7a5ymrqc8x8f6vf6",
+  "title": "Add Micro QR Code encoding",
+  "status": "finalizing_review_reverted",
+  "version": 4,
+  "versionId": "kd7ev06p3s6jm8hj3qdc2mzwsh8g2egr",
+  "language": "go",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/boombuler/barcode",
+  "commitHash": "8485d4afd9da706ac5dfecd60c5616eb640ca4cd",
+  "date": "2026-10-10"
+}

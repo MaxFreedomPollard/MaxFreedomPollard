@@ -1,0 +1,13 @@
+{
+  "problemId": "kh7ey40wsm4vsz1ksbmaw2vqah8jjxng",
+  "title": "Support multi-root module concatenation for shared chunks",
+  "status": "v4_checks_and_rollouts",
+  "version": 2,
+  "versionId": "kd70eq2cfye56t3vnc1a1hk1vs8jkddm",
+  "language": "javascript",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/webpack/webpack",
+  "commitHash": "a393e82c485374a74fc85c7894f0e4d9520d772e",
+  "date": "2026-11-22"
+}

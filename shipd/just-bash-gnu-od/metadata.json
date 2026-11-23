@@ -1,0 +1,13 @@
+{
+  "problemId": "kh744thkp0v26yzgzr60bxevhn8fqx2p",
+  "title": "Make od follow GNU od for address radixes, skips, types, widths and repeated rows",
+  "status": "rollouts_complete",
+  "version": 11,
+  "versionId": null,
+  "language": "typescript",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/vercel-labs/just-bash",
+  "commitHash": "7537a260e38648e8998db7a95504102ad80b0194",
+  "date": "2026-11-02"
+}

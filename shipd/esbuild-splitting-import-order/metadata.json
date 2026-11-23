@@ -1,0 +1,13 @@
+{
+  "problemId": "esbuild-v4-local",
+  "title": "Preserve ESM module evaluation order with code splitting",
+  "status": "v4_prechecks_and_verify_passed",
+  "version": 1,
+  "versionId": null,
+  "language": "go",
+  "difficulty": "hard",
+  "category": "bugfix",
+  "repoUrl": "https://github.com/evanw/esbuild",
+  "commitHash": "f6058f8364fe7ab91ca57a83e02577ed74c9cae4",
+  "date": "2026-11-21"
+}

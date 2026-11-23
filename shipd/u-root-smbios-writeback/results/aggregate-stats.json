@@ -1,0 +1,31 @@
+{
+ "byAgent": {
+  "antigravity": {
+   "passed": 0,
+   "total": 8
+  },
+  "claude_code": {
+   "medianLOC": 1004,
+   "medianMessages": 39,
+   "passed": 1,
+   "total": 4
+  }
+ },
+ "byModel": {
+  "gemini-3.8-flash": {
+   "passed": 0,
+   "total": 8
+  },
+  "openrouter/anthropic/claude-opus-5-5": {
+   "medianLOC": 1004,
+   "medianMessages": 39,
+   "passed": 1,
+   "total": 4
+  }
+ },
+ "medianLocOverall": 1004,
+ "medianMessagesOverall": 39,
+ "passedRuns": 1,
+ "totalRuns": 12,
+ "updatedAt": 1792171062186
+}

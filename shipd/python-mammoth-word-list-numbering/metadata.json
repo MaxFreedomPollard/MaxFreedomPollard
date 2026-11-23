@@ -1,0 +1,13 @@
+{
+  "problemId": "kh79rp5drgk1gh29v4k851k9cx8h6ncb",
+  "title": "Keep list numbering when Word lists are interrupted or restarted",
+  "status": "complete_build",
+  "version": 0,
+  "versionId": null,
+  "language": "python",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/mwilliamson/python-mammoth",
+  "commitHash": "f3b7b9fc73fdbffe6ebac77e6b3ac6c418ee33d9",
+  "date": "2026-10-29"
+}

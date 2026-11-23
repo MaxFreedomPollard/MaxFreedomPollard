@@ -1,0 +1,13 @@
+{
+  "problemId": "kh77fz7jqpj7ehrmm29rb9qa098hjdj0",
+  "title": "Support config-aware notebook piping and cell filtering",
+  "status": "reverted_v4_cutover",
+  "version": 0,
+  "versionId": null,
+  "language": "python",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/jupytext/jupytext",
+  "commitHash": "932bcdb243842598acb00f6ab861b645bfc98b6a",
+  "date": "2026-11-19"
+}

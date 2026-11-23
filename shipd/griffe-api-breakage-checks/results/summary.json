@@ -1,0 +1,20 @@
+{
+  "problemId": "kh70b2mnds7fyck2qjvz2trtt58cjc1d",
+  "status": "finalizing_review_reverted",
+  "date": "2026-08-30",
+  "repo": "mkdocstrings/griffe",
+  "commit": "a345344b40f50f8556ee5d08665880ff9251485f",
+  "checksAndReview": {
+    "Submission history": "Submitted 2026-08-25 and 2026-08-28; reviewed 2026-08-30",
+    "Review quality score": "overallQuality = 3, qualityScore = 7 (top 3/3/3 bands)",
+    "Platform status change": "Reached finalizing_review; administratively reverted to draft (managerVerdict = revert)"
+  },
+  "redactedPatchStats": {
+    "solutionFiles": 11,
+    "solutionAddedLines": 802,
+    "solutionSha256": "4bbf52a1a8c7b5cfa0328702407f01de5b020bc30de96400b6a9f81d3b5717a2",
+    "testFiles": 2,
+    "testAddedLines": 2427,
+    "testSha256": "df77b166666fbdc7534e36717a17b61aeae2150fa49dde84ac64a214265406c9"
+  }
+}

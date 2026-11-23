@@ -1,0 +1,19 @@
+{
+  "problemId": "kh72frt45h5ftxgzqbky0ckfg58de2qj",
+  "status": "human_reviewed",
+  "date": "2026-09-18",
+  "repo": "tschaub/mock-fs",
+  "commit": "bbcea1835921cadc7edeeccbfa922cce5688ac0c",
+  "checksAndReview": {
+    "Submission history": "Submitted 2026-09-17, reviewed 2026-09-18 (qualityScore = 3); later dropped by Scope Gate cross-language overlap rule",
+    "Solver runs (Luna)": "0/10 passes"
+  },
+  "redactedPatchStats": {
+    "solutionFiles": 6,
+    "solutionAddedLines": 559,
+    "solutionSha256": "5e3db8550376c66033016220d5b1206fadba8ca471235af64cfb3c44968ee242",
+    "testFiles": 2,
+    "testAddedLines": 956,
+    "testSha256": "41fba09ab9e579624e4bec3d3cc1d8a5e9a0d757933a2736f13522985537ce24"
+  }
+}

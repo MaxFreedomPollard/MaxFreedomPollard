@@ -1,0 +1,22 @@
+{
+  "problemId": "kh79d9rz2rvzhsjbpgbqdmhmxs8fyg2j",
+  "status": "auto_review_approved_human_reviewed",
+  "date": "2026-10-19",
+  "repo": "uoftcprg/pokerkit",
+  "commit": "b2fcc75c05ac43b210dd7e5ea71c0bd2f82ac3d6",
+  "checksAndReview": {
+    "Nova pass rate": "0/4 = 0%",
+    "Orion pass rate": "1/4 = 25% (1,488 LOC, 59 messages; passing Orion runs took 130K and 155.7K tokens)",
+    "Vega pass rate": "0/4 = 0%",
+    "Auto Review (baseline)": "approved, bands description/tests/solution = 3/3/2 (3 is top)",
+    "Human review": "submitted 2026-10-19, reviewed 2026-10-24; revised in revisions/2026-11-01-3of3 before V4 256K-token cutoff"
+  },
+  "redactedPatchStats": {
+    "solutionFiles": 5,
+    "solutionAddedLines": 921,
+    "solutionSha256": "643a8d4d886702dd965bfd24303caac690e3bb839b5eaa7fb94dc3dedb52395a",
+    "testFiles": 2,
+    "testAddedLines": 2702,
+    "testSha256": "484274d08e3a9fd0dc43eb78b9a589c9999ef129728d177e7d36f272ef589bef"
+  }
+}

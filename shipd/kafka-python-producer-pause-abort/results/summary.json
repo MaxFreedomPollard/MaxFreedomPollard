@@ -1,0 +1,19 @@
+{
+  "problemId": "kh777b6v4z3zwdht784cfc26sd8jf0h7",
+  "status": "v4_all_checks_passed",
+  "date": "2026-11-20",
+  "repo": "dpkp/kafka-python",
+  "commit": "89df9871b84843ad8b9dbd48d5b8d11d06227acf",
+  "checksAndReview": {
+    "Criteria V4 automated checks": "Prechecks 14/14 PASS, Scope Gate PASS, Verify Tests 574/32 PASS, Harbor PASS, Reward Hacking PASS, Solution Quality PASS, Test Fairness PASS (0 blocking)",
+    "V4 rollouts": "Nova 0/4 (639.5K avg tokens); Orion avg 121.1K tokens (stopped below V4's 256,000-token floor)"
+  },
+  "redactedPatchStats": {
+    "solutionFiles": 8,
+    "solutionAddedLines": 513,
+    "solutionSha256": "5154e0b02b054df9b25439641dfbb2bbf1b67ac6bcd55efa7ddfcbb56fefbf9c",
+    "testFiles": 2,
+    "testAddedLines": 2216,
+    "testSha256": "986345034691486715b44e3fcb70b536051ab1cda700f233c70925327198f61b"
+  }
+}

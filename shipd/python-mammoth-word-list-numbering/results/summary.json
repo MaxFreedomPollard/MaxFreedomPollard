@@ -1,0 +1,19 @@
+{
+  "problemId": "kh79rp5drgk1gh29v4k851k9cx8h6ncb",
+  "status": "complete_build",
+  "date": "2026-10-29",
+  "repo": "mwilliamson/python-mammoth",
+  "commit": "f3b7b9fc73fdbffe6ebac77e6b3ac6c418ee33d9",
+  "checksAndReview": {
+    "Platform checks completed": "Scope Gate PASS, Image verification PASS",
+    "Platform status": "Auto-archived on 2026-11-12; retired under Criteria V4's compact-repo Orion horizon limit"
+  },
+  "redactedPatchStats": {
+    "solutionFiles": 6,
+    "solutionAddedLines": 115,
+    "solutionSha256": "8f55bcc17207ec5cee8ba9a5c1cebbab2c468a85c1379fe7c11753ed80c3ef5f",
+    "testFiles": 2,
+    "testAddedLines": 1137,
+    "testSha256": "6684cefe7f6d3ea75fe834d7567a6cd5f35f8dc922ced7d3a4d574e1351936df"
+  }
+}

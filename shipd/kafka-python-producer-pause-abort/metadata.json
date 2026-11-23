@@ -1,0 +1,13 @@
+{
+  "problemId": "kh777b6v4z3zwdht784cfc26sd8jf0h7",
+  "title": "Producer partition pause flow control and selective unsent buffer abort",
+  "status": "v4_all_checks_passed",
+  "version": 5,
+  "versionId": null,
+  "language": "python",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/dpkp/kafka-python",
+  "commitHash": "89df9871b84843ad8b9dbd48d5b8d11d06227acf",
+  "date": "2026-11-20"
+}

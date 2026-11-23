@@ -1,0 +1,13 @@
+{
+  "problemId": "kh7a9ch0sxeer94vy7k4d95tcs8f2p5v",
+  "title": "Add sentence and paragraph movement to the Vi and Emacs key bindings",
+  "status": "accepted",
+  "version": 1,
+  "versionId": "kd7d3tr8jw6tann1125b2nf6rx8f4x0g",
+  "language": "python",
+  "difficulty": "medium",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/prompt-toolkit/python-prompt-toolkit",
+  "commitHash": "583b3412c792a5cc9f01adde603679f3824a88f3",
+  "date": "2026-09-26"
+}

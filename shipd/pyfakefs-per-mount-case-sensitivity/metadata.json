@@ -1,0 +1,13 @@
+{
+  "problemId": "kh7aps84t11wrs3nj37x3zhmj98h63np",
+  "title": "Case sensitivity per mount point and Unicode name matching on macOS",
+  "status": "v4_all_checks_passed",
+  "version": 30,
+  "versionId": "kd7bzf11kg0q9wcvy4ykg31agh8h79jf",
+  "language": "python",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/pytest-dev/pyfakefs",
+  "commitHash": "f43fce450a7b53fe27a5b99ca5ef5494c22eee72",
+  "date": "2026-11-20"
+}

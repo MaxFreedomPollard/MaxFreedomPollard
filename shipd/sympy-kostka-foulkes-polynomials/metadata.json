@@ -1,0 +1,13 @@
+{
+  "problemId": "kh70yfqb64zwdvwf81tb79btfn8f26k9",
+  "title": "Add Kostka-Foulkes polynomials",
+  "status": "finalizing_review_reverted",
+  "version": 2,
+  "versionId": "kd754pd0c0ejxjn74wzwqq3kwx8fy1j3",
+  "language": "python",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/sympy/sympy",
+  "commitHash": "3f58eb0ce808f8c4917ab0b8ae67d133fc794c3f",
+  "date": "2026-10-04"
+}

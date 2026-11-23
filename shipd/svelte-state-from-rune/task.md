@@ -1,0 +1,7 @@
+The `$state` rune allows you to create reactive state, which means that your UI reacts when it changes. New `$state.from(accessor)` (`declare namespace $state`, `{ get(): T; set?: (value: NoInfer<T>) => void }`) does not proxy or mutate the original object (client and SSR). When calling methods in JavaScript, the value of `this` matters (`this === accessor`):
+  `accessor.get()` -> uncached dynamic lookup, init throws `TypeError` unless non-`null` object with `function` `get`
+  `accessor.set(v)` -> dynamic lookup returning `v` (`TypeError` if not `function`), client writes in `untrack` under `$state` `state_unsafe_mutation` rules
+
+Class instances are not proxied. Instead, you can use `$state.from` in class fields (whether public or private), or as the first assignment to a property immediately inside the `constructor`. You can declare `$state.from` in `.svelte.js` and `.svelte.ts` files or other `$state` scopes (hoisted `var` reads `undefined` before init), and you can update it like you would update any other variable:
+  `++` / `bind:` -> JS assignments/updates (short-circuit ops, `number`/`bigint` `++`/`--`), `$state` bindings/runes, and component exports (`get` always, `set` if non-`const`)
+  `state_invalid_*` -> reuse `$state` diagnostics, except 1 arg (`rune_invalid_arguments_length`), no destructuring (`state_invalid_placement`), no module exports even `const` (`state_invalid_export`), `state_referenced_locally` like `$state.raw`

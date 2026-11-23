@@ -1,0 +1,13 @@
+{
+  "problemId": "luau-v4-local",
+  "title": "Add lexical defer statements to Luau",
+  "status": "complete_local_build",
+  "version": 0,
+  "versionId": null,
+  "language": "cpp",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/luau-lang/luau",
+  "commitHash": "c87565b8b0db5d5d5bfd2b8b00ad6573e5d06d9f",
+  "date": "2026-11-20"
+}

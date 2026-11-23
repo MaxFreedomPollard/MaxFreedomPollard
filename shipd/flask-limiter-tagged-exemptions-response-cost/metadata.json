@@ -1,0 +1,13 @@
+{
+  "problemId": "kh74pgkv590zpfe69v66a379sn8hp213",
+  "title": "Tagged limit exemptions, response-aware deduction costs, and CLI tag filtering",
+  "status": "auto_review_and_v4_checks_passed",
+  "version": 0,
+  "versionId": null,
+  "language": "python",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/alisaifee/flask-limiter",
+  "commitHash": "0e715b6fbb4655756f747c78d95d61deaa69dd1c",
+  "date": "2026-11-18"
+}

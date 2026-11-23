@@ -1,0 +1,3 @@
+Mammoth should track counters per abstract numbering definition and level, with separate counters for the body, footnotes, endnotes and comments. Each level starts at w:start or 0 if omitted, the first paragraph using a w:num with w:startOverride on that level starts at the override value, and any list paragraph resets deeper levels of its definition.
+
+In HTML, the ol directly wrapping a numbered paragraph's li should get a start attribute when its first item isn't 1, and an item should merge into the preceding ol only when its number is one past the last item in that ol. Numbered paragraphs omitted from the output still consume their number, and Markdown output should count from the same start.

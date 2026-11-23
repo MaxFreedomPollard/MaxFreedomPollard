@@ -1,0 +1,13 @@
+{
+  "problemId": "svelte-v4-local",
+  "title": "Add $state.from custom accessor rune",
+  "status": "v4_all_checks_passed",
+  "version": 11,
+  "versionId": null,
+  "language": "typescript",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/sveltejs/svelte",
+  "commitHash": "8720544ff76456198c8b434d09e8b4a8b59d3b8c",
+  "date": "2026-11-21"
+}

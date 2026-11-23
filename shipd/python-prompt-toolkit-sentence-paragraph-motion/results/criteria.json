@@ -1,0 +1,88 @@
+{
+ "canSubmit": true,
+ "canSubmitWithoutBypass": true,
+ "cooldownAppliesToProblem": false,
+ "criteria": [
+  {
+   "detail": "5/5 passing",
+   "id": "prechecks",
+   "label": "Prechecks",
+   "stale": false,
+   "status": "pass"
+  },
+  {
+   "id": "scopeGate",
+   "label": "Scope Gate",
+   "status": "pass",
+   "verdict": "pass"
+  },
+  {
+   "detail": "7/7 passing",
+   "id": "dynamicChecks",
+   "label": "Quality Checks",
+   "stale": false,
+   "status": "pass"
+  },
+  {
+   "detail": "No fairness issues",
+   "id": "agentFair",
+   "label": "Fair task",
+   "status": "pass"
+  },
+  {
+   "detail": "4/10 solved",
+   "id": "agentSolvable",
+   "label": "Solvable",
+   "status": "pass"
+  },
+  {
+   "detail": "40% \u2014 Medium",
+   "id": "agentDifficulty",
+   "label": "Difficulty",
+   "status": "pass"
+  },
+  {
+   "detail": "Median files: 4, messages: 44.5, LOC: 359.5",
+   "id": "agentLongHorizon",
+   "label": "Long-horizon",
+   "status": "pass"
+  },
+  {
+   "detail": "No cheating detected",
+   "id": "agentNoCheating",
+   "label": "No cheating",
+   "status": "pass"
+  },
+  {
+   "detail": "No environment blockers detected",
+   "id": "agentNoEnvBlocker",
+   "label": "No environment blockers",
+   "status": "pass"
+  },
+  {
+   "detail": "No false positives detected",
+   "id": "agentNoFalsePositives",
+   "label": "No false positives",
+   "status": "pass"
+  },
+  {
+   "detail": "approved",
+   "id": "autoReview",
+   "label": "Auto Review",
+   "status": "pass"
+  },
+  {
+   "detail": "image rebuilds hermetically",
+   "id": "rebuildSafe",
+   "label": "Rebuild-safe",
+   "status": "pass"
+  },
+  {
+   "detail": "image deep-rebuilds from clean source + vendored deps",
+   "id": "harborSafe",
+   "label": "Harbor rebuild-safe",
+   "status": "pass"
+  }
+ ],
+ "isBypassed": false
+}

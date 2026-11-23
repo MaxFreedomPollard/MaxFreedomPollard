@@ -1,0 +1,15 @@
+Extend API breakage checks with four kinds of change, for both source loading and runtime inspection. Both modes recognize properties built by calling property or abc's abstractproperty, and abc's abstractclassmethod and abstractstaticmethod. Member comparisons follow inheritance: compare overrides with the inherited members they replace, and dropped overrides with those then exposed. Each CLI comparison against a git reference inspecting both versions at runtime must read each from its own checkout without cached modules from the other.
+
+Report CLASS_CHANGED_MRO once per class when its old and new lists of resolved base paths in Class.mro() order differ at any depth. Omit unresolvable bases separately for each version. Complete comparisons and report all other breakages despite inconsistent MROs, import cycles or modeled unresolvable objects on either side; inconsistent MROs are not breakages.
+
+Report FUNCTION_CHANGED_ASYNC with boolean old and new states when functions change between synchronous and asynchronous, including generators and the underlying functions of plain, static or class methods.
+
+Report ATTRIBUTE_CHANGED_MUTABILITY when a property loses its writable (setter) or deletable (deleter) capability, even if it retains the other; gains are not breaking. Only name-binding statements replace properties, never bare annotations. Replacement by a non-property loses both. Removal still reports mutability loss beside OBJECT_REMOVED, with an empty new capability set.
+
+On each class, report CLASS_ADDED_ABSTRACT_METHOD once for each newly abstract method defined by its body, in name order; report the method's name. Inherited methods, property accessors, imported functions and already abstract methods do not count. Replacing an old imported abstract function with a body-defined abstract method counts. Unresolvable old members count as not abstract. Later deletion or rebinding in the module namespace does not change whether the class body defined the method.
+
+Export ClassChangedMroBreakage, ClassAddedAbstractMethodBreakage, FunctionChangedAsyncBreakage and AttributeChangedMutabilityBreakage from the package root and include them in __all__. Encode every breakage's as_dict as deterministic JSON with sorted capability lists. Add a json explanation style returning this encoding; griffe check in this style writes only one JSON array of all reported breakages to stdout (empty if none) and nothing to stderr.
+
+Extend every breakage dictionary with filepath and lineno for its object's file and line. For git comparisons, map temporary worktree paths to surviving files relative to the actual invocation directory. Removed objects have lineno 0. json_decoder reconstructs the class matching its kind, whose as_dict equals the input dictionary, restoring capability sets.
+
+Give griffe check repeatable --only and --ignore filters naming breakage kinds; --ignore wins overlaps. Filter reports, not detection. An empty filtered result exits 0. Reject invalid kind names with the name on stderr and exit code 2.

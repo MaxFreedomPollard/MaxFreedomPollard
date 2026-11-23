@@ -1,0 +1,19 @@
+{
+  "problemId": "kh7ey40wsm4vsz1ksbmaw2vqah8jjxng",
+  "status": "v4_checks_and_rollouts",
+  "date": "2026-11-22",
+  "repo": "webpack/webpack",
+  "commit": "a393e82c485374a74fc85c7894f0e4d9520d772e",
+  "checksAndReview": {
+    "Criteria V4 quality checks": "v1 cleared 7/7 checks + Scope Gate (0% overlap); v2 cleared Harbor Build Image, Verify Tests, Verify Solution, Flakiness 6x/6x, Description Quality, Reward Hacking, and local 5-config tsc + npm pack verification",
+    "V4 rollouts (v1)": "Orion 0/4 (339K-714K compacted tokens, 10-14/17 tests), Vega 0/4 (442K-561K tokens, 2-13/17 tests); Fair task, No cheating, No env blockers, Long Orion runs all PASS"
+  },
+  "redactedPatchStats": {
+    "solutionFiles": 14,
+    "solutionAddedLines": 2760,
+    "solutionSha256": "24fdc0a618a05a1a1dfb5425feb98cade3b1d94f2d3749e33e754472fe3c1c58",
+    "testFiles": 2,
+    "testAddedLines": 1938,
+    "testSha256": "be9df6f665e2d05a4bb3a3eedf973275e7e30da7f20ecc56faa3103b8321722a"
+  }
+}

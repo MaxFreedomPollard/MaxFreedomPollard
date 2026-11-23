@@ -1,0 +1,13 @@
+{
+  "problemId": "kh7dj2vj5naam315r13cpp57y18gkdjy",
+  "title": "Add form and field change tracking, partial patching, reset, and commit",
+  "status": "auto_review_approved_reverted_v4",
+  "version": 1,
+  "versionId": "kd79e14mf2ay92d4a8fjvbfdfs8h4kwg",
+  "language": "python",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/pallets-eco/wtforms",
+  "commitHash": "46f626e5cd1faa841927d2dd14f8752d183f5077",
+  "date": "2026-10-28"
+}

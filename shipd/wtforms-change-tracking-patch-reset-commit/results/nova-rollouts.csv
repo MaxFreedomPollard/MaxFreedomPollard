@@ -1,0 +1,36 @@
+label,agent,harness,verdict,baseline_passed,new_tests_passed,files_modified,solution_loc,execution_seconds,environment_blocker
+Nova #1 · re-eval 2,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1017,285,False
+Nova #2 · re-eval 2,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1108,254,False
+Nova #3 · re-eval 2,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,6,1044,190,False
+Nova #4 · re-eval 2,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,6,963,239,False
+Orion #1 · re-eval 2,Orion,codex_cli,FAIL_MISSED_REQUIREMENT,,,9,1249,213,False
+Orion #2 · re-eval 2,Orion,codex_cli,FAIL_MISSED_REQUIREMENT,,,11,1418,286,False
+Orion #3 · re-eval 2,Orion,codex_cli,FAIL_REGRESSION,,,9,1075,231,False
+Orion #4 · re-eval 2,Orion,codex_cli,PASS_LEGITIMATE,,,9,1232,213,False
+Vega #1 · re-eval 2,Vega,claude_code,FAIL_MISSED_REQUIREMENT,,,9,1241,233,False
+Vega #2 · re-eval 2,Vega,claude_code,FAIL_MISSED_REQUIREMENT,,,8,877,261,False
+Vega #3 · re-eval 2,Vega,claude_code,FAIL_MISSED_REQUIREMENT,,,8,900,256,False
+Vega #4 · re-eval 2,Vega,claude_code,FAIL_MISSED_REQUIREMENT,,,10,1050,231,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,978,2137,False
+Nova #1,Nova,antigravity,FAIL_REGRESSION,,,9,1136,2227,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,989,1925,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1060,2096,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,6,1099,2119,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1078,1872,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1115,3021,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1144,2765,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,6,1078,2022,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1098,2635,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,6,1083,2767,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1059,2057,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,6,1280,2929,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1065,2462,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1108,2330,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,935,1558,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1170,2337,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1182,2568,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1166,2659,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1076,2096,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1189,2050,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1053,3234,False
+Nova #1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,9,1304,2953,False

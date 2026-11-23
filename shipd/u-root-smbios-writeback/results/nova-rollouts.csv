@@ -1,0 +1,13 @@
+label,agent,harness,verdict,baseline_passed,new_tests_passed,files_modified,solution_loc,execution_seconds,environment_blocker
+Nova #1 · re-eval 1,Nova,antigravity,FAIL_REGRESSION,,,16,1702,367,False
+Nova #1 · re-eval 1,Nova,antigravity,FAIL_REGRESSION,,,16,1750,318,False
+Nova #2 · re-eval 1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,15,1945,265,False
+Nova #2 · re-eval 1,Nova,antigravity,FAIL_REGRESSION,,,16,2625,322,False
+Nova #3 · re-eval 1,Nova,antigravity,FAIL_REGRESSION,,,16,1979,297,False
+Nova #3 · re-eval 1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,15,1956,322,False
+Nova #4 · re-eval 1,Nova,antigravity,FAIL_MISSED_REQUIREMENT,,,15,2033,312,False
+Nova #4 · re-eval 1,Nova,antigravity,FAIL_REGRESSION,,,16,1866,329,False
+Vega #1 · re-eval 1,Vega,claude_code,PASS_LEGITIMATE,,,16,1004,202,False
+Vega #1 · re-eval 1,Vega,claude_code,FAIL_MISSED_REQUIREMENT,,,15,858,223,False
+Vega #1 · re-eval 1,Vega,claude_code,FAIL_MISSED_REQUIREMENT,,,15,1014,295,False
+Vega #1 · re-eval 1,Vega,claude_code,FAIL_MISSED_REQUIREMENT,,,15,938,298,False

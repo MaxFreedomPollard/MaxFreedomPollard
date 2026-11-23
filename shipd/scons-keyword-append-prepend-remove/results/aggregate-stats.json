@@ -1,0 +1,39 @@
+{
+ "byAgent": {
+  "antigravity": {
+   "passed": 0,
+   "total": 8
+  },
+  "claude_code": {
+   "medianLOC": 868,
+   "medianMessages": 88,
+   "passed": 1,
+   "total": 4
+  },
+  "codex_cli": {
+   "passed": 0,
+   "total": 4
+  }
+ },
+ "byModel": {
+  "gemini-3.8-flash": {
+   "passed": 0,
+   "total": 8
+  },
+  "openai/gpt-6.1-sol": {
+   "passed": 0,
+   "total": 4
+  },
+  "openrouter/anthropic/claude-opus-5-5": {
+   "medianLOC": 868,
+   "medianMessages": 88,
+   "passed": 1,
+   "total": 4
+  }
+ },
+ "medianLocOverall": 868,
+ "medianMessagesOverall": 88,
+ "passedRuns": 1,
+ "totalRuns": 16,
+ "updatedAt": 1792082149732
+}

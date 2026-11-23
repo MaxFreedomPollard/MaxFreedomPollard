@@ -1,0 +1,13 @@
+{
+  "problemId": "binaryen-v4-local",
+  "title": "Support type visibility annotations in open and closed world",
+  "status": "v4_all_checks_passed",
+  "version": 2,
+  "versionId": null,
+  "language": "cpp",
+  "difficulty": "hard",
+  "category": "feature_request",
+  "repoUrl": "https://github.com/WebAssembly/binaryen",
+  "commitHash": "4408fed200e9a5fd1f5ea520a3b2707ad6500fb4",
+  "date": "2026-11-21"
+}

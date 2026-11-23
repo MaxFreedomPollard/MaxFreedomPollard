@@ -1,0 +1,19 @@
+{
+  "problemId": "kh70ett5ceh0m6vr8rfxk374k98dfcn4",
+  "status": "human_reviewed",
+  "date": "2026-09-03",
+  "repo": "bmatcuk/doublestar",
+  "commit": "a9ad9e0ef4d6b7e4443090e9a7201d847a881711",
+  "checksAndReview": {
+    "Submission history": "Submitted and reviewed 2026-09-03 (qualityScore = 4); revised through 2026-09-26",
+    "Solver runs (Luna)": "0/9 passes"
+  },
+  "redactedPatchStats": {
+    "solutionFiles": 6,
+    "solutionAddedLines": 479,
+    "solutionSha256": "9695ab9c73d0381b5718cc05800bb60275e9072b85bad984a51ec178a768eab5",
+    "testFiles": 2,
+    "testAddedLines": 2764,
+    "testSha256": "eb8bf1a157b92d813a0520ab53fe1165d78b15f841e70a3effe6d28c7b77938f"
+  }
+}
