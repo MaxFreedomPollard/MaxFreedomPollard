@@ -7,7 +7,7 @@
   "checksAndReview": {
     "Auto Review": "approved, bands description/solution/tests = 3/2/2, effectiveScope = meets_bar",
     "Platform quality checks": "Verify Solution PASS, Verify Tests PASS, Verify Flakiness PASS, Solution Quality PASS, Test Fairness PASS",
-    "Platform status change": "Archived after Criteria V4 cutover because compact ~2K-LOC Go libraries sit below V4's 256,000-token Orion floor"
+    "Platform status change": "Archived after Criteria V4 cutover because compact ~2K-LOC Go libraries sit below V4's 256,000-token Solver B floor"
   },
   "redactedPatchStats": {
     "solutionFiles": 2,

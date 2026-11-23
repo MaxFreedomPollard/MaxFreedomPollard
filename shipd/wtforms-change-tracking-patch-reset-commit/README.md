@@ -1,6 +1,6 @@
 # Add form and field change tracking, partial patching, reset, and commit
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and **Auto Review approved on 2026-10-28** (entered `finalizing_review`; later reverted to draft at the 2026-11-17 Criteria V4 cutover due to the new 256K-token Orion sequence floor). Category: feature. Language: Python.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and **Auto Review approved on 2026-10-28** (entered `finalizing_review`; later reverted to draft at the 2026-11-17 Criteria V4 cutover due to the new 256K-token Solver B sequence floor). Category: feature. Language: Python.
 
 - Target repository: https://github.com/pallets-eco/wtforms pinned to commit `46f626e5cd1faa841927d2dd14f8752d183f5077`
 - Hidden test suite: 64 tests across 2 files (later expanded locally to 69 tests with 68/68 mutants killed), 4373 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -11,11 +11,11 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 
 | Measure | Value |
 |---|---|
-| Nova pass rate | 0/27 = 0% |
-| Orion pass rate | 1/4 = 25% (passing run: 1,232 LOC, 47 messages, 105K tokens) |
-| Vega pass rate | 0/4 = 0% |
+| Solver A pass rate | 0/27 = 0% |
+| Solver B pass rate | 1/4 = 25% (passing run: 1,232 LOC, 47 messages, 105K tokens) |
+| Solver C pass rate | 0/4 = 0% |
 | Auto Review | approved (Shipd Bot), bands description/solution/tests = 3/2/2 (3 is top) |
-| Platform status change | Entered finalizing_review on 2026-10-28; reverted at the 2026-11-17 Criteria V4 cutover (+250t compensation) because Orion solved below V4's new 256,000-token floor |
+| Platform status change | Entered finalizing_review on 2026-10-28; reverted at the 2026-11-17 Criteria V4 cutover (+250t compensation) because Solver B solved below V4's new 256,000-token floor |
 
 ## The task
 
@@ -36,7 +36,7 @@ The problem statement, written as a maintainer's issue and given to the agent ve
 - `metadata.json`: challenge record (id, status, repo, pinned commit)
 - `results/aggregate-stats.json`: solver pass/total and medians
 - `results/criteria.json`: the platform's submission criteria record
-- `results/nova-rollouts.csv`: one row per counted solver run (verdict, files, LOC, execution time, blocker flag)
+- `results/solver-rollouts.csv`: one row per counted solver run (verdict, files, LOC, execution time, blocker flag)
 - `results/review-outcomes.json`: sanitized review outcomes, per-field bands, and scores
 
 ## Reproduce the environment

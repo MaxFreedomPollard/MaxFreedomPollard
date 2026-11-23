@@ -1,6 +1,6 @@
 # Case sensitivity per mount point and Unicode name matching on macOS
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and cleared **100% of Criteria V4 pre-rollout gates** (`97` F2P tests, `0` warnings) on `R30`, then stopped after `Orion #1` passed legitimately in `116.2K` tokens (below V4's 256K floor). Category: feature. Language: Python.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and cleared **100% of Criteria V4 pre-rollout gates** (`97` F2P tests, `0` warnings) on `R30`, then stopped after `Solver B #1` passed legitimately in `116.2K` tokens (below V4's 256K floor). Category: feature. Language: Python.
 
 - Target repository: https://github.com/pytest-dev/pyfakefs pinned to commit `f43fce450a7b53fe27a5b99ca5ef5494c22eee72`
 - Hidden test suite: 97 F2P tests, 2536 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -12,7 +12,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 | Measure | Value |
 |---|---|
 | Criteria V4 automated checks (R30) | 100% pre-rollout gates PASS (0 warnings) |
-| Orion #1 rollout | 1/1 PASS_LEGITIMATE (116,214 tokens, below V4's 256,000-token floor) |
+| Solver B #1 rollout | 1/1 PASS_LEGITIMATE (116,214 tokens, below V4's 256,000-token floor) |
 
 ## The task
 

@@ -7,7 +7,7 @@
   "checksAndReview": {
     "Auto Review (r19, r20)": "agents Band 3, description Band 3 (rebuilt to R32 to resolve sibling-breach response-cost edge)",
     "Criteria V4 quality checks (R32)": "Prechecks 14/14 PASS, Scope Gate PASS, Verify Tests 114/57 PASS, Harbor PASS, Reward Hacking PASS, Solution Quality PASS, Test Quality PASS (0 blocking)",
-    "Sequential V4 rollouts (R32)": "Nova 0/4, Orion 0/4 (105K-142K tokens across 20 runs, below V4's 256,000-token floor)"
+    "Sequential V4 rollouts (R32)": "Solver A 0/4, Solver B 0/4 (105K-142K tokens across 20 runs, below V4's 256,000-token floor)"
   },
   "redactedPatchStats": {
     "solutionFiles": 6,

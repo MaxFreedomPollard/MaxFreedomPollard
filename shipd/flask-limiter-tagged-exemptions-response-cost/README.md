@@ -1,6 +1,6 @@
 # Tagged limit exemptions, response-aware deduction costs, and CLI tag filtering
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and submitted to **Auto Review twice** (`r19`, `r20`: `agents` Band 3, `description` Band 3), then rebuilt to `R32` (`79/79` mutants killed) and cleared **100% of Criteria V4 Step 0-3 + Scope Gate checks** before stopping at V4's 256K-token Orion floor. Category: feature. Language: Python.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and submitted to **Auto Review twice** (`r19`, `r20`: `agents` Band 3, `description` Band 3), then rebuilt to `R32` (`79/79` mutants killed) and cleared **100% of Criteria V4 Step 0-3 + Scope Gate checks** before stopping at V4's 256K-token Solver B floor. Category: feature. Language: Python.
 
 - Target repository: https://github.com/alisaifee/flask-limiter pinned to commit `0e715b6fbb4655756f747c78d95d61deaa69dd1c`
 - Hidden test suite: 57 tests across 2 files (79/79 mutants killed), 5780 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -13,7 +13,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 |---|---|
 | Auto Review (r19, r20) | agents Band 3, description Band 3 (rebuilt to R32 to resolve sibling-breach response-cost edge) |
 | Criteria V4 quality checks (R32) | Prechecks 14/14 PASS, Scope Gate PASS, Verify Tests 114/57 PASS, Harbor PASS, Reward Hacking PASS, Solution Quality PASS, Test Quality PASS (0 blocking) |
-| Sequential V4 rollouts (R32) | Nova 0/4, Orion 0/4 (105K-142K tokens across 20 runs, below V4's 256,000-token floor) |
+| Sequential V4 rollouts (R32) | Solver A 0/4, Solver B 0/4 (105K-142K tokens across 20 runs, below V4's 256,000-token floor) |
 
 ## The task
 

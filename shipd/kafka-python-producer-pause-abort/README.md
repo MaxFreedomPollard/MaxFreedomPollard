@@ -1,6 +1,6 @@
 # Producer partition pause flow control and selective unsent buffer abort
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and cleared **100% of Criteria V4 Step 0-3 + Scope Gate checks** (`574` baseline + `32` F2P tests) and `Nova 0/4` (`639.5K` avg tokens), before stopping at V4's 256K-token Orion floor. Category: feature. Language: Python.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and cleared **100% of Criteria V4 Step 0-3 + Scope Gate checks** (`574` baseline + `32` F2P tests) and `Solver A 0/4` (`639.5K` avg tokens), before stopping at V4's 256K-token Solver B floor. Category: feature. Language: Python.
 
 - Target repository: https://github.com/dpkp/kafka-python pinned to commit `89df9871b84843ad8b9dbd48d5b8d11d06227acf`
 - Hidden test suite: 32 F2P tests (+ 574 baseline tests) across 2 files, 2216 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -12,7 +12,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 | Measure | Value |
 |---|---|
 | Criteria V4 automated checks | Prechecks 14/14 PASS, Scope Gate PASS, Verify Tests 574/32 PASS, Harbor PASS, Reward Hacking PASS, Solution Quality PASS, Test Fairness PASS (0 blocking) |
-| V4 rollouts | Nova 0/4 (639.5K avg tokens); Orion avg 121.1K tokens (stopped below V4's 256,000-token floor) |
+| V4 rollouts | Solver A 0/4 (639.5K avg tokens); Solver B avg 121.1K tokens (stopped below V4's 256,000-token floor) |
 
 ## The task
 

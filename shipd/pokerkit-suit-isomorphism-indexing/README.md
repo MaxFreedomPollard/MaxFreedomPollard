@@ -1,6 +1,6 @@
 # Index deals up to suit isomorphism
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and **Auto Review approved (3/3/2)** and submitted for human review (`2026-10-19`, reviewed `2026-10-24`), then upgraded locally before Criteria V4's 256K-token Orion sequence floor archived compact repositories. Category: feature. Language: Python.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and **Auto Review approved (3/3/2)** and submitted for human review (`2026-10-19`, reviewed `2026-10-24`), then upgraded locally before Criteria V4's 256K-token Solver B sequence floor archived compact repositories. Category: feature. Language: Python.
 
 - Target repository: https://github.com/uoftcprg/pokerkit pinned to commit `b2fcc75c05ac43b210dd7e5ea71c0bd2f82ac3d6`
 - Hidden test suite: 2 test files, 2702 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -11,9 +11,9 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 
 | Measure | Value |
 |---|---|
-| Nova pass rate | 0/4 = 0% |
-| Orion pass rate | 1/4 = 25% (1,488 LOC, 59 messages; passing Orion runs took 130K and 155.7K tokens) |
-| Vega pass rate | 0/4 = 0% |
+| Solver A pass rate | 0/4 = 0% |
+| Solver B pass rate | 1/4 = 25% (1,488 LOC, 59 messages; passing Solver B runs took 130K and 155.7K tokens) |
+| Solver C pass rate | 0/4 = 0% |
 | Auto Review (baseline) | approved, bands description/tests/solution = 3/3/2 (3 is top) |
 | Human review | submitted 2026-10-19, reviewed 2026-10-24; revised in revisions/2026-11-01-3of3 before V4 256K-token cutoff |
 

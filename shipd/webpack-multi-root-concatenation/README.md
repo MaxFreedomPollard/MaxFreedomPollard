@@ -1,6 +1,6 @@
 # Support multi-root module concatenation for shared chunks
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and cleared Criteria V4 quality checks, Scope Gate, and long-horizon rollouts (`Orion 339K-714K` tokens, `Vega 442K-561K` tokens on `v1`), with `v2g` verified across all 5 webpack `tsc` configs and `npm pack` before platform enrollment closed. Category: feature. Language: JavaScript.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and cleared Criteria V4 quality checks, Scope Gate, and long-horizon rollouts (`Solver B 339K-714K` tokens, `Solver C 442K-561K` tokens on `v1`), with `v2g` verified across all 5 webpack `tsc` configs and `npm pack` before platform enrollment closed. Category: feature. Language: JavaScript.
 
 - Target repository: https://github.com/webpack/webpack pinned to commit `a393e82c485374a74fc85c7894f0e4d9520d772e`
 - Hidden test suite: 17 F2P tests (+ 722 baseline unit tests) across 2 files, 1938 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -12,7 +12,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 | Measure | Value |
 |---|---|
 | Criteria V4 quality checks | v1 cleared 7/7 checks + Scope Gate (0% overlap); v2 cleared Harbor Build Image, Verify Tests, Verify Solution, Flakiness 6x/6x, Description Quality, Reward Hacking, and local 5-config tsc + npm pack verification |
-| V4 rollouts (v1) | Orion 0/4 (339K-714K compacted tokens, 10-14/17 tests), Vega 0/4 (442K-561K tokens, 2-13/17 tests); Fair task, No cheating, No env blockers, Long Orion runs all PASS |
+| V4 rollouts (v1) | Solver B 0/4 (339K-714K compacted tokens, 10-14/17 tests), Solver C 0/4 (442K-561K tokens, 2-13/17 tests); Fair task, No cheating, No env blockers, Long Solver B runs all PASS |
 
 ## The task
 

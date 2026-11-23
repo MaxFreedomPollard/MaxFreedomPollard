@@ -19,23 +19,23 @@
    "status": "pass"
   },
   {
-   "description": "At least 8 Nova runs must complete. 0% solved.",
-   "id": "novaCoverage",
-   "label": "Nova rollouts",
+   "description": "At least 8 Solver A runs must complete. 0% solved.",
+   "id": "solverACoverage",
+   "label": "Solver A rollouts",
    "preview": true,
    "status": "pending"
   },
   {
-   "description": "Nova runs must average more than 256K tokens of sequence length",
-   "id": "novaSequenceLength",
+   "description": "Solver A runs must average more than 256K tokens of sequence length",
+   "id": "solverASequenceLength",
    "label": "Long horizon",
    "preview": true,
    "status": "pending"
   },
   {
-   "description": "At least 4 runs on Orion or 4 runs on Vega, solved more than 0% and at most 25% of the time",
+   "description": "At least 4 runs on Solver B or 4 runs on Solver C, solved more than 0% and at most 25% of the time",
    "id": "strongCoverage",
-   "label": "Orion / Vega rollouts",
+   "label": "Solver B / Solver C rollouts",
    "preview": true,
    "status": "pending"
   },
@@ -71,9 +71,9 @@
  "observedPassRate": 0.09090909090909091,
  "olympusV2": true,
  "olympusV2Pools": {
-  "nova": {
+  "solver_a": {
    "avgSequenceLength": null,
-   "codename": "Nova",
+   "codename": "Solver A",
    "measured": 0,
    "passRate": null,
    "passes": 0,
@@ -83,7 +83,7 @@
   "strong": [
    {
     "avgSequenceLength": null,
-    "codename": "Orion",
+    "codename": "Solver B",
     "measured": 0,
     "passRate": null,
     "passes": 0,
@@ -92,7 +92,7 @@
    },
    {
     "avgSequenceLength": null,
-    "codename": "Vega",
+    "codename": "Solver C",
     "measured": 0,
     "passRate": null,
     "passes": 0,

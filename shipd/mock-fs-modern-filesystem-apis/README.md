@@ -1,6 +1,6 @@
 # Mock modern filesystem APIs
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and submitted for human review (`2026-09-17`, reviewed `2026-09-18`, `0/10` Luna) and revised across `fs.cp`, `fs.opendir`, `fs.statfs`, and recursive `fs.readdir`. Category: feature. Language: JavaScript.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and submitted for human review (`2026-09-17`, reviewed `2026-09-18`, `0/10` gpt-5.6) and revised across `fs.cp`, `fs.opendir`, `fs.statfs`, and recursive `fs.readdir`. Category: feature. Language: JavaScript.
 
 - Target repository: https://github.com/tschaub/mock-fs pinned to commit `bbcea1835921cadc7edeeccbfa922cce5688ac0c`
 - Hidden test suite: 2 test files, 956 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -12,7 +12,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 | Measure | Value |
 |---|---|
 | Submission history | Submitted 2026-09-17, reviewed 2026-09-18 (qualityScore = 3); later dropped by Scope Gate cross-language overlap rule |
-| Solver runs (Luna) | 0/10 passes |
+| Solver runs (gpt-5.6) | 0/10 passes |
 
 ## The task
 

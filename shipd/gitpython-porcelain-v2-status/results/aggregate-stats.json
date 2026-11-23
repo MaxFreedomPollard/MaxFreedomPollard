@@ -8,7 +8,7 @@
   }
  },
  "byModel": {
-  "openrouter/openai/gpt-5.6-luna": {
+  "openrouter/openai/gpt-5.6": {
    "medianLOC": 413.5,
    "medianMessages": 55,
    "passed": 4,

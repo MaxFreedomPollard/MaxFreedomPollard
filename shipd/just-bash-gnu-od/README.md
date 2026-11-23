@@ -1,6 +1,6 @@
 # Make od follow GNU od for address radixes, skips, types, widths and repeated rows
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and full GNU `od` specification compliance implementation with `Nova 0/8` (`516K` avg tokens), `Vega` pass (`266K`), and `Orion 2/2` (`134K-139K`), later archived under Criteria V4's 256K-token Orion floor. Category: feature. Language: TypeScript.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and full GNU `od` specification compliance implementation with `Solver A 0/8` (`516K` avg tokens), `Solver C` pass (`266K`), and `Solver B 2/2` (`134K-139K`), later archived under Criteria V4's 256K-token Solver B floor. Category: feature. Language: TypeScript.
 
 - Target repository: https://github.com/vercel-labs/just-bash pinned to commit `7537a260e38648e8998db7a95504102ad80b0194`
 - Hidden test suite: 33 test files, 4689 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -11,8 +11,8 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 
 | Measure | Value |
 |---|---|
-| Nova rollouts | 0/8 passes (516K avg tokens) |
-| Vega / Orion rollouts | Vega passed (266K tokens); Orion 2/2 passed (134K-139K tokens, below V4's 256,000-token floor) |
+| Solver A rollouts | 0/8 passes (516K avg tokens) |
+| Solver C / Solver B rollouts | Solver C passed (266K tokens); Solver B 2/2 passed (134K-139K tokens, below V4's 256,000-token floor) |
 
 ## The task
 

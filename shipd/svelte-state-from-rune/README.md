@@ -1,6 +1,6 @@
 # Add $state.from custom accessor rune
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and cleared **100% of Criteria V4 pre-rollout gates** (`15/15` Prechecks, Scope Gate, `7/7` dynamic checks with `0` Test Quality warnings) across 45 compiler, parser, and runtime files before stopping at V4's 256K-token Orion floor. Category: feature. Language: TypeScript.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and cleared **100% of Criteria V4 pre-rollout gates** (`15/15` Prechecks, Scope Gate, `7/7` dynamic checks with `0` Test Quality warnings) across 45 compiler, parser, and runtime files before stopping at V4's 256K-token Solver B floor. Category: feature. Language: TypeScript.
 
 - Target repository: https://github.com/sveltejs/svelte pinned to commit `8720544ff76456198c8b434d09e8b4a8b59d3b8c`
 - Hidden test suite: 22 F2P tests across 2 files, 3011 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -12,7 +12,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 | Measure | Value |
 |---|---|
 | Criteria V4 automated checks | 100% PASS (Prechecks 15/15, Scope Gate, 7/7 dynamic checks, 0 Test Quality warnings) |
-| Orion #1 rollout | 21/22 tests passed (605 LOC across 66 files, 163K tokens, stopped below V4's 256,000-token floor) |
+| Solver B #1 rollout | 21/22 tests passed (605 LOC across 66 files, 163K tokens, stopped below V4's 256,000-token floor) |
 
 ## The task
 

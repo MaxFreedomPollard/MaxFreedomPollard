@@ -6,7 +6,7 @@
   "commit": "8c6816d27acb7c4b28b6222094da452f75202ac8",
   "checksAndReview": {
     "Criteria V4 automated checks": "100% Step 0-3 + Scope Gate + Harbor 19/19 PASS",
-    "Orion rollouts": "0/2 (72/88 and 73/88 tests passed at 134.2K and 133.4K tokens, below V4's 256,000-token floor)"
+    "Solver B rollouts": "0/2 (72/88 and 73/88 tests passed at 134.2K and 133.4K tokens, below V4's 256,000-token floor)"
   },
   "redactedPatchStats": {
     "solutionFiles": 3,

@@ -6,7 +6,7 @@
   "commit": "3f58eb0ce808f8c4917ab0b8ae67d133fc794c3f",
   "checksAndReview": {
     "Submission history": "Submitted 2026-10-04; reached finalizing_review",
-    "Strong-model rollout check": "4/4 Orion passes (median 495 LOC, 34.5 messages)",
+    "Strong-model rollout check": "4/4 Solver B passes (median 495 LOC, 34.5 messages)",
     "Platform status change": "Reverted to draft (managerVerdict = revert) after the V2 strong-model pass-rate cutoff"
   },
   "redactedPatchStats": {

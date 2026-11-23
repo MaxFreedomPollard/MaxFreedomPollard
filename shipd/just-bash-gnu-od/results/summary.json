@@ -5,8 +5,8 @@
   "repo": "vercel-labs/just-bash",
   "commit": "7537a260e38648e8998db7a95504102ad80b0194",
   "checksAndReview": {
-    "Nova rollouts": "0/8 passes (516K avg tokens)",
-    "Vega / Orion rollouts": "Vega passed (266K tokens); Orion 2/2 passed (134K-139K tokens, below V4's 256,000-token floor)"
+    "Solver A rollouts": "0/8 passes (516K avg tokens)",
+    "Solver C / Solver B rollouts": "Solver C passed (266K tokens); Solver B 2/2 passed (134K-139K tokens, below V4's 256,000-token floor)"
   },
   "redactedPatchStats": {
     "solutionFiles": 5,

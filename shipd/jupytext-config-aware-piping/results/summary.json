@@ -5,8 +5,8 @@
   "repo": "jupytext/jupytext",
   "commit": "932bcdb243842598acb00f6ab861b645bfc98b6a",
   "checksAndReview": {
-    "Orion rollouts": "0/7 passes (89,186 to 114,275 tokens)",
-    "Platform status change": "Reverted and archived at Criteria V4 cutover (< 256,000-token Orion floor)"
+    "Solver B rollouts": "0/7 passes (89,186 to 114,275 tokens)",
+    "Platform status change": "Reverted and archived at Criteria V4 cutover (< 256,000-token Solver B floor)"
   },
   "redactedPatchStats": {
     "solutionFiles": 5,

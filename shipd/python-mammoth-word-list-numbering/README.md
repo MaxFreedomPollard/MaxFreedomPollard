@@ -1,6 +1,6 @@
 # Keep list numbering when Word lists are interrupted or restarted
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and complete implementation clearing Scope Gate and image verification before auto-archiving under Criteria V4's compact-repo Orion horizon limit. Category: feature. Language: Python.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and complete implementation clearing Scope Gate and image verification before auto-archiving under Criteria V4's compact-repo Solver B horizon limit. Category: feature. Language: Python.
 
 - Target repository: https://github.com/mwilliamson/python-mammoth pinned to commit `f3b7b9fc73fdbffe6ebac77e6b3ac6c418ee33d9`
 - Hidden test suite: 2 test files, 1137 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -12,7 +12,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 | Measure | Value |
 |---|---|
 | Platform checks completed | Scope Gate PASS, Image verification PASS |
-| Platform status | Auto-archived on 2026-11-12; retired under Criteria V4's compact-repo Orion horizon limit |
+| Platform status | Auto-archived on 2026-11-12; retired under Criteria V4's compact-repo Solver B horizon limit |
 
 ## The task
 

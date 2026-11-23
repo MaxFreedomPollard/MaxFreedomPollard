@@ -11,9 +11,9 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 
 | Measure | Value |
 |---|---|
-| Nova pass rate | 0/8 = 0% |
-| Orion pass rate | 0/4 = 0% |
-| Vega pass rate | 1/4 = 25% |
+| Solver A pass rate | 0/8 = 0% |
+| Solver B pass rate | 0/4 = 0% |
+| Solver C pass rate | 1/4 = 25% |
 | Platform difficulty band | hard |
 | Median successful run | 868 LOC changed, 88 agent messages |
 | Final review | approved (Shipd Bot Auto Review), bands description/solution/tests = 3/3/2 (3 is top) |
@@ -39,7 +39,7 @@ The problem statement, written as a maintainer's issue and given to the agent ve
 - `metadata.json`: challenge record (id, status, repo, pinned commit)
 - `results/aggregate-stats.json`: solver pass/total and medians
 - `results/criteria.json`: the platform's submission criteria record
-- `results/nova-rollouts.csv`: one row per counted solver run (verdict, files, LOC, execution time, blocker flag)
+- `results/solver-rollouts.csv`: one row per counted solver run (verdict, files, LOC, execution time, blocker flag)
 - `results/review-outcomes.json`: sanitized review outcomes, per-field bands, and scores
 
 ## Reproduce the environment

@@ -1,6 +1,6 @@
 # Support config-aware notebook piping and cell filtering
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and built and rolled out (`0/7` Orion across `89K-114K` tokens) before being reverted/archived at the Criteria V4 cutover due to the new 256K-token Orion floor. Category: feature. Language: Python.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and built and rolled out (`0/7` Solver B across `89K-114K` tokens) before being reverted/archived at the Criteria V4 cutover due to the new 256K-token Solver B floor. Category: feature. Language: Python.
 
 - Target repository: https://github.com/jupytext/jupytext pinned to commit `932bcdb243842598acb00f6ab861b645bfc98b6a`
 - Hidden test suite: 2 test files (100% statement and branch coverage on modified lines), 1498 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -11,8 +11,8 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 
 | Measure | Value |
 |---|---|
-| Orion rollouts | 0/7 passes (89,186 to 114,275 tokens) |
-| Platform status change | Reverted and archived at Criteria V4 cutover (< 256,000-token Orion floor) |
+| Solver B rollouts | 0/7 passes (89,186 to 114,275 tokens) |
+| Platform status change | Reverted and archived at Criteria V4 cutover (< 256,000-token Solver B floor) |
 
 ## The task
 

@@ -6,7 +6,7 @@
   "commit": "a9ad9e0ef4d6b7e4443090e9a7201d847a881711",
   "checksAndReview": {
     "Submission history": "Submitted and reviewed 2026-09-03 (qualityScore = 4); revised through 2026-09-26",
-    "Solver runs (Luna)": "0/9 passes"
+    "Solver runs (gpt-5.6)": "0/9 passes"
   },
   "redactedPatchStats": {
     "solutionFiles": 6,

@@ -1,0 +1,11 @@
+label,agent,verdict,hidden_tests_passed,fault,files_modified,solution_loc,agent_messages,execution_seconds,environment_blocker
+Solver A #1,Solver A,PASS_LEGITIMATE,True,pass,7,428,101,807,False
+Solver A #10,Solver A,FAIL_MISSED_REQUIREMENT,False,agent,6,336,116,938,False
+Solver A #2,Solver A,FAIL_MISSED_REQUIREMENT,False,agent,8,350,86,693,False
+Solver A #3,Solver A,FAIL_MISSED_REQUIREMENT,False,agent,8,333,86,709,False
+Solver A #4,Solver A,FAIL_MISSED_REQUIREMENT,False,agent,9,369,86,838,False
+Solver A #5,Solver A,FAIL_MISSED_REQUIREMENT,False,agent,8,408,120,1036,False
+Solver A #6,Solver A,FAIL_MISSED_REQUIREMENT,False,agent,6,358,94,911,False
+Solver A #7,Solver A,FAIL_MISSED_REQUIREMENT,False,agent,6,345,107,974,False
+Solver A #8,Solver A,FAIL_MISSED_REQUIREMENT,False,agent,7,420,86,901,False
+Solver A #9,Solver A,FAIL_MISSED_REQUIREMENT,False,agent,6,401,107,894,False

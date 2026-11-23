@@ -6,7 +6,7 @@
   "commit": "4408fed200e9a5fd1f5ea520a3b2707ad6500fb4",
   "checksAndReview": {
     "Criteria V4 automated checks": "10/10 PASS (Prechecks 15/15, Scope Gate, Verify Tests 467/23, Harbor Verify Solution, Flakiness 6x/6x, Description Quality, Solution Quality, Reward Hacking, Test Quality 0/0)",
-    "Orion rollouts": "1/3 solved (passing run: 228.6K tokens; stopped short of V4's 256,000-token floor due to C++ rebuild wall-clock budget)"
+    "Solver B rollouts": "1/3 solved (passing run: 228.6K tokens; stopped short of V4's 256,000-token floor due to C++ rebuild wall-clock budget)"
   },
   "redactedPatchStats": {
     "solutionFiles": 23,

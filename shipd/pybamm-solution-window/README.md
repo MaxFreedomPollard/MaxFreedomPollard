@@ -1,6 +1,6 @@
 # Extract windows from composite solution histories
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and cleared **100% of Criteria V4 Step 0-3 + Scope Gate + Harbor (`19/19`) checks**, then stopped after `Orion 0/2` (`133K-134K` tokens) fell below V4's 256K-token floor. Category: feature. Language: Python.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and cleared **100% of Criteria V4 Step 0-3 + Scope Gate + Harbor (`19/19`) checks**, then stopped after `Solver B 0/2` (`133K-134K` tokens) fell below V4's 256K-token floor. Category: feature. Language: Python.
 
 - Target repository: https://github.com/pybamm-team/PyBaMM pinned to commit `8c6816d27acb7c4b28b6222094da452f75202ac8`
 - Hidden test suite: 88 test cases across 3 files, 1609 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -12,7 +12,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 | Measure | Value |
 |---|---|
 | Criteria V4 automated checks | 100% Step 0-3 + Scope Gate + Harbor 19/19 PASS |
-| Orion rollouts | 0/2 (72/88 and 73/88 tests passed at 134.2K and 133.4K tokens, below V4's 256,000-token floor) |
+| Solver B rollouts | 0/2 (72/88 and 73/88 tests passed at 134.2K and 133.4K tokens, below V4's 256,000-token floor) |
 
 ## The task
 

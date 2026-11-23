@@ -6,7 +6,7 @@
   "commit": "89df9871b84843ad8b9dbd48d5b8d11d06227acf",
   "checksAndReview": {
     "Criteria V4 automated checks": "Prechecks 14/14 PASS, Scope Gate PASS, Verify Tests 574/32 PASS, Harbor PASS, Reward Hacking PASS, Solution Quality PASS, Test Fairness PASS (0 blocking)",
-    "V4 rollouts": "Nova 0/4 (639.5K avg tokens); Orion avg 121.1K tokens (stopped below V4's 256,000-token floor)"
+    "V4 rollouts": "Solver A 0/4 (639.5K avg tokens); Solver B avg 121.1K tokens (stopped below V4's 256,000-token floor)"
   },
   "redactedPatchStats": {
     "solutionFiles": 8,

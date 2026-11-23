@@ -36,19 +36,19 @@
    "status": "pass"
   },
   {
-   "detail": "Nova 0/4 \u00b7 Orion 0/4 \u00b7 Vega 4/4",
+   "detail": "Solver A 0/4 \u00b7 Solver B 0/4 \u00b7 Solver C 4/4",
    "id": "agentCodenameCoverage",
    "label": "Rollouts on every model",
    "status": "pending"
   },
   {
-   "detail": "Nova 0/0 solved \u00b7 Orion 0/0 solved \u00b7 Vega 1/4 solved",
+   "detail": "Solver A 0/0 solved \u00b7 Solver B 0/0 solved \u00b7 Solver C 1/4 solved",
    "id": "agentPassStructure",
    "label": "Solved by one model only",
    "status": "pending"
   },
   {
-   "id": "agentNovaSequenceLength",
+   "id": "agentSolverASequenceLength",
    "label": "Long horizon",
    "status": "pending"
   },

@@ -1,6 +1,6 @@
 # Add structured template diagnostics to Nunjucks errors
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and submitted for human review (`2026-08-31`, reviewed `2026-09-01`, `0/10` Luna) and revised through `2026-09-23`. Category: feature. Language: JavaScript.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and submitted for human review (`2026-08-31`, reviewed `2026-09-01`, `0/10` gpt-5.6) and revised through `2026-09-23`. Category: feature. Language: JavaScript.
 
 - Target repository: https://github.com/mozilla/nunjucks pinned to commit `2025c933fba374482ef97122514bb36de6bf9de4`
 - Hidden test suite: 4 test files, 2849 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -12,7 +12,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 | Measure | Value |
 |---|---|
 | Submission history | Submitted 2026-08-31, reviewed 2026-09-01 (qualityScore = 4); revised through 2026-09-23 |
-| Solver runs (Luna) | 0/10 passes |
+| Solver runs (gpt-5.6) | 0/10 passes |
 
 ## The task
 

@@ -1,0 +1,11 @@
+label,agent,harness,verdict,baseline_passed,new_tests_passed,files_modified,solution_loc,execution_seconds,environment_blocker
+Solver A #1,Solver A,codex_cli,FAIL_MISSED_REQUIREMENT,True,False,4,355,548,False
+Solver A #2,Solver A,codex_cli,FAIL_MISSED_REQUIREMENT,True,False,6,402,710,False
+Solver A #3,Solver A,codex_cli,FAIL_MISSED_REQUIREMENT,True,False,4,364,645,False
+Solver A #4,Solver A,codex_cli,FAIL_MISSED_REQUIREMENT,True,False,5,389,575,False
+Solver A #5,Solver A,codex_cli,PASS_LEGITIMATE,True,True,6,419,583,False
+Solver A #6,Solver A,codex_cli,PASS_LEGITIMATE,True,True,4,353,471,False
+Solver A #7,Solver A,codex_cli,PASS_LEGITIMATE,True,True,4,358,489,False
+Solver A #8,Solver A,codex_cli,FAIL_MISSED_REQUIREMENT,True,False,4,377,542,False
+Solver A #9,Solver A,codex_cli,PASS_LEGITIMATE,True,True,4,361,651,False
+Solver A #10,Solver A,codex_cli,FAIL_MISSED_REQUIREMENT,True,False,4,361,949,False

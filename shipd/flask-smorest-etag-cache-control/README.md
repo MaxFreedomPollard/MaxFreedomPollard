@@ -1,6 +1,6 @@
 # Conditional ETag and Cache-Control lifecycle
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and complete implementation with `103` F2P tests (`100%` statement and branch coverage on modified lines); auto-archived before Criteria V4 because compact ~2.5K-LOC libraries sit below the 256K-token Orion ceiling. Category: feature. Language: Python.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and complete implementation with `103` F2P tests (`100%` statement and branch coverage on modified lines); auto-archived before Criteria V4 because compact ~2.5K-LOC libraries sit below the 256K-token Solver B ceiling. Category: feature. Language: Python.
 
 - Target repository: https://github.com/marshmallow-code/flask-smorest pinned to commit `2a0dc534586cf37742e3a2c59c36b8a5066446f7`
 - Hidden test suite: 103 F2P tests across 2 files, 4219 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -12,7 +12,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 | Measure | Value |
 |---|---|
 | Local verification | 103 F2P tests passing, 100% statement and branch coverage |
-| Platform status | Auto-archived on 2026-11-12; retired under Criteria V4's compact-repo Orion horizon limit |
+| Platform status | Auto-archived on 2026-11-12; retired under Criteria V4's compact-repo Solver B horizon limit |
 
 ## The task
 

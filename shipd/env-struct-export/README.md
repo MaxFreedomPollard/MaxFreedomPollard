@@ -1,6 +1,6 @@
 # Export under Parse key ownership
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and **Auto Review approved (3/2/2)** on `2026-11-02` (`effectiveScope: meets_bar`), then held while iterating toward 3/3/3 until Criteria V4's 256K-token Orion floor retired compact Go packages. Category: feature. Language: Go.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and **Auto Review approved (3/2/2)** on `2026-11-02` (`effectiveScope: meets_bar`), then held while iterating toward 3/3/3 until Criteria V4's 256K-token Solver B floor retired compact Go packages. Category: feature. Language: Go.
 
 - Target repository: https://github.com/caarlos0/env pinned to commit `505764460181dd3bfcd15b26dc7f63b7322737ad`
 - Hidden test suite: 3 test files, 4823 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -13,7 +13,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 |---|---|
 | Auto Review | approved, bands description/solution/tests = 3/2/2, effectiveScope = meets_bar |
 | Platform quality checks | Verify Solution PASS, Verify Tests PASS, Verify Flakiness PASS, Solution Quality PASS, Test Fairness PASS |
-| Platform status change | Archived after Criteria V4 cutover because compact ~2K-LOC Go libraries sit below V4's 256,000-token Orion floor |
+| Platform status change | Archived after Criteria V4 cutover because compact ~2K-LOC Go libraries sit below V4's 256,000-token Solver B floor |
 
 ## The task
 

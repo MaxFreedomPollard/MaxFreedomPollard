@@ -6,7 +6,7 @@
   "commit": "bbcea1835921cadc7edeeccbfa922cce5688ac0c",
   "checksAndReview": {
     "Submission history": "Submitted 2026-09-17, reviewed 2026-09-18 (qualityScore = 3); later dropped by Scope Gate cross-language overlap rule",
-    "Solver runs (Luna)": "0/10 passes"
+    "Solver runs (gpt-5.6)": "0/10 passes"
   },
   "redactedPatchStats": {
     "solutionFiles": 6,

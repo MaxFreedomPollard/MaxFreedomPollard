@@ -12,7 +12,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 | Measure | Value |
 |---|---|
 | Submission history | Submitted 2026-10-04; reached finalizing_review |
-| Strong-model rollout check | 4/4 Orion passes (median 495 LOC, 34.5 messages) |
+| Strong-model rollout check | 4/4 Solver B passes (median 495 LOC, 34.5 messages) |
 | Platform status change | Reverted to draft (managerVerdict = revert) after the V2 strong-model pass-rate cutoff |
 
 ## The task

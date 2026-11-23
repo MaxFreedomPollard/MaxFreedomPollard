@@ -1,6 +1,6 @@
 # Support type visibility annotations in open and closed world
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and cleared **10/10 Criteria V4 automated checks** (`15/15` Prechecks, Scope Gate, `467/23` tests, Harbor, Flakiness `6x/6x`, Description Quality, Solution Quality, Reward Hacking, Test Quality `0/0`) and solved `1/3` on Orion (`228.6K` tokens). Category: feature. Language: C++.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and cleared **10/10 Criteria V4 automated checks** (`15/15` Prechecks, Scope Gate, `467/23` tests, Harbor, Flakiness `6x/6x`, Description Quality, Solution Quality, Reward Hacking, Test Quality `0/0`) and solved `1/3` on Solver B (`228.6K` tokens). Category: feature. Language: C++.
 
 - Target repository: https://github.com/WebAssembly/binaryen pinned to commit `4408fed200e9a5fd1f5ea520a3b2707ad6500fb4`
 - Hidden test suite: 23 F2P tests (+ 467 baseline tests) across 2 files, 2500 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -12,7 +12,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 | Measure | Value |
 |---|---|
 | Criteria V4 automated checks | 10/10 PASS (Prechecks 15/15, Scope Gate, Verify Tests 467/23, Harbor Verify Solution, Flakiness 6x/6x, Description Quality, Solution Quality, Reward Hacking, Test Quality 0/0) |
-| Orion rollouts | 1/3 solved (passing run: 228.6K tokens; stopped short of V4's 256,000-token floor due to C++ rebuild wall-clock budget) |
+| Solver B rollouts | 1/3 solved (passing run: 228.6K tokens; stopped short of V4's 256,000-token floor due to C++ rebuild wall-clock budget) |
 
 ## The task
 

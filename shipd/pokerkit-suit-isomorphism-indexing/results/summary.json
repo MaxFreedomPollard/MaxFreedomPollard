@@ -5,9 +5,9 @@
   "repo": "uoftcprg/pokerkit",
   "commit": "b2fcc75c05ac43b210dd7e5ea71c0bd2f82ac3d6",
   "checksAndReview": {
-    "Nova pass rate": "0/4 = 0%",
-    "Orion pass rate": "1/4 = 25% (1,488 LOC, 59 messages; passing Orion runs took 130K and 155.7K tokens)",
-    "Vega pass rate": "0/4 = 0%",
+    "Solver A pass rate": "0/4 = 0%",
+    "Solver B pass rate": "1/4 = 25% (1,488 LOC, 59 messages; passing Solver B runs took 130K and 155.7K tokens)",
+    "Solver C pass rate": "0/4 = 0%",
     "Auto Review (baseline)": "approved, bands description/tests/solution = 3/3/2 (3 is top)",
     "Human review": "submitted 2026-10-19, reviewed 2026-10-24; revised in revisions/2026-11-01-3of3 before V4 256K-token cutoff"
   },

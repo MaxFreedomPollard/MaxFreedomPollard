@@ -6,7 +6,7 @@
   "commit": "f43fce450a7b53fe27a5b99ca5ef5494c22eee72",
   "checksAndReview": {
     "Criteria V4 automated checks (R30)": "100% pre-rollout gates PASS (0 warnings)",
-    "Orion #1 rollout": "1/1 PASS_LEGITIMATE (116,214 tokens, below V4's 256,000-token floor)"
+    "Solver B #1 rollout": "1/1 PASS_LEGITIMATE (116,214 tokens, below V4's 256,000-token floor)"
   },
   "redactedPatchStats": {
     "solutionFiles": 3,

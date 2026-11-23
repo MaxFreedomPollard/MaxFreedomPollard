@@ -11,7 +11,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 
 | Measure | Value |
 |---|---|
-| Nova (platform solver, codex_cli / openai/gpt-5.6-luna) pass rate | 4/10 = 40% |
+| Solver A (platform solver, codex_cli / openai/gpt-5.6) pass rate | 4/10 = 40% |
 | Platform difficulty band | medium |
 | Median successful run | 413.5 LOC changed, 55 agent messages |
 | Human review | approved, bands description/solution/tests = 3/3/3 (3 is the top band), after 1 review round |
@@ -45,7 +45,7 @@ The problem statement, written as a maintainer's issue and given to the agent ve
 - `metadata.json`: platform record (id, version, repo, commit)
 - `results/criteria.json`: the platform's submission criteria record
 - `results/aggregate-stats.json`: solver pass/total and medians
-- `results/nova-rollouts.csv`: one row per solver run counted at acceptance (verdict, files, LOC, messages, time, blocker flag)
+- `results/solver-rollouts.csv`: one row per solver run counted at acceptance (verdict, files, LOC, messages, time, blocker flag)
 - `results/review-outcomes.json`: every human review round: outcome, per-field bands, scores
 
 ## Reproduce the environment

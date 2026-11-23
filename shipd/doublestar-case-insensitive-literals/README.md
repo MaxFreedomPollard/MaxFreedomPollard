@@ -1,6 +1,6 @@
 # Fix case-insensitive literal path resolution
 
-Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and submitted for human review on `2026-09-03` (`0/9` Luna) and revised through `2026-09-26` with VCA verification. Category: bug fix. Language: Go.
+Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacurve) and submitted for human review on `2026-09-03` (`0/9` gpt-5.6) and revised through `2026-09-26` with VCA verification. Category: bug fix. Language: Go.
 
 - Target repository: https://github.com/bmatcuk/doublestar pinned to commit `a9ad9e0ef4d6b7e4443090e9a7201d847a881711`
 - Hidden test suite: 2 test files, 2764 added lines, plus a `test.sh` runner; **redacted from this copy, see `REDACTED.md`**
@@ -12,7 +12,7 @@ Benchmark challenge for autonomous coding agents, authored for shipd.ai (Datacur
 | Measure | Value |
 |---|---|
 | Submission history | Submitted and reviewed 2026-09-03 (qualityScore = 4); revised through 2026-09-26 |
-| Solver runs (Luna) | 0/9 passes |
+| Solver runs (gpt-5.6) | 0/9 passes |
 
 ## The task
 
