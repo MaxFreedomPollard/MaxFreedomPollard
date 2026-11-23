@@ -27,7 +27,7 @@ In addition to my collaborative open-source work, I have released free, local-fi
 
 ## Benchmark challenges
 
-Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD platform ([full index and platform records in `shipd/`](shipd/)), with the hidden tests and reference solutions withheld from the public copies to protect Datacurve's proprietary data:
+Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD platform, with the hidden tests and reference solutions withheld from the public copies to protect Datacurve's proprietary data:
 
 ### A selection of reviewed challenges
 
