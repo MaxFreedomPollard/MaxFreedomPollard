@@ -27,9 +27,9 @@ In addition to my collaborative open-source work, I have released free, local-fi
 
 ## Benchmark challenges
 
-Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD platform ([full index and platform records in `shipd/`](shipd/)), with the hidden tests and reference solutions withheld from the public copies:
+Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD platform ([full index and platform records in `shipd/`](shipd/)), with the hidden tests and reference solutions withheld from the public copies to protect Datacurve's proprietary data:
 
-### Accepted (13)
+### A selection of reviewed challenges
 
 - **[netflix/archaius](https://github.com/netflix/archaius)**: [Decode sorted and navigable collections](shipd/archaius-sorted-navigable-collections/)
 - **[webpack/enhanced-resolve](https://github.com/webpack/enhanced-resolve)**: [Stream distinct yielded resolutions with complete, transparent unsafe-cache outcomes](shipd/enhanced-resolve-yielded-resolutions/)
@@ -44,11 +44,6 @@ Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD pla
 - **[tobymao/sqlglot](https://github.com/tobymao/sqlglot)**: [Support postgres session statements and the @ and ^@ operators](shipd/sqlglot-postgres-session-statements/)
 - **[u-root/u-root](https://github.com/u-root/u-root)**: [Lossless write-back of parsed SMBIOS structures](shipd/u-root-smbios-writeback/)
 - **[chipsalliance/verible](https://github.com/chipsalliance/verible)**: [Recognise default arms in the inside, matches and generate case forms, and require begin and end after do, repeat and final](shipd/verible-case-default-forms/)
-
-### Auto Review and human-review submissions (10)
-
-Challenges that passed Auto Review, reached `finalizing_review`, or completed human review before retroactive platform policy changes (such as the Criteria V4 256K-token Orion sequence floor):
-
 - **[boombuler/barcode](https://github.com/boombuler/barcode)**: [Add Micro QR Code encoding](shipd/barcode-micro-qr-encoding/)
 - **[bmatcuk/doublestar](https://github.com/bmatcuk/doublestar)**: [Fix case-insensitive literal path resolution](shipd/doublestar-case-insensitive-literals/)
 - **[caarlos0/env](https://github.com/caarlos0/env)**: [Export under Parse key ownership](shipd/env-struct-export/)
@@ -59,9 +54,6 @@ Challenges that passed Auto Review, reached `finalizing_review`, or completed hu
 - **[uoftcprg/pokerkit](https://github.com/uoftcprg/pokerkit)**: [Index deals up to suit isomorphism](shipd/pokerkit-suit-isomorphism-indexing/)
 - **[sympy/sympy](https://github.com/sympy/sympy)**: [Add Kostka-Foulkes polynomials](shipd/sympy-kostka-foulkes-polynomials/)
 - **[pallets-eco/wtforms](https://github.com/pallets-eco/wtforms)**: [Add form and field change tracking, partial patching, reset, and commit](shipd/wtforms-change-tracking-patch-reset-commit/)
-
-### Criteria V4 audited and complete builds (12)
-
 - **[WebAssembly/binaryen](https://github.com/WebAssembly/binaryen)**: [Support type visibility annotations in open and closed world](shipd/binaryen-type-visibility/)
 - **[evanw/esbuild](https://github.com/evanw/esbuild)**: [Preserve ESM module evaluation order with code splitting](shipd/esbuild-splitting-import-order/)
 - **[marshmallow-code/flask-smorest](https://github.com/marshmallow-code/flask-smorest)**: [Conditional ETag and Cache-Control lifecycle](shipd/flask-smorest-etag-cache-control/)
