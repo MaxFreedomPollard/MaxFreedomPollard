@@ -63,12 +63,22 @@ THEMES = {
     },
 }
 
+KAGGLE_CARD_HEIGHT = 68
+
 KAGGLE_SLICES: dict[str, tuple[int, int]] = {
-    "left": (0, 243),      # 27% of 900
-    "ieee": (243, 288),    # 32% of 900
-    "quantum": (531, 279), # 31% of 900
-    "live": (810, 90),     # 10% of 900
+    "left": (0, 144),      # 16% of 900
+    "ieee": (144, 189),    # 21% of 900
+    "neurips": (333, 189), # 21% of 900
+    "rogii": (522, 189),   # 21% of 900
+    "quantum": (711, 189), # 21% of 900
 }
+
+KAGGLE_BUTTON_GEOMETRY: tuple[tuple[str, int, int], ...] = (
+    ("ieee", 153, 177),
+    ("neurips", 340, 177),
+    ("rogii", 527, 177),
+    ("quantum", 714, 177),
+)
 
 
 def _card_frame(
@@ -78,50 +88,57 @@ def _card_frame(
     *,
     view_x: int = 0,
     view_w: int = 900,
+    height: int = 50,
     include_button_defs: bool = False,
+    btn_y0: float = 9.5,
+    btn_y1: float = 40.5,
 ) -> tuple[str, str]:
     t = THEMES[theme_name]
+    card_h = height - 6
+    div_y0 = 14 if height > 50 else 13
+    div_y1 = height - div_y0
+    glow_cy = height / 2
     div_lines = "\n  ".join(
-        f'<line x1="{x}" y1="13" x2="{x}" y2="37" stroke="{t["divider"]}" stroke-width="1"/>'
+        f'<line x1="{x}" y1="{div_y0}" x2="{x}" y2="{div_y1}" stroke="{t["divider"]}" stroke-width="1"/>'
         for x in dividers
     )
     btn_defs = ""
     if include_button_defs:
         btn_defs = f'''
-    <linearGradient id="btnBg" x1="0" y1="9.5" x2="0" y2="40.5" gradientUnits="userSpaceOnUse">
+    <linearGradient id="btnBg" x1="0" y1="{btn_y0}" x2="0" y2="{btn_y1}" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="{t['btn_bg0']}"/>
       <stop offset="100%" stop-color="{t['btn_bg1']}"/>
     </linearGradient>
-    <linearGradient id="btnBorder" x1="0" y1="9.5" x2="0" y2="40.5" gradientUnits="userSpaceOnUse">
+    <linearGradient id="btnBorder" x1="0" y1="{btn_y0}" x2="0" y2="{btn_y1}" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="{t['btn_border0']}" stop-opacity="{t['btn_border0_op']}"/>
       <stop offset="100%" stop-color="{t['btn_border1']}" stop-opacity="{t['btn_border1_op']}"/>
     </linearGradient>'''
 
-    head = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{view_w}" height="50" viewBox="{view_x} 0 {view_w} 50" fill="none">
+    head = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{view_w}" height="{height}" viewBox="{view_x} 0 {view_w} {height}" fill="none">
   <defs>
-    <linearGradient id="bg" x1="0" y1="3" x2="900" y2="47" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="3" x2="900" y2="{height - 3}" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="{t['bg0']}"/>
       <stop offset="55%" stop-color="{t['bg1']}"/>
       <stop offset="100%" stop-color="{t['bg2']}"/>
     </linearGradient>
-    <radialGradient id="glow" cx="120" cy="25" r="240" gradientUnits="userSpaceOnUse">
+    <radialGradient id="glow" cx="120" cy="{glow_cy:g}" r="240" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="{accent_color}" stop-opacity="{t['glow_opacity']}"/>
       <stop offset="100%" stop-color="{accent_color}" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="border" x1="450" y1="3" x2="450" y2="47" gradientUnits="userSpaceOnUse">
+    <linearGradient id="border" x1="450" y1="3" x2="450" y2="{height - 3}" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="{t['border0']}"/>
       <stop offset="100%" stop-color="{t['border1']}"/>
     </linearGradient>{btn_defs}
     <clipPath id="clip">
-      <rect x="1" y="3" width="898" height="44" rx="10"/>
+      <rect x="1" y="3" width="898" height="{card_h}" rx="10"/>
     </clipPath>
   </defs>
 
   <g clip-path="url(#clip)">
-    <rect x="1" y="3" width="898" height="44" rx="10" fill="url(#bg)"/>
-    <rect x="1" y="3" width="898" height="44" fill="url(#glow)"/>
+    <rect x="1" y="3" width="898" height="{card_h}" rx="10" fill="url(#bg)"/>
+    <rect x="1" y="3" width="898" height="{card_h}" fill="url(#glow)"/>
   </g>
-  <rect x="1" y="3" width="898" height="44" rx="10" stroke="url(#border)" stroke-width="1"/>
+  <rect x="1" y="3" width="898" height="{card_h}" rx="10" stroke="url(#border)" stroke-width="1"/>
   {div_lines}'''
     return head, "</svg>\n"
 
@@ -179,64 +196,65 @@ def render_oss_stripe(
     return f"{head}{body}\n{tail}"
 
 
+def _kaggle_button(
+    t: dict[str, str],
+    *,
+    x: int,
+    w: int,
+    label: str,
+    rank_text: str,
+    sub_text: str,
+) -> str:
+    label_fs = "10.3" if len(label) > 20 else "11.0"
+    rank_fs = "14.5" if len(f"{rank_text} {sub_text}".strip()) <= 14 else "13.5"
+    sub_tspan = (
+        f'<tspan fill="{t["text_muted"]}" font-size="11.0" font-weight="500">&#160;{escape(sub_text)}</tspan>'
+        if sub_text
+        else ""
+    )
+    ax1 = x + w - 16.5
+    ax2 = x + w - 10.5
+    ax3 = x + w - 14.7
+    return f'''
+  <!-- Competition button: {escape(label)} -->
+  <rect x="{x}" y="10" width="{w}" height="48" rx="8" fill="url(#btnBg)" stroke="url(#btnBorder)" stroke-width="1"/>
+  <text x="{x + 11}" y="27.5" fill="{t['text_secondary']}" font-family="{FONT_STACK}" font-size="{label_fs}" font-weight="500">{escape(label)}</text>
+  <path d="M{ax1:g} 26.2L{ax2:g} 20.2M{ax3:g} 20.2H{ax2:g}V24.6" stroke="{t['btn_icon']}" stroke-opacity="0.82" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="{x + 11}" y="48.5" font-family="{FONT_STACK}" font-size="{rank_fs}" xml:space="preserve"><tspan fill="{t['text_primary']}" font-weight="700">{escape(rank_text)}</tspan>{sub_tspan}</text>'''
+
+
 def _kaggle_body(
     theme_name: str,
     *,
     entered_count: int,
-    ieee_text: str,
-    ieee_sub: str,
-    quantum_text: str,
-    quantum_sub: str,
+    competitions: dict[str, tuple[str, str, str]],
 ) -> str:
     t = THEMES[theme_name]
-    ieee_len = len(f"IEEE: {ieee_text} {ieee_sub}".strip())
-    ieee_fs = "11.0" if ieee_len > 34 else "11.9"
-    ieee_sub_fs = "10.2" if ieee_len > 34 else "10.9"
-
-    quantum_len = len(f"Google Quantum AI: {quantum_text} {quantum_sub}".strip())
-    quantum_fs = "10.7" if quantum_len > 35 else "11.9"
-    quantum_sub_fs = "10.0" if quantum_len > 35 else "10.9"
-
-    ieee_sub_tspan = (
-        f'<tspan fill="{t["text_muted"]}" font-size="{ieee_sub_fs}">&#160;{escape(ieee_sub)}</tspan>'
-        if ieee_sub
-        else ""
+    buttons = "".join(
+        _kaggle_button(
+            t,
+            x=bx,
+            w=bw,
+            label=competitions[key][0],
+            rank_text=competitions[key][1],
+            sub_text=competitions[key][2],
+        )
+        for key, bx, bw in KAGGLE_BUTTON_GEOMETRY
     )
-    quantum_sub_tspan = (
-        f'<tspan fill="{t["text_muted"]}" font-size="{quantum_sub_fs}">&#160;{escape(quantum_sub)}</tspan>'
-        if quantum_sub
-        else ""
-    )
-
     return f'''
-  <!-- Left label: Kaggle mark + Competitions entered -->
-  <rect x="16" y="16" width="18" height="18" rx="4.5" fill="{t['kaggle']}" fill-opacity="0.16"/>
-  <text x="25" y="29" text-anchor="middle" fill="{t['kaggle']}" font-family="{FONT_STACK}" font-size="11.5" font-weight="800">K</text>
-  <text x="41" y="29" font-family="{FONT_STACK}" font-size="11.3" xml:space="preserve"><tspan fill="{t['text_label']}" font-weight="700" letter-spacing="0.35">KAGGLE</tspan><tspan fill="{t['text_muted']}">&#160;·&#160;</tspan><tspan fill="{t['text_secondary']}" font-weight="500">Competitions: </tspan><tspan fill="{t['text_primary']}" font-weight="600">{entered_count}</tspan></text>
-
-  <!-- Button 1: IEEE Big Data public leaderboard -->
-  <rect x="249" y="9.5" width="276" height="31" rx="7.5" fill="url(#btnBg)" stroke="url(#btnBorder)" stroke-width="1"/>
-  <text x="379" y="29.2" text-anchor="middle" font-family="{FONT_STACK}" font-size="{ieee_fs}" xml:space="preserve"><tspan fill="{t['text_secondary']}" font-weight="500">IEEE: </tspan><tspan fill="{t['text_primary']}" font-weight="600">{escape(ieee_text)}</tspan>{ieee_sub_tspan}</text>
-  <path d="M507.5 28.2L514 21.7M509.3 21.7H514V26.4" stroke="{t['btn_icon']}" stroke-opacity="0.85" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Button 2: Google Quantum AI public leaderboard -->
-  <rect x="535" y="9.5" width="269" height="31" rx="7.5" fill="url(#btnBg)" stroke="url(#btnBorder)" stroke-width="1"/>
-  <text x="661.5" y="29.2" text-anchor="middle" font-family="{FONT_STACK}" font-size="{quantum_fs}" xml:space="preserve"><tspan fill="{t['text_secondary']}" font-weight="500">Google Quantum AI: </tspan><tspan fill="{t['text_primary']}" font-weight="600">{escape(quantum_text)}</tspan>{quantum_sub_tspan}</text>
-  <path d="M786.5 28.2L793 21.7M788.3 21.7H793V26.4" stroke="{t['btn_icon']}" stroke-opacity="0.85" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <!-- Right cell: 15m live indicator -->
-  <circle cx="826" cy="25" r="3" fill="{t['kaggle']}"/>
-  <text x="835" y="29" fill="{t['text_muted']}" font-family="{FONT_STACK}" font-size="11.5" font-weight="500">15m live</text>'''
+  <!-- Left label: Kaggle mark, count, and live indicator -->
+  <rect x="16" y="13.5" width="18" height="18" rx="4.5" fill="{t['kaggle']}" fill-opacity="0.16"/>
+  <text x="25" y="26.5" text-anchor="middle" fill="{t['kaggle']}" font-family="{FONT_STACK}" font-size="11.5" font-weight="800">K</text>
+  <text x="41" y="26.5" font-family="{FONT_STACK}" font-size="11.5" xml:space="preserve"><tspan fill="{t['text_label']}" font-weight="700" letter-spacing="0.35">KAGGLE</tspan><tspan fill="{t['text_muted']}">&#160;·&#160;</tspan><tspan fill="{t['text_primary']}" font-weight="600">{entered_count}</tspan></text>
+  <circle cx="20" cy="44" r="3" fill="{t['kaggle']}"/>
+  <text x="29" y="47.8" fill="{t['text_muted']}" font-family="{FONT_STACK}" font-size="10.8" font-weight="500">Public · 15m live</text>{buttons}'''
 
 
 def render_kaggle_stripe(
     theme_name: str,
     *,
     entered_count: int,
-    ieee_text: str,
-    ieee_sub: str,
-    quantum_text: str,
-    quantum_sub: str,
+    competitions: dict[str, tuple[str, str, str]],
     view_x: int = 0,
     view_w: int = 900,
 ) -> str:
@@ -244,18 +262,18 @@ def render_kaggle_stripe(
     head, tail = _card_frame(
         theme_name,
         t["kaggle"],
-        [242, 809],
+        [144],
         view_x=view_x,
         view_w=view_w,
+        height=KAGGLE_CARD_HEIGHT,
         include_button_defs=True,
+        btn_y0=10,
+        btn_y1=58,
     )
     body = _kaggle_body(
         theme_name,
         entered_count=entered_count,
-        ieee_text=ieee_text,
-        ieee_sub=ieee_sub,
-        quantum_text=quantum_text,
-        quantum_sub=quantum_sub,
+        competitions=competitions,
     )
     return f"{head}{body}\n{tail}"
 
@@ -264,21 +282,15 @@ def render_kaggle_slices(
     theme_name: str,
     *,
     entered_count: int,
-    ieee_text: str,
-    ieee_sub: str,
-    quantum_text: str,
-    quantum_sub: str,
+    competitions: dict[str, tuple[str, str, str]],
 ) -> dict[str, str]:
-    """Render the 4 seamless horizontal slices (`left`, `ieee`, `quantum`, `live`)."""
+    """Render the 5 seamless horizontal slices (`left`, `ieee`, `neurips`, `rogii`, `quantum`)."""
     out: dict[str, str] = {}
     for slice_name, (vx, vw) in KAGGLE_SLICES.items():
         out[slice_name] = render_kaggle_stripe(
             theme_name,
             entered_count=entered_count,
-            ieee_text=ieee_text,
-            ieee_sub=ieee_sub,
-            quantum_text=quantum_text,
-            quantum_sub=quantum_sub,
+            competitions=competitions,
             view_x=vx,
             view_w=vw,
         )

@@ -20,11 +20,38 @@ from svg_stripes import render_kaggle_slices, render_kaggle_stripe  # noqa: E402
 KAGGLE_BASE = "https://www.kaggle.com"
 KAGGLE_RPC = f"{KAGGLE_BASE}/api/i"
 
-IEEE_SLUG = "2026-ieee-big-data-traffic-flow-bench"
-IEEE_ID_DEFAULT = 153956
+SLICE_PREFIX = "kaggle-v2"
 
-QUANTUM_SLUG = "google-verifiable-quantum-circuit-compilation"
-QUANTUM_ID_DEFAULT = 161954
+COMPETITIONS: tuple[dict, ...] = (
+    {
+        "key": "ieee",
+        "label": "IEEE Big Data",
+        "slug": "2026-ieee-big-data-traffic-flow-bench",
+        "fallback_id": 153956,
+        "seed": {"public_rank": 1, "private_rank": 23, "public_score": "0.93124", "total_teams": 802},
+    },
+    {
+        "key": "neurips",
+        "label": "NeurIPS Smart Buildings",
+        "slug": "neurips-2026-smart-buildings",
+        "fallback_id": 157303,
+        "seed": {"public_rank": 30, "private_rank": None, "public_score": "0.00906", "total_teams": 522},
+    },
+    {
+        "key": "rogii",
+        "label": "ROGII Wellbore",
+        "slug": "rogii-2-wellbore-curve-tracing",
+        "fallback_id": 181555,
+        "seed": {"public_rank": 58, "private_rank": None, "public_score": "0.6825", "total_teams": 153},
+    },
+    {
+        "key": "quantum",
+        "label": "Google Quantum AI",
+        "slug": "google-verifiable-quantum-circuit-compilation",
+        "fallback_id": 161954,
+        "seed": {"public_rank": 442, "private_rank": None, "public_score": "33.27214", "total_teams": 3825},
+    },
+)
 
 CANDIDATE_TEAM_NAMES = {
     "max pollard",
@@ -182,8 +209,14 @@ def _fetch_competition_standing(
         {"competitionId": comp_id, "leaderboardMode": "LEADERBOARD_MODE_DEFAULT"},
     )
     teams = board.get("teams") or []
-    pub_ranks = _index_board(board.get("publicLeaderboard"))
+    pub_rows = board.get("publicLeaderboard") or []
+    pub_ranks = _index_board(pub_rows)
     priv_ranks = _index_board(board.get("privateLeaderboard"))
+    pub_scores = {
+        int(row["teamId"]): row.get("displayScore")
+        for row in pub_rows
+        if row.get("teamId") is not None
+    }
 
     total_teams = max(
         len(pub_ranks),
@@ -200,6 +233,7 @@ def _fetch_competition_standing(
         "team_id": tid,
         "team_name": team.get("teamName") if team else None,
         "public_rank": pub_ranks.get(tid) if tid is not None else None,
+        "public_score": pub_scores.get(tid) if tid is not None else None,
         "private_rank": priv_ranks.get(tid) if tid is not None else None,
         "total_teams": total_teams,
     }
@@ -225,62 +259,39 @@ def _try_profile_entered_count(client: KagglePublicClient, handles: set[str]) ->
     return None, None
 
 
-def _format_ieee(info: dict) -> tuple[str, str]:
+def _format_public_standing(info: dict) -> tuple[str, str]:
     pub = info.get("public_rank")
-    priv = info.get("private_rank")
     total = info.get("total_teams") or 0
-    sub = f"(/{total:,})" if total else ""
-    if pub and priv:
-        return f"#{pub:,} pub · #{priv:,} priv", sub
-    if priv:
-        return f"#{priv:,} private", sub
     if pub:
-        return f"#{pub:,} public", sub
-    return "Entered", sub
-
-
-def _format_quantum(info: dict) -> tuple[str, str]:
-    pub = info.get("public_rank")
-    priv = info.get("private_rank")
-    total = info.get("total_teams") or 0
-    if pub and priv and pub != priv:
-        return f"#{pub:,} pub · #{priv:,} priv", (f"(/{total:,})" if total else "")
-    if priv:
-        return f"#{priv:,}", (f"(/{total:,})" if total else "")
-    if pub:
-        return f"#{pub:,}", (f"(/{total:,})" if total else "")
+        return f"#{pub:,}", (f"/ {total:,}" if total else "")
     return "Active", (f"({total:,} teams)" if total else "")
 
 
 def render_from_summary(summary: dict, output_dir: Path) -> None:
-    ieee = summary["ieee"]
-    quantum = summary["quantum"]
-    ieee_text, ieee_sub = _format_ieee(ieee)
-    quantum_text, quantum_sub = _format_quantum(quantum)
-    entered = int(summary.get("entered_count") or 2)
+    comp_display: dict[str, tuple[str, str, str]] = {}
+    for spec in COMPETITIONS:
+        key = spec["key"]
+        rank_text, sub_text = _format_public_standing(summary[key])
+        comp_display[key] = (spec["label"], rank_text, sub_text)
+
+    entered = int(summary.get("entered_count") or len(COMPETITIONS))
 
     output_dir.mkdir(parents=True, exist_ok=True)
     for theme in ("dark", "light"):
         svg = render_kaggle_stripe(
             theme,
             entered_count=entered,
-            ieee_text=ieee_text,
-            ieee_sub=ieee_sub,
-            quantum_text=quantum_text,
-            quantum_sub=quantum_sub,
+            competitions=comp_display,
         )
         (output_dir / f"kaggle-{theme}.svg").write_text(svg, encoding="utf-8")
 
         slices = render_kaggle_slices(
             theme,
             entered_count=entered,
-            ieee_text=ieee_text,
-            ieee_sub=ieee_sub,
-            quantum_text=quantum_text,
-            quantum_sub=quantum_sub,
+            competitions=comp_display,
         )
         for slice_name, slice_svg in slices.items():
-            (output_dir / f"kaggle-{slice_name}-{theme}.svg").write_text(
+            (output_dir / f"{SLICE_PREFIX}-{slice_name}-{theme}.svg").write_text(
                 slice_svg, encoding="utf-8"
             )
 
@@ -305,24 +316,16 @@ def main() -> None:
     args = parser.parse_args()
 
     if args.seed_only:
-        summary = {
-            "entered_count": 2,
-            "kaggle_user": None,
-            "ieee": {
-                "slug": IEEE_SLUG,
-                "competition_id": IEEE_ID_DEFAULT,
-                "public_rank": 1,
-                "private_rank": 23,
-                "total_teams": 801,
-            },
-            "quantum": {
-                "slug": QUANTUM_SLUG,
-                "competition_id": QUANTUM_ID_DEFAULT,
-                "public_rank": None,
-                "private_rank": None,
-                "total_teams": 3268,
-            },
+        summary: dict = {
+            "entered_count": len(COMPETITIONS),
+            "kaggle_user": "maxfpollard",
         }
+        for spec in COMPETITIONS:
+            summary[spec["key"]] = {
+                "slug": spec["slug"],
+                "competition_id": spec["fallback_id"],
+                **spec["seed"],
+            }
         render_from_summary(summary, args.output_dir)
         print("Rendered seed Kaggle stripe SVGs.")
         return
@@ -338,14 +341,14 @@ def main() -> None:
             if part.strip():
                 team_names.add(part.strip().lower())
 
+    standings: dict[str, dict] = {}
     try:
         client = KagglePublicClient()
-        ieee_info, handles = _fetch_competition_standing(
-            client, IEEE_SLUG, IEEE_ID_DEFAULT, handles, team_names
-        )
-        quantum_info, handles = _fetch_competition_standing(
-            client, QUANTUM_SLUG, QUANTUM_ID_DEFAULT, handles, team_names
-        )
+        for spec in COMPETITIONS:
+            info, handles = _fetch_competition_standing(
+                client, spec["slug"], spec["fallback_id"], handles, team_names
+            )
+            standings[spec["key"]] = info
         canonical_user, profile_entered = _try_profile_entered_count(client, handles)
     except Exception as exc:
         existing = args.output_dir / "kaggle.json"
@@ -355,23 +358,22 @@ def main() -> None:
         raise
 
     entered_count = max(
-        2,
+        len(COMPETITIONS),
         profile_entered or 0,
-        sum(1 for c in (ieee_info, quantum_info) if c.get("team_id") is not None),
+        sum(1 for c in standings.values() if c.get("team_id") is not None),
     )
 
     summary = {
         "entered_count": entered_count,
         "kaggle_user": canonical_user,
-        "ieee": ieee_info,
-        "quantum": quantum_info,
+        **standings,
     }
     render_from_summary(summary, args.output_dir)
-    print(
-        f"Updated Kaggle stripe (user={canonical_user}): "
-        f"entered={entered_count}, IEEE={_format_ieee(ieee_info)}, "
-        f"Quantum={_format_quantum(quantum_info)}"
+    parts = ", ".join(
+        f"{spec['label']}={_format_public_standing(standings[spec['key']])}"
+        for spec in COMPETITIONS
     )
+    print(f"Updated Kaggle stripe (user={canonical_user}, entered={entered_count}): {parts}")
 
 
 if __name__ == "__main__":
