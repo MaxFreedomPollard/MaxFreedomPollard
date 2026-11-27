@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+from collections.abc import Sequence
 from html import escape
 
 FONT_STACK = (
@@ -65,19 +66,15 @@ THEMES = {
 
 KAGGLE_CARD_HEIGHT = 68
 
-KAGGLE_SLICES: dict[str, tuple[int, int]] = {
-    "left": (0, 144),      # 16% of 900
-    "ieee": (144, 189),    # 21% of 900
-    "neurips": (333, 189), # 21% of 900
-    "rogii": (522, 189),   # 21% of 900
-    "quantum": (711, 189), # 21% of 900
-}
+KAGGLE_LEFT_SLICE: tuple[int, int] = (0, 144)  # 16% of 900
 
-KAGGLE_BUTTON_GEOMETRY: tuple[tuple[str, int, int], ...] = (
-    ("ieee", 153, 177),
-    ("neurips", 340, 177),
-    ("rogii", 527, 177),
-    ("quantum", 714, 177),
+# Positional geometry for the 4 competition buttons (each slice is 21% of 900):
+# (slice_view_x, slice_view_w, button_x, button_w)
+KAGGLE_SLOT_GEOMETRY: tuple[tuple[int, int, int, int], ...] = (
+    (144, 189, 153, 177),
+    (333, 189, 340, 177),
+    (522, 189, 527, 177),
+    (711, 189, 714, 177),
 )
 
 
@@ -227,19 +224,25 @@ def _kaggle_body(
     theme_name: str,
     *,
     entered_count: int,
-    competitions: dict[str, tuple[str, str, str]],
+    competitions: Sequence[tuple[str, str, str, str]],
 ) -> str:
+    if len(competitions) != len(KAGGLE_SLOT_GEOMETRY):
+        raise ValueError(
+            f"Expected {len(KAGGLE_SLOT_GEOMETRY)} competitions, got {len(competitions)}"
+        )
     t = THEMES[theme_name]
     buttons = "".join(
         _kaggle_button(
             t,
             x=bx,
             w=bw,
-            label=competitions[key][0],
-            rank_text=competitions[key][1],
-            sub_text=competitions[key][2],
+            label=label,
+            rank_text=rank_text,
+            sub_text=sub_text,
         )
-        for key, bx, bw in KAGGLE_BUTTON_GEOMETRY
+        for (_, label, rank_text, sub_text), (_, _, bx, bw) in zip(
+            competitions, KAGGLE_SLOT_GEOMETRY
+        )
     )
     return f'''
   <!-- Left label: Kaggle mark, count, and live indicator -->
@@ -254,7 +257,7 @@ def render_kaggle_stripe(
     theme_name: str,
     *,
     entered_count: int,
-    competitions: dict[str, tuple[str, str, str]],
+    competitions: Sequence[tuple[str, str, str, str]],
     view_x: int = 0,
     view_w: int = 900,
 ) -> str:
@@ -282,12 +285,27 @@ def render_kaggle_slices(
     theme_name: str,
     *,
     entered_count: int,
-    competitions: dict[str, tuple[str, str, str]],
+    competitions: Sequence[tuple[str, str, str, str]],
 ) -> dict[str, str]:
-    """Render the 5 seamless horizontal slices (`left`, `ieee`, `neurips`, `rogii`, `quantum`)."""
-    out: dict[str, str] = {}
-    for slice_name, (vx, vw) in KAGGLE_SLICES.items():
-        out[slice_name] = render_kaggle_stripe(
+    """Render the 5 seamless horizontal slices (`left` plus `<key>-p<1..4>` in display order)."""
+    if len(competitions) != len(KAGGLE_SLOT_GEOMETRY):
+        raise ValueError(
+            f"Expected {len(KAGGLE_SLOT_GEOMETRY)} competitions, got {len(competitions)}"
+        )
+    left_x, left_w = KAGGLE_LEFT_SLICE
+    out: dict[str, str] = {
+        "left": render_kaggle_stripe(
+            theme_name,
+            entered_count=entered_count,
+            competitions=competitions,
+            view_x=left_x,
+            view_w=left_w,
+        )
+    }
+    for pos, ((key, _, _, _), (vx, vw, _, _)) in enumerate(
+        zip(competitions, KAGGLE_SLOT_GEOMETRY), start=1
+    ):
+        out[f"{key}-p{pos}"] = render_kaggle_stripe(
             theme_name,
             entered_count=entered_count,
             competitions=competitions,
