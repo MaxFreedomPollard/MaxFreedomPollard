@@ -83,14 +83,15 @@ Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD pla
   - [fix(tools): stop read_file rendering a phantom empty line for newline-terminated files](https://github.com/NousResearch/hermes-agent/commit/10c34dd7e2441c14f19abea3656fba718999b589)
   - [Merge consecutive same-role contents for native Gemini](https://github.com/NousResearch/hermes-agent/commit/936af2f4f549f5ff22ef00b082748d115080780e)
   - [fix(config): merge duplicate kanban block so auto_subscribe_on_create default survives](https://github.com/NousResearch/hermes-agent/commit/aa636c6fca0d7d9af7c574c524c43cb2035a6242)
-  - [fix(curator): restore the real skills tree when a rollback extract dies part-way](https://github.com/NousResearch/hermes-agent/commit/65e9ece964988b03c777ea6a563f438cad42f2e1)
-  - [fix(yuanbao): await the forwarded-records loading heartbeat](https://github.com/NousResearch/hermes-agent/commit/87f5c5351a2c56e27dc271d7a865a874c18b0bfd)
-  - [fix(auth): a transient read failure is not corruption](https://github.com/NousResearch/hermes-agent/commit/31032b4f51a0b254b751a838f927f34baee1bd03)
-  - [fix(gateway): do not claim a destructive-slash opt-out that was not saved](https://github.com/NousResearch/hermes-agent/commit/eeaba3a88db906dc1bc7e86946644adbce4bbe75)
-  - [fix(sessions): briefly wait out a live compression lock instead of killing the turn](https://github.com/NousResearch/hermes-agent/commit/221be76e36de4f2c0c9395126a71552abe7b4a9f)
-  - [fix(cli): dispatch /background inline instead of queuing it behind the turn](https://github.com/NousResearch/hermes-agent/commit/3dee0634c1436635fbcf51c87a7f32b4101a41b9)
-  - [test: restore four silently shadowed definitions and guard against more](https://github.com/NousResearch/hermes-agent/commit/7729c183b4a2f70c3b583eee6f93e7149a4081f8)
+  - [fix(curator): restore the real skills tree when a rollback extract dies part-way](https://github.com/NousResearch/hermes-agent/pull/75229)
+  - [fix(yuanbao): await the forwarded-records loading heartbeat](https://github.com/NousResearch/hermes-agent/pull/75233)
+  - [fix(auth): a transient read failure is not corruption](https://github.com/NousResearch/hermes-agent/pull/75258)
+  - [fix(gateway): do not claim a destructive-slash opt-out that was not saved](https://github.com/NousResearch/hermes-agent/pull/75261)
+  - [fix(sessions): briefly wait out a live compression lock instead of killing the turn](https://github.com/NousResearch/hermes-agent/pull/75264)
+  - [fix(cli): dispatch /background inline instead of queuing it behind the turn](https://github.com/NousResearch/hermes-agent/pull/75267)
+  - [test: restore four silently shadowed definitions and guard against more](https://github.com/NousResearch/hermes-agent/pull/75272)
   - [fix(gemini): collapse array-typed tool schemas instead of crashing translation](https://github.com/NousResearch/hermes-agent/commit/6a04ea67c0e75ef1218bf4ceaac071c2f16a0701)
+  - [fix(cli): the ignore-user-config delegation default is 250 iterations, not 45](https://github.com/NousResearch/hermes-agent/commit/6b93835b70097acd8e1f676873d19c0d54a0916e)
 - **[NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution)**
   - [fix(config): honor explicit --hermes-repo and make config construction non-fatal](https://github.com/NousResearch/hermes-agent-self-evolution/pull/122)
 - **[NousResearch/hermes-example-plugins](https://github.com/NousResearch/hermes-example-plugins)**
@@ -104,6 +105,14 @@ Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD pla
 
 ### [NVIDIA](https://github.com/NVIDIA)
 
+- **[NVIDIA-NeMo/labs-molt](https://github.com/NVIDIA-NeMo/labs-molt)**
+  - [fix(recipe): resubmit the renamed GLM-5.2 Slurm script](https://github.com/NVIDIA-NeMo/labs-molt/pull/135)
+  - [fix(chat): keep every message a turn appends after the reply](https://github.com/NVIDIA-NeMo/labs-molt/pull/237)
+  - [fix(grader): extract `<answer>` tags and support sympy LaTeX fallback without pylatexenc](https://github.com/NVIDIA-NeMo/labs-molt/pull/281)
+  - [fix(chat): keep uncommitted turn state aligned on VLM rollback and overflow](https://github.com/NVIDIA-NeMo/labs-molt/pull/280)
+- **[NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI)**
+  - [Fix: include NRIRayTracing.h in NRIWrapperVK.h](https://github.com/NVIDIA-RTX/NRI/pull/260)
+  - [Fix: block-aligned mip extents for non-power-of-2 and non-square ASTC blocks](https://github.com/NVIDIA-RTX/NRI/pull/293)
 - **[NVIDIA/barney](https://github.com/NVIDIA/barney)**
   - [Run the datatype regression test against the native source](https://github.com/NVIDIA/barney/pull/63)
   - [anari: fix crash on curves without primitive.index or vertex.radius](https://github.com/NVIDIA/barney/pull/87)
@@ -154,12 +163,6 @@ Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD pla
 - **[NVIDIA/TileGym](https://github.com/NVIDIA/TileGym)**
   - [fix(ops): export tilecpp only when its backend is available](https://github.com/NVIDIA/TileGym/pull/200)
   - [fix(ci): use run_all_json result file names in the selective baseline merge](https://github.com/NVIDIA/TileGym/pull/220)
-- **[NVIDIA-NeMo/labs-molt](https://github.com/NVIDIA-NeMo/labs-molt)**
-  - [fix(recipe): resubmit the renamed GLM-5.2 Slurm script](https://github.com/NVIDIA-NeMo/labs-molt/pull/135)
-  - [fix(chat): keep every message a turn appends after the reply](https://github.com/NVIDIA-NeMo/labs-molt/pull/237)
-- **[NVIDIA-RTX/NRI](https://github.com/NVIDIA-RTX/NRI)**
-  - [Fix: include NRIRayTracing.h in NRIWrapperVK.h](https://github.com/NVIDIA-RTX/NRI/pull/260)
-  - [Fix: block-aligned mip extents for non-power-of-2 and non-square ASTC blocks](https://github.com/NVIDIA-RTX/NRI/pull/293)
 
 ### [86Box/86Box](https://github.com/86Box/86Box)
 
@@ -173,6 +176,19 @@ Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD pla
 - [MIDI: Fix input queue overflow hang and broken real-time bytes](https://github.com/86Box/86Box/pull/7940)
 - [GM82C803C: Fix the serial port IRQ selection](https://github.com/86Box/86Box/pull/8468)
 
+### [Tencent](https://github.com/Tencent)
+
+- **[Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)**
+  - [fix(record): record a page reload instead of dropping it as a same-URL navigation](https://github.com/Tencent/BrowserSkill/pull/184)
+  - [fix(extension): return visible labels from select](https://github.com/Tencent/BrowserSkill/pull/307)
+  - [fix(dsh-plugin): settle runner promises when the child never emits close](https://github.com/Tencent/BrowserSkill/pull/183)
+  - [fix(extension): preserve plus keys in keyboard chords](https://github.com/Tencent/BrowserSkill/pull/308)
+  - [fix(extract): apply CSS case transforms to input and textarea values](https://github.com/Tencent/BrowserSkill/pull/749)
+  - [feat(extension): allow opening background Agent Windows minimized](https://github.com/Tencent/BrowserSkill/pull/748)
+- **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**
+  - [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
+  - [fix(docreader): keep Markdown block structure in EPUB chapters](https://github.com/Tencent/WeKnora/pull/4632)
+
 ### [apache](https://github.com/apache)
 
 - **[apache/answer](https://github.com/apache/answer)**
@@ -185,17 +201,6 @@ Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD pla
 - **[apache/logging-log4j2](https://github.com/apache/logging-log4j2)**
   - [Forward mail attributes in deprecated `SmtpAppender.createAppender`](https://github.com/apache/logging-log4j2/pull/4304)
   - [Fix merging of structured data elements with the same SD-ID in `Rfc5424Layout`](https://github.com/apache/logging-log4j2/pull/4420)
-
-### [Tencent](https://github.com/Tencent)
-
-- **[Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)**
-  - [fix(record): record a page reload instead of dropping it as a same-URL navigation](https://github.com/Tencent/BrowserSkill/pull/184)
-  - [fix(extension): return visible labels from select](https://github.com/Tencent/BrowserSkill/pull/307)
-  - [fix(dsh-plugin): settle runner promises when the child never emits close](https://github.com/Tencent/BrowserSkill/pull/183)
-  - [fix(extension): preserve plus keys in keyboard chords](https://github.com/Tencent/BrowserSkill/pull/308)
-- **[Tencent/WeKnora](https://github.com/Tencent/WeKnora)**
-  - [fix(knowledge): keep long non-ASCII folder names valid UTF-8](https://github.com/Tencent/WeKnora/pull/3056)
-  - [fix(docreader): keep Markdown block structure in EPUB chapters](https://github.com/Tencent/WeKnora/pull/4632)
 
 ### [mozilla](https://github.com/mozilla)
 
@@ -214,6 +219,13 @@ Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD pla
 - [fix(core): apply EXIF orientation in read_image, crop and draw_bbox](https://github.com/QwenLM/Qwen-MM-Plugins/pull/51)
 - [fix(core): reject a page selection that matches no page](https://github.com/QwenLM/Qwen-MM-Plugins/pull/61)
 - [fix(shared): draw boxes in color on grayscale, palette and CMYK images](https://github.com/QwenLM/Qwen-MM-Plugins/pull/104)
+
+### [laude-institute/headlong](https://github.com/laude-institute/headlong)
+
+- [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
+- [ci: point the smoke container's apt at the Azure mirror](https://github.com/laude-institute/headlong/pull/114)
+- [traj: formatted tail and cat return the steps --filter matches](https://github.com/laude-institute/headlong/pull/112)
+- [traj: opt into full-history filtered tails with --full-scan](https://github.com/laude-institute/headlong/pull/232)
 
 ### [abema/go-mp4](https://github.com/abema/go-mp4)
 
@@ -238,6 +250,12 @@ Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD pla
 - [Honor language= in onesignal:// and preserve it through url()](https://github.com/caronc/apprise/pull/1720)
 - [Preserve query parameters in signl4:// url()](https://github.com/caronc/apprise/pull/1732)
 - [Honor +Arg=Val and -Arg in ifttt:// URLs](https://github.com/caronc/apprise/pull/1831)
+
+### [deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation)
+
+- [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/pull/822)
+- [fix: Rewrite translated field names in all annotate() expressions](https://github.com/deschler/django-modeltranslation/pull/825)
+- [fix: Don't mutate Q objects, expressions and lookup dicts when rewriting](https://github.com/deschler/django-modeltranslation/pull/828)
 
 ### [ekzhang/jax-js](https://github.com/ekzhang/jax-js)
 
@@ -293,17 +311,17 @@ Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD pla
 - [fix(quality): keep signal excerpts on rune boundaries](https://github.com/kenn-io/agentsview/pull/1788)
 - [fix(frontend): count search results, not reply lines, in tool summaries](https://github.com/kenn-io/agentsview/pull/2403)
 
-### [laude-institute/headlong](https://github.com/laude-institute/headlong)
-
-- [traj: recursive tail and cat return the whole tree, in order](https://github.com/laude-institute/headlong/pull/110)
-- [ci: point the smoke container's apt at the Azure mirror](https://github.com/laude-institute/headlong/pull/114)
-- [traj: formatted tail and cat return the steps --filter matches](https://github.com/laude-institute/headlong/pull/112)
-
 ### [meriyah/meriyah](https://github.com/meriyah/meriyah)
 
 - [fix(parser): restrict continue targets to iteration statement labels](https://github.com/meriyah/meriyah/pull/646)
 - [fix(parser): parse `/` after an `await` identifier as division](https://github.com/meriyah/meriyah/pull/659)
 - [fix(parser): don't extend `yield` with member access, calls or binary operators](https://github.com/meriyah/meriyah/pull/669)
+
+### [open-circle/valibot](https://github.com/open-circle/valibot)
+
+- [fix(cache): clone cached issues to stop issue paths from accumulating](https://github.com/open-circle/valibot/pull/1620)
+- [fix(i18n): add missing async action translations](https://github.com/open-circle/valibot/pull/1645)
+- [fix(base64): reject non-ASCII characters accepted by Unicode case folding](https://github.com/open-circle/valibot/pull/1719)
 
 ### [pmndrs/koota](https://github.com/pmndrs/koota)
 
@@ -391,11 +409,6 @@ Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD pla
 
 - [channel: Implement Display and Error for TryReadyError and ReadyTimeoutError](https://github.com/crossbeam-rs/crossbeam/pull/1327)
 - [ShardedLock: Fix Debug implementation for ShardedLock{Read,Write}Guard](https://github.com/crossbeam-rs/crossbeam/pull/1350)
-
-### [deschler/django-modeltranslation](https://github.com/deschler/django-modeltranslation)
-
-- [fix: Rewrite F() expressions inside Q objects](https://github.com/deschler/django-modeltranslation/pull/822)
-- [fix: Rewrite translated field names in all annotate() expressions](https://github.com/deschler/django-modeltranslation/pull/825)
 
 ### [devitocodes/devito](https://github.com/devitocodes/devito)
 
@@ -507,11 +520,6 @@ Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD pla
 - [fix(reference): reorder Unique outputs correctly when sorted=0](https://github.com/onnx/onnx/pull/8424)
 - [fix(reference): accept scalar and omitted optional inputs in NonMaxSuppression](https://github.com/onnx/onnx/pull/8655)
 
-### [open-circle/valibot](https://github.com/open-circle/valibot)
-
-- [fix(cache): clone cached issues to stop issue paths from accumulating](https://github.com/open-circle/valibot/pull/1620)
-- [fix(i18n): add missing async action translations](https://github.com/open-circle/valibot/pull/1645)
-
 ### [opensandbox-group/OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)
 
 - [fix(server): relay client websocket closes with a legal code](https://github.com/opensandbox-group/OpenSandbox/pull/1731)
@@ -536,6 +544,13 @@ Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD pla
 
 - [Fix provider logo image requests when the logo has an image service](https://github.com/ProjectMirador/mirador/pull/4524)
 - [Fix canvas description for v3 summaries and language-tagged v2 values](https://github.com/ProjectMirador/mirador/pull/4617)
+
+### [prometheus](https://github.com/prometheus)
+
+- **[prometheus/alertmanager](https://github.com/prometheus/alertmanager)**
+  - [notify: fix panic when truncating multi-byte messages](https://github.com/prometheus/alertmanager/pull/5544)
+- **[prometheus/prometheus](https://github.com/prometheus/prometheus)**
+  - [docs: use one placeholder syntax in configuration.md](https://github.com/prometheus/prometheus/pull/19589)
 
 ### [python-attrs/cattrs](https://github.com/python-attrs/cattrs)
 
@@ -700,10 +715,6 @@ Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD pla
 
 - [fix(types): hash 0.0 and -0.0 to the same value](https://github.com/pgdogdev/pgdog/pull/1507)
 
-### [prometheus/alertmanager](https://github.com/prometheus/alertmanager)
-
-- [notify: fix panic when truncating multi-byte messages](https://github.com/prometheus/alertmanager/pull/5544)
-
 ### [quarkusio/quarkus](https://github.com/quarkusio/quarkus)
 
 - [Qute: require the index parameter for list get/take/takeLast](https://github.com/quarkusio/quarkus/pull/56460)
@@ -735,6 +746,10 @@ Thirty-five coding-agent benchmark challenges authored for Datacurve's ShipD pla
 ### [uutils/coreutils](https://github.com/uutils/coreutils)
 
 - [fmt: honor -x and -X instead of always matching prefixes exactly](https://github.com/uutils/coreutils/pull/14417)
+
+### [uxlfoundation/oneDNN](https://github.com/uxlfoundation/oneDNN)
+
+- [common: attr: include binary select src2 in post-op identity](https://github.com/uxlfoundation/oneDNN/pull/5970)
 
 ### [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni)
 
